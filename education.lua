@@ -1,1 +1,1 @@
-print("Education is fun!")
+print("Education is very fun!")

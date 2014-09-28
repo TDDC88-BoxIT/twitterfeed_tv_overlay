@@ -1,0 +1,1 @@
+print("Education is fun!")

@@ -17,9 +17,8 @@ function lines_from(file)
   return lines
 end
 --tror jag har problem med line endings
-local lines = lines_from("tweet.txt")
-print(lines)
+local lines = lines_from("json.txt")
 --Dessa raderska decoda json och printa table
--- parsed = json.decode(result)
--- table.foreach(parsed,result)
+parsed = json.decode(lines)
+table.foreach(parsed,print)
 

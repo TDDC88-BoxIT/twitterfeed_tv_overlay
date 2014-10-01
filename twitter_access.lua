@@ -1,8 +1,51 @@
 local consumer_key = "KJg7JySTCc04NWAsdLSLh3zCF"
 local consumer_secret = "5MNunCOwnlf3RqC2qRsCrtAQlJ8aPXT9TgeUGlHzFb4DU3uNrj"
 
+local function matrix_to_string( tab, padding,padding_char,white_pixel,black_pixel )
+    local padding_string
+    local str_tab = {} -- hold each row of the qr code in a cell
+
+    -- Add (padding) blank columns at the left of the matrix
+    -- (left of each row string), inserting an extra (padding)
+    -- rows at the top and bottom
+    padding_string = string.rep(padding_char,padding)
+    for i=1,#tab + 2*padding do
+        str_tab[i] = padding_string
+    end
+
+    for x=1,#tab do
+        for y=1,#tab do
+            if tab[x][y] > 0 then
+                -- using y + padding because we added (padding) blank columns at the left for each string in str_tab array
+                str_tab[y + padding] = str_tab[y + padding] .. black_pixel
+            elseif tab[x][y] < 0 then
+                str_tab[y + padding] = str_tab[y + padding] .. white_pixel
+            else
+                str_tab[y + padding] = str_tab[y + padding] .. " X"
+            end
+        end
+    end
+
+    padding_string = string.rep(padding_char,#tab)
+    for i=1,padding do
+        -- fills in padding rows at top of matrix
+        str_tab[i] =  str_tab[i] .. padding_string
+        -- fills in padding rows at bottom of matrix
+        str_tab[#tab + padding + i] =  str_tab[#tab + padding + i] .. padding_string
+    end
+
+  -- Add (padding) blank columns to right of matrix (to the end of each row string)
+    padding_string = string.rep(padding_char,padding)
+    for i=1,#tab + 2*padding do
+        str_tab[i] = str_tab[i] .. padding_string
+    end
+
+    return str_tab
+end
+
 local OAuth = require("lib/OAuth")
 local json = require("JSON")
+local qr = require("qrencode")
 
 local f = io.open("tokens.json","rb")
 if f then 
@@ -42,6 +85,12 @@ else
 
   print("Navigate to this url with your browser, please...")
   print(new_url)
+  local ok, tab_or_message = qr.qrcode(new_url)
+  local rows
+  rows = matrix_to_string(tab_or_message,1,0,' ','█')
+  for i=1,#rows do  -- prints each "row" of the QR code on a line, one at a time
+      print(rows[i])
+  end
   print("\r\nOnce you have logged in and authorized the application, enter the PIN")
 
   local oauth_verifier = assert(io.read("*n"))    -- read the PIN from stdin
@@ -85,6 +134,7 @@ else
   io.write(json:encode(token_table))
   io.close(f)
 end
+
 
 while true do
   io.write("Enter search string (or q to quit): ")

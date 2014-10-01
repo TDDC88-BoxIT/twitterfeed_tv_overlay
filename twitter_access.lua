@@ -2,7 +2,7 @@ local consumer_key = "KJg7JySTCc04NWAsdLSLh3zCF"
 local consumer_secret = "5MNunCOwnlf3RqC2qRsCrtAQlJ8aPXT9TgeUGlHzFb4DU3uNrj"
 
 local OAuth = require("lib/OAuth")
-local json = require("json")
+local json = require("JSON")
 
 local f = io.open("tokens.json","rb")
 if f then 
@@ -17,7 +17,7 @@ if f ~= nil then
     lines = lines .. line
   end
   --io.close(f)
-  local tokens = json.decode(lines)
+  local tokens = json:decode(lines)
   client = OAuth.new(consumer_key, consumer_secret, {
       RequestToken = "https://api.twitter.com/oauth/request_token", 
       AuthorizeUser = {"https://api.twitter.com/oauth/authorize", method = "GET"},
@@ -59,9 +59,9 @@ else
   client:SetTokenSecret(oauth_token_secret)
 
   local values, err, headers, status, body = client:GetAccessToken()
-  for k, v in pairs(values) do
-      print(k,v)
-  end
+  --for k, v in pairs(values) do
+  --    print(k,v)
+  --end
   local oauth_token = values.oauth_token  -- we'll need both later
   local oauth_token_secret = values.oauth_token_secret
 
@@ -79,23 +79,30 @@ else
   token_table['oauth_token_secret'] = oauth_token_secret
   
   
-  print(json.encode(token_table))
+  --print(json:encode(token_table))
   local f = io.open("tokens.json","wb")
   io.output(f)
-  io.write(json.encode(token_table))
+  io.write(json:encode(token_table))
   io.close(f)
 end
 
+while true do
+  io.write("Enter search string (or q to quit): ")
+  local query = tostring(io.read())
+  if query == 'q' then
+    break
+  end
+  
+  local response_code, response_headers, response_status_line, response_body = 
+      client:PerformRequest("GET", "https://api.twitter.com/1.1/search/tweets.json", {q = query, count = 5})
+  --print("response_code", response_code)
+  --print("response_status_line", response_status_line)
+  --for k,v in pairs(response_headers) do print(k,v) end
+  --print("response_body", response_body)
 
+  local data = json:decode(response_body)
+  for k,v in pairs(data.statuses) do
+    print('@' .. v.user.screen_name .. ': ' .. v.text)
+  end
 
-local response_code, response_headers, response_status_line, response_body = 
-    client:PerformRequest("GET", "https://api.twitter.com/1.1/search/tweets.json", {q = "Paradise hotel"})
---print("response_code", response_code)
---print("response_status_line", response_status_line)
---for k,v in pairs(response_headers) do print(k,v) end
---print("response_body", response_body)
-
-local data = json.decode(response_body)
-for k,v in pairs(data.statuses) do
-  print('@' .. v.user.screen_name .. ': ' .. v.text)
-end
+end 

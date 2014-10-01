@@ -90,9 +90,12 @@ end
 
 local response_code, response_headers, response_status_line, response_body = 
     client:PerformRequest("GET", "https://api.twitter.com/1.1/search/tweets.json", {q = "Paradise hotel"})
-print("response_code", response_code)
-print("response_status_line", response_status_line)
-for k,v in pairs(response_headers) do print(k,v) end
-print("response_body", response_body)
+--print("response_code", response_code)
+--print("response_status_line", response_status_line)
+--for k,v in pairs(response_headers) do print(k,v) end
+--print("response_body", response_body)
 
-
+local data = json.decode(response_body)
+for k,v in pairs(data.statuses) do
+  print('@' .. v.user.screen_name .. ': ' .. v.text)
+end

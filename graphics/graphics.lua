@@ -66,6 +66,10 @@ function onKey(key,state)
     horizontal_pos = horizontal_pos - 1
   elseif key == 'ok' and state == 'down' and vertical_pos == 0 and horizontal_pos == 0 then
     start = 1
+  elseif key == 'menu' and state == 'down' and start == 1 then -- press leftshift to go back to menu
+    start = 0
+  elseif key == 'exit' and state == 'down' then -- press x to exit the application
+    sys.stop()
   else 
     return
   end

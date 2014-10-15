@@ -2,6 +2,7 @@ dir = 'graphics/'
 grey1 = {90,90,90,255}
 grey2 = {150,150,150,255}
 grey3 = {150,150,150,150}
+grey4 = {0,0,0,180}
 green1 = {0, 255, 0, 255}
 vertical_pos = 0
 horizontal_pos = 0
@@ -51,9 +52,9 @@ function draw_screen()
   
   elseif start == 1 then
     local img2 = gfx.loadpng(dir .. 'tv_picture.png')
-    local tweet = gfx.loadpng(dir .. 'tweet.png')
+    local tweet = gfx.loadpng(dir .. 'tweet5.png')
     screen:copyfrom(img2, nil, {x=0,y=0})
-    screen:fill(grey3, {x = (width_x/5)+2*width_x, y = height_y*2, w = width_x, h = height_y*5})
+    screen:fill(grey4, {x = (width_x/5)+2*width_x, y = height_y*2, w = width_x, h = height_y*5})
     screen:copyfrom(tweet, nil, {x = (width_x/5)+2*width_x, y = height_y*2, w = width_x, h = height_y*5} ,true)
   end
 end

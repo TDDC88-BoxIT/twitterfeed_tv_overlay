@@ -51,7 +51,7 @@ function draw_screen()
   
   elseif start == 1 then
     local img2 = gfx.loadpng(dir .. 'tv_picture.png')
-    local tweet = gfx.loadpng(dir .. 'tweet.png')
+    local tweet = gfx.loadpng(dir .. 'tweet5.png')
     screen:copyfrom(img2, nil, {x=0,y=0})
     screen:fill(grey3, {x = (width_x/5)+2*width_x, y = height_y*2, w = width_x, h = height_y*5})
     screen:copyfrom(tweet, nil, {x = (width_x/5)+2*width_x, y = height_y*2, w = width_x, h = height_y*5})

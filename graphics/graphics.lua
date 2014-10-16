@@ -54,8 +54,8 @@ function draw_screen()
     local img2 = gfx.loadpng(dir .. 'tv_picture.png')
     local tweet = gfx.loadpng(dir .. 'tweet5.png')
     screen:copyfrom(img2, nil, {x=0,y=0})
-    screen:fill(grey4, {x = (width_x/5)+2*width_x, y = height_y*2, w = width_x, h = height_y*5})
-    screen:copyfrom(tweet, nil, {x = (width_x/5)+2*width_x, y = height_y*2, w = width_x, h = height_y*5} ,true)
+    screen:fill(grey4, {x = (width_x/5)+2*width_x, y = height_y*2, w = width_x, h = height_y*3})
+    screen:copyfrom(tweet, nil, {x = (width_x/5)+2*width_x, y = height_y*2, w = width_x, h = height_y*3} ,true)
   end
 end
 function onKey(key,state)

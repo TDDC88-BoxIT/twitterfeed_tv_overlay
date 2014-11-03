@@ -1,187 +1,80 @@
-require('surface_class')
-gfx = require('gfx')
-sys = require('sys')
+dir = 'scrum1/static/img/'
+grey1 = {90,90,90,255}
+grey2 = {150,150,150,255}
+grey3 = {150,150,150,150}
+grey4 = {0,0,0,180}
+green1 = {0, 255, 0, 255}
+vertical_pos = 0
+horizontal_pos = 0
+start = 0
 
-----------------------
--- love2d functions --
-----------------------
-
-function love.load()
-  --print('love.load')
-  image = love.graphics.newImage("tv_picture.jpg")
-  love.keyboard.setKeyRepeat(true)
-  first_run = true
-  
-  key_translation = {}
-  --key_translation[keyboard] = stb
-  key_translation["0"] = "0"
-  key_translation["1"] = "1"
-  key_translation["2"] = "2"
-  key_translation["3"] = "3"
-  key_translation["4"] = "4"
-  key_translation["5"] = "5"
-  key_translation["6"] = "6"
-  key_translation["7"] = "7"
-  key_translation["8"] = "8"
-  key_translation["9"] = "9"
-  key_translation[" "] = "ok"
-  key_translation["up"] = "up"
-  key_translation["down"] = "down"
-  key_translation["left"] = "left"
-  key_translation["right"] = "right"
-  key_translation["q"] = "red"
-  key_translation["w"] = "green"
-  key_translation["e"] = "yellow"
-  key_translation["r"] = "blue"
-  key_translation["t"] = "white"
-  key_translation["i"] = "info"
-  key_translation["lshift"] = "menu"
-  key_translation["g"] = "guide"
-  key_translation["o"] = "opt"
-  key_translation["h"] = "help"
-  key_translation["s"] = "star"
-  key_translation["a"] = "multi"
-  key_translation["x"] = "exit"
-  key_translation["p"] = "pause"
-  key_translation["z"] = "toggle_tv_radio"
-  key_translation["c"] = "record"
-  key_translation["v"] = "play"
-  key_translation["b"] = "stop"
-  key_translation["n"] = "fast_forward"
-  key_translation["m"] = "rewind"
-  key_translation[","] = "skip_forward"
-  key_translation["."] = "skip_reverse"
-  key_translation["-"] = "jump_to_end"
-  key_translation["rshift"] = "jump_to_beginning"
-  key_translation["l"] = "toggle_pause_play"
-  key_translation["k"] = "vod"
-  key_translation["backspace"] = "backspace"
-  key_translation["j"] = "hash"
-  key_translation["'"] = "back"
-  key_translation["+"] = "ttx"
-  key_translation["d"] = "record_list"
-  key_translation["f"] = "play_list"
-  key_translation["u"] = "mute"
-  
-  
-  --require('game.game')
-  buffer_screen = screen
-  require('graphics.graphics')
-  --require('test')
+function onStart()
+  draw_screen()
 end
-
-
-function love.draw()
-  --print('love.draw')
-  --love.graphics.draw(image)
-  if first_run then
-    if type(onStart) == "function" then
-      print('Calling onStart')
-      onStart()
-    end
-    first_run = false
-  end
+function draw_screen()
   
-  if gfx.auto_update then
-    --print('Auto draw')
-    buffer_screen = screen
-    
-  --else
-  --  love.graphics.draw(gfx.buffer_screen)
-  end
-  love.graphics.draw(buffer_screen.canvas)
-end
-
-
-function love.keypressed(key, isrepeat)
-  if isrepeat then
-    state = "repeat"
-  else
-    state = "down"
-  end
-  
-  if key_translation[key] ~= nil and type(onKey) == "function" then
-    print("Keybord key: " .. key .. ", STB key: " .. key_translation[key] .. ", state: " .. state )
-    onKey(key_translation[key], state)
-  end
-end
-
-function love.keyreleased(key)
-  if key_translation[key] ~= nil and type(onKey) == "function" then
-    print("Keybord key: " .. key .. ", STB key: " .. key_translation[key] .. ", state: up")
-    onKey(key_translation[key], "up")
-  end
-end
-
-function love.run()
-
-  if love.math then
-      love.math.setRandomSeed(os.time())
-  end
-
-  if love.event then
-      love.event.pump()
-  end
-
-  if love.load then love.load(arg) end
-
-  -- We don't want the first frame's dt to include time taken by love.load.
-  if love.timer then love.timer.step() end
-
-  local dt = 0
-
-  -- Main loop time.
-  while true do
-    -- Process events.
-    if love.event then
-      love.event.pump()
-      for e,a,b,c,d in love.event.poll() do
-        if e == "quit" then
-          if not love.quit or not love.quit() then
-            if love.audio then
-              love.audio.stop()
-            end
-            return
-          end
-        end
-        love.handlers[e](a,b,c,d)
+  --Delar upp skärmen i 3 delar på bredden, och 7 delar på höjden.
+  local img1 = gfx.loadpng(dir .. 'boxIT.png')
+  height = screen:get_height()
+  width = screen:get_width()
+  width_x = (width-100)/3
+  height_y = (height-100)/7
+ 
+  -- Creates a menu where you can move around with the "up", "down, "left" and "right" arrows. Select with "space".
+   
+  if start == 0 then
+    screen:fill(grey1, {x=50,y=50,w=width_x*3, h=height_y*7})
+    screen:copyfrom(img1, nil, {x=50,y=50})
+    local j = 4.3
+    if vertical_pos == 0 then
+      screen:fill(green1, {x=width_x/5-4, y = height_y*j - 1,w=width_x + 4, h=height_y +2})
+      local count = 1
+      if horizontal_pos == 0 then
+        screen:fill(green1, {x=(width_x/5)+width_x , y = height/7 - count, w = width_x*0.89, h=height_y+2})
+      else 
+        screen:fill(green1, {x=(width_x/5)+2*width_x , y = height/7 - count, w = width_x*0.89, h=height_y+2})
       end
-    end
-
-    for i,t in ipairs(sys.timers) do
-      if t.running then
-        if t.time_since >= t.interval_millisec then
-          if type(t.callback) == "function" then
-            t.callback()
-          elseif type(t.callback) == "string" then
-            cb_function = loadstring(t.callback .. "()")
-            cb_function(t)
-          end
-          t.time_since = 0
-        else
-          t.time_since = t.time_since + (dt * 1000)
-        end
-        sys.timers[i] = t
+      for i = 0, 1 do
+        screen:fill(grey2, {x=(width_x/5)+width_x+i*width_x + count, y = height/7, w = width_x*0.88, h=height_y})
+        count = count+1
       end
+    elseif vertical_pos == 1 then
+      screen:fill(green1, {x=width_x/5-4, y = height_y*(j+1.1) -1, w=width_x +4, h =height_y +2})
+    else
+      screen:fill(green1, {x=width_x/5-4, y = height_y*(j+2.2) -1, w =width_x +4, h = height_y +2})
     end
-
-    -- Update dt, as we'll be passing it to update
-    if love.timer then
-      love.timer.step()
-      dt = love.timer.getDelta()
+    for i = 0, 2 do
+      screen:fill(grey2, {x=width_x/5-2, y=height_y*j, w=width_x, h=height_y})
+      j = j+ 1.1
     end
-
-    -- Call update and draw
-    if love.update then love.update(dt) end -- will pass 0 if love.timer is disabled
-
-    if love.window and love.graphics and love.window.isCreated() then
-      love.graphics.clear()
-      love.graphics.origin()
-      if love.draw then love.draw() end
-      love.graphics.present()
-    end
-
-    if love.timer then love.timer.sleep(0.001) end
+   
+  --To go to the "Television-overlay", stand in top left of the "left boxes", and left of the "right boxes" and press "space".
+  
+  elseif start == 1 then
+    local img2 = gfx.loadpng(dir .. 'tv_picture.png')
+    local tweet = gfx.loadpng(dir .. 'tweet5.png')
+    screen:copyfrom(img2, nil, {x=0,y=0})
+    screen:fill(grey4, {x = (width_x/5)+2*width_x, y = height_y*2, w = width_x, h = height_y*3})
+    screen:copyfrom(tweet, nil, {x = (width_x/5)+2*width_x, y = height_y*2, w = width_x, h = height_y*3} ,true)
   end
-
 end
+function onKey(key,state)
+  if key == 'down'and state == 'down' and vertical_pos<2 then
+    vertical_pos = vertical_pos+1
+  elseif key =='up' and state=='down' and vertical_pos>0 then
+    vertical_pos = vertical_pos-1
+  elseif key == 'right' and state == 'down' and horizontal_pos < 2 then
+    horizontal_pos = horizontal_pos + 1
+  elseif key == 'left' and state == 'down' and horizontal_pos >0 then
+    horizontal_pos = horizontal_pos - 1
+  elseif key == 'ok' and state == 'down' and vertical_pos == 0 and horizontal_pos == 0 then
+    start = 1
+  elseif key == 'menu' and state == 'down' and start == 1 then -- press leftshift to go back to menu
+    start = 0
+  elseif key == 'exit' and state == 'down' then -- press x to exit the application
+    sys.stop()
+  else 
+    return
+  end
+  draw_screen()
+end  

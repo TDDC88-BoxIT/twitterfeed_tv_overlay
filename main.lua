@@ -7,9 +7,12 @@ green1 = {0, 255, 0, 255}
 vertical_pos = 0
 horizontal_pos = 0
 start = 0
+graphics = require "graphics"
+
 
 function onStart()
-  draw_screen()
+  --draw_screen()
+  graphics.prompt_channel()
 end
 function draw_screen()
   

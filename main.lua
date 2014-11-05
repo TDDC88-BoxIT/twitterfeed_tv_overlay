@@ -1,3 +1,4 @@
+tv_info = require('tv_info')
 dir = 'scrum1/static/img/'
 grey1 = {90,90,90,255}
 grey2 = {150,150,150,255}
@@ -80,4 +81,4 @@ function onKey(key,state)
     return
   end
   draw_screen()
-end  
+end 

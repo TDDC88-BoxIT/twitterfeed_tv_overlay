@@ -1,35 +1,80 @@
--- This method uses a sprite to render text to the GUI
-function render_text(text, x_pos, y_pos, max_width)
 dir = 'scrum1/static/img/'
-local text_sprite = gfx.loadpng(dir .. 'text_sprite.png')
-x_rel = x_pos
-y_rel = y_pos
-char_width=20
-char_height=25
-line_spacing=5
-	for i=1,string.len(text) do
-    --The values in this line is based on the width of 
-    --a char in the sprite (39), the height (47), the 
-    --number of columns of char (26). The characters 
-    --in the sprite are arranged in increasing order of
-    --value of the character. The strating value is " " = 32 
-    screen:copyfrom(text_sprite, {x=(((string.byte(string.sub(text,i,i))-32)%26)*39), y=(math.floor((string.byte(string.sub(text,i,i))-32)/26)*46), w=40, h=47}, {x = x_rel , y = y_rel, w = char_width , h = char_height} ,true)
-    x_rel=x_rel+(2*char_width/3)
-    if (x_rel>= max_width) then
-      y_rel=(y_rel+char_height+line_spacing)
-      x_rel=x_pos
-    end
-  end
---Make sure to destroy the sprite in order to conserve RAM
-text_sprite:destroy()
-end
+grey1 = {90,90,90,255}
+grey2 = {150,150,150,255}
+grey3 = {150,150,150,150}
+grey4 = {0,0,0,180}
+green1 = {0, 255, 0, 255}
+vertical_pos = 0
+horizontal_pos = 0
+start = 0
 
---This method is used to check whether to break line or not
-function break_line(max_width, line_width)
-
-end
-
---onStart for testing purposes
 function onStart()
-  render_text("Lorem ipsum stuff stuff, I am writing text to test if it looks good", 50, 50, 800)
+  draw_screen()
 end
+function draw_screen()
+  
+  --Delar upp skärmen i 3 delar på bredden, och 7 delar på höjden.
+  local img1 = gfx.loadpng(dir .. 'boxIT.png')
+  height = screen:get_height()
+  width = screen:get_width()
+  width_x = (width-100)/3
+  height_y = (height-100)/7
+ 
+  -- Creates a menu where you can move around with the "up", "down, "left" and "right" arrows. Select with "space".
+   
+  if start == 0 then
+    screen:fill(grey1, {x=50,y=50,w=width_x*3, h=height_y*7})
+    screen:copyfrom(img1, nil, {x=50,y=50})
+    local j = 4.3
+    if vertical_pos == 0 then
+      screen:fill(green1, {x=width_x/5-4, y = height_y*j - 1,w=width_x + 4, h=height_y +2})
+      local count = 1
+      if horizontal_pos == 0 then
+        screen:fill(green1, {x=(width_x/5)+width_x , y = height/7 - count, w = width_x*0.89, h=height_y+2})
+      else 
+        screen:fill(green1, {x=(width_x/5)+2*width_x , y = height/7 - count, w = width_x*0.89, h=height_y+2})
+      end
+      for i = 0, 1 do
+        screen:fill(grey2, {x=(width_x/5)+width_x+i*width_x + count, y = height/7, w = width_x*0.88, h=height_y})
+        count = count+1
+      end
+    elseif vertical_pos == 1 then
+      screen:fill(green1, {x=width_x/5-4, y = height_y*(j+1.1) -1, w=width_x +4, h =height_y +2})
+    else
+      screen:fill(green1, {x=width_x/5-4, y = height_y*(j+2.2) -1, w =width_x +4, h = height_y +2})
+    end
+    for i = 0, 2 do
+      screen:fill(grey2, {x=width_x/5-2, y=height_y*j, w=width_x, h=height_y})
+      j = j+ 1.1
+    end
+   
+  --To go to the "Television-overlay", stand in top left of the "left boxes", and left of the "right boxes" and press "space".
+  
+  elseif start == 1 then
+    local img2 = gfx.loadpng(dir .. 'tv_picture.png')
+    local tweet = gfx.loadpng(dir .. 'tweet5.png')
+    screen:copyfrom(img2, nil, {x=0,y=0})
+    screen:fill(grey4, {x = (width_x/5)+2*width_x, y = height_y*2, w = width_x, h = height_y*3})
+    screen:copyfrom(tweet, nil, {x = (width_x/5)+2*width_x, y = height_y*2, w = width_x, h = height_y*3} ,true)
+  end
+end
+function onKey(key,state)
+  if key == 'down'and state == 'down' and vertical_pos<2 then
+    vertical_pos = vertical_pos+1
+  elseif key =='up' and state=='down' and vertical_pos>0 then
+    vertical_pos = vertical_pos-1
+  elseif key == 'right' and state == 'down' and horizontal_pos < 2 then
+    horizontal_pos = horizontal_pos + 1
+  elseif key == 'left' and state == 'down' and horizontal_pos >0 then
+    horizontal_pos = horizontal_pos - 1
+  elseif key == 'ok' and state == 'down' and vertical_pos == 0 and horizontal_pos == 0 then
+    start = 1
+  elseif key == 'menu' and state == 'down' and start == 1 then -- press leftshift to go back to menu
+    start = 0
+  elseif key == 'exit' and state == 'down' then -- press x to exit the application
+    sys.stop()
+  else 
+    return
+  end
+  draw_screen()
+end  

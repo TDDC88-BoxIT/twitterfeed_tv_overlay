@@ -1,5 +1,3 @@
-local json = require("json")
-
 local twitter = {}
 
 function twitter.authenticate()
@@ -9,14 +7,35 @@ end
 
 
 function twitter.get_tweets(program_name)
+  
+  local json = require("json")
+  local decoded = {}
+
   --Here there will be code that sends the neccessary information to the twitter api so that tweets containing the search term 'program_name' will be returned
+  
   local tweets = {}
---TO DO: decode JSON that contains the tweet information
-  tweets[1] = {["name"] = "PrmMan", ["text"] = "Watching this makes me want to sleep", ["date"] = "14-09-09"}
-  tweets[2] = {["name"] = "MrJamesson", ["text"] = "This TV show is the booomb!", ["date"] = "14-09-09"}
-  tweets[3] = {["name"] = "garnesson", ["text"] = "I wonder if I should get more coffee", ["date"] = "14-09-08"}
-  tweets[4] = {["name"] = "Smith42", ["text"] = "How can anyone even watch this?", ["date"] = "14-09-07"}
-  tweets[5] = {["name"] = "Johnsson", ["text"] = "I love the main protagonist!", ["date"] = "14-09-05"}
+
+-- This part simulates receiving tweets, it reads a json object from a file and decodes it
+  local f = io.open("static/json/paradisehotelse.json","rb")
+	if f then 
+	  f:close() 
+	end	
+	if f ~= nil then
+	  local lines = ""
+	  for line in io.lines("static/json/paradisehotelse.json") do 
+	    lines = lines .. line
+	  end
+    
+    -- This is where the json object is decoded
+    decoded_tweets = json:decode(lines)
+  end
+  
+  local i = 1
+  for k,v in pairs(decoded_tweets.statuses) do
+    tweets[i] = {["name"] = v.user.screen_name, ["text"] = v.text, ["date"] = string.sub(v.created_at, 1, 19) .. string.sub(v.created_at, 26)}
+    i = i+1
+  end
+  
   return tweets
 end
 

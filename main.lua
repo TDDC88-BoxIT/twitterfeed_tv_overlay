@@ -1,4 +1,5 @@
 tv_info = require('tv_info')
+local channel_list = tv_info.get_channel_list()
 dir = 'scrum1/static/img/'
 grey1 = {90,90,90,255}
 grey2 = {150,150,150,255}
@@ -8,12 +9,13 @@ green1 = {0, 255, 0, 255}
 vertical_pos = 0
 horizontal_pos = 0
 start = 0
-graphics = require "graphics"
+require("graphics")
+
 
 
 function onStart()
   --draw_screen()
-  graphics.prompt_channel()
+  prompt_channel(channel_list)
 end
 function draw_screen()
   
@@ -62,23 +64,17 @@ function draw_screen()
     screen:copyfrom(tweet, nil, {x = (width_x/5)+2*width_x, y = height_y*2, w = width_x, h = height_y*3} ,true)
   end
 end
+
+
 function onKey(key,state)
-  if key == 'down'and state == 'down' and vertical_pos<2 then
-    vertical_pos = vertical_pos+1
-  elseif key =='up' and state=='down' and vertical_pos>0 then
-    vertical_pos = vertical_pos-1
-  elseif key == 'right' and state == 'down' and horizontal_pos < 2 then
-    horizontal_pos = horizontal_pos + 1
-  elseif key == 'left' and state == 'down' and horizontal_pos >0 then
-    horizontal_pos = horizontal_pos - 1
-  elseif key == 'ok' and state == 'down' and vertical_pos == 0 and horizontal_pos == 0 then
-    start = 1
-  elseif key == 'menu' and state == 'down' and start == 1 then -- press leftshift to go back to menu
-    start = 0
-  elseif key == 'exit' and state == 'down' then -- press x to exit the application
-    sys.stop()
-  else 
+  if key == 'down' and state == 'up' then
+    increase_index()
+  elseif key =='up' and state == 'up' then
+    decrease_index()
+  elseif key == 'ok' and state == 'up' then
+    render_tweet_view()
+  else
     return
   end
-  draw_screen()
+  
 end 

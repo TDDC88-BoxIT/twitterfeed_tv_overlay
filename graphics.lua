@@ -15,6 +15,7 @@ local menu
 local channel_list = tv_info.get_channel_list()
 twitter = require("twitter")
 require("scrum1.menu_object")
+require("render_text")
 function draw_tv_screen()
   local img2 = gfx.loadpng(dir .. 'tv_picture.png')
   screen:copyfrom(img2, nil, {x=0,y=0})
@@ -22,13 +23,12 @@ end
 function draw_tweet_background()
   tweet_background = gfx.new_surface(400,500)
   tweet_background:clear(grey4)
+  tweets = twitter.get_tweets("")
+  render_text("@" .. tweets[1].name,10,10,350,5,tweet_background)
+  render_text(tweets[1].text,10,80,350,2,tweet_background)
+  render_text(tweets[1].date,10,400,350,2,tweet_background)
   screen:copyfrom(tweet_background,nil,{x = 850, y = 380, w = 400, h = 300},true)
 end
-function draw_tweet()
-  tweets = twitter.get_tweets("")
-  background = gfx.new_surface()
-end
-
 function render_tweet_view()
   am_i_in_menu = 0
   draw_tv_screen()

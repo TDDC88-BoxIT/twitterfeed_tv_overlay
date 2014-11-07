@@ -20,7 +20,7 @@ function draw_tv_screen()
   local img2 = gfx.loadpng(dir .. 'tv_picture.png')
   screen:copyfrom(img2, nil, {x=0,y=0})
 end
-function draw_tweet_background()
+function draw_tweet()
   tweet_background = gfx.new_surface(400,500)
   tweet_background:clear(grey4)
   tweets = twitter.get_tweets("")
@@ -32,7 +32,7 @@ end
 function render_tweet_view()
   am_i_in_menu = 0
   draw_tv_screen()
-  draw_tweet_background()
+  draw_tweet()
   --draw_tweet()
   
 end

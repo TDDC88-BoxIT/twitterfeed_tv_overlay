@@ -152,7 +152,7 @@ end
 local function make_item_indicator(self, y_value)
   -- Set indicator size
   self.indicator_height = self.button_height -- INDICATOR HEIGHT IS SET TO button HEIGHT
-  self.indicator_width = math.floor(self.button_width*0.05) -- INDICATOR WIDTH IS SET TO 5% OF button WIDTH
+  self.indicator_width = math.floor(20) -- INDICATOR WIDTH IS SET TO 5% OF button WIDTH
   -- Create indicator surface
   local sf = gfx.new_surface(self.indicator_width, self.indicator_height)
   --Set color for indicator surface
@@ -166,7 +166,7 @@ local function make_buttons(self)
   -- LOOPS THROUGH ALL ITEMS WHICH HAVE BEEN ADDE TO THE MENU AND CREATES A SET OF BUTTONS FOR THESE
   for i = 1, table.getn(self.menu_items), 1 do
     print(self.menu_items[i])
-    render_text(self.menu_items[i], self.button_x,self.button_y+(self.button_height*(i-1)+i*10),self.button_width, 2, self.menu_surface)
+    render_text(self.menu_items[i], self.button_x +25,self.button_y+(self.button_height*(i-1)+i*10),self.button_width, 2, self.menu_surface)
     -- SETS THE BUTTON IMAGE
 --     local img_surface=nil
 --     img_surface = gfx.loadpng(self.menu_items[i].img)
@@ -175,10 +175,10 @@ local function make_buttons(self)
 --     self.menu_surface:copyfrom(img_surface,nil,{x=self.button_x,y=(self.button_y+(self.button_height*(i-1)+i*10)
 -- ),width=self.button_width,height=self.button_height},true)
     
---     if i == self.indexed_item then
---       -- CREATES AN INDICATOR WHICH IS SET ON THE INDEXED BUTTON
--- 		  make_item_indicator(self, (self.button_y+(self.button_height*(i-1)+i*10)))
---   	end
+    if i == self.indexed_item then
+      -- CREATES AN INDICATOR WHICH IS SET ON THE INDEXED BUTTON
+		  make_item_indicator(self, (self.button_y+(self.button_height*(i-1)+i*10)))
+  	end
 --     -- DESTROYS THE BUTTON IMAGE SURFACE TO SAVE RAM CONSUMPTION
 --     img_surface:destroy()
   end

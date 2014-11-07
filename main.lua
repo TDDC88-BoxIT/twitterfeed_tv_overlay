@@ -67,15 +67,15 @@ end
 
 
 function onKey(key,state)
-  if key == 'down' and state == 'up' then
+  if key == 'down' and state == 'down' then
     increase_index()
-  elseif key =='up' and state == 'up' then
+  elseif key =='up' and state == 'down' then
     decrease_index()
-  elseif key == 'ok' and state == 'up' then
+  elseif key == 'ok' and state == 'down' then
     render_tweet_view()
-  elseif key == 'menu' and state == 'up' then
+  elseif key == 'menu' and state == 'down' then
     go_back_to_menu()   
-  elseif key == 'exit' and state == 'up' then
+  elseif key == 'exit' and state == 'down' then
     sys.stop()
   else
     return

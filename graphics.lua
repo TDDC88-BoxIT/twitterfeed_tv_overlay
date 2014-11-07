@@ -9,10 +9,33 @@ grey4 = {0,0,0,180}
 green1 = {0, 255, 0, 255}
 vertical_pos = 0
 horizontal_pos = 0
-start = 0
+am_i_in_menu = 1
 local menu
-
+-- this has to be solved i another way later
+local channel_list = tv_info.get_channel_list()
+twitter = require("twitter")
 require("scrum1.menu_object")
+function draw_tv_screen()
+  local img2 = gfx.loadpng(dir .. 'tv_picture.png')
+  screen:copyfrom(img2, nil, {x=0,y=0})
+end
+function draw_tweet_background()
+  tweet_background = gfx.new_surface(400,500)
+  tweet_background:clear(grey4)
+  screen:copyfrom(tweet_background,nil,{x = 850, y = 380, w = 400, h = 300},true)
+end
+function draw_tweet()
+  tweets = twitter.get_tweets("")
+  background = gfx.new_surface()
+end
+
+function render_tweet_view()
+  am_i_in_menu = 0
+  draw_tv_screen()
+  draw_tweet_background()
+  --draw_tweet()
+  
+end
 
 function prompt_channel(channel_list)
   
@@ -28,8 +51,9 @@ function prompt_channel(channel_list)
   height_y = (height-100)/7
    
    -- Prints the tv picture in the background
-   local tv_img = gfx.loadpng(dir .. 'tv_picture.png')
-   screen:copyfrom(tv_img, nil, {x=0,y=0})
+   draw_tv_screen()
+   --local tv_img = gfx.loadpng(dir .. 'tv_picture.png')
+   --screen:copyfrom(tv_img, nil, {x=0,y=0})
    
    -- Sets offset for the gray box to 5% of the total width and height
    local x_offset = width*0.05
@@ -47,7 +71,7 @@ function prompt_channel(channel_list)
   menu = menu_object(menu_width,menu_height)
   add_menu_items()
   menu:set_background(dir.."menu_background.png")
-  timer = sys.new_timer(100, "update_menu")
+  --timer = sys.new_timer(100, "update_menu")
   draw_menu()
   
   --Get the length of the channel_list dictionary
@@ -73,13 +97,23 @@ end
 
 function increase_index()
   menu:increase_index()
+  if am_i_in_menu == 1 then
+  update_menu()
+  end
 end
 function decrease_index()
   menu:decrease_index()
+  if am_i_in_menu == 1 then
+  update_menu()
+  end
 end
-
+function go_back_to_menu()
+  am_i_in_menu = 1
+  prompt_channel(channel_list)
+end
 function update_menu()
   draw_menu()
 end
+
 
 --return prompt

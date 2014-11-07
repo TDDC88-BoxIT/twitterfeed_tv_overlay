@@ -1,4 +1,4 @@
-tv_info = require('scrum1.tv_info')
+tv_info = require('tv_info')
 local channel_list = tv_info.get_channel_list()
 dir = 'scrum1/static/img/'
 grey1 = {90,90,90,255}
@@ -9,7 +9,7 @@ green1 = {0, 255, 0, 255}
 vertical_pos = 0
 horizontal_pos = 0
 start = 0
-require("scrum1.graphics")
+require("graphics")
 
 
 
@@ -73,6 +73,10 @@ function onKey(key,state)
     decrease_index()
   elseif key == 'ok' and state == 'up' then
     render_tweet_view()
+  elseif key == 'menu' and state == 'up' then
+    go_back_to_menu()   
+  elseif key == 'exit' and state == 'up' then
+    sys.stop()
   else
     return
   end

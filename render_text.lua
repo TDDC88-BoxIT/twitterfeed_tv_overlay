@@ -23,13 +23,3 @@ line_spacing=5
 --Make sure to destroy the sprite in order to conserve RAM
 text_sprite:destroy()
 end
-
---This method is used to check whether to break line or not
-function break_line(max_width, line_width)
-
-end
-
---onStart for testing purposes
-function onStart()
-  render_text("Lorem ipsum stuff stuff, I am writing text to test if it looks good", 50, 50, 800, 2)
-end

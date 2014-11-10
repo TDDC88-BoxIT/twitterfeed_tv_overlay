@@ -1,6 +1,9 @@
 -- Shall prompt the user onStart to choose the channel out of the possible channels
 --local prompt = {}
 --Initial values
+twitter = require("twitter")
+require("scrum1.menu_object")
+require("render_text")
 dir = '/scrum1/static/img/'
 grey1 = {90,90,90,255}
 grey2 = {150,150,150,255}

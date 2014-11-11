@@ -1,0 +1,1748 @@
+{
+   "jsontv" : {
+      "programme" : [
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415405100",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "title" : {
+               "sv" : "Rapport"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1415404800"
+         },
+         {
+            "episodeNum" : {
+               "xmltv_ns" : "2013 . 11/19 .",
+               "onscreen" : "Del 12 av 19 s\u00e4song 2014"
+            },
+            "stop" : "1415405400",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "title" : {
+               "sv" : "V\u00e4sterbottensnytt"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1415405100"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415405700",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow"
+               ]
+            },
+            "title" : {
+               "sv" : "24 Vision"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1415405400"
+         },
+         {
+            "stop" : "1415406000",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "title" : {
+               "sv" : "ABC"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1415405700"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415406600",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow"
+               ]
+            },
+            "title" : {
+               "sv" : "24 Vision"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1415406000"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415406900",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "title" : {
+               "sv" : "Rapport"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1415406600"
+         },
+         {
+            "stop" : "1415407200",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "title" : {
+               "sv" : "Sydnytt"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1415406900"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415407500",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow"
+               ]
+            },
+            "title" : {
+               "sv" : "24 Vision"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1415407200"
+         },
+         {
+            "stop" : "1415407800",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "title" : {
+               "sv" : "V\u00e4rmlandsnytt"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1415407500"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415408400",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow"
+               ]
+            },
+            "title" : {
+               "sv" : "24 Vision"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1415407800"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415408700",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "title" : {
+               "sv" : "Rapport"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1415408400"
+         },
+         {
+            "stop" : "1415409000",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "title" : {
+               "sv" : "Nordnytt"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1415408700"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415409300",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow"
+               ]
+            },
+            "title" : {
+               "sv" : "24 Vision"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1415409000"
+         },
+         {
+            "stop" : "1415409600",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "title" : {
+               "sv" : "Mittnytt"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1415409300"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415410200",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow"
+               ]
+            },
+            "title" : {
+               "sv" : "24 Vision"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1415409600"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415410500",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "title" : {
+               "sv" : "Rapport"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1415410200"
+         },
+         {
+            "stop" : "1415410800",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "title" : {
+               "sv" : "G\u00e4vledala"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1415410500"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415411100",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow"
+               ]
+            },
+            "title" : {
+               "sv" : "24 Vision"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1415410800"
+         },
+         {
+            "stop" : "1415411400",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "title" : {
+               "sv" : "Tv\u00e4rsnytt"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1415411100"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415412000",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow"
+               ]
+            },
+            "title" : {
+               "sv" : "24 Vision"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1415411400"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415412300",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "title" : {
+               "sv" : "Rapport"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1415412000"
+         },
+         {
+            "stop" : "1415412600",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "title" : {
+               "sv" : "\u00d6stnytt"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1415412300"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415412900",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow"
+               ]
+            },
+            "title" : {
+               "sv" : "24 Vision"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1415412600"
+         },
+         {
+            "stop" : "1415413200",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "title" : {
+               "sv" : "Sm\u00e5landsnytt"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1415412900"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415413800",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow"
+               ]
+            },
+            "title" : {
+               "sv" : "24 Vision"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1415413200"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415414100",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "title" : {
+               "sv" : "Rapport"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1415413800"
+         },
+         {
+            "stop" : "1415414400",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "title" : {
+               "sv" : "V\u00e4stnytt"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1415414100"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415414700",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow"
+               ]
+            },
+            "title" : {
+               "sv" : "24 Vision"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1415414400"
+         },
+         {
+            "episodeNum" : {
+               "xmltv_ns" : "2013 . 11/19 .",
+               "onscreen" : "Del 12 av 19 s\u00e4song 2014"
+            },
+            "stop" : "1415415000",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "title" : {
+               "sv" : "V\u00e4sterbottensnytt"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1415414700"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415415600",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow"
+               ]
+            },
+            "title" : {
+               "sv" : "24 Vision"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1415415000"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415415900",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "title" : {
+               "sv" : "Rapport"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1415415600"
+         },
+         {
+            "stop" : "1415416200",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "title" : {
+               "sv" : "ABC"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1415415900"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415416500",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow"
+               ]
+            },
+            "title" : {
+               "sv" : "24 Vision"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1415416200"
+         },
+         {
+            "stop" : "1415416800",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "title" : {
+               "sv" : "Sydnytt"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1415416500"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415417400",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow"
+               ]
+            },
+            "title" : {
+               "sv" : "24 Vision"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1415416800"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415417700",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "title" : {
+               "sv" : "Rapport"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1415417400"
+         },
+         {
+            "stop" : "1415418000",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "title" : {
+               "sv" : "V\u00e4rmlandsnytt"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1415417700"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415418300",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow"
+               ]
+            },
+            "title" : {
+               "sv" : "24 Vision"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1415418000"
+         },
+         {
+            "stop" : "1415418600",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "title" : {
+               "sv" : "Nordnytt"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1415418300"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415419200",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow"
+               ]
+            },
+            "title" : {
+               "sv" : "24 Vision"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1415418600"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415419500",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "title" : {
+               "sv" : "Rapport"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1415419200"
+         },
+         {
+            "stop" : "1415419800",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "title" : {
+               "sv" : "Mittnytt"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1415419500"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415420100",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow"
+               ]
+            },
+            "title" : {
+               "sv" : "24 Vision"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1415419800"
+         },
+         {
+            "stop" : "1415420400",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "title" : {
+               "sv" : "G\u00e4vledala"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1415420100"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415421000",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow"
+               ]
+            },
+            "title" : {
+               "sv" : "24 Vision"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1415420400"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415421300",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "title" : {
+               "sv" : "Rapport"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1415421000"
+         },
+         {
+            "stop" : "1415421600",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "title" : {
+               "sv" : "Tv\u00e4rsnytt"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1415421300"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415421900",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow"
+               ]
+            },
+            "title" : {
+               "sv" : "24 Vision"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1415421600"
+         },
+         {
+            "stop" : "1415422200",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "title" : {
+               "sv" : "\u00d6stnytt"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1415421900"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415433600",
+            "date" : "2009",
+            "channel" : "svt2.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "2008 . 1/2 .",
+               "onscreen" : "Del 2 av 2 s\u00e4song 2009"
+            },
+            "desc" : {
+               "sv" : "P\u00e5 kv\u00e4llen den 9 november 1989 \u00f6ppnade \u00d6sttysklands myndigheter pl\u00f6tsligt den mur som i tjugo\u00e5tta \u00e5r h\u00e5llit m\u00e4nniskorna i \u00f6st och v\u00e4st \u00e5tskilda. I tv\u00e5 filmer skildras murens historia. Hur den byggdes, hur man rymde igenom den, hur alltsammans \u00e4ntligen tog slut."
+            },
+            "title" : {
+               "sv" : "V\u00e4rldens fakta: Berlinmurens fall"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Politics",
+                  "Society"
+               ]
+            },
+            "start" : "1415430300"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415433900",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "title" : {
+               "sv" : "Rapport"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1415433600"
+         },
+         {
+            "credits" : {
+               "presenter" : [
+                  {
+                     "name" : "Karin H\u00fcbinette"
+                  }
+               ]
+            },
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415436600",
+            "date" : "2014",
+            "channel" : "svt2.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "2013 . 10/18 .",
+               "onscreen" : "Del 11 av 18 s\u00e4song 2014"
+            },
+            "desc" : {
+               "sv" : "Sverige erk\u00e4nner Palestina, trots h\u00e5rd kritik. Vad blir Margot Wallstr\u00f6ms (S) n\u00e4sta steg som utrikesminister? Stor intervju i Agenda. Tror du Google ger alla fakta? Gl\u00f6m det! Nu rensar tusentals svenskar bort sina misstag p\u00e5 n\u00e4tet, efter EU-dom. H\u00e5rd kritik mot EU:s f\u00f6rhandlingar med USA om nytt frihandelsavtal. Intervju med nya handelskommission\u00e4ren Cecilia Malmstr\u00f6m. Livsfarlig men laglig. Allt fler unga riskerar livet genom att r\u00f6ka den allt popul\u00e4rare n\u00e4tdrogen Spice."
+            },
+            "title" : {
+               "sv" : "Agenda"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Politics",
+                  "Society"
+               ]
+            },
+            "start" : "1415433900"
+         },
+         {
+            "stop" : "1415437200",
+            "date" : "2007",
+            "channel" : "svt2.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "0 . 6/7 .",
+               "onscreen" : "Del 7 av 7 s\u00e4song 1"
+            },
+            "desc" : {
+               "sv" : "Den historiska bakgrunden till saker och f\u00f6reteelser i v\u00e5r vardag. Denna g\u00e5ng: dammsugaren. De f\u00f6rsta dammsugarna drevs f\u00f6r hand och var inte s\u00e4rskilt effektiva. H\u00e4rn\u00e4st kom bensindrivna varianter, b\u00e5de en engelsk och en amerikansk."
+            },
+            "title" : {
+               "sv" : "Historien om dammsugaren"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Entertainment",
+                  "Documentary"
+               ]
+            },
+            "start" : "1415436600"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415437500",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "title" : {
+               "sv" : "Rapport"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1415437200"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415438700",
+            "date" : "2012",
+            "channel" : "svt2.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "0 . 3/6 .",
+               "onscreen" : "Del 4 av 6 s\u00e4song 1"
+            },
+            "desc" : {
+               "sv" : "Tv-bonden Frank (fr\u00e5n \"Hundra procent bonde\") och andra danskar ber\u00e4ttar personligt om f\u00f6r\u00e4ldraskapet. Denna g\u00e5ng: \"Tillbaka till verkligheten\". M\u00e5nga f\u00f6r\u00e4ldrar gl\u00e4der sig \u00e5t att f\u00e5 komma tillbaka till arbetet efter en tillvaro i barnledighet och f\u00f6r\u00e4ldrabubbla. Men m\u00f6tet med verkligheten kan bli chockartat."
+            },
+            "title" : {
+               "sv" : "S\u00e5na \u00e4r f\u00f6r\u00e4ldrar"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Lifestyle"
+               ]
+            },
+            "start" : "1415437500"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415439000",
+            "date" : "2013",
+            "channel" : "svt2.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "1 . 3/6 .",
+               "onscreen" : "Del 4 av 6 s\u00e4song 2"
+            },
+            "desc" : {
+               "sv" : "Alexandra De Paoli ber\u00e4ttar om olika \u00f6rter och blommors anv\u00e4ndningsomr\u00e5den. Detta avsnitt: Johannes\u00f6rt."
+            },
+            "title" : {
+               "sv" : "\u00d6rtskolan"
+            },
+            "category" : {
+               "en" : [
+                  "series"
+               ]
+            },
+            "start" : "1415438700"
+         },
+         {
+            "credits" : {
+               "actor" : [
+                  {
+                     "name" : "Fernanda Vasconcellos"
+                  },
+                  {
+                     "name" : "Marjorie Estiano"
+                  },
+                  {
+                     "name" : "Rafael Cardoso med flera"
+                  }
+               ]
+            },
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415440800",
+            "date" : "2012",
+            "channel" : "svt2.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "0 . 20/110 .",
+               "onscreen" : "Del 21 av 110 s\u00e4song 1"
+            },
+            "desc" : {
+               "sv" : "Doktor L\u00facio, Anas l\u00e4kare, blir allt mer orolig f\u00f6r Evas mentala h\u00e4lsa. Rodrigo vet nu att Julia \u00e4r hans dotter och f\u00f6rs\u00f6ker f\u00e5 st\u00f6d fr\u00e5n sin far Jonas. Eva blir rasande p\u00e5 Manuela n\u00e4r hon f\u00f6rst\u00e5r att det \u00e4r hon som ber\u00e4ttat allt. Chris, Jonas nya f\u00e4stm\u00f6, blir allt mer besatt av att skaffa barn och skyr inga medel f\u00f6r att f\u00e5 sin vilja igenom."
+            },
+            "title" : {
+               "sv" : "K\u00e4rlek och svek"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Series"
+               ]
+            },
+            "start" : "1415439000"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415441100",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "title" : {
+               "sv" : "Rapport"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1415440800"
+         },
+         {
+            "credits" : {
+               "actor" : [
+                  {
+                     "name" : "Fernanda Vasconcellos"
+                  },
+                  {
+                     "name" : "Marjorie Estiano"
+                  },
+                  {
+                     "name" : "Rafael Cardoso med flera"
+                  }
+               ]
+            },
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415442900",
+            "date" : "2012",
+            "channel" : "svt2.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "0 . 21/110 .",
+               "onscreen" : "Del 22 av 110 s\u00e4song 1"
+            },
+            "desc" : {
+               "sv" : "Doktor L\u00facio, Anas l\u00e4kare, blir allt mer orolig f\u00f6r Evas mentala h\u00e4lsa. Rodrigo vet nu att Julia \u00e4r hans dotter och f\u00f6rs\u00f6ker f\u00e5 st\u00f6d fr\u00e5n sin far Jonas. Eva blir rasande p\u00e5 Manuela n\u00e4r hon f\u00f6rst\u00e5r att det \u00e4r hon som ber\u00e4ttat allt. Chris, Jonas nya f\u00e4stm\u00f6, blir allt mer besatt av att skaffa barn och skyr inga medel f\u00f6r att f\u00e5 sin vilja igenom."
+            },
+            "title" : {
+               "sv" : "K\u00e4rlek och svek"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Series"
+               ]
+            },
+            "start" : "1415441100"
+         },
+         {
+            "credits" : {
+               "actor" : [
+                  {
+                     "name" : "Fernanda Vasconcellos"
+                  },
+                  {
+                     "name" : "Marjorie Estiano"
+                  },
+                  {
+                     "name" : "Rafael Cardoso med flera"
+                  }
+               ]
+            },
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415444700",
+            "date" : "2012",
+            "channel" : "svt2.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "0 . 22/110 .",
+               "onscreen" : "Del 23 av 110 s\u00e4song 1"
+            },
+            "desc" : {
+               "sv" : "Doktor L\u00facio, Anas l\u00e4kare, blir allt mer orolig f\u00f6r Evas mentala h\u00e4lsa. Rodrigo vet nu att Julia \u00e4r hans dotter och f\u00f6rs\u00f6ker f\u00e5 st\u00f6d fr\u00e5n sin far Jonas. Eva blir rasande p\u00e5 Manuela n\u00e4r hon f\u00f6rst\u00e5r att det \u00e4r hon som ber\u00e4ttat allt. Chris, Jonas nya f\u00e4stm\u00f6, blir allt mer besatt av att skaffa barn och skyr inga medel f\u00f6r att f\u00e5 sin vilja igenom."
+            },
+            "title" : {
+               "sv" : "K\u00e4rlek och svek"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Series"
+               ]
+            },
+            "start" : "1415442900"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415445000",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "title" : {
+               "sv" : "Rapport"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1415444700"
+         },
+         {
+            "credits" : {
+               "actor" : [
+                  {
+                     "name" : "Fernanda Vasconcellos"
+                  },
+                  {
+                     "name" : "Marjorie Estiano"
+                  },
+                  {
+                     "name" : "Rafael Cardoso med flera"
+                  }
+               ]
+            },
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415446800",
+            "date" : "2012",
+            "channel" : "svt2.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "0 . 23/110 .",
+               "onscreen" : "Del 24 av 110 s\u00e4song 1"
+            },
+            "desc" : {
+               "sv" : "Doktor L\u00facio, Anas l\u00e4kare, blir allt mer orolig f\u00f6r Evas mentala h\u00e4lsa. Rodrigo vet nu att Julia \u00e4r hans dotter och f\u00f6rs\u00f6ker f\u00e5 st\u00f6d fr\u00e5n sin far Jonas. Eva blir rasande p\u00e5 Manuela n\u00e4r hon f\u00f6rst\u00e5r att det \u00e4r hon som ber\u00e4ttat allt. Chris, Jonas nya f\u00e4stm\u00f6, blir allt mer besatt av att skaffa barn och skyr inga medel f\u00f6r att f\u00e5 sin vilja igenom."
+            },
+            "title" : {
+               "sv" : "K\u00e4rlek och svek"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Series"
+               ]
+            },
+            "start" : "1415445000"
+         },
+         {
+            "credits" : {
+               "actor" : [
+                  {
+                     "name" : "Fernanda Vasconcellos"
+                  },
+                  {
+                     "name" : "Marjorie Estiano"
+                  },
+                  {
+                     "name" : "Rafael Cardoso med flera"
+                  }
+               ]
+            },
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415448600",
+            "date" : "2012",
+            "channel" : "svt2.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "0 . 24/110 .",
+               "onscreen" : "Del 25 av 110 s\u00e4song 1"
+            },
+            "desc" : {
+               "sv" : "Doktor L\u00facio, Anas l\u00e4kare, blir allt mer orolig f\u00f6r Evas mentala h\u00e4lsa. Rodrigo vet nu att Julia \u00e4r hans dotter och f\u00f6rs\u00f6ker f\u00e5 st\u00f6d fr\u00e5n sin far Jonas. Eva blir rasande p\u00e5 Manuela n\u00e4r hon f\u00f6rst\u00e5r att det \u00e4r hon som ber\u00e4ttat allt. Chris, Jonas nya f\u00e4stm\u00f6, blir allt mer besatt av att skaffa barn och skyr inga medel f\u00f6r att f\u00e5 sin vilja igenom."
+            },
+            "title" : {
+               "sv" : "K\u00e4rlek och svek"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Series"
+               ]
+            },
+            "start" : "1415446800"
+         },
+         {
+            "credits" : {
+               "presenter" : [
+                  {
+                     "name" : "Victoria Dyring"
+                  }
+               ]
+            },
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415452200",
+            "date" : "2014",
+            "subTitle" : {
+               "sv" : "Robotarm och kometlandning"
+            },
+            "channel" : "svt2.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "2013 . 26/36 .",
+               "onscreen" : "Del 27 av 36 s\u00e4song 2014"
+            },
+            "desc" : {
+               "sv" : "Magnus Niska har som v\u00e4rldens f\u00f6rsta m\u00e4nniska f\u00e5tt en permanent inopererad robotarm, som han styr fr\u00e5n sin hj\u00e4rna. Arbetskamraterna kallar honom sk\u00e4mtsamt \"robocop-Magnus\". Vi f\u00e5r f\u00f6lja honom fr\u00e5n operationen till ett f\u00f6r\u00e4ndrat liv. Dessutom: Rymdsonden Rosetta cirkulerar just nu runt en komet i v\u00e5rt solsystem. Snart ska den haka fast en harpun i kometen och skicka ner en landare. Kv\u00e4llens program ber\u00e4ttar ocks\u00e5 om varf\u00f6r kroppens bruna fett g\u00f6r oss smala."
+            },
+            "title" : {
+               "sv" : "Vetenskapens v\u00e4rld"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Science"
+               ]
+            },
+            "start" : "1415448600"
+         },
+         {
+            "credits" : {
+               "presenter" : [
+                  {
+                     "name" : "Jessika Gedin"
+                  }
+               ]
+            },
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415455800",
+            "date" : "2014",
+            "channel" : "svt2.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "2013 . 21/24 .",
+               "onscreen" : "Del 22 av 24 s\u00e4song 2014"
+            },
+            "desc" : {
+               "sv" : "I studion Norges krimkung Jo Nesb\u00f8, och nederl\u00e4ndske f\u00f6rfattaren Cees Nooteboom."
+            },
+            "title" : {
+               "sv" : "Babel"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "News"
+               ]
+            },
+            "start" : "1415452200"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415459340",
+            "desc" : {
+               "sv" : "Den skicklige konstf\u00f6rfalskaren Mark Landis \u00e4r besatt av konst och besatt av att m\u00e5la. Ist\u00e4llet f\u00f6r att s\u00e4lja sina verk till museer sk\u00e4nker han bort dem som en g\u00e5va. Bluffen avsl\u00f6jas och fr\u00e5gorna hopar sig; vad \u00e4r \u00e4kta, vad \u00e4r brottsligt och vilken roll spelar konsten i tjugof\u00f6rsta \u00e5rhundradet?"
+            },
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "title" : {
+               "sv" : "Den f\u00f6runderlige konstf\u00f6rfalskaren"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1415455800"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415459700",
+            "date" : "2014",
+            "channel" : "svt2.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "1 . 3/10 .",
+               "onscreen" : "Del 4 av 10 s\u00e4song 2"
+            },
+            "desc" : {
+               "sv" : "Nyheter fr\u00e5n hela Sverige - p\u00e5 romani chib arli."
+            },
+            "title" : {
+               "sv" : "Sverige idag - romani chib arli"
+            },
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "start" : "1415459400"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415460000",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "title" : {
+               "sv" : "Rapport"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1415459700"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415460300",
+            "date" : "2014",
+            "channel" : "svt2.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "0 . 3/10 .",
+               "onscreen" : "Del 4 av 10 s\u00e4song 1"
+            },
+            "desc" : {
+               "sv" : "Nyheter fr\u00e5n hela Sverige - p\u00e5 romani chib lovari."
+            },
+            "title" : {
+               "sv" : "Sverige idag - romani chib lovari"
+            },
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "start" : "1415460000"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415461200",
+            "date" : "2012",
+            "channel" : "svt2.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "6 . 1/7 .",
+               "onscreen" : "Del 2 av 7 s\u00e4song 7"
+            },
+            "desc" : {
+               "sv" : "Inte alls l\u00e5ngt fr\u00e5n storstadspulsen i Oslo kan man i naturomr\u00e5det Oslomarka hitta djup urskog och fiskrika vatten. En naturresurs som utnyttjas av f\u00f6rv\u00e5nansv\u00e4rt f\u00e5, men som kan bjuda den som hittar hit p\u00e5 storslagna naturupplevelser."
+            },
+            "title" : {
+               "sv" : "Vildmark runt h\u00f6rnet"
+            },
+            "category" : {
+               "en" : [
+                  "series"
+               ]
+            },
+            "start" : "1415460300"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415464800",
+            "date" : "2014",
+            "channel" : "svt2.svt.se",
+            "desc" : {
+               "sv" : "N\u00e4r ett svenskt f\u00f6retag som tar emot f\u00e4rdtj\u00e4nstsamtal \u00f6ppnar ett callcenter i Senegal b\u00f6rjar jakten p\u00e5 lokala spr\u00e5ksnillen. 650 unga senegaleser s\u00f6ker f\u00f6retagets svenskkurs i hopp om att f\u00e5 ett jobb. De har sju m\u00e5nader p\u00e5 sig att l\u00e4ra sig flytande svenska och bara de allra b\u00e4sta kommer att klara det stora slutprovet. Det finns nu en bl\u00e5gul bubbla i Dakar som uppt\u00e4ckt Josef Fares \"Jalla Jalla\" och sjunger med i Peps Perssons l\u00e5tar. En humoristisk dokument\u00e4r av Magdalena och Marcus Rosen."
+            },
+            "title" : {
+               "sv" : "Hall\u00e5 Dakar!"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Politics",
+                  "Society"
+               ]
+            },
+            "start" : "1415461200"
+         },
+         {
+            "credits" : {
+               "actor" : [
+                  {
+                     "name" : "\u00c0lex Monner"
+                  },
+                  {
+                     "name" : "Igor Szpakowski"
+                  },
+                  {
+                     "name" : "Joana Vilapuig"
+                  },
+                  {
+                     "name" : "Nil Cardoner"
+                  }
+               ]
+            },
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415467500",
+            "date" : "2013",
+            "channel" : "svt2.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "1 . 5/15 .",
+               "onscreen" : "Del 6 av 15 s\u00e4song 2"
+            },
+            "desc" : {
+               "sv" : "Tv\u00e5 \u00e5r har g\u00e5tt sedan vi m\u00f6tte v\u00e4nnerna, \"De r\u00f6da banden\" senast. De flesta av dem har nu f\u00e5tt l\u00e4mna sjukhuset men n\u00e5gra \u00e4r fortfarande d\u00e4r periodvis. Gruppen delar m\u00e5nga dramatiska upplevelser i det f\u00f6rflutna och n\u00e5gra minnen \u00e4r sm\u00e4rtsamma. Alla vill heller inte minnas. I den nya s\u00e4songen s\u00e4tts v\u00e4nskapen s\u00e4tts p\u00e5 prov och nya karakt\u00e4rer tillkommer. Livet g\u00e5r vidare."
+            },
+            "title" : {
+               "sv" : "Det r\u00f6da bandets s\u00e4llskap"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Series"
+               ]
+            },
+            "start" : "1415464800"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415467800",
+            "date" : "2014",
+            "channel" : "svt2.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "0 . 0/1 .",
+               "onscreen" : "Del 1 av 1 s\u00e4song 1"
+            },
+            "desc" : {
+               "sv" : "Den 8 november 2013 drabbades Filippinerna av den sv\u00e5raste orkanen i landets historia. Radiohj\u00e4lpen genomf\u00f6rde tillsammans med SVT en unik aktion f\u00f6r att samla in pengar till de drabbade. Vi bes\u00f6ker Filippinerna och ser hur n\u00e5gra av projekten har arbetat f\u00f6r att bygga upp landet igen."
+            },
+            "title" : {
+               "sv" : "Radiohj\u00e4lpen: Filippinerna - ett \u00e5r senare"
+            },
+            "category" : {
+               "en" : [
+                  "tvshow"
+               ]
+            },
+            "start" : "1415467500"
+         },
+         {
+            "credits" : {
+               "presenter" : [
+                  {
+                     "name" : "Christian Bertell"
+                  }
+               ]
+            },
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415469600",
+            "date" : "2014",
+            "channel" : "svt2.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "2013 . 0/7 .",
+               "onscreen" : "Del 1 av 7 s\u00e4song 2014"
+            },
+            "desc" : {
+               "sv" : "I s\u00e4songens f\u00f6rsta avsnitt pratas det om humor; vad f\u00e5r man sk\u00e4mta om och hur l\u00e5ngt f\u00e5r man g\u00e5."
+            },
+            "title" : {
+               "sv" : "Ei saa peitt\u00e4\u00e4"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Politics",
+                  "Society"
+               ]
+            },
+            "start" : "1415467800"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415473200",
+            "date" : "2013",
+            "channel" : "svt2.svt.se",
+            "desc" : {
+               "sv" : "Den brittiske rockikonen Elvis Costello ber\u00e4ttar med avsp\u00e4nd humor om barndomen som Declan MacManus, uppv\u00e4xten och succ\u00e9n \u00f6ver en natt med The Attractions. Inget portr\u00e4tt av Costello kan s\u00e4gas vara det definitiva - han v\u00e4xlar s\u00e5 ofta mellan musikstilar och samarbetspartner. Men kv\u00e4llens dokument\u00e4r av Mark Kidel \u00e4r nog s\u00e5 n\u00e4ra man kan komma."
+            },
+            "title" : {
+               "sv" : "Elvis Costello i n\u00e4rbild"
+            },
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "start" : "1415469600"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415479800",
+            "date" : "2013",
+            "channel" : "svt2.svt.se",
+            "desc" : {
+               "sv" : "Dave Grohl fr\u00e5n Nirvana och Foo Fighters, ber\u00e4ttar historien om legendariska Sound City. Den smutsiga studion d\u00e4r m\u00e4ngder av musikhistoria har skapats. Bland annat Nirvanas Nevermind. Dave Grohl k\u00f6per det magiska mixerbordet och g\u00f6r en sista inspelning."
+            },
+            "title" : {
+               "sv" : "Sound City"
+            },
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "Music"
+               ]
+            },
+            "start" : "1415473200"
+         },
+         {
+            "credits" : {
+               "actor" : [
+                  {
+                     "name" : "Thierry Godard"
+                  },
+                  {
+                     "name" : "Audrey Fleurot"
+                  },
+                  {
+                     "name" : "Jeannine Chassagne"
+                  },
+                  {
+                     "name" : "Robin Renucci"
+                  },
+                  {
+                     "name" : "Marie Germain"
+                  }
+               ]
+            },
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415483100",
+            "date" : "2009",
+            "subTitle" : {
+               "sv" : "K\u00f6ldkn\u00e4pp. 11 november 1940"
+            },
+            "channel" : "svt2.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "2008 . 5/6 .",
+               "onscreen" : "Del 6 av 6 s\u00e4song 2009"
+            },
+            "desc" : {
+               "sv" : "Marcel b\u00f6rjar sprida kommunistiska pamfletter med hj\u00e4lp av chefen f\u00f6r postkontoret, Suzanne. Snart \u00e4r den unge polisen Jean dem b\u00e4gge p\u00e5 sp\u00e5ren."
+            },
+            "title" : {
+               "sv" : "En liten fransk stad"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Series"
+               ]
+            },
+            "start" : "1415479800"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415486700",
+            "date" : "2014",
+            "channel" : "svt2.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "0 . 0/8 .",
+               "onscreen" : "Del 1 av 8 s\u00e4song 1"
+            },
+            "desc" : {
+               "sv" : "Foo Fighters firar 20 \u00e5r som band med en musikalisk resa genom USA. De spelar in nya l\u00e5tar med lokala musiklegender i bl.a. Chicago, Austin, Nashville, Los Angeles, Seattle och New York. Tillsammans med v\u00e4lk\u00e4nda artister som Dolly Parton, Chuck D, Slash, LL Cool J, Joan Jett och Willie Nelson s\u00f6ker de st\u00e4dernas musikaliska r\u00f6tter och ber\u00e4ttar samtidigt ett stycke amerikansk musikhistoria."
+            },
+            "title" : {
+               "sv" : "Foo Fighters: Sonic Highways"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Music"
+               ]
+            },
+            "start" : "1415483100"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415488500",
+            "date" : "2012",
+            "channel" : "svt2.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "0 . 0/1 .",
+               "onscreen" : "Del 1 av 1 s\u00e4song 1"
+            },
+            "desc" : {
+               "sv" : "Efter en annorlunda turn\u00e9 l\u00e4ngs G\u00f6ta kanal bjuds vi p\u00e5 guldkorn fr\u00e5n n\u00e5gra sommarkonserter med artisterna Brolle, Nanne Gr\u00f6nvall och Uno Svenningsson."
+            },
+            "title" : {
+               "sv" : "Rocksommar p\u00e5 G\u00f6ta kanal: Konsert"
+            },
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "Music"
+               ]
+            },
+            "start" : "1415486700"
+         },
+         {
+            "credits" : {
+               "presenter" : [
+                  {
+                     "name" : "Christian Bertell"
+                  }
+               ]
+            },
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415490300",
+            "date" : "2014",
+            "channel" : "svt2.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "2013 . 0/7 .",
+               "onscreen" : "Del 1 av 7 s\u00e4song 2014"
+            },
+            "desc" : {
+               "sv" : "I s\u00e4songens f\u00f6rsta avsnitt pratas det om humor; vad f\u00e5r man sk\u00e4mta om och hur l\u00e5ngt f\u00e5r man g\u00e5."
+            },
+            "title" : {
+               "sv" : "Ei saa peitt\u00e4\u00e4"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Politics",
+                  "Society"
+               ]
+            },
+            "start" : "1415488500"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415490600",
+            "date" : "2014",
+            "channel" : "svt2.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "1 . 3/10 .",
+               "onscreen" : "Del 4 av 10 s\u00e4song 2"
+            },
+            "desc" : {
+               "sv" : "Nyheter fr\u00e5n hela Sverige - p\u00e5 romani chib arli."
+            },
+            "title" : {
+               "sv" : "Sverige idag - romani chib arli"
+            },
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "start" : "1415490300"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415490900",
+            "date" : "2014",
+            "channel" : "svt2.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "0 . 3/10 .",
+               "onscreen" : "Del 4 av 10 s\u00e4song 1"
+            },
+            "desc" : {
+               "sv" : "Nyheter fr\u00e5n hela Sverige - p\u00e5 romani chib lovari."
+            },
+            "title" : {
+               "sv" : "Sverige idag - romani chib lovari"
+            },
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "start" : "1415490600"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415491200",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow"
+               ]
+            },
+            "title" : {
+               "sv" : "24 Vision"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1415490900"
+         }
+      ]
+   }
+}

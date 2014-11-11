@@ -1,8 +1,59 @@
-
-local channel_list = {}
+json = require("json")
+local tv_info = {}
 -- Returns a table with available channels. Can be called upon in main.lua like so: 'channel_list = tv_info.get_channel_list()' 
-function channel_list.get_channel_list()
+function tv_info.get_channel_list()
 	local channel_list = {"SVT1", "SVT2", "TV3", "TV4", "Kanal 5", "TV6"}
 	return channel_list;
 end
-return channel_list
+--Understand json files about tv_schedule
+--Make mockup harcoding the json file in static folder and take info from there
+--Fetch the relevant information from this (program_name, start_time, - -end_time)
+--ev input for algorithm (actor_name, .... lots of info) low prio
+
+-- This part simulates receiving tv_info, it reads a json object from a file and decodes it
+-- will be removed when we get ip-connection
+  local which_channel_n_date = "static/json/tv_info_svt2_1011.json"
+  local f = io.open(which_channel_n_date,"rb")
+	if f then 
+	  f:close() 
+	end	
+	if f ~= nil then
+	  local lines = ""
+	  for line in io.lines(which_channel_n_date) do 
+	    lines = lines .. line
+	  end
+    
+    -- This is where the json object is decoded
+    decoded_tv_info = json:decode(lines)
+  end
+  
+  --Gets the time in unix timestamp format. coverting it to swedish winter time during UK winter time
+  -- other convertions do not currently work
+  function tv_info.get_unixtimestamp()
+    return os.time()
+  end
+  
+  --function that takes the current time (number) and matches it against start and end time of
+  --tv shows to se which show is on right now. returns an TABLE with all information about
+  --the tv show
+  function tv_info.get_prog_allinfo(current_time)
+    for k,v in pairs(decoded_tv_info.jsontv.programme) do
+      if tonumber(v.start) <= current_time and tonumber(v.stop) > current_time then
+       allinfo = v
+      end
+    end
+    return allinfo
+  end
+  
+  --Function that takes in a table with all tv information and extracts 
+  --the inforamtion that is relevant and 
+  --returns that information in an TABLE
+  function tv_info.get_prog_relinfo(table_allinfo)
+    table_relinfo = {}
+    table_relinfo["name"] = table_allinfo.title.sv
+    table_relinfo["start"] = table_allinfo.start  -- not converted to real date
+    table_relinfo["stop"] = table_allinfo.stop    -- not converted to real date
+    return table_relinfo
+  end
+  
+return tv_info

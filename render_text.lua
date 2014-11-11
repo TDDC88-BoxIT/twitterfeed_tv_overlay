@@ -1,5 +1,6 @@
 -- This method uses a sprite to render text to the GUI
 function render_text(text, x_start, y_start, max_width, text_size, text_surface)
+print("text")
 dir = 'scrum1/static/img/'
 local text_sprite = gfx.loadpng(dir .. 'text_sprite.png')
 x_pos = x_start
@@ -8,17 +9,17 @@ char_width=10*text_size
 char_height=12*text_size
 line_spacing=5
 list_of_words,l = split_word_to_list(text)
+print(l)
 for i=1,l do
-  if(line_too_wide(x_pos, list_of_words[i], max_width)) do
+  if(line_too_wide(x_pos, list_of_words[i], max_width)) then do
     x_pos,y_pos = break_line
   end
   write_word(list_of_words[i], x_pos, y_pos, char_width, char_height, text_surface)
 end
 
 --Make sure to destroy the sprite in order to conserve RAM
-text_sprite:destroy()
 end
-
+end
 --Determines whether to break line or not. Looks at current x_pos, length of word and max_with
 function line_too_wide(x_pos, next_word, max_width)
   break_line = false
@@ -52,5 +53,5 @@ function split_word_to_list( text )
     list_of_words[l] = i
     l = l+1
   end
-  return list_of_words, l
+  return list_of_words, l-1
 end

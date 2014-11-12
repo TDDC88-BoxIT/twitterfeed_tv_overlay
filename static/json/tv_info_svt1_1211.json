@@ -1,0 +1,987 @@
+{
+   "jsontv" : {
+      "programme" : [
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415752500",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "title" : {
+               "sv" : "Kulturnyheterna"
+            },
+            "channel" : "svt1.svt.se",
+            "start" : "1415751600"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415756100",
+            "date" : "2014",
+            "subTitle" : {
+               "sv" : "I kv\u00e4ll: sk\u00e5despelaren och komikern Anna Blomberg, rapparen Linda Pira, norske politikern Eskil Pedersen, f\u00f6rfattaren Theodor Kallifatides och s\u00e5ngerskan och l\u00e5tskrivaren Sofia Jannok"
+            },
+            "channel" : "svt1.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "5 . 5/6 .",
+               "onscreen" : "Del 6 av 6 s\u00e4song 6"
+            },
+            "desc" : {
+               "sv" : "Fem sommarv\u00e4rdar m\u00f6ts och pratar med varandra. Det blir n\u00e4ra samtal med skratt och gr\u00e5t, ov\u00e4ntade m\u00f6ten med b\u00e5de erfarna sommarpratare och debutanter."
+            },
+            "title" : {
+               "sv" : "Sommarpratarna"
+            },
+            "category" : {
+               "en" : [
+                  "series"
+               ]
+            },
+            "start" : "1415752500"
+         },
+         {
+            "credits" : {
+               "presenter" : [
+                  {
+                     "name" : "\u00c5sa Avdic"
+                  },
+                  {
+                     "name" : "Mathias Andersson"
+                  }
+               ]
+            },
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415759700",
+            "date" : "2014",
+            "channel" : "svt1.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "2013 . 2/10 .",
+               "onscreen" : "Del 3 av 10 s\u00e4song 2014"
+            },
+            "desc" : {
+               "sv" : "Familjen Pettersson i Uppsala k\u00f6pte ett \u00c4lvsbyhus av f\u00f6retagets \u00e5terf\u00f6rs\u00e4ljare. Men n\u00e4r fasaden b\u00f6rjade m\u00f6gla kraftigt efter bara ett \u00e5r var det ingen som ville ta ansvar f\u00f6r felet. Plus testar ocks\u00e5 fl\u00e4ckborttagningsmedel."
+            },
+            "title" : {
+               "sv" : "Plus"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Economy"
+               ]
+            },
+            "start" : "1415756100"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415760600",
+            "date" : "2014",
+            "subTitle" : {
+               "sv" : "Avsnitt 7"
+            },
+            "channel" : "svt1.svt.se",
+            "episodeNum" : {
+               "thetvdb.com" : "series/280946",
+               "xmltv_ns" : "0 . 6 .",
+               "onscreen" : "Del 7 s\u00e4song 1"
+            },
+            "desc" : {
+               "sv" : "Leif skickar ut Lotta p\u00e5 en sista \u00f6vning innan jakts\u00e4songen \u00e4r slut. Hon ska skjuta ett vildsvin i m\u00f6rker och det g\u00e5r inte alls som planerat. Vad h\u00e4nder n\u00e4r matskribenten Lotta Lundgren sl\u00e4pps ut p\u00e5 jakt i skogen med Leif GW Persson? Han har jagat ett helt liv. Hon har aldrig h\u00e5llit i ett vapen."
+            },
+            "url" : [
+               "http://thetvdb.com/?tab=episode&seriesid=280946&seasonid=583546&id=4877438&lid=8"
+            ],
+            "title" : {
+               "sv" : "P\u00e5 jakt med Lotta och Leif"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Documentary",
+                  "Special Interest"
+               ]
+            },
+            "start" : "1415759700"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415764200",
+            "date" : "2014",
+            "subTitle" : {
+               "sv" : "Malm\u00f6"
+            },
+            "channel" : "svt1.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "0 . 1/8 .",
+               "onscreen" : "Del 2 av 8 s\u00e4song 1"
+            },
+            "desc" : {
+               "sv" : "Fyra sj\u00e4lvutn\u00e4mnda st\u00e4dexperter t\u00e4vlar mot varandra i kv\u00e4llens program. Det \u00e4r l\u00e4tt att vara st\u00e4dm\u00e4stare p\u00e5 hemmaplan, men tidspress och \u00f6vervakande tv-kameror kan f\u00e5 den allra mest rutinerade dammsugarchauff\u00f6ren att k\u00f6ra i diket. Programledare och env\u00e4ldig jury \u00e4r Marl\u00e9ne Eriksson och Marie-Louise Danielsson-Tham."
+            },
+            "title" : {
+               "sv" : "Sveriges st\u00e4dm\u00e4stare"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Quiz"
+               ]
+            },
+            "start" : "1415760600"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415765700",
+            "date" : "2014",
+            "channel" : "svt1.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "7 . 40/76 .",
+               "onscreen" : "Del 41 av 76 s\u00e4song 8"
+            },
+            "desc" : {
+               "sv" : "Nyheter fr\u00e5n hela Sverige - direkt fr\u00e5n Ume\u00e5."
+            },
+            "title" : {
+               "sv" : "Sverige idag"
+            },
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "start" : "1415764200"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415768400",
+            "date" : "2014",
+            "channel" : "svt1.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "2013 . 55/85 .",
+               "onscreen" : "Del 56 av 85 s\u00e4song 2014"
+            },
+            "desc" : {
+               "sv" : "Fredrik \"Benke\" Rydman \u00e4r en av landets mest k\u00e4nda dansare och koreografer. Nu \u00e4r han aktuell med en egen f\u00f6rest\u00e4llning d\u00e4r v\u00e5r str\u00e4van att st\u00e4ndigt f\u00e5 det b\u00e4ttre s\u00e4tts under en kritisk lupp. F\u00f6lj med kocken Tareq Taylor till Vietnam d\u00e4r han har varit och lagat mat. Han har upplevt och l\u00e4rt sig massor som han nu vill dela med sig av i en reportageserie. Denna vecka ska Tareq laga en Bun Cha, en traditionell vietnamesisk nudelsoppa, till 200 personer p\u00e5 gatan mitt i centrala Hanoi. Och han ska g\u00f6ra den p\u00e5 svenskt vis... Vi bes\u00f6ker en kattutst\u00e4llning och i studion svarar Susanne Hellman-Holmstr\u00f6m p\u00e5 tittarnas kattfr\u00e5gor. Intervju med aktuell g\u00e4st. Programledare Beppe Starbrink."
+            },
+            "title" : {
+               "sv" : "Go'kv\u00e4ll"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Magazine"
+               ]
+            },
+            "start" : "1415765700"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415768700",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "title" : {
+               "sv" : "Rapport"
+            },
+            "channel" : "svt1.svt.se",
+            "start" : "1415768400"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415769900",
+            "date" : "2014",
+            "channel" : "svt1.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "2013 . 49/95 .",
+               "onscreen" : "Del 50 av 95 s\u00e4song 2014"
+            },
+            "title" : {
+               "sv" : "Regionala nyheter i sammandrag"
+            },
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "start" : "1415768700"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415782800",
+            "date" : "2014",
+            "channel" : "svt1.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "2013 . 62/100 .",
+               "onscreen" : "Del 63 av 100 s\u00e4song 2014"
+            },
+            "desc" : {
+               "sv" : "Dagsaktuella g\u00e4ster i intervjuer, debatter och diskussioner i soffan varje kvart. Tips om mat och resor och recensioner av film och b\u00f6cker m.m. Rapport s\u00e4nder nyheter varje halvtimme med start 06.30. V\u00e4dret varje halvtimme med start 06.40. Sportnytt s\u00e4nds kl 07.05, 08.05 och 09.05. Regionala nyheter s\u00e4nds varje halvtimme med start 07.10. L\u00e4s text-tv sid 679."
+            },
+            "title" : {
+               "sv" : "Gomorron Sverige"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Politics",
+                  "Society"
+               ]
+            },
+            "start" : "1415769900"
+         },
+         {
+            "stop" : "1415785500",
+            "date" : "2000",
+            "channel" : "svt1.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "1999 . 9/16 .",
+               "onscreen" : "Del 10 av 16 s\u00e4song 2000"
+            },
+            "desc" : {
+               "sv" : "I detta avsnitt m\u00f6ter Stina Lundberg Hans Alfredson i hans lilla skrivarstuga i Vita Bergsparken, dit han flyttade med sin nyblivna hustru Gunilla 1956. Det blir ett samtal om hans ok\u00e4nda barndom, om hans filmskapande och om ondska och sorg."
+            },
+            "title" : {
+               "sv" : "Stina om Hasse Alfredson"
+            },
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "start" : "1415782800"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415788200",
+            "date" : "2014",
+            "channel" : "svt1.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "2013 . 55/85 .",
+               "onscreen" : "Del 56 av 85 s\u00e4song 2014"
+            },
+            "desc" : {
+               "sv" : "Fredrik \"Benke\" Rydman \u00e4r en av landets mest k\u00e4nda dansare och koreografer. Nu \u00e4r han aktuell med en egen f\u00f6rest\u00e4llning d\u00e4r v\u00e5r str\u00e4van att st\u00e4ndigt f\u00e5 det b\u00e4ttre s\u00e4tts under en kritisk lupp. F\u00f6lj med kocken Tareq Taylor till Vietnam d\u00e4r han har varit och lagat mat. Han har upplevt och l\u00e4rt sig massor som han nu vill dela med sig av i en reportageserie. Denna vecka ska Tareq laga en Bun Cha, en traditionell vietnamesisk nudelsoppa, till 200 personer p\u00e5 gatan mitt i centrala Hanoi. Och han ska g\u00f6ra den p\u00e5 svenskt vis... Vi bes\u00f6ker en kattutst\u00e4llning och i studion svarar Susanne Hellman-Holmstr\u00f6m p\u00e5 tittarnas kattfr\u00e5gor. Intervju med aktuell g\u00e4st. Programledare Beppe Starbrink."
+            },
+            "title" : {
+               "sv" : "Go'kv\u00e4ll"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Magazine"
+               ]
+            },
+            "start" : "1415785500"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415791800",
+            "date" : "2014",
+            "subTitle" : {
+               "sv" : "Malm\u00f6"
+            },
+            "channel" : "svt1.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "0 . 1/8 .",
+               "onscreen" : "Del 2 av 8 s\u00e4song 1"
+            },
+            "desc" : {
+               "sv" : "Fyra sj\u00e4lvutn\u00e4mnda st\u00e4dexperter t\u00e4vlar mot varandra i kv\u00e4llens program. Det \u00e4r l\u00e4tt att vara st\u00e4dm\u00e4stare p\u00e5 hemmaplan, men tidspress och \u00f6vervakande tv-kameror kan f\u00e5 den allra mest rutinerade dammsugarchauff\u00f6ren att k\u00f6ra i diket. Programledare och env\u00e4ldig jury \u00e4r Marl\u00e9ne Eriksson och Marie-Louise Danielsson-Tham."
+            },
+            "title" : {
+               "sv" : "Sveriges st\u00e4dm\u00e4stare"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Quiz"
+               ]
+            },
+            "start" : "1415788200"
+         },
+         {
+            "credits" : {
+               "guest" : [
+                  {
+                     "name" : "Jesper R\u00f6nndahl"
+                  },
+                  {
+                     "name" : "Emma Knyckare"
+                  },
+                  {
+                     "name" : "Ann Heberlein"
+                  }
+               ],
+               "presenter" : [
+                  {
+                     "name" : "Johan Wester"
+                  },
+                  {
+                     "name" : "st\u00e4ndig bisittare: Anders Jansson"
+                  }
+               ]
+            },
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415793600",
+            "date" : "2014",
+            "channel" : "svt1.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "2 . 1/8 .",
+               "onscreen" : "Del 2 av 8 s\u00e4song 3"
+            },
+            "desc" : {
+               "sv" : "Humorfr\u00e5gesport om roliga fakta och faktiska roligheter. K\u00e4nda komiker och kunniga experter ger underh\u00e5llande svar p\u00e5 om\u00f6jliga fr\u00e5gor."
+            },
+            "title" : {
+               "sv" : "Intresseklubben"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Entertainment",
+                  "Documentary"
+               ]
+            },
+            "start" : "1415791800"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415797200",
+            "date" : "2014",
+            "channel" : "svt1.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "3 . 3/8 .",
+               "onscreen" : "Del 4 av 8 s\u00e4song 4"
+            },
+            "desc" : {
+               "sv" : "Och nu har de kommit fram till Uppsala och flyttar in i tv\u00e5 s\u00e5 kallade stj\u00e4rnfamiljer. Ena familjen har 15 barn och i den andra familjen finns en mamma som \u00e4r ensamst\u00e5ende, hon valde att skaffa barn med en dansk donator. Men ingen av amerikanerna vill dela sovrum med Nate som f\u00e5r ta saken i egna h\u00e4nder. Jennette Landes, Colorado, har m\u00e5nga tuffa \u00e5r bakom sig. Nu f\u00e5r hon reda p\u00e5 fr\u00e5n vilken sl\u00e4kting som hon \u00e4rvt kraften att k\u00e4mpa. Asagudarna avg\u00f6r utslagst\u00e4vlingen n\u00e4r \u00e4nnu en amerikan tvingas l\u00e4mna Sverige."
+            },
+            "title" : {
+               "sv" : "Allt f\u00f6r Sverige"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Reality"
+               ]
+            },
+            "start" : "1415793600"
+         },
+         {
+            "country" : [
+               "GB",
+               "IT"
+            ],
+            "credits" : {
+               "writer" : [
+                  {
+                     "name" : "John Mortimer"
+                  }
+               ],
+               "producer" : [
+                  {
+                     "name" : "Clive Parsons"
+                  },
+                  {
+                     "name" : "Marco Chimenz"
+                  }
+               ],
+               "actor" : [
+                  {
+                     "name" : "Cher",
+                     "role" : "Elsa Armistan"
+                  },
+                  {
+                     "name" : "Maggie Smith",
+                     "role" : "Lady Hester Random"
+                  },
+                  {
+                     "name" : "Judi Dench",
+                     "role" : "Arabella"
+                  },
+                  {
+                     "name" : "Lily Tomlin",
+                     "role" : "Georgie Rockwell"
+                  },
+                  {
+                     "name" : "Joan Plowright",
+                     "role" : "Mary Wallace"
+                  },
+                  {
+                     "name" : "Paolo Seganti",
+                     "role" : "Vittorio Fanfanni"
+                  }
+               ],
+               "director" : [
+                  {
+                     "name" : "Franco Zeffirelli"
+                  }
+               ]
+            },
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415803800",
+            "date" : "1999",
+            "channel" : "svt1.svt.se",
+            "episodeNum" : {
+               "themoviedb.org" : "movie/10368"
+            },
+            "desc" : {
+               "sv" : "I mitten av 1930-talet samlas i Florens en liten koloni kvinnor f\u00f6r att insupa stadens kultur och kreativa atmosf\u00e4r. Krigsutbrottet n\u00e4rmar sig och damerna beslutar sig f\u00f6r att tala f\u00f6rst\u00e5nd med Mussolini."
+            },
+            "url" : [
+               "http://www.themoviedb.org/movie/10368"
+            ],
+            "title" : {
+               "sv" : "Te med Mussolini"
+            },
+            "category" : {
+               "en" : [
+                  "movie",
+                  "Comedy",
+                  "Drama",
+                  "War",
+                  "Indie"
+               ]
+            },
+            "start" : "1415797200"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415805600",
+            "date" : "2014",
+            "channel" : "svt1.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "2013 . 62/96 .",
+               "onscreen" : "Del 63 av 96 s\u00e4song 2014"
+            },
+            "title" : {
+               "sv" : "Gomorron Sverige sammandrag"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Politics",
+                  "Society"
+               ]
+            },
+            "start" : "1415803800"
+         },
+         {
+            "credits" : {
+               "actor" : [
+                  {
+                     "name" : "Hasse Hope",
+                     "role" : "Self"
+                  },
+                  {
+                     "name" : "Erik Solbakken",
+                     "role" : "Self"
+                  }
+               ]
+            },
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415807400",
+            "date" : "2012",
+            "subTitle" : {
+               "sv" : "Episode 2"
+            },
+            "channel" : "svt1.svt.se",
+            "episodeNum" : {
+               "thetvdb.com" : "series/262304",
+               "xmltv_ns" : "0 . 1 .",
+               "onscreen" : "Del 2 s\u00e4song 1"
+            },
+            "desc" : {
+               "sv" : "N\u00e4stan direkts\u00e4nd humorpratshow. Fr\u00e5n sina f\u00e4llstolar p\u00e5 Karl Johans gate i centrala Oslo bjuder Erik Solbakken och Hasse Hope in sina g\u00e4ster bland de f\u00f6rbipasserande p\u00e5 gatan. Dessutom, of\u00f6rgl\u00f6mliga inslag som \"Brorsan\" och \"Folkets film\"."
+            },
+            "url" : [
+               "http://thetvdb.com/?tab=episode&seriesid=262304&seasonid=500512&id=4395257&lid=8"
+            ],
+            "title" : {
+               "sv" : "Karl Johan"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Comedy"
+               ]
+            },
+            "start" : "1415805600"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415809800",
+            "date" : "2013",
+            "channel" : "svt1.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "14 . 10/18 .",
+               "onscreen" : "Del 11 av 18 s\u00e4song 15"
+            },
+            "desc" : {
+               "sv" : "Inspiration f\u00f6r hus och hem, fritid och vardagsliv. I k\u00f6ket lagar Paul oxbringa i tryckkokare och i bilskolan l\u00e4r sig Camilla att byta avgasr\u00f6r. Eftersom det \u00e4r Fars dags-tider passar programledaren Jonathan Granbacka p\u00e5 att samtala om papparollen med veckans g\u00e4ster, idrottspapporna Alexej Jeremenko Sr. och Alexander Komarov."
+            },
+            "title" : {
+               "sv" : "Str\u00f6ms\u00f6"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Magazine"
+               ]
+            },
+            "start" : "1415807400"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415811300",
+            "date" : "2014",
+            "channel" : "svt1.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "7 . 41/76 .",
+               "onscreen" : "Del 42 av 76 s\u00e4song 8"
+            },
+            "desc" : {
+               "sv" : "Nyheter fr\u00e5n hela Sverige - direkt fr\u00e5n Ume\u00e5."
+            },
+            "title" : {
+               "sv" : "Sverige idag"
+            },
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "start" : "1415809800"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415811600",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "sports",
+                  "Sports"
+               ]
+            },
+            "title" : {
+               "sv" : "Sportnytt"
+            },
+            "channel" : "svt1.svt.se",
+            "start" : "1415811300"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415812200",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "title" : {
+               "sv" : "Rapport"
+            },
+            "channel" : "svt1.svt.se",
+            "start" : "1415811600"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415812500",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "title" : {
+               "sv" : "Regionala nyheter"
+            },
+            "channel" : "svt1.svt.se",
+            "start" : "1415812200"
+         },
+         {
+            "credits" : {
+               "presenter" : [
+                  {
+                     "name" : "Beppe Starbrink"
+                  }
+               ]
+            },
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415815200",
+            "date" : "2014",
+            "channel" : "svt1.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "2013 . 56/85 .",
+               "onscreen" : "Del 57 av 85 s\u00e4song 2014"
+            },
+            "desc" : {
+               "sv" : "Tareq Taylor lagar mat i Go'kv\u00e4lls k\u00f6k. Antikexperten Li Pamp \u00e4r tillbaka. Intervju med Emir Selimi som f\u00f6rra \u00e5ret grundade organisationen Unga Romer och i h\u00f6st fick \u00e5rets Raoul Wallenbergpris. Karin Adelsk\u00f6ld liftar med supermusikaliska femtiotals\u00e4lskaren Gunhild Carling."
+            },
+            "title" : {
+               "sv" : "Go'kv\u00e4ll"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Magazine"
+               ]
+            },
+            "start" : "1415812500"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415816100",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "title" : {
+               "sv" : "Kulturnyheterna"
+            },
+            "channel" : "svt1.svt.se",
+            "start" : "1415815200"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415817000",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "title" : {
+               "sv" : "Regionala nyheter"
+            },
+            "channel" : "svt1.svt.se",
+            "start" : "1415816100"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415818800",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "title" : {
+               "sv" : "Rapport"
+            },
+            "channel" : "svt1.svt.se",
+            "start" : "1415817000"
+         },
+         {
+            "credits" : {
+               "presenter" : [
+                  {
+                     "name" : "Janne Josefsson"
+                  }
+               ]
+            },
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415822400",
+            "date" : "2014",
+            "channel" : "svt1.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "13 . 11/17 .",
+               "onscreen" : "Del 12 av 17 s\u00e4song 14"
+            },
+            "desc" : {
+               "sv" : "Vem d\u00f6ljer sig bakom kodnamnet EA20? Den hemlige spr\u00e5kanalytikern som bed\u00f6mer asyls\u00f6kandes trov\u00e4rdighet och som gjort tusentals bed\u00f6mningar f\u00f6r Migrationsverket ."
+            },
+            "title" : {
+               "sv" : "Uppdrag granskning"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Politics",
+                  "Society"
+               ]
+            },
+            "start" : "1415818800"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415824200",
+            "date" : "2014",
+            "subTitle" : {
+               "sv" : "Edda Magnason"
+            },
+            "channel" : "svt1.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "4 . 2/7 .",
+               "onscreen" : "Del 3 av 7 s\u00e4song 5"
+            },
+            "desc" : {
+               "sv" : "F\u00f6r de flesta \u00e4r Edda Magnason \u00e4r mest k\u00e4nd som sk\u00e5despelaren som vann en Guldbagge f\u00f6r sin gestaltning av Monica Zetterlund. Men l\u00e5ngt innan filmrollen fanns artisten Edda. Dom kallar oss artister f\u00f6ljde med n\u00e4r Edda Magnason tog farv\u00e4l av Monica och f\u00f6rberedde n\u00e4sta steg i musikkarri\u00e4ren. Fr\u00e5n andrahandsettan i Hornstull till en udda spelning i Paris."
+            },
+            "title" : {
+               "sv" : "Dom kallar oss artister"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Music"
+               ]
+            },
+            "start" : "1415822400"
+         },
+         {
+            "credits" : {
+               "presenter" : [
+                  {
+                     "name" : "Kristofer Lundstr\u00f6m"
+                  }
+               ]
+            },
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415826000",
+            "date" : "2014",
+            "channel" : "svt1.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "2013 . 19/24 .",
+               "onscreen" : "Del 20 av 24 s\u00e4song 2014"
+            },
+            "desc" : {
+               "sv" : "Transrevolutionen \u00e4r h\u00e4r! Hyllade Laverne Cox i \"Orange is the new black\", transexuella toppmodeller och nya tv-serien \"Transparent\". Inom b\u00e5de popul\u00e4rkultur och politik \u00f6kar intresset f\u00f6r transpersoner. Eller \u00e4r det bara fr\u00e5ga om kommersialism och exotism? F\u00f6rtrycket finns kvar p\u00e5 m\u00e5nga h\u00e5ll. Kobra tr\u00e4ffar gr\u00e4ns\u00f6verskridande konstn\u00e4rer i Los Angeles och svenska guldbaggebel\u00f6nade regiss\u00f6ren Ester Martin Bergsmark, aktuell med filmen \"N\u00e5nting m\u00e5ste g\u00e5 s\u00f6nder\"."
+            },
+            "title" : {
+               "sv" : "Kobra"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "News"
+               ]
+            },
+            "start" : "1415824200"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415827800",
+            "date" : "2014",
+            "channel" : "svt1.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "2013 . 4/8 .",
+               "onscreen" : "Del 5 av 8 s\u00e4song 2014"
+            },
+            "desc" : {
+               "sv" : "H\u00e5llbart mode. \u00c5tervinning \u00e4r det nya. Camilla Thulin visar mode som \u00e4r gjort f\u00f6r att h\u00e5lla. Vi tr\u00e4ffar de mjuka Merino-f\u00e5ren och ser deras ull bli en m\u00f6ssa, och tr\u00e4ffar mannen som broderar upplevelser fr\u00e5n TV-spel. Fr\u00e5n UR."
+            },
+            "title" : {
+               "sv" : "Kvalitet"
+            },
+            "category" : {
+               "en" : [
+                  "series"
+               ]
+            },
+            "start" : "1415826000"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415829600",
+            "date" : "2014",
+            "channel" : "svt1.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "2013 . 4/8 .",
+               "onscreen" : "Del 5 av 8 s\u00e4song 2014"
+            },
+            "desc" : {
+               "sv" : "One Piece. Designern Jenny Hellstr\u00f6m inspirerar \u00e5tta ungdomar till att sy sina egna unika favoritplagg. Vi f\u00e5r anv\u00e4ndbara sy-tips i vardagen och Malaika f\u00e4rdigst\u00e4ller sin One Piece. Fr\u00e5n UR."
+            },
+            "title" : {
+               "sv" : "Sy, sy, sy"
+            },
+            "category" : {
+               "en" : [
+                  "series"
+               ]
+            },
+            "start" : "1415827800"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415831400",
+            "date" : "2013",
+            "subTitle" : {
+               "sv" : "Ugnsbakat"
+            },
+            "channel" : "svt1.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "0 . 2/6 .",
+               "onscreen" : "Del 3 av 6 s\u00e4song 1"
+            },
+            "desc" : {
+               "sv" : "Den sj\u00e4lvl\u00e4rda Michelin-stj\u00e4rnkocken Raymond Blanc menar att god matlagning handlar om det mest grundl\u00e4ggande: vad h\u00e4nder egentligen med maten n\u00e4r den kokas, rostas, pocheras eller friteras? En matlagningsteknik per avsnitt, med fem exempel p\u00e5 r\u00e4tter att laga, fr\u00e5n enklare till ambiti\u00f6sa."
+            },
+            "title" : {
+               "sv" : "En hungrig fransman"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Entertainment",
+                  "Documentary"
+               ]
+            },
+            "start" : "1415829600"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415831700",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "title" : {
+               "sv" : "Rapport"
+            },
+            "channel" : "svt1.svt.se",
+            "start" : "1415831400"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415834400",
+            "date" : "2011",
+            "channel" : "svt1.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "2010 . 5/8 .",
+               "onscreen" : "Del 6 av 8 s\u00e4song 2011"
+            },
+            "desc" : {
+               "sv" : "Graviditets- och bebiskonsulten Rosie Pope jobbar p\u00e5 Upper East Side Manhattan. Det visar sig att pengar inte g\u00f6r mycket skillnad n\u00e4r familjer g\u00e5r igenom att barn v\u00e4ntas eller har anl\u00e4nt."
+            },
+            "title" : {
+               "sv" : "Gravid i h\u00f6ga klackar"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Entertainment",
+                  "Documentary"
+               ]
+            },
+            "start" : "1415831700"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1415838000",
+            "date" : "2014",
+            "channel" : "svt1.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "8 . 4/10 .",
+               "onscreen" : "Del 5 av 10 s\u00e4song 9"
+            },
+            "desc" : {
+               "sv" : "Vi tr\u00e4ffar en av de poliser som \u00e4r specialiserad p\u00e5 att f\u00f6rs\u00f6ka utreda tjuvskytte av vargar, Erold Coleman. \u00c5r 2000 hittades 31-\u00e5rige fris\u00f6ren Mario m\u00f6rdad i sin salong i Stockholm. Det brutala mordet \u00e4r alltj\u00e4mt ouppklarat. Leif GW Persson g\u00e5r igenom mordplatsen i studion och f\u00f6rs\u00f6ker skapa sig en bild av vad som h\u00e4nde. Ett av polisens sv\u00e5ra uppdrag \u00e4r att ta kontakt med anh\u00f6riga f\u00f6r att l\u00e4mna d\u00f6dsbud. Vi unders\u00f6ker hur polisen f\u00f6rbereder sig f\u00f6r det arbetet. I en historisk \u00e5terblick fr\u00e5n 1980 f\u00e5r vi f\u00f6lja de tv\u00e5 unga poliserna Ulf och \u00c5ke i h\u00e4larna under n\u00e5gra arbetsdagar. Dessutom g\u00f6r vi ett omtag p\u00e5 det ouppklarade mordet p\u00e5 Pernilla Theorin i Avesta 2006 och s\u00e5 blir det Fr\u00e5ga Leif som vanligt."
+            },
+            "title" : {
+               "sv" : "Veckans brott"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Politics",
+                  "Society"
+               ]
+            },
+            "start" : "1415834400"
+         }
+      ]
+   }
+}

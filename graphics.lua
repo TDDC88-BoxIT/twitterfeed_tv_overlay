@@ -100,12 +100,13 @@ function prompt_channel(channel_list)
 end
 
 function add_menu_items()
-  menu:add_button("svt1",dir.."svt1.png")
-  menu:add_button("svt1",dir.."svt2.png")
-  menu:add_button("svt1",dir.."tv3.png")
-  menu:add_button("svt1",dir.."tv4.png")
-  menu:add_button("svt1",dir.."kanal5.png")
-  menu:add_button("svt1",dir.."tv6.png")
+  menu:add_button("svt1","hej")
+  -- menu:add_button("svt1",dir.."svt1.png")
+  -- menu:add_button("svt1",dir.."svt2.png")
+  -- menu:add_button("svt1",dir.."tv3.png")
+  -- menu:add_button("svt1",dir.."tv4.png")
+  -- menu:add_button("svt1",dir.."kanal5.png")
+  -- menu:add_button("svt1",dir.."tv6.png")
 end
 
 function draw_menu()

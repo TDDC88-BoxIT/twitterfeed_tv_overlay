@@ -1,4 +1,4 @@
-json = require("scrum1.json")
+json = require("json")
 local tv_info = {}
 -- Returns a table with available channels. Can be called upon in main.lua like so: 'channel_list = tv_info.get_channel_list()' 
 function tv_info.get_channel_list()

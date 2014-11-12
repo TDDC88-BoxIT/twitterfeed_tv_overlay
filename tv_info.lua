@@ -1,4 +1,5 @@
-json = require("json")
+
+json = require("scrum1.json")
 local tv_info = {}
 -- Returns a table with available channels. Can be called upon in main.lua like so: 'channel_list = tv_info.get_channel_list()' 
 function tv_info.get_channel_list()
@@ -10,9 +11,11 @@ end
 --Fetch the relevant information from this (program_name, start_time, - -end_time)
 --ev input for algorithm (actor_name, .... lots of info) low prio
 
+
+
 -- This part simulates receiving tv_info, it reads a json object from a file and decodes it
 -- will be removed when we get ip-connection
-  local which_channel_n_date = "static/json/tv_info_svt2_1011.json"
+  local which_channel_n_date = "scrum1/static/json/tv_info_tv5_1211.json"
   local f = io.open(which_channel_n_date,"rb")
 	if f then 
 	  f:close() 
@@ -53,7 +56,7 @@ end
     table_relinfo["name"] = table_allinfo.title.sv
     table_relinfo["start"] = table_allinfo.start  -- not converted to real date
     table_relinfo["stop"] = table_allinfo.stop    -- not converted to real date
+    table_relinfo["channel"] = table_allinfo.channel
     return table_relinfo
   end
-  
 return tv_info

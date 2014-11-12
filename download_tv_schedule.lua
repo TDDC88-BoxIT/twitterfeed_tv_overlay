@@ -1,5 +1,12 @@
-require ("socket.http")
+local http=require ("socket.http")
 
+function download_webpage()
+  current_date = os.date("%Y-%m-%d")
+  res, code, headers, status = http.request([[http://json.xmltv.se/svt1.svt.se_2014-11-27.js.gz]])
+  print(headers)
+end
+
+download_webpage()
 -- adresses:
 -- svt1: http://json.xmltv.se/svt1.svt.se_2014-11-27.js.gz
 -- svt2: http://json.xmltv.se/svt2.svt.se_2014-11-27.js.gz

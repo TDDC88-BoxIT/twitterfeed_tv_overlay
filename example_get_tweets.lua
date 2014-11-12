@@ -1,4 +1,4 @@
-twitter = require("twitter")
+twitter = require("scrum1.twitter")
 
 -- At the moment the search string is not functional.
 tweets = twitter.get_tweets("sdf")

@@ -45,7 +45,6 @@ end
 
 --Formats the twitter date to timestamp format
 function set_timestamp(date)
-  -- body
   --Convert abbreviated month to number
   local temp_month = {["Jan"] = 01, ["Feb"] = 02, ["Mar"] = 03, ["Apr"] = 04, ["May"] = 05, ["Jun"] = 06, ["Jul"] = 07, ["Aug"] = 08, ["Sep"] = 09, ["Oct"] = 10, ["Nov"] = 11, ["Dec"] = 12}
 
@@ -62,12 +61,8 @@ end
 
 --Determines if one tweet is newer/older than the other
 function compare_timestamp( t1, t2 )
-  -- body
-  for key,value in pairs(t1) do print(key,value) end
-  for key,value in pairs(t2) do print(key,value) end
-
-  print(os.difftime(os.time(t1),os.time(t2)))
-  print(os.difftime(os.time(t2),os.time(t1)))
+  --Returns the difference in seconds beween t1 and t2 (could be negative)
+  os.difftime(os.time(t1), os.time(t2))
 end
 
 

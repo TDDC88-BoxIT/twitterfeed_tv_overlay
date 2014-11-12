@@ -8,7 +8,7 @@ end
 
 function twitter.get_tweets(program_name)
   
-  local json = require("json")
+  local json = require("scrum1.json")
   local decoded = {}
 
   --Here there will be code that sends the neccessary information to the twitter api so that tweets containing the search term 'program_name' will be returned
@@ -16,13 +16,13 @@ function twitter.get_tweets(program_name)
   local tweets = {}
 
 -- This part simulates receiving tweets, it reads a json object from a file and decodes it
-  local f = io.open("static/json/paradisehotelse.json","rb")
+  local f = io.open("scrum1/static/json/paradisehotelse.json","rb")
 	if f then 
 	  f:close() 
 	end	
 	if f ~= nil then
 	  local lines = ""
-	  for line in io.lines("static/json/paradisehotelse.json") do 
+	  for line in io.lines("scrum1/static/json/paradisehotelse.json") do 
 	    lines = lines .. line
 	  end
     

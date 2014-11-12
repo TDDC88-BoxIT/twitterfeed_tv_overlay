@@ -9,12 +9,12 @@ char_width=10*text_size
 char_height=12*text_size
 line_spacing=5
 list_of_words,l = split_word_to_list(text)
-print(l)
+--print(l)
 for i=1,l do
   if(line_too_wide(x_pos, list_of_words[i], max_width)) then do
-    x_pos,y_pos = break_line
+    x_pos,y_pos = break_line(x_start, y_start)
   end
-  write_word(list_of_words[i], x_pos, y_pos, char_width, char_height, text_surface)
+  write_word(list_of_words[i], x_pos, y_pos, char_width, char_height, text_surface, text_sprite)
 end
 
 --Make sure to destroy the sprite in order to conserve RAM
@@ -22,17 +22,21 @@ end
 end
 --Determines whether to break line or not. Looks at current x_pos, length of word and max_with
 function line_too_wide(x_pos, next_word, max_width)
-  break_line = false
-  return break_line
+  if (string.len(next_word)+x_pos) < max_width then
+  break_line1 = true
+else
+  break_line1 = false
+  end
+  return break_line1
 end
 
 --If the line witdh is greater than max_with, this function is called to break the line
 function break_line(x_start, y_start)
-  return x_pos,y_pos
+  return x_start,y_pos+char_height+line_spacing
 end
 
 --Writes one single word, gets input where to put it 
-function write_word(word ,x_pos, y_pos, char_width, char_height, text_surface)
+function write_word(word ,x_pos, y_pos, char_width, char_height, text_surface, text_sprite)
   for i=1,string.len(word) do
     --The values in this line is based on the width of 
     --a char in the sprite (39), the height (47), the 
@@ -46,7 +50,7 @@ end
 
 --Splits the incoming string to list in order to write the text word-by-word
 --This makes line break testing much easier.
-function split_word_to_list( text )
+function split_word_to_list(text)
   list_of_words = {}
   l=1
   for i in string.gmatch(text, "%S+") do

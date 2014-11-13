@@ -135,7 +135,7 @@ function next_tweet()
   else
     --Get new tweets...
     tweets = twitter.get_new_tweets(tweets)
-    tweet_count = 1
+    --tweet_count = 1
   end
   draw_tv_screen()
   draw_tweet(tweets)

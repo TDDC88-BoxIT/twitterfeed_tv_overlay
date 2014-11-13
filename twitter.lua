@@ -44,9 +44,10 @@ function twitter.get_tweets(program_name)
 end
 
 
-
+--Makes a query for tweets again but only adds tweets to the list if they are newer than the last one in the existing list.
 function twitter.get_new_tweets(old_tweets)
   
+  --Get tweets again
   local json = require("json")
   local decoded = {}
 
@@ -79,7 +80,7 @@ function twitter.get_new_tweets(old_tweets)
     i = i+1
   end
 
-  --Kontrollera här om det finns tweets is new_tweets som är nyare än det sista tweetet i old_tweets
+--Check if there are tweets in the queary that are newer than in the initial/previous query.
   for i, v in ipairs(new_tweets) do
     if(compare_timestamp(old_tweets[table.getn(old_tweets)].timestamp, v.timestamp) > 0) then
       old_tweets.insert(v)

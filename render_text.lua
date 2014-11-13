@@ -5,14 +5,13 @@ local text_sprite = gfx.loadpng(dir .. 'text_sprite_courier.png')
 x_pos = x_start
 y_pos = y_start
 char_width=10*text_size
-char_height=14*text_size
+char_height=15*text_size
 line_spacing=5
 list_of_words,l = split_word_to_list(text)
 --print(l)
 for i=1,l do
-  if(line_too_wide(x_pos, list_of_words[i], max_width)) then 
+  if(line_too_wide(x_pos, list_of_words[i], max_width) and string.len(list_of_words[i])*char_width < max_width) then 
     x_pos,y_pos = break_line(x_start, y_pos)
-    print("hej")
   end
   x_pos = write_word(list_of_words[i], x_pos, y_pos, char_width, char_height, text_surface, text_sprite)
 end

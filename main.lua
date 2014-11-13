@@ -74,6 +74,7 @@ function onKey(key,state)
     decrease_index()
   elseif key == 'ok' and state == 'down' then
     render_tweet_view()
+    print(interpret_menu_index())
   elseif key == 'menu' and state == 'down' then
     go_back_to_menu()   
   elseif key == 'exit' and state == 'down' then

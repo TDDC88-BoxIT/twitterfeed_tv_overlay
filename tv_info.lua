@@ -59,4 +59,28 @@ end
     table_relinfo["channel"] = table_allinfo.channel
     return table_relinfo
   end
+  
+  -- input: index from menu, output: channel name
+  -- Interprets the index from the tv channel menu. 
+  -- Depending on what the current index is (what channel is chosen),
+  -- this function returns the channel name
+  function interpret_menu_index(index)
+    if index == 1 then 
+      channel_name = 'svt1'
+    else if index == 2 then
+      channel_name = 'svt2'
+    else if index == 3 then
+      channel_name = 'tv3'
+    else if index == 4 then
+      channel_name == 'tv4'
+    else if index == 5 then
+      channel_name = 'kanal5'
+    else if index == 6 then
+      channel_name = 'tv6'
+    else
+      channel_name = ''
+    end
+    return channel_name
+  end
+  
 return tv_info

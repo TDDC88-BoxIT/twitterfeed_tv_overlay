@@ -1,11 +1,11 @@
 -- This method uses a sprite to render text to the GUI
 function render_text(text, x_start, y_start, max_width, text_size, text_surface)
 dir = 'scrum1/static/img/'
-local text_sprite = gfx.loadpng(dir .. 'text_sprite.png')
+local text_sprite = gfx.loadpng(dir .. 'text_sprite_courier.png')
 x_pos = x_start
 y_pos = y_start
 char_width=10*text_size
-char_height=12*text_size
+char_height=14*text_size
 line_spacing=5
 list_of_words,l = split_word_to_list(text)
 --print(l)
@@ -43,10 +43,11 @@ function write_word(word ,x_pos, y_pos, char_width, char_height, text_surface, t
     --number of columns of char (26). The characters 
     --in the sprite are arranged in increasing order of
     --value of the character. The strating value is " " = 32 
-    text_surface:copyfrom(text_sprite, {x=(((string.byte(string.sub(word,i,i))-32)%26)*39), y=(math.floor((string.byte(string.sub(word,i,i))-32)/26)*46), w=40, h=47}, {x = x_pos , y = y_pos, w = char_width , h = char_height} ,true)
-    x_pos=x_pos+(4*char_width/5)
+    text_surface:copyfrom(text_sprite, {x=((string.byte(string.sub(word,i,i))-32)*49), y=12, w = 49, h = 67}, { x= x_pos, y = y_pos, w = char_width, h = char_height}, true)--(math.floor((string.byte(string.sub(word,i,i))-32)/94)*25), w=40, h=47}, {x = x_pos , y = y_pos, w = char_width , h = char_height} ,true)
+    --x_pos=x_pos+(4*char_width/5)
+    x_pos=x_pos+char_width
   end
-    x_pos=x_pos+(4*char_width/5)
+    x_pos=x_pos+char_width
 
     return x_pos
 end

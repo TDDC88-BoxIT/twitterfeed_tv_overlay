@@ -22,7 +22,7 @@ end
 
 --Determines whether to break line or not. Looks at current x_pos, length of word and max_with
 function line_too_wide(x_pos, next_word, max_width)
-  if (string.len(next_word)+x_pos) > max_width then
+  if (string.len(next_word)*char_width+x_pos) > max_width then
   break_line1 = true
 else
   break_line1 = false

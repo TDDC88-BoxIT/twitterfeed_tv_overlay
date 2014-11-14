@@ -85,7 +85,7 @@ function twitter.get_new_tweets(old_tweets)
 
 --Check if there are tweets in the queary that are newer than in the initial/previous query.
   for i, v in ipairs(new_tweets) do
-    if(compare_timestamp(old_tweets[table.getn(old_tweets)].timestamp, v.timestamp) > 0) then
+    if(compare_timestamp(old_tweets[#old_tweets].timestamp, v.timestamp) > 0) then
       old_tweets.insert(v)
     end
   end

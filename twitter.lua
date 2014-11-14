@@ -43,10 +43,11 @@ function twitter.get_tweets(program_name)
   return tweets
 end
 
-
---Makes a query for tweets again but only adds tweets to the list if they are newer than the last one in the existing list.
---In: A list of tweets
---Out: A list of tweets, possibly modifyed
+--[[
+@desc: Makes a query for tweets again but only adds tweets to the list if they are newer than the last one in the existing list.
+@params: table - A table of tweets
+@return: table - A table of tweets, possibly modifyed
+--]]
 function twitter.get_new_tweets(old_tweets)
   
   --Get tweets again
@@ -93,9 +94,9 @@ function twitter.get_new_tweets(old_tweets)
 end
 
 
---Formats the twitter date to timestamp format
---In: Date from tweet
---Out: A date in a different format to work with os.difftime()
+--@desc: Formats the twitter date to timestamp format
+--@params: table - With a date from tweet
+--@return: table - With a date in a different format to work with os.difftime()
 function set_timestamp(date)
   --Convert abbreviated month to number
   local temp_month = {["Jan"] = 01, ["Feb"] = 02, ["Mar"] = 03, ["Apr"] = 04, ["May"] = 05, ["Jun"] = 06,
@@ -112,13 +113,12 @@ function set_timestamp(date)
   return timestamp
 end
 
---Determines if one tweet is newer/older than the other
---In: timestamps of two tweets
---Out: Their time difference in seconds
+--@desc: Determines if one tweet is newer/older than the other
+--@params: table - timestamps of two tweets
+--@return: int - The time difference in seconds
 function compare_timestamp( t1, t2 )
   --Returns the difference in seconds beween t1 and t2 (could be negative)
   return os.difftime(os.time(t1), os.time(t2))
 end
-
 
 return twitter

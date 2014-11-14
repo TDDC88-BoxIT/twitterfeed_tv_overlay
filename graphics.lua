@@ -41,9 +41,9 @@ function draw_tweet(tweets)
   tweet_background = gfx.new_surface(400,500)
   tweet_background:clear(grey4)
   current_tweet = tweet_count
-  render_text("@" .. tweets[current_tweet].name,10,10,350,4,tweet_background)
+  render_text("@" .. tweets[current_tweet].name,10,10,350,3,tweet_background)
   render_text(tweets[current_tweet].text,10,80,350,2,tweet_background)
-  render_text(tweets[current_tweet].date,10,400,350,2,tweet_background)
+  render_text(tweets[current_tweet].date,10,400,350,1.5,tweet_background)
   screen:copyfrom(tweet_background,nil,{x = 850, y = 380, w = 400, h = 300},true)
 end
 

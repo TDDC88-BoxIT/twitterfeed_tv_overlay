@@ -119,7 +119,7 @@ end
 function menu_object:increase_index()
   if self.indexed_item<table.getn(self.menu_items) then
     self.indexed_item=self.indexed_item+1
-    print(self.indexed_item)
+    print("index henrik: ", self.indexed_item)
   end
 end
 
@@ -127,7 +127,7 @@ end
 function menu_object:decrease_index()
   if self.indexed_item>1 then
     self.indexed_item=self.indexed_item-1
-    print(self.indexed_item)
+    print("index henrik: ", self.indexed_item)
   end
 end
 

@@ -73,8 +73,8 @@ function onKey(key,state)
   elseif key =='up' and state == 'down' then
     decrease_index()
   elseif key == 'ok' and state == 'down' then
-    render_tweet_view()
-    print(interpret_menu_index())
+  print("channel name: ", tv_info.get_channel_name(get_current_index()))
+  render_tweet_view()  
   elseif key == 'menu' and state == 'down' then
     go_back_to_menu()   
   elseif key == 'exit' and state == 'down' then

@@ -141,4 +141,11 @@ function decrease_index()
     update_menu()
   end
 end
+
+--gets the current index that is marked in the menu
+function get_current_index()
+  curr_index = menu:get_current_index()
+  return curr_index
+end
+
 --return prompt

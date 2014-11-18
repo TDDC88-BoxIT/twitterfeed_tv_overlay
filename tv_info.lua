@@ -64,22 +64,9 @@ end
   -- Interprets the index from the tv channel menu. 
   -- Depending on what the current index is (what channel is chosen),
   -- this function returns the channel name
-  function interpret_menu_index(index)
-    if index == 1 then 
-      channel_name = 'svt1'
-    elseif index == 2 then
-      channel_name = 'svt2'
-    elseif index == 3 then
-      channel_name = 'tv3'
-    elseif index == 4 then
-      channel_name = 'tv4'
-    elseif index == 5 then
-      channel_name = 'kanal5'
-    elseif index == 6 then
-      channel_name = 'tv6'
-    else
-      channel_name = ''
-    end
+  function tv_info.get_channel_name(index)
+    channel_name_array = tv_info.get_channel_list()
+    channel_name = channel_name_array[index]
     return channel_name
   end
   

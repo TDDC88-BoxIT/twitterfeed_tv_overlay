@@ -17,7 +17,7 @@ function twitter.get_tweets(search_key)
   local tweets = {}
 
 -- This part simulates receiving tweets, it reads a json object from a file and decodes it
-  b, c, h = http.request("http://pumi-4.ida.liu.se/twitter/Oauth.php?q="..'#YOLO')
+  b, c, h = http.request("http://pumi-4.ida.liu.se/twitter/Oauth.php?q="..'YOLO')
   -- This is where the json object is decoded
   decoded_tweets = json:decode(b)
   

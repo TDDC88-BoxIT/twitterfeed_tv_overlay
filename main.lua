@@ -1,5 +1,6 @@
-tv_info = require('tv_info')
-require("graphics")
+tv_info = require('scrum1.tv_info')
+require("scrum1.graphics")
+require("scrum1.channel_menu")
 local channel_list = tv_info.get_channel_list()
 dir = 'scrum1/static/img/'
 grey1 = {90,90,90,255}

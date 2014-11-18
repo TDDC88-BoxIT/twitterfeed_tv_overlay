@@ -15,8 +15,6 @@ horizontal_pos = 0
 am_i_in_menu = 1
 tweet_count = 1
 local menu
--- this has to be solved i another way later
-local channel_list = tv_info.get_channel_list()
 twitter = require("scrum1.twitter")
 require("scrum1.menu_object")
 require("scrum1.render_text")

@@ -1,4 +1,4 @@
-tv_info = require('scrum1.tv_info')
+--tv_info = require('scrum1.tv_info')
 require("scrum1.graphics")
 require("scrum1.channel_menu")
 local channel_list = tv_info.get_channel_list()
@@ -17,7 +17,7 @@ start = 0
 
 function onStart()
   --draw_screen()
-  prompt_channel(channel_list)
+  prompt_channel()
 end
 function draw_screen()
   

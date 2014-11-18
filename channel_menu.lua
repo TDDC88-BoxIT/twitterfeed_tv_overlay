@@ -1,16 +1,14 @@
 tv_info = require('scrum1.tv_info')
-channel_list = tv_info.get_channel_list()
+local channel_list = tv_info.get_channel_list()
 
-function prompt_channel()
+function prompt_channel_menu()
   -- Gets the height and width of the screen
   height = screen:get_height()
   width = screen:get_width()
 
   -- Prints the tv picture in the background
   draw_tv_screen()
-  --local tv_img = gfx.loadpng(dir .. 'tv_picture.png')
-  --screen:copyfrom(tv_img, nil, {x=0,y=0})
-
+ 
   -- Sets offset for the gray box to 5% of the total width and height
   x_offset = width*0.02
   y_offset = height*0.05
@@ -21,27 +19,29 @@ function prompt_channel()
   screen:fill(green1, {x=x_offset,y=y_offset,w=box_width, h=box_height})
  
   -- Creates a meny object and draws it
-  channel_menu = menu_object(box_width,box_height)
+  menu = menu_object(box_width,box_height)
   add_menu_items(channel_list)
-  channel_menu:set_background(dir.."menu_background.png")
+  menu:set_background(dir.."menu_background.png")
   --timer = sys.new_timer(100, "update_menu") -- removed for now because no need for it in the app
   draw_menu()
 end
 
   function add_menu_items()
   --Get the length of the channel_list dictionary
-  local list_length = #channel_list
-  
+  local list_length = #channel_list 
   for i=1,list_length,1 do
-    channel_menu:add_button(channel_list[i],channel_list[i])
+    menu:add_button(channel_list[i],channel_list[i])
+--    if channel_list[i] == "SVT1" then
+--        sys.stop()
+--    end
   end
  end
 
 function draw_menu()
   -- Do we need this following line of code?!
   --screen:clear() --Will clear all background stuff
-  screen:copyfrom(channel_menu:get_surface(), nil,{x=x_offset,y=y_offset,width=channel_menu:get_size().width,height=channel_menu:get_size().height},true)
-  channel_menu:destroy()
+  screen:copyfrom(menu:get_surface(), nil,{x=x_offset,y=y_offset,width=menu:get_size().width,height=menu:get_size().height},true)
+  menu:destroy()
   gfx.update()
 end
 
@@ -53,13 +53,13 @@ end
 --from viewing mode
 function go_back_to_menu()
   am_i_in_menu = 1
-  prompt_channel(channel_list)
+  prompt_channel_menu()
 end
 --function that increase the index in the menu "moving up"
 --and moves the red marker if it's suppose to
 function increase_index()
   if am_i_in_menu == 1 then
-    channel_menu:increase_index()
+    menu:increase_index()
     update_menu()
   end
   if am_i_in_menu == 0 then
@@ -71,11 +71,39 @@ end
 --and moves the red marker if it's suppose to
 function decrease_index()
   if am_i_in_menu == 1 then
-    channel_menu:decrease_index()
+    menu:decrease_index()
     update_menu()
   end
   if am_i_in_menu == 0 then
     --previous_tweet() TO BE IMPLEMENTED
   end
 end
---return prompt
+
+-- Function that sets the chosen_channel variable in main
+function setChannel()
+    chosen_channel = menu:get_indexed_item().id
+    if chosen_channel == "SVT1" then
+      sys.stop()
+    end   
+end
+
+-- Function that deals with the key input when in the menu state
+function menuState(key,state)
+  if key == 'down' and state == 'down' then
+      increase_index()
+    elseif key =='up' and state == 'down' then
+      decrease_index()
+    elseif key == 'ok' and state == 'down' then
+--      if menu:get_indexed_item().id == "SVT2" then
+--        sys.stop()
+--      end
+      setChannel()
+      render_tweet_view()
+    elseif key == 'menu' and state == 'down' then
+      go_back_to_menu()   
+    elseif key == 'exit' and state == 'down' then
+      sys.stop()
+    else
+      return
+    end
+end

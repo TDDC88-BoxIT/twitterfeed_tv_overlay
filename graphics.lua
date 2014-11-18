@@ -70,5 +70,3 @@ end
 --This function will show the previous tweet when in the tweet view
 function previous_tweet()
 end
-
-

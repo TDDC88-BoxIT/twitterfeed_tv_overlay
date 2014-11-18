@@ -92,7 +92,7 @@ end
 
 -- ADDS NEW MENU ITEMS
 function menu_object:add_button(button_id, text)
-  table.insert(self.menu_items, table.getn(self.menu_items)+1, text)
+  table.insert(self.menu_items, table.getn(self.menu_items)+1, {id=button_id, text=text})
 end
 
 -- CLEARS ALL ADDED MENU ITEMS
@@ -166,7 +166,7 @@ local function make_buttons(self)
   -- LOOPS THROUGH ALL ITEMS WHICH HAVE BEEN ADDE TO THE MENU AND CREATES A SET OF BUTTONS FOR THESE
   for i = 1, table.getn(self.menu_items), 1 do
     print(self.menu_items[i])
-    render_text(self.menu_items[i], self.button_x +25,self.button_y+(self.button_height*(i-1)+i*10),self.button_width, 2, self.menu_surface)
+    render_text(self.menu_items[i].text, self.button_x +25,self.button_y+(self.button_height*(i-1)+i*10),self.button_width, 2, self.menu_surface)
     -- SETS THE BUTTON IMAGE
 --     local img_surface=nil
 --     img_surface = gfx.loadpng(self.menu_items[i].img)

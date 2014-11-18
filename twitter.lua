@@ -44,7 +44,6 @@ end
 --]]
 
 function twitter.get_new_tweets(old_tweets)
-  print("In get_new_tweets")
   --Get tweets again
   local json = require("json")
   local decoded = {}
@@ -52,6 +51,7 @@ function twitter.get_new_tweets(old_tweets)
   --Here there will be code that sends the neccessary information to the twitter api so that tweets containing the search term 'program_name' will be returned
   
   local new_tweets = {}
+  local reverse_new_tweets = {}
 
   -- This part simulates receiving tweets, it reads a json object from a file and decodes it
   b, c, h = http.request("http://pumi-4.ida.liu.se/twitter/Oauth.php?q="..'YOLO')
@@ -65,11 +65,12 @@ function twitter.get_new_tweets(old_tweets)
     local timestamp = set_timestamp(date);
 
     new_tweets[i] = {["name"] = v.user.screen_name, ["text"] = v.text, ["date"] = date, ["timestamp"] = timestamp}
+    table.insert(reverse_new_tweets, 1, new_tweets[i])
     i = i+1
   end
 
 --Check if there are tweets in the queary that are newer than in the initial/previous query.
-  for i, v in ipairs(new_tweets) do
+  for i, v in ipairs(reverse_new_tweets) do
     if(compare_timestamp(old_tweets[#old_tweets].timestamp, v.timestamp) < 0) then
       table.insert(old_tweets, v)
     end

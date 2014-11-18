@@ -33,8 +33,7 @@ end
   local list_length = #channel_list
   
   for i=1,list_length,1 do
-    channel_menu:add_button("svt1 hej",dir.."tv3.png")
-    --channel_menu:add_button("svt1",channel_list[i])
+    channel_menu:add_button(channel_list[i],channel_list[i])
   end
  end
 

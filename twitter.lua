@@ -15,6 +15,7 @@ function twitter.get_tweets(search_key)
   --Here there will be code that sends the neccessary information to the twitter api so that tweets containing the search term 'program_name' will be returned
   
   local tweets = {}
+  local reverse_tweets = {}
 
 -- This part simulates receiving tweets, it reads a json object from a file and decodes it
   b, c, h = http.request("http://pumi-4.ida.liu.se/twitter/Oauth.php?q="..'YOLO')
@@ -29,10 +30,11 @@ function twitter.get_tweets(search_key)
     local timestamp = set_timestamp(date);
 
     tweets[i] = {["name"] = v.user.screen_name, ["text"] = v.text, ["date"] = date, ["timestamp"] = timestamp}
+    table.insert(reverse_tweets, 1, tweets[i])
     i = i+1
   end
 
-  return tweets
+  return reverse_tweets
 end
 
 --[[
@@ -40,9 +42,9 @@ end
 @params: table - A table of tweets
 @return: table - A table of tweets, possibly modifyed
 --]]
---[[
+
 function twitter.get_new_tweets(old_tweets)
-  
+  print("In get_new_tweets")
   --Get tweets again
   local json = require("json")
   local decoded = {}
@@ -51,21 +53,11 @@ function twitter.get_new_tweets(old_tweets)
   
   local new_tweets = {}
 
--- This part simulates receiving tweets, it reads a json object from a file and decodes it
-  local f = io.open("static/json/paradisehotelse.json","rb")
-  if f then 
-    f:close() 
-  end 
-  if f ~= nil then
-    local lines = ""
-    for line in io.lines("static/json/paradisehotelse.json") do 
-      lines = lines .. line
-    end
-    
-    -- This is where the json object is decoded
-    decoded_tweets = json:decode(lines)
-  end
-  
+  -- This part simulates receiving tweets, it reads a json object from a file and decodes it
+  b, c, h = http.request("http://pumi-4.ida.liu.se/twitter/Oauth.php?q="..'YOLO')
+  -- This is where the json object is decoded
+  decoded_tweets = json:decode(b)
+
   local i = 1
   for k,v in pairs(decoded_tweets.statuses) do
     local date = string.sub(v.created_at, 1, 19) .. string.sub(v.created_at, 26)
@@ -78,14 +70,14 @@ function twitter.get_new_tweets(old_tweets)
 
 --Check if there are tweets in the queary that are newer than in the initial/previous query.
   for i, v in ipairs(new_tweets) do
-    if(compare_timestamp(old_tweets[#old_tweets].timestamp, v.timestamp) > 0) then
-        old_tweets.insert(v)
+    if(compare_timestamp(old_tweets[#old_tweets].timestamp, v.timestamp) < 0) then
+      table.insert(old_tweets, v)
     end
   end
 
   return old_tweets
 end
-]]
+
 
 --@desc: Formats the twitter date to timestamp format
 --@params: table - With a date from tweet

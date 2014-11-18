@@ -134,12 +134,13 @@ end
 
 --This function will show the next tweet when in the tweet view
 function next_tweet()
-  if tweet_count < table.getn(tweets) then
+  if tweet_count < #tweets then
     tweet_count = tweet_count + 1
+    print(tweet_count)
   else
     --Get new tweets...
     tweets = twitter.get_new_tweets(tweets)
-    tweet_count = 1
+    --tweet_count = 1
   end
   draw_tv_screen()
   draw_tweet(tweets)

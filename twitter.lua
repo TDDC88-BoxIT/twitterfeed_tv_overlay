@@ -40,6 +40,7 @@ end
 @params: table - A table of tweets
 @return: table - A table of tweets, possibly modifyed
 --]]
+--[[
 function twitter.get_new_tweets(old_tweets)
   
   --Get tweets again
@@ -78,13 +79,13 @@ function twitter.get_new_tweets(old_tweets)
 --Check if there are tweets in the queary that are newer than in the initial/previous query.
   for i, v in ipairs(new_tweets) do
     if(compare_timestamp(old_tweets[#old_tweets].timestamp, v.timestamp) > 0) then
-      old_tweets.insert(v)
+        old_tweets.insert(v)
     end
   end
 
   return old_tweets
 end
-
+]]
 
 --@desc: Formats the twitter date to timestamp format
 --@params: table - With a date from tweet

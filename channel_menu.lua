@@ -36,6 +36,7 @@ end
 
 -- Function that draws the channel menu
 function draw_menu()
+  timer_state = 0
   -- Do we need this following line of code?!
   --screen:clear() --Will clear all background stuff
   screen:copyfrom(menu:get_surface(), nil,{x=x_offset,y=y_offset,width=menu:get_size().width,height=menu:get_size().height},true)

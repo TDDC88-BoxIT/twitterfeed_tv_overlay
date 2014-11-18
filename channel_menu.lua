@@ -85,6 +85,7 @@ function menu_state(key,state)
       decrease_index()
     elseif key == 'ok' and state == 'down' then
       set_chosen_channel(menu:get_indexed_item().id)
+      change_state(1)
       render_tweet_view()
     elseif key == 'menu' and state == 'down' then
       go_back_to_menu()   

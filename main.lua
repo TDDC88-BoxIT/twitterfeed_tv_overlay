@@ -23,9 +23,9 @@ function draw_screen()
   width = screen:get_width()
   width_x = (width-100)/3
   height_y = (height-100)/7
- 
+
   -- Creates a menu where you can move around with the "up", "down, "left" and "right" arrows. Select with "space".
-   
+
   if start == 0 then
     screen:fill(grey1, {x=50,y=50,w=width_x*3, h=height_y*7})
     screen:copyfrom(img1, nil, {x=50,y=50})
@@ -51,9 +51,9 @@ function draw_screen()
       screen:fill(grey2, {x=width_x/5-2, y=height_y*j, w=width_x, h=height_y})
       j = j+ 1.1
     end
-   
-  --To go to the "Television-overlay", stand in top left of the "left boxes", and left of the "right boxes" and press "space".
-  
+
+    --To go to the "Television-overlay", stand in top left of the "left boxes", and left of the "right boxes" and press "space".
+
   elseif start == 1 then
     local img2 = gfx.loadpng(dir .. 'tv_picture.png')
     local tweet = gfx.loadpng(dir .. 'tweet5.png')
@@ -71,9 +71,15 @@ function get_chosen_channel()
   return chosen_channel
 end
 
+function change_state(state)
+  global_tweet_state = state
+end
+
 function onKey(key,state)
   if global_tweet_state == 0 then
-      menu_state(key,state)
+    menu_state(key,state)
+  elseif global_tweet_state == 1 then
+    twitter_state(key,state)
 --  else
 --    if key == 'down' and state == 'down' then
 --      increase_index()

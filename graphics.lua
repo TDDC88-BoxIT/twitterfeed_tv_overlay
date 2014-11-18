@@ -2,7 +2,7 @@
 --local prompt = {}
 --Initial values
 twitter = require("twitter")
-require("scrum1.menu_object")
+require("menu_object")
 require("render_text")
 dir = '/scrum1/static/img/'
 grey1 = {90,90,90,255}
@@ -18,7 +18,7 @@ local menu
 -- this has to be solved i another way later
 local channel_list = tv_info.get_channel_list()
 twitter = require("twitter")
-require("scrum1.menu_object")
+require("menu_object")
 require("render_text")
 
 --Temp function that gives an integer between 1 and 5
@@ -41,9 +41,9 @@ function draw_tweet(tweets)
   tweet_background = gfx.new_surface(400,500)
   tweet_background:clear(grey4)
   current_tweet = tweet_count
-  render_text("@" .. tweets[current_tweet].name,10,10,350,4,tweet_background)
+  render_text("@" .. tweets[current_tweet].name,10,10,350,3,tweet_background)
   render_text(tweets[current_tweet].text,10,80,350,2,tweet_background)
-  render_text(tweets[current_tweet].date,10,400,350,2,tweet_background)
+  render_text(tweets[current_tweet].date,10,400,350,1.5,tweet_background)
   screen:copyfrom(tweet_background,nil,{x = 850, y = 380, w = 400, h = 300},true)
 end
 
@@ -99,13 +99,17 @@ function prompt_channel(channel_list)
   local list_length = #channel_list
 end
 
-function add_menu_items()
-  menu:add_button("svt1",dir.."svt1.png")
-  menu:add_button("svt1",dir.."svt2.png")
-  menu:add_button("svt1",dir.."tv3.png")
-  menu:add_button("svt1",dir.."tv4.png")
-  menu:add_button("svt1",dir.."kanal5.png")
-  menu:add_button("svt1",dir.."tv6.png")
+  function add_menu_items()
+    -- menu:add_button("svt1","SVT 1")
+    -- menu:add_button("svt1","SVT 2")
+    -- menu:add_button("svt1","Kanal 3")
+    -- menu:add_button("svt1","TV4")
+    -- menu:add_button("svt1","Kanal 5")
+    -- menu:add_button("svt1","Kanal 6")
+    menu:add_button("svt1",dir.."tv3.png")
+    menu:add_button("svt1",dir.."tv4.png")
+    menu:add_button("svt1",dir.."kanal5.png")
+    menu:add_button("svt1",dir.."tv6.png")
 end
 
 function draw_menu()

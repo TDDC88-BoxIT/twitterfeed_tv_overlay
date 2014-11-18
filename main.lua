@@ -10,13 +10,13 @@ green1 = {0, 255, 0, 255}
 vertical_pos = 0
 horizontal_pos = 0
 start = 0
+local chosen_channel
 
 function onStart()
   global_tweet_state = 0
   prompt_channel_menu()
 end
 function draw_screen()
-  
   --Delar upp skärmen i 3 delar på bredden, och 7 delar på höjden.
   local img1 = gfx.loadpng(dir .. 'boxIT.png')
   height = screen:get_height()
@@ -63,23 +63,31 @@ function draw_screen()
   end
 end
 
+function set_chosen_channel(channel)
+  chosen_channel = channel
+end
+
+function get_chosen_channel()
+  return chosen_channel
+end
+
 function onKey(key,state)
   if global_tweet_state == 0 then
-      menuState(key,state)
-  else
-    if key == 'down' and state == 'down' then
-      increase_index()
-    elseif key =='up' and state == 'down' then
-      decrease_index()
-    elseif key == 'ok' and state == 'down' then
-      setChannel()
-      render_tweet_view()
-    elseif key == 'menu' and state == 'down' then
-      go_back_to_menu()   
-    elseif key == 'exit' and state == 'down' then
-      sys.stop()
-    else
-      return
-    end
+      menu_state(key,state)
+--  else
+--    if key == 'down' and state == 'down' then
+--      increase_index()
+--    elseif key =='up' and state == 'down' then
+--      decrease_index()
+--    elseif key == 'ok' and state == 'down' then
+--      setChannel()
+--      render_tweet_view()
+--    elseif key == 'menu' and state == 'down' then
+--      go_back_to_menu()   
+--    elseif key == 'exit' and state == 'down' then
+--      sys.stop()
+--    else
+--      return
+--    end
   end
 end 

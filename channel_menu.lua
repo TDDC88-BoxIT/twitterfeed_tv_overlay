@@ -36,13 +36,6 @@ end
     channel_menu:add_button("svt1 hej",dir.."tv3.png")
     --channel_menu:add_button("svt1",channel_list[i])
   end
-  
-    -- menu:add_button("svt1","SVT 1")
-    -- menu:add_button("svt1","SVT 2")
-    -- menu:add_button("svt1","Kanal 3")
-    -- menu:add_button("svt1","TV4")
-    -- menu:add_button("svt1","Kanal 5")
-    -- menu:add_button("svt1","Kanal 6")
  end
 
 function draw_menu()

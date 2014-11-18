@@ -53,7 +53,7 @@ function twitter.get_new_tweets(old_tweets)
   local reverse_new_tweets = {}
 
   -- This part simulates receiving tweets, it reads a json object from a file and decodes it
-  b, c, h = http.request("http://pumi-4.ida.liu.se/twitter/Oauth.php?q="..'YOLO')
+  b, c, h = http.request("http://team.gkj.se/Oauth.php?q="..'YOLO')
   -- This is where the json object is decoded
   decoded_tweets = json:decode(b)
 

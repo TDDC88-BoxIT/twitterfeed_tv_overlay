@@ -1,4 +1,4 @@
-json = require("json")
+json = require("scrum1.json")
 local tv_info = {}
 -- Returns a table with available channels. Can be called upon in main.lua like so: 'channel_list = tv_info.get_channel_list()' 
 function tv_info.get_channel_list()
@@ -12,7 +12,7 @@ end
 
 -- This part simulates receiving tv_info, it reads a json object from a file and decodes it
 -- will be removed when we get ip-connection
-  local which_channel_n_date = "static/json/tv_info_svt2_1011.json"
+  local which_channel_n_date = "scrum1/static/json/tv_info_svt2_1011.json"
   local f = io.open(which_channel_n_date,"rb")
 	if f then 
 	  f:close() 

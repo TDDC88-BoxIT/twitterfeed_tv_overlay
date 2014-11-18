@@ -1,6 +1,6 @@
-tv_info = require('tv_info')
-require("graphics")
-local channel_list = tv_info.get_channel_list()
+--tv_info = require('scrum1.tv_info')
+require("scrum1.graphics")
+require("scrum1.channel_menu")
 dir = 'scrum1/static/img/'
 grey1 = {90,90,90,255}
 grey2 = {150,150,150,255}
@@ -10,16 +10,13 @@ green1 = {0, 255, 0, 255}
 vertical_pos = 0
 horizontal_pos = 0
 start = 0
-
-
-
+local chosen_channel
 
 function onStart()
-  --draw_screen()
-  prompt_channel(channel_list)
+  global_tweet_state = 0
+  prompt_channel_menu()
 end
 function draw_screen()
-  
   --Delar upp skärmen i 3 delar på bredden, och 7 delar på höjden.
   local img1 = gfx.loadpng(dir .. 'boxIT.png')
   height = screen:get_height()
@@ -66,20 +63,31 @@ function draw_screen()
   end
 end
 
+function set_chosen_channel(channel)
+  chosen_channel = channel
+end
+
+function get_chosen_channel()
+  return chosen_channel
+end
 
 function onKey(key,state)
-  if key == 'down' and state == 'down' then
-    increase_index()
-  elseif key =='up' and state == 'down' then
-    decrease_index()
-  elseif key == 'ok' and state == 'down' then
-    render_tweet_view()
-  elseif key == 'menu' and state == 'down' then
-    go_back_to_menu()   
-  elseif key == 'exit' and state == 'down' then
-    sys.stop()
-  else
-    return
+  if global_tweet_state == 0 then
+      menu_state(key,state)
+--  else
+--    if key == 'down' and state == 'down' then
+--      increase_index()
+--    elseif key =='up' and state == 'down' then
+--      decrease_index()
+--    elseif key == 'ok' and state == 'down' then
+--      setChannel()
+--      render_tweet_view()
+--    elseif key == 'menu' and state == 'down' then
+--      go_back_to_menu()   
+--    elseif key == 'exit' and state == 'down' then
+--      sys.stop()
+--    else
+--      return
+--    end
   end
-  
 end 

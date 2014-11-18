@@ -42,13 +42,13 @@ THIS IS DONE BY CALLING:
 
 -- THE MENU CONSTRUCTOR SETS START VALUES FOR THE MENU
 menu_object = class(function (self, menu_width, menu_height)
-	self.width = menu_width or math.floor(screen:get_width()*0.2)
-	self.height = menu_height or 300
+  self.width = menu_width or math.floor(screen:get_width()*0.2)
+  self.height = menu_height or 300
   self.button_height = 60
-	self.button_width = math.floor(self.width*0.9)
-	self.button_x = (self.width-self.button_width)/2
-	self.button_y = math.floor(self.height*0.05)
-	self.indicator_color = {r=255,g=0,b=0}
+  self.button_width = math.floor(self.width*0.9)
+  self.button_x = (self.width-self.button_width)/2
+  self.button_y = math.floor(self.height*0.05)
+  self.indicator_color = {r=255,g=0,b=0}
   self.indexed_item=1
   self.menu_items={}
   self.menu_surface=nil
@@ -56,43 +56,43 @@ end)
 
 -- SETS MENU SIZE
 function menu_object:set_size(menu_width,menu_height)
-	self.widht=menu_width or self.width
-	self.height=menu_height or self.height
+  self.widht=menu_width or self.width
+  self.height=menu_height or self.height
 end
 
 -- RETURNS MENU SIZE
 function menu_object:get_size()
-	local size={widht=self.width, height=self.height}
-	return size
+  local size={widht=self.width, height=self.height}
+  return size
 end
 
 -- SETS MENU button SIZE
 function menu_object:set_button_size(width,height)
-	self.button_widht=widht or self.button_widht
-	self.button_height=height or self.button_height
+  self.button_widht=widht or self.button_widht
+  self.button_height=height or self.button_height
 end
 
 -- RETURNS MENU button SIZE
 function menu_object:get_button_size()
-	local size={widht=self.button_widht, height=self.button_widht}
-	return size
+  local size={widht=self.button_widht, height=self.button_widht}
+  return size
 end
 
 -- SETS button LOCATION
 function menu_object:set_button_location(button_x, button_y)
-	self.button_x=button_x or menu_object:get_location().x
-	self.button_y=button_y or menu_object:get_location().y
+  self.button_x=button_x or menu_object:get_location().x
+  self.button_y=button_y or menu_object:get_location().y
 end
 
 -- RETURNS button LOCATION
 function menu_object:get_button_location()
-	local location={x=self.button_x, y=self.button_y}
-	return location
+  local location={x=self.button_x, y=self.button_y}
+  return location
 end
 
 -- ADDS NEW MENU ITEMS
 function menu_object:add_button(button_id, img_Path)
-	table.insert(self.menu_items, table.getn(self.menu_items)+1, {id=button_id,img=img_Path})
+  table.insert(self.menu_items, table.getn(self.menu_items)+1, {id=button_id,img=img_Path})
 end
 
 -- CLEARS ALL ADDED MENU ITEMS
@@ -177,8 +177,8 @@ local function make_buttons(self)
     
     if i == self.indexed_item then
       -- CREATES AN INDICATOR WHICH IS SET ON THE INDEXED BUTTON
-		  make_item_indicator(self, (self.button_y+(self.button_height*(i-1)+i*10)))
-  	end
+      make_item_indicator(self, (self.button_y+(self.button_height*(i-1)+i*10)))
+    end
     -- DESTROYS THE BUTTON IMAGE SURFACE TO SAVE RAM CONSUMPTION
     img_surface:destroy()
   end

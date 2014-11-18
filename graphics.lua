@@ -58,10 +58,11 @@ end
 
 --This function will show the next tweet when in the tweet view
 function next_tweet()
-  if tweet_count < 5 then
+  if tweet_count < #tweets then
     tweet_count = tweet_count + 1
   else
-    tweet_count = 1
+    --Get new tweets...
+    tweets = twitter.get_new_tweets(tweets)
   end
   draw_tv_screen()
   draw_tweet(tweets)

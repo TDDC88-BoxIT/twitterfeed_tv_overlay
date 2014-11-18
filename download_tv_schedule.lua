@@ -1,5 +1,6 @@
 local http=require ("socket.http")
 
+-- downloads todays tv_schedules for channels svt1-tv6 to six different json files in json folder
 function download_webpage()
   current_date = os.date("%Y-%m-%d")
   res, code, headers, status = http.request([[http://json.xmltv.se/svt1.svt.se_2014-11-27.js.gz]])

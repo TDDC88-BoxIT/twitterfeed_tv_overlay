@@ -15,7 +15,7 @@ end
 
 -- This part simulates receiving tv_info, it reads a json object from a file and decodes it
 -- will be removed when we get ip-connection
-  local which_channel_n_date = "scrum1/static/json/tv_info_tv5_1211.json"
+  local which_channel_n_date = "scrum1/static/json/svt1.svt.se_2014-11-27.json"
   local f = io.open(which_channel_n_date,"rb")
 	if f then 
 	  f:close() 
@@ -70,4 +70,18 @@ end
     return channel_name
   end
   
+  -- FINAL FUNCTION THAT RUNS ON OK KEYCLICK IN MENU
+  -- input: chosen channel
+  -- output: name of current show, name of channel (these can be modified to retreive more information)
+  function get_current_prog_info() 
+    
+  local channel_name = tv_info.get_channel_name(get_current_index()) 
+  local current_time = tv_info.get_unixtimestamp()
+  local relevant_tv_info = {}
+  relevant_tv_info = tv_info.get_prog_relinfo(tv_info.get_prog_allinfo(current_time))  
+  local current_prog_name = relevant_tv_info["name"]
+  
+return current_prog_name, channel_name
+end
+
 return tv_info

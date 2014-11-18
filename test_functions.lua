@@ -70,3 +70,5 @@ relevant_tv_info = tv_info.get_prog_relinfo(tv_info.get_prog_allinfo(curtime))
 print(relevant_tv_info["name"])
 print(relevant_tv_info["channel"])
 
+print("TESTTESTTESTEST")
+print(tv_info.get_current_prog_info())

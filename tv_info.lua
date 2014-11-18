@@ -67,15 +67,15 @@ end
   function interpret_menu_index(index)
     if index == 1 then 
       channel_name = 'svt1'
-    else if index == 2 then
+    elseif index == 2 then
       channel_name = 'svt2'
-    else if index == 3 then
+    elseif index == 3 then
       channel_name = 'tv3'
-    else if index == 4 then
-      channel_name == 'tv4'
-    else if index == 5 then
+    elseif index == 4 then
+      channel_name = 'tv4'
+    elseif index == 5 then
       channel_name = 'kanal5'
-    else if index == 6 then
+    elseif index == 6 then
       channel_name = 'tv6'
     else
       channel_name = ''

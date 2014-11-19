@@ -45,7 +45,7 @@ end
 
 function twitter.get_new_tweets(old_tweets)
   --Get tweets again
-  local json = require("json")
+  local json = require("scrum1.json")
   local decoded = {}
 
   --Here there will be code that sends the neccessary information to the twitter api so that tweets containing the search term 'program_name' will be returned

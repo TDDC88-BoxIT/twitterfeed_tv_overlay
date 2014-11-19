@@ -82,7 +82,7 @@ function draw_tweet(tweets)
     info_box = gfx.new_surface(400,105)
     info_box:fill(grey4)
     info_box:copyfrom(info_box_image, nil,nil,true)
-    screen:copyfrom(info_box,nil,{x = 850, y = 275},{x=100,y=100, w=400, h =200},true)
+    screen:copyfrom(info_box,nil,{x = screen:get_width()/2-200, y = screen:get_height()-215},{x=100,y=100, w=400, h =200},true)
     -- timer currently set to 6 seconds.
     help_timer = sys.new_timer(6000, "clear_info_box")
   end

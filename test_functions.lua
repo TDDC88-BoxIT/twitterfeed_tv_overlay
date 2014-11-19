@@ -1,7 +1,5 @@
 --test functions, run this file from terminal
-
 tv_info = scrum1.require('tv_info')
-
 
 --test of the get_date_unixtimestamp()
 print("test the unixtimestamp function")
@@ -52,25 +50,13 @@ print("test the unixtimestamp function")
 --1415659200
 --1415661900
 --1415663700
--- time for wednesday 12/11:
---1415785260
-
---curtime = tv_info.get_unixtimestamp()
-curtime = 1415785260
+curtime = tv_info.get_unixtimestamp()
 print(curtime)
 print("")
 print("test the get_prog_allinfo()")
 print(type(tv_info.get_prog_allinfo(curtime)))
-for key, value in pairs(tv_info.get_prog_allinfo(curtime)) do
-  print(key,value)
-end
-
 print("")
 print("test the get_prgram_relinfo()")
 relevant_tv_info = {}
 relevant_tv_info = tv_info.get_prog_relinfo(tv_info.get_prog_allinfo(curtime))
 print(relevant_tv_info["name"])
-print(relevant_tv_info["channel"])
-
-print("TESTTESTTESTEST")
-print(tv_info.get_current_prog_info())

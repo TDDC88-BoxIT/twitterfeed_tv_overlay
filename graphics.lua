@@ -1,11 +1,9 @@
 -- Shall prompt the user onStart to choose the channel out of the possible channels
 --local prompt = {}
 --Initial values
-
 twitter = require("scrum1.twitter")
 require("scrum1.menu_object")
 require("scrum1.render_text")
-
 dir = '/scrum1/static/img/'
 grey1 = {90,90,90,255}
 grey2 = {150,150,150,255}
@@ -17,14 +15,10 @@ horizontal_pos = 0
 am_i_in_menu = 1
 tweet_count = 1
 local menu
-<<<<<<< HEAD
--- this has to be solved i another way later
-local channel_list = tv_info.get_channel_list()
 
 twitter = require("scrum1.twitter")
 require("scrum1.menu_object")
 require("scrum1.render_text")
-
 
 --Temp function that gives an integer between 1 and 5
 --so that a tweet can be randomly selected
@@ -185,12 +179,3 @@ function twitter_state(key,state)
     return
   end
 end
-
-
---gets the current index that is marked in the menu
-function get_current_index()
-  curr_index = menu:get_current_index()
-  return curr_index
-end
-
-

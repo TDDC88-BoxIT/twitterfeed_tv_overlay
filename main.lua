@@ -1,8 +1,6 @@
-
-tv_info = require('scrum1.tv_info')
+--tv_info = require('scrum1.tv_info')
 require("scrum1.graphics")
 require("scrum1.channel_menu")
->>>>>>> 2c96ad276867f1e48bfa4c034cf96e265b8b71f8
 dir = 'scrum1/static/img/'
 grey1 = {90,90,90,255}
 grey2 = {150,150,150,255}
@@ -78,21 +76,6 @@ function change_state(state)
 end
 
 function onKey(key,state)
-
-  if key == 'down' and state == 'down' then
-    increase_index()
-  elseif key =='up' and state == 'down' then
-    decrease_index()
-  elseif key == 'ok' and state == 'down' then
-  print("channel name: ", tv_info.get_channel_name(get_current_index()))
-  render_tweet_view()  
-  elseif key == 'menu' and state == 'down' then
-    go_back_to_menu()   
-  elseif key == 'exit' and state == 'down' then
-    sys.stop()
-  else
-    return
-
   if global_tweet_state == 0 then
     menu_state(key,state)
   elseif global_tweet_state == 1 then
@@ -112,6 +95,5 @@ function onKey(key,state)
 --    else
 --      return
 --    end
-
   end
 end 

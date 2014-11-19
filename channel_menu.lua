@@ -13,23 +13,24 @@ function prompt_channel_menu()
   -- Sets offset and size for the box with the channel list
   x_offset = width*0.02
   y_offset = height*0.05
-  local box_height = height*0.9
+  box_height = height*0.9
   local box_width = width*0.2
-
+   
   --Prints out channel list box
   screen:fill(green1, {x=x_offset,y=y_offset,w=box_width, h=box_height})
- 
+  channel_list_index = 1
   -- Creates a menu object and draws it
   menu = menu_object(box_width,box_height)
-  add_menu_items(channel_list)
+  add_menu_items(channel_list_index)
   menu:set_background(dir.."menu_background.png")
   draw_menu()
 end
 
 -- Function that add items to the channel menu based on the channel list containing all available channels
-  function add_menu_items()
-  local list_length = #channel_list 
-  for i=1,list_length,1 do
+  function add_menu_items(start_index)
+  --This should be changed once we got the new design in place  <--------------------------------------------------
+  number_of_channels_shown = 6
+  for i=start_index,math.min(#channel_list,start_index+number_of_channels_shown-1),1 do
     menu:add_button(channel_list[i],channel_list[i])
   end
  end
@@ -57,8 +58,17 @@ end
 --Function that increase the index in the menu "moving up" and moves the red marker if it's supposed to
 function increase_index()
   if am_i_in_menu == 1 then
-    menu:increase_index()
+    if menu:get_current_index()%number_of_channels_shown == 0 and channel_list_index ~= #channel_list then
+      menu:clear_buttons()
+      add_menu_items(channel_list_index+1)
+      menu:set_current_index(1)
+    else
+      menu:increase_index()
+    end
     update_menu()
+    if channel_list_index < #channel_list then
+      channel_list_index = channel_list_index + 1
+    end
   end
   if am_i_in_menu == 0 then
     next_tweet()
@@ -68,8 +78,17 @@ end
 --Function that increase the index in the menu "moving down" and moves the red marker if it's supposed to
 function decrease_index()
   if am_i_in_menu == 1 then
-    menu:decrease_index()
+    if menu:get_current_index() == 1 and channel_list_index ~= 1 then
+      menu:clear_buttons()
+      add_menu_items(channel_list_index-number_of_channels_shown)
+      menu:set_current_index(number_of_channels_shown)
+    else
+      menu:decrease_index()
+    end
     update_menu()
+    if channel_list_index >= 2 then
+      channel_list_index = channel_list_index - 1
+    end
   end
   if am_i_in_menu == 0 then
     --previous_tweet() TO BE IMPLEMENTED

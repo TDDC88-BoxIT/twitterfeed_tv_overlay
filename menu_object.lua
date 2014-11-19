@@ -134,6 +134,10 @@ function menu_object:get_current_index()
   return self.indexed_item
 end
 
+-- SETS THE INDEX OF THE CURRENTLY SELECTED MENU ITEM TO A GIVEN NUMBER
+function menu_object:set_current_index(index)
+  self.indexed_item = index
+end
 
 -- SETS THE PATH TO THE MENU BACKGROUND IMAGE
 function menu_object:set_background(path)

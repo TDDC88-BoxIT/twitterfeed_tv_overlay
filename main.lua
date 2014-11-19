@@ -72,8 +72,10 @@ function get_chosen_channel()
 end
 
 function onKey(key,state)
+  -- If the variable is equal to 0 this means that it is in the menu state
   if global_tweet_state == 0 then
       menu_state(key,state)
+  --elseif
 --  else
 --    if key == 'down' and state == 'down' then
 --      increase_index()

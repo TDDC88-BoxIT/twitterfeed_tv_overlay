@@ -1,7 +1,5 @@
 --test functions, run this file from terminal
-
-tv_info = scrum1.require('tv_info')
-
+tv_info = require('scrum1.tv_info')
 
 --test of the get_date_unixtimestamp()
 print("test the unixtimestamp function")

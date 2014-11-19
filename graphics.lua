@@ -17,6 +17,7 @@ horizontal_pos = 0
 am_i_in_menu = 1
 tweet_count = 1
 local menu
+<<<<<<< HEAD
 -- this has to be solved i another way later
 local channel_list = tv_info.get_channel_list()
 
@@ -42,99 +43,81 @@ end
 --them on a surface using render_text
 -- In parameter are the tweets that will be shown
 function draw_tweet(tweets)
-  tweet_background = gfx.new_surface(400,500)
-  tweet_background:clear(grey4)
-  current_tweet = tweet_count
-  render_text("@" .. tweets[current_tweet].name,10,10,350,3,tweet_background)
-  render_text(tweets[current_tweet].text,10,80,350,2,tweet_background)
-  render_text(tweets[current_tweet].date,10,400,350,1.5,tweet_background)
-  screen:copyfrom(tweet_background,nil,{x = 850, y = 380, w = 400, h = 300},true)
+  --right view mode
+  if view_mode == 0 then
+    tweet_background = gfx.new_surface(400,500)
+    tweet_background:clear(grey4)
+    current_tweet = tweet_count
+    render_text("@" .. tweets[current_tweet].name,10,10,350,3,tweet_background)
+    render_text(tweets[current_tweet].text,10,80,350,2,tweet_background)
+    render_text(tweets[current_tweet].date,10,400,350,1.5,tweet_background)
+    screen:copyfrom(tweet_background,nil,{x = 850, y = 380, w = 400, h = 300},true)
+    --bottom view mode
+  elseif view_mode == 1 then
+    tweet_background = gfx.new_surface(screen:get_width(),100)
+    tweet_background:clear(grey4)
+    current_tweet = tweet_count
+    render_text("@" .. tweets[current_tweet].name .. ":",5,5,60,1.5,tweet_background)
+    render_text(tweets[current_tweet].text,5,30,screen:get_width() - 5,1.5,tweet_background)
+    render_text(tweets[current_tweet].date,(screen:get_width() - 260), 70,3000,1,tweet_background)
+    screen:copyfrom(tweet_background,nil,{x = 0, y = screen:get_height() - 110, w = screen:get_width(), h = 100},true)
+    --left view mode
+  elseif view_mode == 2 then
+    tweet_background = gfx.new_surface(400,500)
+    tweet_background:clear(grey4)
+    current_tweet = tweet_count
+    render_text("@" .. tweets[current_tweet].name .. ":",10,10,350,3,tweet_background)
+    render_text(tweets[current_tweet].text,10,80,350,2,tweet_background)
+    render_text(tweets[current_tweet].date,10,400,350,1.5,tweet_background)
+    screen:copyfrom(tweet_background,nil,{x = 50, y = 380, w = 400, h = 300},true)
+    --top view mode
+  elseif view_mode == 3 then
+    tweet_background = gfx.new_surface(screen:get_width(),100)
+    tweet_background:clear(grey4)
+    current_tweet = tweet_count
+    render_text("@" .. tweets[current_tweet].name .. ":",5,5,60,1.5,tweet_background)
+    render_text(tweets[current_tweet].text,5,30,screen:get_width() - 5,1.5,tweet_background)
+    render_text(tweets[current_tweet].date,(screen:get_width() - 260), 70,3000,1,tweet_background)
+    screen:copyfrom(tweet_background,nil,{x = 0, y = 10, w = screen:get_width(), h = 100},true)
+  end
+
+  --Declaring timer_state which is instantiated in draw_menu-function as =0. First time you decide
+  --to view tweets from the menu, the infobox will be shown for x seconds, depending on what is declared in sys.new_tmer below
+  if timer_state == 0 then
+    local info_box_image = gfx.loadpng(dir .. 'info_box_view.png')
+    info_box = gfx.new_surface(400,105)
+    info_box:fill(grey4)
+    info_box:copyfrom(info_box_image, nil,nil,true)
+    screen:copyfrom(info_box,nil,{x = 850, y = 275},{x=100,y=100, w=400, h =200},true)
+    -- timer currently set to 6 seconds.
+    help_timer = sys.new_timer(6000, "clear_info_box")
+  end
 end
+-- function that timer calls, changes the timer_state to 1 so that the info box is only showed once at each view-start from menu.
+function clear_info_box()
+
+  timer_state =1
+  draw_tv_screen()
+  draw_tweet(tweets)
+  help_timer:stop()
+  return timer_state
+end
+
+
+
+
 
 --Function that gets called from the OnKey, key == 'ok' and then
 --draw background and tweet using functions draw_tv_screen() and draw_tweet()
 --Every time that the user enters the render tweet view the tweet count will be reset
 function render_tweet_view()
-  am_i_in_menu = 0
+  view_mode = 1
   tweet_count = 1
   draw_tv_screen()
   tweets = twitter.get_tweets("")
   draw_tweet(tweets) 
 end
 
-function prompt_channel(channel_list)
-
-  -- Picture of the company logo
-  local company_img = gfx.loadpng(dir .. 'boxIT.png')
-
-  -- Gets the height and width of the screen
-  height = screen:get_height()
-  width = screen:get_width()
-
-  -- Should not use these! 
-  width_x = (width-100)/3
-  height_y = (height-100)/7
-
-  -- Prints the tv picture in the background
-  draw_tv_screen()
-  --local tv_img = gfx.loadpng(dir .. 'tv_picture.png')
-  --screen:copyfrom(tv_img, nil, {x=0,y=0})
-
-  -- Sets offset for the gray box to 5% of the total width and height
-  local x_offset = width*0.05
-  local y_offset = height*0.05
-  local box_height = height*0.9
-  local box_width = width*0.9
-
-  --Prints out the large grey box and the company logo
-  screen:fill(grey1, {x=x_offset,y=y_offset,w=box_width, h=box_height})
-  screen:copyfrom(company_img, nil, {x=x_offset,y=y_offset})
-
-  -- Creates a meny object and draws it
-  menu_width = 600
-  menu_height = 400
-  menu = menu_object(menu_width,menu_height)
-  add_menu_items()
-  menu:set_background(dir.."menu_background.png")
-  --timer = sys.new_timer(100, "update_menu") -- removed for now because no need for it in the app
-  draw_menu()
-
-  --Get the length of the channel_list dictionary
-  local list_length = #channel_list
-end
-
-  function add_menu_items()
-    -- menu:add_button("svt1","SVT 1")
-    -- menu:add_button("svt1","SVT 2")
-    -- menu:add_button("svt1","Kanal 3")
-    -- menu:add_button("svt1","TV4")
-    -- menu:add_button("svt1","Kanal 5")
-    -- menu:add_button("svt1","Kanal 6")
-    menu:add_button("svt1",dir.."tv3.png")
-    menu:add_button("svt1",dir.."tv4.png")
-    menu:add_button("svt1",dir.."kanal5.png")
-    menu:add_button("svt1",dir.."tv6.png")
-end
-
-function draw_menu()
-
-  -- Do we need this following line of code?!
-  --screen:clear() --Will clear all background stuff
-  screen:copyfrom(menu:get_surface(), nil,{x=(width/2)-(menu_width/2),y=(height/2)-(menu_height/2),width=menu:get_size().width,height=menu:get_size().  height},true)
-  menu:destroy()
-  gfx.update()
-end
-
-function update_menu()
-  draw_menu()
-end
-
---Function that re-draws the menu, called when going back
---from viewing mode
-function go_back_to_menu()
-  am_i_in_menu = 1
-  prompt_channel(channel_list)
-end
 
 --This function will show the next tweet when in the tweet view
 function next_tweet()
@@ -150,32 +133,59 @@ end
 
 --This function will show the previous tweet when in the tweet view
 function previous_tweet()
+  if tweet_count > 0 then
+    tweet_count = tweet_count - 1
+    draw_tv_screen()
+    draw_tweet(tweets)
+  end
+end
+
+function next_view()
+  if view_mode ~= nil then
+    if view_mode == 3 then
+      view_mode = 0
+    else
+      view_mode = view_mode + 1
+    end
+    draw_tv_screen()
+    draw_tweet(tweets)
+  end
+end
+
+function previous_view()
+  if view_mode ~= nil then
+    if view_mode == 0 then
+      view_mode = 3
+    else
+      view_mode = view_mode - 1
+    end
+    draw_tv_screen()
+    draw_tweet(tweets)
+  end
 end
 
 
---function that increase the index in the menu "moving up"
---and moves the red marker if it's suppose to
-function increase_index()
-  if am_i_in_menu == 1 then
-    menu:increase_index()
-    update_menu()
-  end
-  if am_i_in_menu == 0 then
+
+-- Function that deals with the key input when the user is in the twitter state
+function twitter_state(key,state)
+  if key == 'down' and state == 'down' then
     next_tweet()
+  elseif key =='up' and state == 'down' then
+    previous_tweet()
+  elseif key == 'menu' and state == 'down' then
+    change_state(0)
+    go_back_to_menu()
+  elseif key == 'exit' and state == 'down' then
+    sys.stop()
+  elseif key == 'right' and state == 'down' then
+    next_view()
+  elseif key == 'left' and state == 'down' then
+    previous_view()    
+  else
+    return
   end
 end
 
---function that increase the index in the menu "moving down"
---and moves the red marker if it's suppose to
-function decrease_index()
-  if am_i_in_menu == 1 then
-    menu:decrease_index()
-    update_menu()
-  end
-  if am_i_in_menu == 0 then
-    --previous_tweet() TO BE IMPLEMENTED
-  end
-end
 
 --gets the current index that is marked in the menu
 function get_current_index()
@@ -183,4 +193,4 @@ function get_current_index()
   return curr_index
 end
 
---return prompt
+

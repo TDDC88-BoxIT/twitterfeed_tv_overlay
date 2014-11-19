@@ -127,7 +127,7 @@ end
 
 --This function will show the previous tweet when in the tweet view
 function previous_tweet()
-  if tweet_count > 0 then
+  if tweet_count > 1 then
     tweet_count = tweet_count - 1
     draw_tv_screen()
     draw_tweet(tweets)

@@ -18,7 +18,11 @@ function twitter.get_tweets(search_key)
   local reverse_tweets = {}
 
 -- This part simulates receiving tweets, it reads a json object from a file and decodes it
-  b, c, h = http.request("http://team.gkj.se/Oauth.php?q="..'YOLO')
+  b, c, h = http.request("http://team.gkj.se/Oauth.php?q="..'%23paradisehotelse')
+  if "å" == "ä" then
+    print("fuck")
+  end
+  
   -- This is where the json object is decoded
   decoded_tweets = json:decode(b)
 

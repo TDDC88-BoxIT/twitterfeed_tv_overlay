@@ -109,7 +109,6 @@ function render_tweet_view()
   tweet_count = 1
   draw_tv_screen()
   tweets = twitter.get_tweets("")
-  tweets[1].text = string.upper("1ndervatte2ndervatte3ndervatte4ndervatte5ndervatte6ndervatte7ndervatte8ndervatte9ndervatte10dervatte11dervatte12dervatte13dervatte14dervatte")
   draw_tweet(tweets) 
 end
 

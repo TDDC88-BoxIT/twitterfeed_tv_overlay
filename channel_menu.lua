@@ -1,7 +1,8 @@
 tv_info = require('scrum1.tv_info')
 local channel_list = tv_info.get_channel_list()
 
--- Function that creates and draws the channel menu
+--- Creates and draws the channel menu.
+-- @author Sofie
 function prompt_channel_menu()
   -- Gets the height and width of the screen
   height = screen:get_height()
@@ -26,7 +27,9 @@ function prompt_channel_menu()
   draw_menu()
 end
 
--- Function that add items to the channel menu based on the channel list containing all available channels
+--- Add items to the channel menu.
+-- Add items to the channel menu based on the channel list containing all available channels.
+-- @author Sofie
   function add_menu_items(start_index)
   --This should be changed once we got the new design in place  <--------------------------------------------------
   number_of_channels_shown = 6
@@ -35,7 +38,8 @@ end
   end
  end
 
--- Function that draws the channel menu
+--- Function that draws the channel menu.
+-- @author Sofie, Jesper
 function draw_menu()
   timer_state = 0
   -- Do we need this following line of code?!
@@ -45,18 +49,21 @@ function draw_menu()
   gfx.update()
 end
 
--- Function that updates the menu
+--- Function that updates the menu.
+-- @author Sofie
 function update_menu()
   draw_menu()
 end
 
---Function that re-draws the menu, called when going back from viewing mode
+--- Function that re-draws the menu, called when going back from viewing mode.
+-- @author Sofie
 function go_back_to_menu()
   am_i_in_menu = 1
   prompt_channel_menu()
 end
 
---Function that increase the index in the menu "moving up" and moves the red marker if it's supposed to
+--- Function that increase the index in the menu "moving up" and moves the red marker if it's supposed to.
+-- @author Sofie
 function increase_index()
   if am_i_in_menu == 1 then
     if menu:get_current_index()%number_of_channels_shown == 0 and channel_list_index ~= #channel_list then
@@ -76,7 +83,8 @@ function increase_index()
   end
 end
 
---Function that increase the index in the menu "moving down" and moves the red marker if it's supposed to
+--- Function that increase the index in the menu "moving down" and moves the red marker if it's supposed to.
+-- @auhtor Sofie
 function decrease_index()
   if am_i_in_menu == 1 then
     if menu:get_current_index() == 1 and channel_list_index ~= 1 then
@@ -96,7 +104,8 @@ function decrease_index()
   end
 end
 
--- Function that deals with the key input when the user is in the menu state
+--- Function that deals with the key input when the user is in the menu state.
+-- @author Sofie, Claes
 function menu_state(key,state)
   if key == 'down' and state == 'down' then
       increase_index()

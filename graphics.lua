@@ -20,22 +20,17 @@ twitter = require("scrum1.twitter")
 require("scrum1.menu_object")
 require("scrum1.render_text")
 
---Temp function that gives an integer between 1 and 5
---so that a tweet can be randomly selected
---Remove this when using real tweets
-function temp_slump_tweet()
-  return math.random(1,5)
-end
-
---Function that loads in a picture and draw that picture on the entire surface "screen"
+--- Loads in a picture and draw that picture on the entire surface "screen"
+-- @author Joel
 function draw_tv_screen()
   local tv_img = gfx.loadpng(dir .. 'tv_picture.png')
   screen:copyfrom(tv_img, nil, {x=0,y=0})
 end
 
---function that loads in some tweets with get_tweets() from twitter.lua and then draws
---them on a surface using render_text
--- In parameter are the tweets that will be shown
+--- Draws tweets on screen.
+-- Loads in some tweets with get_tweets() from twitter.lua and then draws them on a surface using render_text.
+-- @param tweets table of tweets to be shown
+-- @author Claes, Jesper, Joel
 function draw_tweet(tweets)
   --right view mode
   if view_mode == 0 then
@@ -87,9 +82,11 @@ function draw_tweet(tweets)
     help_timer = sys.new_timer(6000, "clear_info_box")
   end
 end
--- function that timer calls, changes the timer_state to 1 so that the info box is only showed once at each view-start from menu.
-function clear_info_box()
 
+--- Function that timer calls, changes the timer_state to 1 so that the info box is only showed once at each view-start from menu.
+-- @return an integer with the timer state
+-- @author Claes, Jesper
+function clear_info_box()
   timer_state =1
   draw_tv_screen()
   draw_tweet(tweets)
@@ -97,13 +94,11 @@ function clear_info_box()
   return timer_state
 end
 
-
-
-
-
---Function that gets called from the OnKey, key == 'ok' and then
---draw background and tweet using functions draw_tv_screen() and draw_tweet()
---Every time that the user enters the render tweet view the tweet count will be reset
+--- Draws screen and tweets.
+-- Function that gets called from the OnKey, key == 'ok' and then
+-- draw background and tweet using functions draw_tv_screen() and draw_tweet()
+-- Every time that the user enters the render tweet view the tweet count will be reset
+-- @author Claes, Joel
 function render_tweet_view()
   view_mode = 1
   tweet_count = 1
@@ -112,20 +107,21 @@ function render_tweet_view()
   draw_tweet(tweets) 
 end
 
-
---This function will show the next tweet when in the tweet view
+--- This function will show the next tweet when in the tweet view
+-- @author Claes, Gustav B-N
 function next_tweet()
   if tweet_count < #tweets then
     tweet_count = tweet_count + 1
   else
     --Get new tweets...
-    tweets = twitter.get_new_tweets(tweets)
+    tweets = twitter.get_new_tweets("",tweets)
   end
   draw_tv_screen()
   draw_tweet(tweets)
 end
 
---This function will show the previous tweet when in the tweet view
+--- This function will show the previous tweet when in the tweet view
+-- @author Claes
 function previous_tweet()
   if tweet_count > 1 then
     tweet_count = tweet_count - 1
@@ -134,6 +130,8 @@ function previous_tweet()
   end
 end
 
+--- Swtiches to the next tweet viewing mode.
+-- @author Claes
 function next_view()
   if view_mode ~= nil then
     if view_mode == 3 then
@@ -146,6 +144,8 @@ function next_view()
   end
 end
 
+--- Swtiches to the previous tweet viewing mode.
+-- @author Claes
 function previous_view()
   if view_mode ~= nil then
     if view_mode == 0 then
@@ -158,9 +158,8 @@ function previous_view()
   end
 end
 
-
-
--- Function that deals with the key input when the user is in the twitter state
+--- Function that deals with the key input when the user is in the twitter state.
+-- @author Claes
 function twitter_state(key,state)
   if key == 'down' and state == 'down' then
     next_tweet()

@@ -6,7 +6,7 @@ local tv_info = {}
 -- @return a table with available channels.
 -- @author Gustav B-N, Joel
 function tv_info.get_channel_list()
-	local channel_list = {"SVT1", "SVT2", "TV3", "TV4", "Kanal 5", "TV6"}
+	local channel_list = {"SVT1", "SVT2", "TV3", "TV4", "Kanal 5", "TV6", "Kanal 7", "TV8", "Kanal 9", "TV10", "11an"}
 	return channel_list;
 end
 

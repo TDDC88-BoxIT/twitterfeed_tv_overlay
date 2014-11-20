@@ -59,18 +59,16 @@ function split_word_to_list(text)
   l=1
   for i in string.gmatch(text, "%S+") do
     local word_divider = math.ceil((string.len(i)*char_width) / word_max_width)
-    print(word_divider)
     if word_divider > 1 then
-      print(i)
       for x = 1, word_divider do
-        if x == 1 then
-          list_of_words[l] = string.substring(i,1, x*math.floor(string.len(i)/word_divider)) .. "-"
+        if x == 1 then          
+          list_of_words[l] = string.sub(i,1, x*math.floor(string.len(i)/word_divider))
           l = l+1
         elseif x == word_divider then
-          list_of_words[l] = string.substring(i,1+(x-1)*math.floor(string.len(i)/word_divider))
+          list_of_words[l] = string.sub(i,1+(x-1)*math.floor(string.len(i)/word_divider))
           l = l+1
         else
-          list_of_words[l] = string.substring(i,1+(x-1)*math.floor(string.len(i)/word_divider), x*math.floor(string.len(i)/word_divider)) .. "-"
+          list_of_words[l] = string.sub(i,1+(x-1)*math.floor(string.len(i)/word_divider), x*math.floor(string.len(i)/word_divider))
           l = l+1
         end
       end

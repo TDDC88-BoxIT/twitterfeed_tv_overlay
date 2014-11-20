@@ -44,7 +44,7 @@ function draw_tweet(tweets)
     current_tweet = tweet_count
     render_text("@" .. tweets[current_tweet].name,10,10,3500,3,tweet_background)
     render_text(tweets[current_tweet].text,10,80,350,2,tweet_background)
-    render_text(tweets[current_tweet].date,10,400,350,1.5,tweet_background)
+    render_text(tweets[current_tweet].date,10,450,350,1.5,tweet_background)
     screen:copyfrom(tweet_background,nil,{x = 850, y = 380, w = 400, h = 300},true)
     --bottom view mode
   elseif view_mode == 1 then
@@ -62,7 +62,7 @@ function draw_tweet(tweets)
     current_tweet = tweet_count
     render_text("@" .. tweets[current_tweet].name .. ":",10,10,3500,3,tweet_background)
     render_text(tweets[current_tweet].text,10,80,350,2,tweet_background)
-    render_text(tweets[current_tweet].date,10,400,350,1.5,tweet_background)
+    render_text(tweets[current_tweet].date,10,450,350,1.5,tweet_background)
     screen:copyfrom(tweet_background,nil,{x = 50, y = 380, w = 400, h = 300},true)
     --top view mode
   elseif view_mode == 3 then
@@ -109,6 +109,7 @@ function render_tweet_view()
   tweet_count = 1
   draw_tv_screen()
   tweets = twitter.get_tweets("")
+  tweets[1].text = string.upper("undervatteundervatteundervatteundervatteundervatteundervatteundervatteundervatteundervatteundervatteundervatteundervatteundervatteundervatte")
   draw_tweet(tweets) 
 end
 

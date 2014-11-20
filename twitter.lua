@@ -1,12 +1,17 @@
 local http = require("socket.http")
 local twitter = {}
 
+
 function twitter.authenticate()
   --Here there will be code that manages authentication with twitter
   return true
 end
 
-
+--- Fetches 15 tweets based on a search key.
+-- Fetches 15 tweets based on a search key and returns them in reverse order. 
+-- @param search_key the string to search for
+-- @return a table with tweets
+-- @author Claes, Gustav A, Gustav B-N
 function twitter.get_tweets(search_key)
   
   local json = require("scrum1.json")
@@ -37,13 +42,13 @@ function twitter.get_tweets(search_key)
   return reverse_tweets
 end
 
---[[
-@desc: Makes a query for tweets again but only adds tweets to the list if they are newer than the last one in the existing list.
-@params: table - A table of tweets
-@return: table - A table of tweets, possibly modifyed
---]]
-
-function twitter.get_new_tweets(old_tweets)
+--- Adds new tweets to a table of tweets.
+-- Makes a query for tweets again but only adds tweets to the list if they are newer than the last one in the existing list.
+-- @param search_key the string to search for
+-- @param old_tweets a table with old tweets
+-- @return a table with old tweets and possibly new tweets
+-- @author Gustav B-N
+function twitter.get_new_tweets(search_key, old_tweets)
   --Get tweets again
   local json = require("json")
   local decoded = {}
@@ -78,10 +83,11 @@ function twitter.get_new_tweets(old_tweets)
   return old_tweets
 end
 
-
---@desc: Formats the twitter date to timestamp format
---@params: table - With a date from tweet
---@return: table - With a date in a different format to work with os.difftime()
+--- Formats the twitter date to timestamp format.
+-- Formats the twitter date to timestamp format.
+-- @params date A table with a date from tweet
+-- @return a table with a date in a different format to work with os.difftime()
+-- @author Gustav B-N
 function set_timestamp(date)
   --Convert abbreviated month to number
   local temp_month = {["Jan"] = 01, ["Feb"] = 02, ["Mar"] = 03, ["Apr"] = 04, ["May"] = 05, ["Jun"] = 06,
@@ -98,9 +104,13 @@ function set_timestamp(date)
   return timestamp
 end
 
---@desc: Determines if one tweet is newer/older than the other
---@params: table - timestamps of two tweets
---@return: int - The time difference in seconds
+
+--- Determines if one tweet is newer/older than the other.
+-- Determines if one tweet is newer/older than the other.
+-- @params t1 A table with timestamps of two tweets
+-- @params t2 A table with timestamps of two tweets
+-- @return an integer with the time difference in seconds
+-- @author Gustav B-N
 function compare_timestamp( t1, t2 )
   --Returns the difference in seconds beween t1 and t2 (could be negative)
   return os.difftime(os.time(t1), os.time(t2))

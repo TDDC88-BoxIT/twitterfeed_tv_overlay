@@ -37,36 +37,36 @@ function draw_tweet(tweets)
     tweet_background = gfx.new_surface(400,500)
     tweet_background:clear(grey4)
     current_tweet = tweet_count
-    render_text("@" .. tweets[current_tweet].name,10,10,350,3,tweet_background)
+    render_text("@" .. tweets[current_tweet].name,10,10,3500,3,tweet_background)
     render_text(tweets[current_tweet].text,10,80,350,2,tweet_background)
-    render_text(tweets[current_tweet].date,10,400,350,1.5,tweet_background)
+    render_text(tweets[current_tweet].date,10,450,350,1.5,tweet_background)
     screen:copyfrom(tweet_background,nil,{x = 850, y = 380, w = 400, h = 300},true)
     --bottom view mode
   elseif view_mode == 1 then
     tweet_background = gfx.new_surface(screen:get_width(),100)
     tweet_background:clear(grey4)
     current_tweet = tweet_count
-    render_text("@" .. tweets[current_tweet].name .. ":",5,5,60,1.5,tweet_background)
+    render_text("@" .. tweets[current_tweet].name .. ":",5,5,3500,1.5,tweet_background)
     render_text(tweets[current_tweet].text,5,30,screen:get_width() - 5,1.5,tweet_background)
-    render_text(tweets[current_tweet].date,(screen:get_width() - 260), 70,3000,1,tweet_background)
+    render_text(tweets[current_tweet].date,(screen:get_width() - 260), 80,3000,1,tweet_background)
     screen:copyfrom(tweet_background,nil,{x = 0, y = screen:get_height() - 110, w = screen:get_width(), h = 100},true)
     --left view mode
   elseif view_mode == 2 then
     tweet_background = gfx.new_surface(400,500)
     tweet_background:clear(grey4)
     current_tweet = tweet_count
-    render_text("@" .. tweets[current_tweet].name .. ":",10,10,350,3,tweet_background)
+    render_text("@" .. tweets[current_tweet].name .. ":",10,10,3500,3,tweet_background)
     render_text(tweets[current_tweet].text,10,80,350,2,tweet_background)
-    render_text(tweets[current_tweet].date,10,400,350,1.5,tweet_background)
+    render_text(tweets[current_tweet].date,10,450,350,1.5,tweet_background)
     screen:copyfrom(tweet_background,nil,{x = 50, y = 380, w = 400, h = 300},true)
     --top view mode
   elseif view_mode == 3 then
     tweet_background = gfx.new_surface(screen:get_width(),100)
     tweet_background:clear(grey4)
     current_tweet = tweet_count
-    render_text("@" .. tweets[current_tweet].name .. ":",5,5,60,1.5,tweet_background)
+    render_text("@" .. tweets[current_tweet].name .. ":",5,5,3500,1.5,tweet_background)
     render_text(tweets[current_tweet].text,5,30,screen:get_width() - 5,1.5,tweet_background)
-    render_text(tweets[current_tweet].date,(screen:get_width() - 260), 70,3000,1,tweet_background)
+    render_text(tweets[current_tweet].date,(screen:get_width() - 260), 80,3000,1,tweet_background)
     screen:copyfrom(tweet_background,nil,{x = 0, y = 10, w = screen:get_width(), h = 100},true)
   end
 

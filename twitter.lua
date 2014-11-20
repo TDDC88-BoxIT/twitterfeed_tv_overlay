@@ -24,6 +24,7 @@ function twitter.get_tweets(search_key)
 
 -- This part simulates receiving tweets, it reads a json object from a file and decodes it
   b, c, h = http.request("http://team.gkj.se/Oauth.php?q="..'%23paradisehotelse')
+
   -- This is where the json object is decoded
   decoded_tweets = json:decode(b)
 
@@ -31,7 +32,7 @@ function twitter.get_tweets(search_key)
   local i = 1
   for k,v in pairs(decoded_tweets.statuses) do
     local date = string.sub(v.created_at, 1, 19) .. string.sub(v.created_at, 26)
-    --Format timestamp
+    -- Format timestamp
     local timestamp = set_timestamp(date);
 
     tweets[i] = {["name"] = v.user.screen_name, ["text"] = v.text, ["date"] = date, ["timestamp"] = timestamp}

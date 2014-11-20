@@ -53,7 +53,7 @@ function draw_tweet(tweets)
     current_tweet = tweet_count
     render_text("@" .. tweets[current_tweet].name .. ":",5,5,3500,1.5,tweet_background)
     render_text(tweets[current_tweet].text,5,30,screen:get_width() - 5,1.5,tweet_background)
-    render_text(tweets[current_tweet].date,(screen:get_width() - 260), 70,3000,1,tweet_background)
+    render_text(tweets[current_tweet].date,(screen:get_width() - 260), 80,3000,1,tweet_background)
     screen:copyfrom(tweet_background,nil,{x = 0, y = screen:get_height() - 110, w = screen:get_width(), h = 100},true)
     --left view mode
   elseif view_mode == 2 then
@@ -71,7 +71,7 @@ function draw_tweet(tweets)
     current_tweet = tweet_count
     render_text("@" .. tweets[current_tweet].name .. ":",5,5,3500,1.5,tweet_background)
     render_text(tweets[current_tweet].text,5,30,screen:get_width() - 5,1.5,tweet_background)
-    render_text(tweets[current_tweet].date,(screen:get_width() - 260), 70,3000,1,tweet_background)
+    render_text(tweets[current_tweet].date,(screen:get_width() - 260), 80,3000,1,tweet_background)
     screen:copyfrom(tweet_background,nil,{x = 0, y = 10, w = screen:get_width(), h = 100},true)
   end
 
@@ -109,7 +109,7 @@ function render_tweet_view()
   tweet_count = 1
   draw_tv_screen()
   tweets = twitter.get_tweets("")
-  tweets[1].text = string.upper("undervatteundervatteundervatteundervatteundervatteundervatteundervatteundervatteundervatteundervatteundervatteundervatteundervatteundervatte")
+  tweets[1].text = string.upper("1ndervatte2ndervatte3ndervatte4ndervatte5ndervatte6ndervatte7ndervatte8ndervatte9ndervatte10dervatte11dervatte12dervatte13dervatte14dervatte")
   draw_tweet(tweets) 
 end
 

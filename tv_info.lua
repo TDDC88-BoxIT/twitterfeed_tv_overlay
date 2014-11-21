@@ -17,20 +17,31 @@ end
 
 -- This part simulates receiving tv_info, it reads a json object from a file and decodes it
 -- will be removed when we get ip-connection
+function tv_info.set_decoded_tv_info()
 local which_channel_n_date = "scrum1/static/json/tv_info_svt2_1011.json"
 local f = io.open(which_channel_n_date,"rb")
 if f then 
   f:close() 
+  print("error1 hejhej")
 end	
 if f ~= nil then
   local lines = ""
   for line in io.lines(which_channel_n_date) do 
     lines = lines .. line
+    print("error2 hejhej")
   end
   
   -- This is where the json object is decoded
-  decoded_tv_info = json:decode(lines)
+  print("error3 hejhej")
+ decoded_tv_info = json:decode(lines)
+ print("error4 hejhej")
+  return decoded_tv_info
 end
+print("error5 hejhej")
+return decoded_tv_info
+end
+
+
 
 --- Gets the time in unix timestamp format.
 -- @return an integer of the current unixtimestamp
@@ -45,7 +56,9 @@ end
 -- @return a table all information about the tv show
 -- @author Joel
 function tv_info.get_prog_allinfo(current_time)
-  for k,v in pairs(decoded_tv_info.jsontv.programme) do
+  local decoded_info = tv_info.set_decoded_tv_info()
+  print("decoded info: ", decoded_info)
+  for k,v in pairs(decoded_info.jsontv.programme) do
     if tonumber(v.start) <= current_time and tonumber(v.stop) > current_time then
      allinfo = v
     end
@@ -65,4 +78,26 @@ function tv_info.get_prog_relinfo(table_allinfo)
   return table_relinfo
 end
   
+    -- FINAL FUNCTION THAT RUNS ON OK KEYCLICK IN MENU
+  -- input: chosen channel
+  -- output: name of current show, name of channel (these can be modified to retreive more information)
+  function get_current_prog_info(channel_name)
+    local current_time = 1415579400
+  --local current_time = tv_info.get_unixtimestamp()
+  local relevant_tv_info = {}
+  relevant_tv_info = tv_info.get_prog_relinfo(tv_info.get_prog_allinfo(current_time))  
+  local current_prog_name = relevant_tv_info["name"]
+  
+return current_prog_name
+end
+
+function get_xmltv_info()
+  -- svt1.svt.se_2014-11-21.xml.gz 
+  -- svt2.svt.se_2014-11-21.xml.gz 
+  -- tv3.se_2014-11-21.xml.gz 
+  -- tv4.se_2014-11-21.xml.gz
+  -- kanal5.se_2014-11-21.xml.gz 
+  -- tv6.se_2014-11-21.xml.gz 
+  
+
 return tv_info

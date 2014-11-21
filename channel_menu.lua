@@ -1,4 +1,4 @@
-tv_info = require('scrum1.tv_info')
+tv_info = require("scrum1.tv_info")
 local channel_list = tv_info.get_channel_list()
 
 --- Creates and draws the channel menu.
@@ -107,12 +107,22 @@ end
 --- Function that deals with the key input when the user is in the menu state.
 -- @author Sofie, Claes
 function menu_state(key,state)
+ 
   if key == 'down' and state == 'down' then
       increase_index()
     elseif key =='up' and state == 'down' then
       decrease_index()
     elseif key == 'ok' and state == 'down' then
       set_chosen_channel(menu:get_indexed_item().id)
+      channelx = get_chosen_channel()
+    relevant_tv_info = tv_info.get_prog_relinfo(tv_info.get_prog_allinfo(1415579400))
+prog_name = get_current_prog_info("hej")
+print("prog name: ", prog_name)
+
+      
+      --print("chosen channel: ", chosen_channel)
+      --print(tv_info.get_current_prog_info(channelx))
+          
       change_state(1)
       render_tweet_view()
     elseif key == 'menu' and state == 'down' then

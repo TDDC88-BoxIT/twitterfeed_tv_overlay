@@ -18,7 +18,7 @@ end
 -- This part simulates receiving tv_info, it reads a json object from a file and decodes it
 -- will be removed when we get ip-connection
 function tv_info.set_decoded_tv_info()
-local which_channel_n_date = "scrum1/static/json/tv_info_svt2_1011.json"
+local which_channel_n_date = "static/json/tv_info_svt2_1011.json"
 local f = io.open(which_channel_n_date,"rb")
 if f then 
   f:close() 
@@ -92,12 +92,19 @@ return current_prog_name
 end
 
 function get_xmltv_info()
+  local http = require'socket.http' 
+  local base_url = "http://xmltv.xmltv.se/"
+  
+   page, result = http.request "http://xmltv.xmltv.se/svt1.svt.se_2014-11-21.xml.gz"
+
+   return page
   -- svt1.svt.se_2014-11-21.xml.gz 
   -- svt2.svt.se_2014-11-21.xml.gz 
   -- tv3.se_2014-11-21.xml.gz 
   -- tv4.se_2014-11-21.xml.gz
   -- kanal5.se_2014-11-21.xml.gz 
   -- tv6.se_2014-11-21.xml.gz 
-  
+end
+ 
 
 return tv_info

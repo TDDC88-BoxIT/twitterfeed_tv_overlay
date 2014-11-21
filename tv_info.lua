@@ -92,18 +92,22 @@ return current_prog_name
 end
 
 function get_xmltv_info()
-  local http = require'socket.http' 
-  local base_url = "http://xmltv.xmltv.se/"
   
-   page, result = http.request "http://xmltv.xmltv.se/svt1.svt.se_2014-11-21.xml.gz"
-
-   return page
-  -- svt1.svt.se_2014-11-21.xml.gz 
-  -- svt2.svt.se_2014-11-21.xml.gz 
-  -- tv3.se_2014-11-21.xml.gz 
-  -- tv4.se_2014-11-21.xml.gz
-  -- kanal5.se_2014-11-21.xml.gz 
-  -- tv6.se_2014-11-21.xml.gz 
+   
+--local http = require "socket.http"
+--local body,c,l,h = 
+  --http.request([[http://json.xmltv.se/svt1.svt.se_2014-11-21.js.gz]])
+ -- print('body', body)
+  
+  http = require"socket.http"
+  print(http.request"http://json.xmltv.se/svt1.svt.se_2014-11-21.js.gz")
+   
+  -- svt1.svt.se_2014-11-21.js.gz 
+  -- svt2.svt.se_2014-11-21.js.gz 
+  -- tv3.se_2014-11-21.js.gz 
+  -- tv4.se_2014-11-21.js.gz
+  -- kanal5.se_2014-11-21.js.gz 
+  -- tv6.se_2014-11-21.js.gz 
 end
  
 

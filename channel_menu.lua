@@ -20,6 +20,7 @@ function prompt_channel_menu()
   --Prints out channel list box
   screen:fill(green1, {x=x_offset,y=y_offset,w=box_width, h=box_height})
   channel_list_index = 1
+  
   -- Creates a menu object and draws it
   menu = menu_object(box_width,box_height)
   add_menu_items(channel_list_index)
@@ -49,58 +50,35 @@ function draw_menu()
   gfx.update()
 end
 
---- Function that updates the menu.
--- @author Sofie
-function update_menu()
-  draw_menu()
-end
-
---- Function that re-draws the menu, called when going back from viewing mode.
--- @author Sofie
-function go_back_to_menu()
-  am_i_in_menu = 1
-  prompt_channel_menu()
-end
-
 --- Function that increase the index in the menu "moving up" and moves the red marker if it's supposed to.
 -- @author Sofie
 function increase_index()
-  if am_i_in_menu == 1 then
-    if menu:get_current_index()%number_of_channels_shown == 0 and channel_list_index ~= #channel_list then
-      menu:clear_buttons()
-      add_menu_items(channel_list_index+1)
-      menu:set_current_index(1)
-    else
-      menu:increase_index()
-    end
-    update_menu()
-    if channel_list_index < #channel_list then
-      channel_list_index = channel_list_index + 1
-    end
+  if menu:get_current_index()%number_of_channels_shown == 0 and channel_list_index ~= #channel_list then
+    menu:clear_buttons()
+    add_menu_items(channel_list_index+1)
+    menu:set_current_index(1)
+  else
+    menu:increase_index()
   end
-  if am_i_in_menu == 0 then
-    next_tweet()
+  draw_menu()
+  if channel_list_index < #channel_list then
+    channel_list_index = channel_list_index + 1
   end
 end
 
 --- Function that increase the index in the menu "moving down" and moves the red marker if it's supposed to.
 -- @auhtor Sofie
 function decrease_index()
-  if am_i_in_menu == 1 then
-    if menu:get_current_index() == 1 and channel_list_index ~= 1 then
-      menu:clear_buttons()
-      add_menu_items(channel_list_index-number_of_channels_shown)
-      menu:set_current_index(number_of_channels_shown)
-    else
-      menu:decrease_index()
-    end
-    update_menu()
-    if channel_list_index >= 2 then
-      channel_list_index = channel_list_index - 1
-    end
+  if menu:get_current_index() == 1 and channel_list_index ~= 1 then
+    menu:clear_buttons()
+    add_menu_items(channel_list_index-number_of_channels_shown)
+    menu:set_current_index(number_of_channels_shown)
+  else
+    menu:decrease_index()
   end
-  if am_i_in_menu == 0 then
-    --previous_tweet() TO BE IMPLEMENTED
+  draw_menu()
+  if channel_list_index >= 2 then
+    channel_list_index = channel_list_index - 1
   end
 end
 
@@ -108,18 +86,16 @@ end
 -- @author Sofie, Claes
 function menu_state(key,state)
   if key == 'down' and state == 'down' then
-      increase_index()
-    elseif key =='up' and state == 'down' then
-      decrease_index()
-    elseif key == 'ok' and state == 'down' then
-      set_chosen_channel(menu:get_indexed_item().id)
-      change_state(1)
-      render_tweet_view()
-    elseif key == 'menu' and state == 'down' then
-      go_back_to_menu()   
-    elseif key == 'exit' and state == 'down' then
-      sys.stop()
-    else
-      return
-    end
+    increase_index()
+  elseif key =='up' and state == 'down' then
+    decrease_index()
+  elseif key == 'ok' and state == 'down' then
+    set_chosen_channel(menu:get_indexed_item().id)
+    change_state(1)
+    render_tweet_view()
+  elseif key == 'exit' and state == 'down' then
+    sys.stop()
+  else
+    return
+  end
 end

@@ -12,7 +12,6 @@ grey4 = {0,0,0,180}
 green1 = {0, 255, 0, 255}
 vertical_pos = 0
 horizontal_pos = 0
-am_i_in_menu = 1
 tweet_count = 1
 local menu
 
@@ -167,7 +166,7 @@ function twitter_state(key,state)
     previous_tweet()
   elseif key == 'menu' and state == 'down' then
     change_state(0)
-    go_back_to_menu()
+    prompt_channel_menu()
   elseif key == 'exit' and state == 'down' then
     sys.stop()
   elseif key == 'right' and state == 'down' then

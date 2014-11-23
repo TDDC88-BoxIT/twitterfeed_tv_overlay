@@ -51,12 +51,14 @@ print("test the unixtimestamp function")
 --1415661900
 current_time=1415577600
 --print(tv_info.get_current_prog_info('hej'))
-relevant_tv_info = tv_info.get_prog_relinfo(tv_info.get_prog_allinfo(current_time))
---prog_name = get_current_prog_info("hej")
---print("prog name: ", prog_name)
+--relevant_tv_info = tv_info.get_prog_relinfo(tv_info.get_prog_allinfo(current_time))
+prog_name = get_current_prog_info("hej")
+print("prog name: ", prog_name)
 --get_xmltv_info()
-print("relevant tv info: ", relevant_tv_info["name"])
+--print("relevant tv info: ", relevant_tv_info["name"])
 list = tv_info.get_channel_list()
 print(list[1])
 pathtable = tv_info.get_download_path_table()
 for key,value in pairs(pathtable) do print(key,value) end
+ file_paths = tv_info.get_channel_file_path_list()
+ for key,value in pairs(file_paths) do print(key,value) end

@@ -17,11 +17,14 @@ end
 --Fetch the relevant information from this (program_name, start_time, - -end_time)
 --ev input for algorithm (actor_name, .... lots of info) low prio
 
+
+
 -- This part simulates receiving tv_info, it reads a json object from a file and decodes it
 -- will be removed when we get ip-connection
 function tv_info.set_decoded_tv_info()
-local which_channel_n_date = "scrum1/static/json/svt1.svt.se.js"
-local f = io.open(which_channel_n_date,"rb")
+  local folder_path = 'scrum1/static/json/'
+  local which_channel_n_date = folder_path.."svt1.svt.se.js"
+  local f = io.open(which_channel_n_date,"rb")
 if f then 
   f:close() 
   print("error1")
@@ -93,8 +96,8 @@ end
 return current_prog_name
 end
 
-function get_xmltv_info()
-  
+-- function that downloads schedules from xmltv. will be done in gustavs server instead...
+function get_xmltv_info() 
    
 --local http = require "socket.http"
 --local body,c,l,h = 
@@ -103,14 +106,7 @@ function get_xmltv_info()
   
   http = require"socket.http"
   print(http.request"http://json.xmltv.se/svt1.svt.se_2014-11-21.js.gz")
-  
-   
-  -- svt1.svt.se_2014-11-21.js.gz 
-  -- svt2.svt.se_2014-11-21.js.gz 
-  -- tv3.se_2014-11-21.js.gz 
-  -- tv4.se_2014-11-21.js.gz
-  -- kanal5.se_2014-11-21.js.gz 
-  -- tv6.se_2014-11-21.js.gz 
+ 
 end
 
 -- ANVÄND DENNA GUSTAV
@@ -119,22 +115,30 @@ function tv_info.get_download_path_table()
  path_base = 'http://json.xmltv.se/'
  curr_date = os.date("_%Y-%m-%d")
  path_ending = '.js.gz'
- 
+ file_paths = tv_info.get_channel_file_path_list()
  path_table = {}
- path_table[1]= path_base..'svt1.svt.se'..curr_date..path_ending
- path_table[2]= path_base..'svt2.svt.se'..curr_date..path_ending
- path_table[3]= path_base..'tv3.se'..curr_date..path_ending
- path_table[4]= path_base..'tv4.se'..curr_date..path_ending
- path_table[5]= path_base..'kanal5.se'..curr_date..path_ending
- path_table[6]= path_base..'tv6.se'..curr_date..path_ending
- path_table[7]= path_base..'sjuan.se'..curr_date..path_ending
- path_table[8]= path_base..'tv8.se'..curr_date..path_ending
- path_table[9]= path_base..'kanal9.se'..curr_date..path_ending
- path_table[10]= path_base..'tv10.se'..curr_date..path_ending
- path_table[11]= path_base..'tv11.sbstv.se'..curr_date..path_ending
- 
+for channelCount = 1, #file_paths do
+ path_table[channelCount] = path_base..file_paths[channelCount]..curr_date..path_ending 
+end 
  return path_table
 end
  
-  
+ -- returns json file paths for channels 1-11.
+ -- paths are also used in function get_download_path_table() 
+ function tv_info.get_channel_file_path_list()
+  local channel_file_paths = {}
+  channel_file_paths[1] = 'svt1.svt.se'
+  channel_file_paths[2] = 'svt2.svt.se'
+  channel_file_paths[3] = 'tv3.se'
+  channel_file_paths[4] = 'tv4.se'
+  channel_file_paths[5] = 'kanal5.se'
+  channel_file_paths[6] = 'tv6.se'
+  channel_file_paths[7] = 'sjuan.se'
+  channel_file_paths[8] = 'tv8.se'
+  channel_file_paths[9] = 'kanal9.se'
+  channel_file_paths[10] = 'tv10.se'
+  channel_file_paths[11] = 'tv11.sbstv.se'
+  return channel_file_paths
+end
+
 return tv_info

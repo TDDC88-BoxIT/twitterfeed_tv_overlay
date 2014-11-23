@@ -33,9 +33,10 @@ function twitter.get_tweets(search_key)
   local tv_info = require("scrum1.tv_info")
 --local cha_name= tv_info.current_prog_info[1]
   b, c, h = http.request("http://team.gkj.se/Oauth.php?q="..'%23'..channel_name .. '+%23'.. program_name)
-  print("b:" .. b)
   -- This is where the json object is decoded
   decoded_tweets = json:decode(b) 
+  
+  --Error handling so some tweets are always fetched
   if #decoded_tweets.statuses == 0 then
     b, c, h = http.request("http://team.gkj.se/Oauth.php?q="..'+%23'.. program_name)
     decoded_tweets = json:decode(b)
@@ -73,15 +74,11 @@ end
 -- @author Gustav B-N
 function twitter.get_new_tweets(search_key, old_tweets)
   --Get tweets again
-  print("getting new tweets")
   local channel_name = search_key[2]
-  print("channel name" .. channel_name)
   local program_name = search_key[1]
-  print("pr name" .. program_name)
   
   --remove the spaces from the program name
   program_name = string.gsub(program_name,"%s+", "")
-  print(program_name)
   
   local json = require("scrum1.json")
   local decoded = {}
@@ -92,10 +89,8 @@ function twitter.get_new_tweets(search_key, old_tweets)
   local reverse_new_tweets = {}
   
   b, c, h = http.request("http://team.gkj.se/Oauth.php?q="..'%23'..channel_name .. '+%23'.. program_name)
-  print("b:" .. b)
   -- This is where the json object is decoded
   decoded_tweets = json:decode(b) 
-  print(#decoded_tweets.statuses)
   if #decoded_tweets.statuses == 0 then
     b, c, h = http.request("http://team.gkj.se/Oauth.php?q="..'+%23'.. program_name)
     decoded_tweets = json:decode(b)

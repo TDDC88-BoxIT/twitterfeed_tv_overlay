@@ -20,33 +20,26 @@ end
 -- This part simulates receiving tv_info, it reads a json object from a file and decodes it
 -- will be removed when we get ip-connection. input: chosen_channel_index
 function tv_info.set_decoded_tv_info(ch_index)  
+  -- It's possible the folder path have to be altered to run on windows
   local folder_path = 'static/json/'
   local curr_index = ch_index
   local path_ending = '.js'
   local channel_file_path_list = tv_info.get_channel_file_path_list()     
   local decode_path =  folder_path .. channel_file_path_list[ch_index] .. path_ending
-  print('decode path: ', decode_path)
   -- open and read file
   local f = io.open(decode_path,"rb")
-  print("f:")
-  print(f)
   if f then 
     f:close() 
-    print("error1")
   end	
   if f ~= nil then
     local lines = ""
     for line in io.lines(decode_path) do 
       lines = lines .. line
-      --print("error2")
     end  
     -- This is where the json object is decoded
-    print("error3")
     local decoded_tv_info = json:decode(lines)
-    print("error4")
     return decoded_tv_info
   end
-  print("error5")
   return decoded_tv_info
 end
 
@@ -64,19 +57,11 @@ end
 -- @author Joel
 function tv_info.get_prog_allinfo(current_time, ch_index)
   local channel_index = ch_index
-  print('allinfo index: ', ch_index)
   local decoded_info = tv_info.set_decoded_tv_info(channel_index)
-  print("decoded info: ", decoded_info)
   for k,v in pairs(decoded_info.jsontv.programme) do
-    print("times")
-    print(v.start)
-    print(current_time)
-    
-    --ersätt 1415661900 med current_time
-    
+       
     if tonumber(v.start) <= current_time and tonumber(v.stop) > current_time then
       allinfo = v
-      print("NU VAR DET FART")
     end
   end
   return allinfo
@@ -103,13 +88,8 @@ function get_current_prog_info(channel_name, ch_index)
   local channel_list = tv_info.get_channel_list()
   local channel_index = ch_index
   local current_channel_name = channel_list[channel_index]
-  print('channel index!: ', channel_index)
   local current_time = tv_info.get_unixtimestamp()
   local relevant_tv_info = {}
-
-  relevant_tv_info = tv_info.get_prog_allinfo(current_time, channel_index)
-  print("rel tv inf")
-  print(relevant_tv_info)
   relevant_tv_info = tv_info.get_prog_relinfo(tv_info.get_prog_allinfo(current_time, channel_index))  
   current_prog_info = {relevant_tv_info["name"], current_channel_name}
 

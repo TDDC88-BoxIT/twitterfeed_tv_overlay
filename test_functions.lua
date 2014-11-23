@@ -62,3 +62,6 @@ pathtable = tv_info.get_download_path_table()
 --for key,value in pairs(pathtable) do print(key,value) end
  file_paths = tv_info.get_channel_file_path_list()
  --for key,value in pairs(file_paths) do print(key,value) end
+local cha_name= tv_info.current_prog_info[1]
+print('twitter cha name: ', cha_name)
+

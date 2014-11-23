@@ -23,6 +23,9 @@ function twitter.get_tweets(search_key)
   local reverse_tweets = {}
 
 -- This part simulates receiving tweets, it reads a json object from a file and decodes it
+local tv_info = require("scrum1.tv_info")
+local cha_name= tv_info.current_prog_info[1]
+print('TWITTER CHA NAME:', cha_name)
   b, c, h = http.request("http://team.gkj.se/Oauth.php?q="..'%23kanal+%23program')
   -- This is where the json object is decoded
   decoded_tweets = json:decode(b) 

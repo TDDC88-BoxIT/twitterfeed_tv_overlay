@@ -17,21 +17,26 @@ end
 --Fetch the relevant information from this (program_name, start_time, - -end_time)
 --ev input for algorithm (actor_name, .... lots of info) low prio
 
-
-
 -- This part simulates receiving tv_info, it reads a json object from a file and decodes it
--- will be removed when we get ip-connection
+-- will be removed when we get ip-connection. input: chosen_channel_index
 function tv_info.set_decoded_tv_info()
+  
   local folder_path = 'scrum1/static/json/'
-  local which_channel_n_date = folder_path.."svt1.svt.se.js"
-  local f = io.open(which_channel_n_date,"rb")
+  local curr_index = 
+  print('index in tvinfo: ', curr_index)
+  local channel_file_path_list = {}
+  channel_file_path_list = tv_info.get_channel_file_path_list()
+      
+  local decode_path = 'scrum1/static/json/tv4.se.js'
+  print ("decode path: " , decode_path)
+  local f = io.open(decode_path,"rb")
 if f then 
   f:close() 
   print("error1")
 end	
 if f ~= nil then
   local lines = ""
-  for line in io.lines(which_channel_n_date) do 
+  for line in io.lines(decode_path) do 
     lines = lines .. line
     print("error2")
   end
@@ -86,8 +91,11 @@ end
     -- FINAL FUNCTION THAT RUNS ON OK KEYCLICK IN MENU
   -- input: chosen channel
   -- output: name of current show, name of channel (these can be modified to retreive more information)
-  function get_current_prog_info(channel_name)
+  function get_current_prog_info(channel_name, ch_index)
     local current_time = 1415579400
+    local channel_list = tv_info.get_channel_list()
+    channel_index = ch_index
+    print('channel index!: ', channel_index)
   --local current_time = tv_info.get_unixtimestamp()
   local relevant_tv_info = {}
   relevant_tv_info = tv_info.get_prog_relinfo(tv_info.get_prog_allinfo(current_time))  

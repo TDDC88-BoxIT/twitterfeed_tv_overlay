@@ -104,6 +104,12 @@ function decrease_index()
   end
 end
 
+--return the current menu index
+function return_current_index()
+   curr_index = menu:get_current_index()
+   return curr_index
+ end
+ 
 --- Function that deals with the key input when the user is in the menu state.
 -- @author Sofie, Claes
 function menu_state(key,state)
@@ -114,10 +120,12 @@ function menu_state(key,state)
       decrease_index()
     elseif key == 'ok' and state == 'down' then
       set_chosen_channel(menu:get_indexed_item().id)
-      channelx = get_chosen_channel()
-      print('channelx: ', channelx)
+      channel_name = get_chosen_channel()
+      curr_index = menu:get_current_index()
+      print('channelname: ', channelname)
+      print('current index: ', menu:get_current_index())
      -- ctime=1415577600
-      --info = tv_info.get_prog_relinfo(tv_info.get_prog_allinfo(ctime))
+      --program_name = get_current_prog_info(channel_name) 
             
       change_state(1)
       render_tweet_view()

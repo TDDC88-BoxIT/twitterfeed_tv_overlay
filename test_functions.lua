@@ -59,6 +59,6 @@ print("prog name: ", prog_name)
 list = tv_info.get_channel_list()
 print(list[1])
 pathtable = tv_info.get_download_path_table()
-for key,value in pairs(pathtable) do print(key,value) end
+--for key,value in pairs(pathtable) do print(key,value) end
  file_paths = tv_info.get_channel_file_path_list()
- for key,value in pairs(file_paths) do print(key,value) end
+ --for key,value in pairs(file_paths) do print(key,value) end

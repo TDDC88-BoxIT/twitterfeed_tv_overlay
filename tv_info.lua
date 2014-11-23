@@ -19,15 +19,15 @@ end
 
 -- This part simulates receiving tv_info, it reads a json object from a file and decodes it
 -- will be removed when we get ip-connection. input: chosen_channel_index
-function tv_info.set_decoded_tv_info()
+function tv_info.set_decoded_tv_info(ch_index)
   
   local folder_path = 'scrum1/static/json/'
-  local curr_index = 
+  local curr_index = ch_index
   print('index in tvinfo: ', curr_index)
   local channel_file_path_list = {}
   channel_file_path_list = tv_info.get_channel_file_path_list()
       
-  local decode_path = 'scrum1/static/json/tv4.se.js'
+  local decode_path =  folder_path .. channel_file_path_list[ch_index]
   print ("decode path: " , decode_path)
   local f = io.open(decode_path,"rb")
 if f then 
@@ -65,8 +65,10 @@ end
 -- @param current_time an integer formated in unixtimestamp.
 -- @return a table all information about the tv show
 -- @author Joel
-function tv_info.get_prog_allinfo(current_time)
-  local decoded_info = tv_info.set_decoded_tv_info()
+function tv_info.get_prog_allinfo(current_time, ch_index)
+  local channel_index = ch_index
+  print('allinfo index: ', ch_index)
+  local decoded_info = tv_info.set_decoded_tv_info(channel_index)
   print("decoded info: ", decoded_info)
   for k,v in pairs(decoded_info.jsontv.programme) do
     if tonumber(v.start) <= current_time and tonumber(v.stop) > current_time then
@@ -98,13 +100,13 @@ end
     print('channel index!: ', channel_index)
   --local current_time = tv_info.get_unixtimestamp()
   local relevant_tv_info = {}
-  relevant_tv_info = tv_info.get_prog_relinfo(tv_info.get_prog_allinfo(current_time))  
+  relevant_tv_info = tv_info.get_prog_relinfo(tv_info.get_prog_allinfo(current_time, channel_index))  
   local current_prog_name = relevant_tv_info["name"]
   
 return current_prog_name
 end
 
--- function that downloads schedules from xmltv. will be done in gustavs server instead...
+-- function that downloads schedules from xmltv. will be done on gustavs server instead...
 function get_xmltv_info() 
    
 --local http = require "socket.http"

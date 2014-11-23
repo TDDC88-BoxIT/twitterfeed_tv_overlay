@@ -113,7 +113,7 @@ function get_xmltv_info()
   -- tv6.se_2014-11-21.js.gz 
 end
 
-
+-- ANVÄND DENNA GUSTAV
 -- returns a table with internet paths for downloading the current day tv schedule for each channel
 function tv_info.get_download_path_table()
  path_base = 'http://json.xmltv.se/'
@@ -137,16 +137,5 @@ function tv_info.get_download_path_table()
  return path_table
 end
  
- -- svt1.svt.se_2014-11-21.js.gz 
-  -- svt2.svt.se_2014-11-21.js.gz 
-  -- tv3.se_2014-11-21.js.gz 
-  -- tv4.se_2014-11-21.js.gz
-  -- kanal5.se_2014-11-21.js.gz 
-  -- tv6.se_2014-11-21.js.gz 
-  -- sjuan.se_2014-11-21.js.gz
-  -- tv8.se_2014-11-21.js.gz 
-  -- kanal9.se_2014-11-21.js.gz
-  --tv10.se_2014-11-21.js.gz
- -- tv11.sbstv.se_2014-11-21.js.gz 
- 
+  
 return tv_info

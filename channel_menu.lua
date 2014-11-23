@@ -8,28 +8,35 @@ function prompt_channel_menu()
   height = screen:get_height()
   width = screen:get_width()
 
-  -- Prints the tv picture in the background (should be removed later on)
-  draw_tv_screen()
- 
   -- Sets offset and size for the box with the channel list
   x_offset = width*0.02
-  y_offset = height*0.05
-  box_height = height*0.9
-  local box_width = width*0.2
-   
-  --Prints out channel list box
-  screen:fill(green1, {x=x_offset,y=y_offset,w=box_width, h=box_height})
-  channel_list_index = 1
+  y_offset = height*0.1
+  box_height = height*0.8
+  box_width = width*0.2
   
+  -- Chooses what index in the channel_list that should be displayed first in the menu
+  channel_list_index = 1
+    
   -- Creates a menu object and draws it
   menu = menu_object(box_width,box_height)
-  add_menu_items(channel_list_index)
   menu:set_background(dir.."menu_background.png")
+  add_menu_items(channel_list_index)
   draw_menu()
+  set_menu_title("What channel are you watching?")
 end
 
---- Add items to the channel menu.
--- Add items to the channel menu based on the channel list containing all available channels.
+-- Sets the text displayed over the menu
+-- @author Sofie
+function set_menu_title(title)
+    sf = gfx.new_surface(box_width,50)
+    sf:clear(grey1)
+    render_text(title,x_offset,y_offset-55,box_width,1,sf)
+    screen:copyfrom(sf,nil,{x = x_offset, y = y_offset-50, w = box_width, h = 50},true)
+    sf:destroy()
+end
+
+-- Add items to the channel menu based on the channel list containing all available channels. The start_index
+-- indicates what index in the channel list that should be the first button.
 -- @author Sofie
   function add_menu_items(start_index)
   --This should be changed once we got the new design in place  <--------------------------------------------------
@@ -43,8 +50,11 @@ end
 -- @author Sofie, Jesper
 function draw_menu()
   timer_state = 0
-  -- Do we need this following line of code?!
-  --screen:clear() --Will clear all background stuff
+  --screen:clear()
+  
+  -- Prints the tv picture in the background (should be removed later on)
+  draw_tv_screen()
+  
   screen:copyfrom(menu:get_surface(), nil,{x=x_offset,y=y_offset,width=menu:get_size().width,height=menu:get_size().height},true)
   menu:destroy()
   gfx.update()
@@ -92,6 +102,7 @@ function menu_state(key,state)
   elseif key == 'ok' and state == 'down' then
     set_chosen_channel(menu:get_indexed_item().id)
     change_state(1)
+    screen:clear()
     render_tweet_view()
   elseif key == 'exit' and state == 'down' then
     sys.stop()

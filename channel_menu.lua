@@ -1,5 +1,6 @@
 tv_info = require('scrum1.tv_info')
 local channel_list = tv_info.get_channel_list()
+menu_title = "What channel are you watching?"
 
 --- Creates and draws the channel menu.
 -- @author Sofie
@@ -10,28 +11,30 @@ function prompt_channel_menu()
 
   -- Sets offset and size for the box with the channel list
   x_offset = width*0.02
-  y_offset = height*0.1
+  y_offset = height*0.06
   box_height = height*0.8
   box_width = width*0.2
   
   -- Chooses what index in the channel_list that should be displayed first in the menu
   channel_list_index = 1
     
+  draw_tv_screen()
+  
   -- Creates a menu object and draws it
   menu = menu_object(box_width,box_height)
   add_menu_items(channel_list_index)
   --menu:set_background(dir.."menu_background.png") <<<DONT THINK THIS IS USEFUL ANYMORE>>>
   draw_menu()
-  set_menu_title("What channel are you watching?")
+  set_menu_title()
 end
 
 -- Sets the text displayed over the menu
 -- @author Sofie
-function set_menu_title(title)
-    sf = gfx.new_surface(box_width,50)
-    sf:clear(grey1)
-    render_text(title,x_offset,y_offset-55,box_width,1,sf)
-    screen:copyfrom(sf,nil,{x = x_offset, y = y_offset-50, w = box_width, h = 50},true)
+function set_menu_title()
+    sf = gfx.new_surface(box_width,height-box_height-y_offset*2)
+    sf:clear(menu_color)
+    render_text(menu_title,10,10,box_width,1.2,sf)
+    screen:copyfrom(sf,nil,{x=x_offset, y=y_offset, w=box_width, h=height-box_height-y_offset*2},true)
     sf:destroy()
 end
 
@@ -50,12 +53,7 @@ end
 -- @author Sofie, Jesper
 function draw_menu()
   timer_state = 0
-  --screen:clear()
-  
-  -- Prints the tv picture in the background (should be removed later on)
-  draw_tv_screen()
-  
-  screen:copyfrom(menu:get_surface(), nil,{x=x_offset,y=y_offset,width=menu:get_size().width,height=menu:get_size().height},true)
+  screen:copyfrom(menu:get_surface(), nil,{x=x_offset,y=y_offset+(height-box_height-y_offset*2),width=menu:get_size().width,height=menu:get_size().height},true)
   menu:destroy()
   gfx.update()
 end
@@ -92,28 +90,34 @@ function decrease_index()
   end
 end
 
+-- Function that updates the menu by clearing the screen, drawing the background and setting the title of the menu
+-- @author Sofie
+function update_menu()
+  screen:clear()
+  draw_tv_screen()
+  set_menu_title(menu_title)
+end
+
 --- Function that deals with the key input when the user is in the menu state.
 -- @author Sofie, Claes
 function menu_state(key,state)
   if key == 'down' and state == 'down' then
-      --clear() and draw_tv_screen() added so that the menu is cleared and the tv screen is redrawn
-      --after each navigation move
-      screen:clear()
-      draw_tv_screen()
-      increase_index()
-    elseif key =='up' and state == 'down' then
-      --clear() and draw_tv_screen() added so that the menu is cleared and the tv screen is redrawn
-      --after each navigation move
-      screen:clear()
-      draw_tv_screen()
-      decrease_index()
-    elseif key == 'ok' and state == 'down' then
-      set_chosen_channel(menu:get_indexed_item().id)
-      change_state(1)
-      render_tweet_view() 
-    elseif key == 'exit' and state == 'down' then
-      sys.stop()
-    else
-      return
-    end
+    --clear() and draw_tv_screen() added so that the menu is cleared and the tv screen is redrawn
+    --after each navigation move
+    update_menu()
+    increase_index()
+  elseif key =='up' and state == 'down' then
+    --clear() and draw_tv_screen() added so that the menu is cleared and the tv screen is redrawn
+    --after each navigation move
+    update_menu()
+    decrease_index()
+  elseif key == 'ok' and state == 'down' then
+    set_chosen_channel(menu:get_indexed_item().id)
+    change_state(1)
+    render_tweet_view() 
+  elseif key == 'exit' and state == 'down' then
+    sys.stop()
+  else
+    return
+  end
 end

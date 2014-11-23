@@ -51,7 +51,7 @@ menu_object = class(function (self, menu_width, menu_height)
   self.button_width = math.floor(self.width*0.9)
   self.button_x = (self.width-self.button_width)/2
   self.button_y = math.floor(self.height*0.05)
-  self.indicator_color = {r=255,g=0,b=0}
+  self.indicator_color = {255,25,255,120}
   self.indexed_item=1
   self.menu_items={}
   self.menu_surface=nil
@@ -197,7 +197,7 @@ local function make_bakground(self)
 local function make_item_indicator(self, y_value)
   -- Set indicator size
   self.indicator_height = self.button_height -- INDICATOR HEIGHT IS SET TO button HEIGHT
-  self.indicator_width = math.floor(20) -- INDICATOR WIDTH IS SET TO 5% OF button WIDTH
+  self.indicator_width = self.button_width*0.1 -- INDICATOR WIDTH IS SET TO 10% OF button WIDTH
   -- Create indicator surface
   local sf = gfx.new_surface(self.indicator_width, self.indicator_height)
   --Set color for indicator surface
@@ -210,7 +210,6 @@ end
 local function make_buttons(self)
   -- LOOPS THROUGH ALL ITEMS WHICH HAVE BEEN ADDE TO THE MENU AND CREATES A SET OF BUTTONS FOR THESE
   for i = 1, #self.menu_items, 1 do
-    print(self.menu_items[i])
     render_text(self.menu_items[i].text, self.button_x +25,self.button_y+(self.button_height*(i-1)+i*10),self.button_width, 2, self.menu_surface)
     -- SETS THE BUTTON IMAGE
 --     local img_surface=nil

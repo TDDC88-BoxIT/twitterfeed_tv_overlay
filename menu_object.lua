@@ -59,7 +59,7 @@ menu_object = class(function (self, menu_width, menu_height)
 
 -- SETS MENU SIZE
 function menu_object:set_size(menu_width,menu_height)
-  self.widht=menu_width or self.width
+  self.width=menu_width or self.width
   self.height=menu_height or self.height
 end
 
@@ -71,7 +71,7 @@ end
 
 -- SETS MENU button SIZE
 function menu_object:set_button_size(width,height)
-  self.button_width=width or self.button_widht
+  self.button_width=width or self.button_width
   self.button_height=height or self.button_height
 end
 
@@ -161,8 +161,8 @@ local function make_bakground(self)
    local start_x = 0
    local start_y = 0
    --local size = {width=box_width,height=200}
-   local menu_width = box_width
-   local menu_height = box_height
+   local menu_width = 200
+   local menu_height = 200
    local upper_left_corner_pos_x = start_x
    local upper_left_corner_pos_y = start_y
    local upper_right_corner_pos_x = start_x + menu_width
@@ -175,7 +175,7 @@ local function make_bakground(self)
 
   --CREATING THE CORNERSTONES AND FILLS THE MENU.
    --Creates the upper left corner
-   self.menu_surface:copyfrom(corners, {x=0, y=0, width=8, height=8}, {x=upper_left_corner_pos_x , y=upper_left_corner_pos_y , width=8 , height=8}, true)
+   self.menu_surface:copyfrom(corners, {x=0, y=0, width=8, height=8}, {x=upper_left_corner_pos_x,y=upper_left_corner_pos_y,width=8,height=8},true)
    --Creates the upper right corner
    self.menu_surface:copyfrom(corners, {x=8, y=0 , width=8, height=8}, {x=upper_right_corner_pos_x , y=upper_right_corner_pos_y , width=8 , height=8}, true)
    --creates the middle-top fill

@@ -102,7 +102,7 @@ function render_tweet_view()
   view_mode = 1
   tweet_count = 1
   draw_tv_screen()
-  tweets = twitter.get_tweets("")
+  tweets = twitter.get_tweets('paradisehotelse')
   draw_tweet(tweets) 
 end
 
@@ -113,7 +113,7 @@ function next_tweet()
     tweet_count = tweet_count + 1
   else
     --Get new tweets...
-    tweets = twitter.get_new_tweets("",tweets)
+    tweets = twitter.get_new_tweets('paradisehotelse',tweets)
   end
   draw_tv_screen()
   draw_tweet(tweets)

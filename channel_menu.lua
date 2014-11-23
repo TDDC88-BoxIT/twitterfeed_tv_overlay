@@ -11,8 +11,8 @@ function prompt_channel_menu()
 
   -- Sets offset and size for the box with the channel list
   x_offset = width*0.02
-  y_offset = height*0.06
-  box_height = height*0.8
+  y_offset = height*0.16
+  box_height = height*0.6
   box_width = width*0.2
   
   -- Chooses what index in the channel_list that should be displayed first in the menu

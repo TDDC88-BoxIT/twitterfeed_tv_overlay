@@ -51,7 +51,7 @@ menu_object = class(function (self, menu_width, menu_height)
   self.button_width = math.floor(self.width*0.9)
   self.button_x = (self.width-self.button_width)/2
   self.button_y = math.floor(self.height*0.05)
-  self.indicator_color = {255,25,255,120}
+  self.indicator_color = {255,255,255,150}
   self.indexed_item=1
   self.menu_items={}
   self.menu_surface=nil
@@ -193,7 +193,7 @@ local function make_bakground(self)
 -- CREATES THE MENU INDICATOR AND ADDS IT TO THE MENU. THE Y-VALUE MARKS WHERE THE INDICATOR IS TO BE PUT
 local function make_item_indicator(self, y_value)
   -- Set indicator size
-  self.indicator_height = self.button_height -- INDICATOR HEIGHT IS SET TO button HEIGHT
+  self.indicator_height = self.button_height/2 -- INDICATOR HEIGHT IS SET TO button HEIGHT
   self.indicator_width = self.button_width*0.1 -- INDICATOR WIDTH IS SET TO 10% OF button WIDTH
   -- Create indicator surface
   local sf = gfx.new_surface(self.indicator_width, self.indicator_height)

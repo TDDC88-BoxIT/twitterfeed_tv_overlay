@@ -20,7 +20,7 @@ end
 -- This part simulates receiving tv_info, it reads a json object from a file and decodes it
 -- will be removed when we get ip-connection
 function tv_info.set_decoded_tv_info()
-local which_channel_n_date = "scrum1/static/json/svt1.svt.se_2014-11-21.js.gz"
+local which_channel_n_date = "scrum1/static/json/svt1.svt.se.js"
 local f = io.open(which_channel_n_date,"rb")
 if f then 
   f:close() 
@@ -120,7 +120,6 @@ function tv_info.get_download_path_table()
  curr_date = os.date("_%Y-%m-%d")
  path_ending = '.js.gz'
  
- local channel_list = tv_info.get_channel_list()
  path_table = {}
  path_table[1]= path_base..'svt1.svt.se'..curr_date..path_ending
  path_table[2]= path_base..'svt2.svt.se'..curr_date..path_ending

@@ -18,26 +18,26 @@ end
 -- This part simulates receiving tv_info, it reads a json object from a file and decodes it
 -- will be removed when we get ip-connection
 function tv_info.set_decoded_tv_info()
-local which_channel_n_date = "static/json/tv_info_svt2_1011.json"
+local which_channel_n_date = "scrum1/static/json/svt1.svt.se_2014-11-21.js.gz"
 local f = io.open(which_channel_n_date,"rb")
 if f then 
   f:close() 
-  print("error1 hejhej")
+  print("error1")
 end	
 if f ~= nil then
   local lines = ""
   for line in io.lines(which_channel_n_date) do 
     lines = lines .. line
-    print("error2 hejhej")
+    print("error2")
   end
   
   -- This is where the json object is decoded
-  print("error3 hejhej")
- decoded_tv_info = json:decode(lines)
- print("error4 hejhej")
+  print("error3")
+ local decoded_tv_info = json:decode(lines)
+ print("error4")
   return decoded_tv_info
 end
-print("error5 hejhej")
+print("error5")
 return decoded_tv_info
 end
 
@@ -101,6 +101,7 @@ function get_xmltv_info()
   
   http = require"socket.http"
   print(http.request"http://json.xmltv.se/svt1.svt.se_2014-11-21.js.gz")
+  
    
   -- svt1.svt.se_2014-11-21.js.gz 
   -- svt2.svt.se_2014-11-21.js.gz 

@@ -115,14 +115,10 @@ function menu_state(key,state)
     elseif key == 'ok' and state == 'down' then
       set_chosen_channel(menu:get_indexed_item().id)
       channelx = get_chosen_channel()
-    relevant_tv_info = tv_info.get_prog_relinfo(tv_info.get_prog_allinfo(1415579400))
-prog_name = get_current_prog_info("hej")
-print("prog name: ", prog_name)
-
-      
-      --print("chosen channel: ", chosen_channel)
-      --print(tv_info.get_current_prog_info(channelx))
-          
+      print('channelx: ', channelx)
+     -- ctime=1415577600
+      --info = tv_info.get_prog_relinfo(tv_info.get_prog_allinfo(ctime))
+            
       change_state(1)
       render_tweet_view()
     elseif key == 'menu' and state == 'down' then

@@ -50,9 +50,9 @@ print("test the unixtimestamp function")
 --1415659200
 --1415661900
 current_time=1415577600
---print(tv_info.get_current_prog_info())
---relevant_tv_info = tv_info.get_prog_relinfo(tv_info.get_prog_allinfo(current_time))
+--print(tv_info.get_current_prog_info('hej'))
+relevant_tv_info = tv_info.get_prog_relinfo(tv_info.get_prog_allinfo(current_time))
 --prog_name = get_current_prog_info("hej")
 --print("prog name: ", prog_name)
-get_xmltv_info()
---print("relevant tv info: ", relevant_tv_info["name"])
+--get_xmltv_info()
+print("relevant tv info: ", relevant_tv_info["name"])

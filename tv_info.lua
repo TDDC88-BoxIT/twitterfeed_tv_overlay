@@ -19,39 +19,34 @@ end
 
 -- This part simulates receiving tv_info, it reads a json object from a file and decodes it
 -- will be removed when we get ip-connection. input: chosen_channel_index
-function tv_info.set_decoded_tv_info(ch_index)
-  
+function tv_info.set_decoded_tv_info(ch_index)  
   local folder_path = 'scrum1/static/json/'
   local curr_index = ch_index
-  print('index in tvinfo: ', curr_index)
-  local channel_file_path_list = {}
-  channel_file_path_list = tv_info.get_channel_file_path_list()
-      
-  local decode_path =  folder_path .. channel_file_path_list[ch_index]
-  print ("decode path: " , decode_path)
+  local path_ending = '.js'
+  local channel_file_path_list = tv_info.get_channel_file_path_list()     
+  local decode_path =  folder_path .. channel_file_path_list[ch_index] .. path_ending
+  print('decode path: ', decode_path)
+  -- open and read file
   local f = io.open(decode_path,"rb")
-if f then 
-  f:close() 
-  print("error1")
-end	
-if f ~= nil then
-  local lines = ""
-  for line in io.lines(decode_path) do 
-    lines = lines .. line
-    print("error2")
-  end
-  
+  if f then 
+    f:close() 
+    print("error1")
+  end	
+  if f ~= nil then
+    local lines = ""
+    for line in io.lines(decode_path) do 
+      lines = lines .. line
+      print("error2")
+      end  
   -- This is where the json object is decoded
   print("error3")
- local decoded_tv_info = json:decode(lines)
- print("error4")
+  local decoded_tv_info = json:decode(lines)
+  print("error4")
   return decoded_tv_info
 end
 print("error5")
 return decoded_tv_info
 end
-
-
 
 --- Gets the time in unix timestamp format.
 -- @return an integer of the current unixtimestamp
@@ -94,16 +89,17 @@ end
   -- input: chosen channel
   -- output: name of current show, name of channel (these can be modified to retreive more information)
   function get_current_prog_info(channel_name, ch_index)
-    local current_time = 1415579400
+    --local current_time = 1415579400
     local channel_list = tv_info.get_channel_list()
-    channel_index = ch_index
+    local channel_index = ch_index
+    local current_channel_name = channel_list[channel_index]
     print('channel index!: ', channel_index)
-  --local current_time = tv_info.get_unixtimestamp()
+    local current_time = tv_info.get_unixtimestamp()
   local relevant_tv_info = {}
   relevant_tv_info = tv_info.get_prog_relinfo(tv_info.get_prog_allinfo(current_time, channel_index))  
-  local current_prog_name = relevant_tv_info["name"]
-  
-return current_prog_name
+  current_prog_info = {relevant_tv_info["name"], current_channel_name}
+    
+return current_prog_info
 end
 
 -- function that downloads schedules from xmltv. will be done on gustavs server instead...

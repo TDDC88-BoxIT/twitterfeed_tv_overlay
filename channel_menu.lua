@@ -110,6 +110,7 @@ function return_current_index()
    return curr_index
  end
  
+ 
 --- Function that deals with the key input when the user is in the menu state.
 -- @author Sofie, Claes
 function menu_state(key,state)
@@ -122,10 +123,10 @@ function menu_state(key,state)
       set_chosen_channel(menu:get_indexed_item().id)
       channel_name = get_chosen_channel()
       curr_index = menu:get_current_index()
-      print('channelname: ', channelname)
+      print('channelname: ', channel_name)
       print('current index: ', menu:get_current_index())
-     -- ctime=1415577600
-      --program_name = get_current_prog_info(channel_name) 
+      program_name = get_current_prog_info(channel_name, menu:get_current_index())
+      print('final program name: ', program_name)
             
       change_state(1)
       render_tweet_view()

@@ -6,6 +6,7 @@ grey1 = {90,90,90,255}
 grey2 = {150,150,150,255}
 grey3 = {150,150,150,150}
 grey4 = {0,0,0,180}
+menu_color = {0,0,0,100}
 green1 = {0, 255, 0, 255}
 vertical_pos = 0
 horizontal_pos = 0

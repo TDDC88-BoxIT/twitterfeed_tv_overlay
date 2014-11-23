@@ -14,15 +14,15 @@ function prompt_channel_menu()
   x_offset = width*0.02
   y_offset = height*0.05
   box_height = height*0.9
-  local box_width = width*0.2
+  box_width = width*0.2
    
   --Prints out channel list box
-  screen:fill(green1, {x=x_offset,y=y_offset,w=box_width, h=box_height})
+  --screen:fill(green1, {x=x_offset,y=y_offset,w=box_width, h=box_height})
   channel_list_index = 1
   -- Creates a menu object and draws it
   menu = menu_object(box_width,box_height)
   add_menu_items(channel_list_index)
-  menu:set_background(dir.."menu_background.png")
+  --menu:set_background(dir.."menu_background.png") <<<DONT THINK THIS IS USEFUL ANYMORE>>>
   draw_menu()
 end
 
@@ -47,6 +47,7 @@ end
 
 -- Function that updates the menu
 function update_menu()
+  --ALEX MAKE CLEAR SCREEN HERE!!
   draw_menu()
 end
 
@@ -99,8 +100,12 @@ end
 -- Function that deals with the key input when the user is in the menu state
 function menu_state(key,state)
   if key == 'down' and state == 'down' then
+      screen:clear()
+      draw_tv_screen()
       increase_index()
     elseif key =='up' and state == 'down' then
+      screen:clear()
+      draw_tv_screen()
       decrease_index()
     elseif key == 'ok' and state == 'down' then
       set_chosen_channel(menu:get_indexed_item().id)

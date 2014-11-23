@@ -160,9 +160,9 @@ local function make_bakground(self)
    
    local start_x = 0
    local start_y = 0
-   --local size = {width=box_width,height=200}
-   local menu_width = 200
-   local menu_height = 200
+   local size = {width=self.width, height=self.height}
+   local menu_width = size.width-8 -- (-8) In order to leave room for the picutre to exist
+   local menu_height = size.height-8 -- (-8) In order to leave room for the picture to exist
    local upper_left_corner_pos_x = start_x
    local upper_left_corner_pos_y = start_y
    local upper_right_corner_pos_x = start_x + menu_width

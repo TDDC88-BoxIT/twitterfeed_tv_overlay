@@ -188,9 +188,6 @@ local function make_bakground(self)
    self.menu_surface:copyfrom(corners, {x=8,y=8,width=8,height=8}, {x=lower_right_corner_pos_x , y=lower_right_corner_pos_y , width=8 , height=8}, true)
    --creates the lower filler
    self.menu_surface:fill(menu_color, {x=start_x+8 ,y=start_y+menu_height,width=menu_width-8,height=8})  
-
-
-
  end
 
 -- CREATES THE MENU INDICATOR AND ADDS IT TO THE MENU. THE Y-VALUE MARKS WHERE THE INDICATOR IS TO BE PUT

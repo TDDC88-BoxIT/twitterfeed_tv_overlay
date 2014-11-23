@@ -12,7 +12,6 @@ grey4 = {0,0,0,180}
 green1 = {0, 255, 0, 255}
 vertical_pos = 0
 horizontal_pos = 0
-am_i_in_menu = 1
 tweet_count = 1
 local menu
 
@@ -37,36 +36,36 @@ function draw_tweet(tweets)
     tweet_background = gfx.new_surface(400,500)
     tweet_background:clear(grey4)
     current_tweet = tweet_count
-    render_text("@" .. tweets[current_tweet].name,10,10,350,3,tweet_background)
+    render_text("@" .. tweets[current_tweet].name,10,10,3500,3,tweet_background)
     render_text(tweets[current_tweet].text,10,80,350,2,tweet_background)
-    render_text(tweets[current_tweet].date,10,400,350,1.5,tweet_background)
+    render_text(tweets[current_tweet].date,10,450,350,1.5,tweet_background)
     screen:copyfrom(tweet_background,nil,{x = 850, y = 380, w = 400, h = 300},true)
     --bottom view mode
   elseif view_mode == 1 then
     tweet_background = gfx.new_surface(screen:get_width(),100)
     tweet_background:clear(grey4)
     current_tweet = tweet_count
-    render_text("@" .. tweets[current_tweet].name .. ":",5,5,60,1.5,tweet_background)
+    render_text("@" .. tweets[current_tweet].name .. ":",5,5,3500,1.5,tweet_background)
     render_text(tweets[current_tweet].text,5,30,screen:get_width() - 5,1.5,tweet_background)
-    render_text(tweets[current_tweet].date,(screen:get_width() - 260), 70,3000,1,tweet_background)
+    render_text(tweets[current_tweet].date,(screen:get_width() - 260), 80,3000,1,tweet_background)
     screen:copyfrom(tweet_background,nil,{x = 0, y = screen:get_height() - 110, w = screen:get_width(), h = 100},true)
     --left view mode
   elseif view_mode == 2 then
     tweet_background = gfx.new_surface(400,500)
     tweet_background:clear(grey4)
     current_tweet = tweet_count
-    render_text("@" .. tweets[current_tweet].name .. ":",10,10,350,3,tweet_background)
+    render_text("@" .. tweets[current_tweet].name .. ":",10,10,3500,3,tweet_background)
     render_text(tweets[current_tweet].text,10,80,350,2,tweet_background)
-    render_text(tweets[current_tweet].date,10,400,350,1.5,tweet_background)
+    render_text(tweets[current_tweet].date,10,450,350,1.5,tweet_background)
     screen:copyfrom(tweet_background,nil,{x = 50, y = 380, w = 400, h = 300},true)
     --top view mode
   elseif view_mode == 3 then
     tweet_background = gfx.new_surface(screen:get_width(),100)
     tweet_background:clear(grey4)
     current_tweet = tweet_count
-    render_text("@" .. tweets[current_tweet].name .. ":",5,5,60,1.5,tweet_background)
+    render_text("@" .. tweets[current_tweet].name .. ":",5,5,3500,1.5,tweet_background)
     render_text(tweets[current_tweet].text,5,30,screen:get_width() - 5,1.5,tweet_background)
-    render_text(tweets[current_tweet].date,(screen:get_width() - 260), 70,3000,1,tweet_background)
+    render_text(tweets[current_tweet].date,(screen:get_width() - 260), 80,3000,1,tweet_background)
     screen:copyfrom(tweet_background,nil,{x = 0, y = 10, w = screen:get_width(), h = 100},true)
   end
 
@@ -80,6 +79,12 @@ function draw_tweet(tweets)
     screen:copyfrom(info_box,nil,{x = screen:get_width()/2-200, y = screen:get_height()-215},{x=100,y=100, w=400, h =200},true)
     -- timer currently set to 6 seconds.
     help_timer = sys.new_timer(6000, "clear_info_box")
+  end
+  
+  --This starts a timer that cycles through the tweets automatically, every 20 seconds it will go to next tweet, pressing next or previous tweet on the remote will reset the timer.
+  if tweet_timer_starter == 1 then
+    next_tweet_timer = sys.new_timer(20000, "next_tweet")
+    tweet_timer_starter = 0
   end
 end
 
@@ -102,10 +107,13 @@ end
 function render_tweet_view()
   view_mode = 1
   tweet_count = 1
+  timer_state = 0
+  tweet_timer_starter = 1
   draw_tv_screen()
   --get currrent channel and program
   local channel_info = retrieve_prog_info()
   tweets = twitter.get_tweets(channel_info)
+
   draw_tweet(tweets) 
 end
 
@@ -118,6 +126,7 @@ function next_tweet()
     --Get new tweets...
     local channel_info = retrieve_prog_info()
     tweets = twitter.get_new_tweets(channel_info,tweets)
+
   end
   draw_tv_screen()
   draw_tweet(tweets)
@@ -165,12 +174,20 @@ end
 -- @author Claes
 function twitter_state(key,state)
   if key == 'down' and state == 'down' then
+    if next_tweet_timer ~= nil then
+      next_tweet_timer:stop()
+      tweet_timer_starter = 1
+    end
     next_tweet()
   elseif key =='up' and state == 'down' then
+    if next_tweet_timer ~= nil then
+      next_tweet_timer:stop()
+      tweet_timer_starter = 1
+    end
     previous_tweet()
   elseif key == 'menu' and state == 'down' then
     change_state(0)
-    go_back_to_menu()
+    prompt_channel_menu()
   elseif key == 'exit' and state == 'down' then
     sys.stop()
   elseif key == 'right' and state == 'down' then

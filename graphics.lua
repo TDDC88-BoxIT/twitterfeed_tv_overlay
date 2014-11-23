@@ -116,7 +116,8 @@ function next_tweet()
     tweet_count = tweet_count + 1
   else
     --Get new tweets...
-    tweets = twitter.get_new_tweets("",tweets)
+    local channel_info = retrieve_prog_info()
+    tweets = twitter.get_new_tweets(channel_info,tweets)
   end
   draw_tv_screen()
   draw_tweet(tweets)

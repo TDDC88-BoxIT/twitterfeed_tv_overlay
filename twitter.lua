@@ -14,23 +14,43 @@ end
 -- @author Claes, Gustav A, Gustav B-N
 function twitter.get_tweets(search_key)
   local channel_name = search_key[2]
+  print("channel name" .. channel_name)
   local program_name = search_key[1]
+  print("pr name" .. program_name)
+  
+  --remove the spaces from the program name
+  program_name = string.gsub(program_name,"%s+", "")
+  print(program_name)
   local json = require("scrum1.json")
   local decoded = {}
 
   --Here there will be code that sends the neccessary information to the twitter api so that tweets containing the search term 'program_name' will be returned
-  
+
   local tweets = {}
   local reverse_tweets = {}
 
 -- This part simulates receiving tweets, it reads a json object from a file and decodes it
-local tv_info = require("scrum1.tv_info")
-local cha_name= tv_info.current_prog_info[1]
-  b, c, h = http.request("http://team.gkj.se/Oauth.php?q="..'%23'..channel_name'+%23'..program_name)
+  local tv_info = require("scrum1.tv_info")
+--local cha_name= tv_info.current_prog_info[1]
+  b, c, h = http.request("http://team.gkj.se/Oauth.php?q="..'%23'..channel_name .. '+%23'.. program_name)
+  print("b:" .. b)
   -- This is where the json object is decoded
   decoded_tweets = json:decode(b) 
-
+  if #decoded_tweets.statuses == 0 then
+    b, c, h = http.request("http://team.gkj.se/Oauth.php?q="..'+%23'.. program_name)
+    decoded_tweets = json:decode(b)
+  end
+  if #decoded_tweets.statuses == 0 then
+    b, c, h = http.request("http://team.gkj.se/Oauth.php?q="..'+%23'.. channel_name)
+    decoded_tweets = json:decode(b)
+  end
+  if #decoded_tweets.statuses == 0 then
+    b, c, h = http.request("http://team.gkj.se/Oauth.php?q="..'+%23'.. "paradisehotelse")
+    decoded_tweets = json:decode(b)
+  end
   
+
+
   local i = 1
   for k,v in pairs(decoded_tweets.statuses) do
     local date = string.sub(v.created_at, 1, 19) .. string.sub(v.created_at, 26)
@@ -53,17 +73,41 @@ end
 -- @author Gustav B-N
 function twitter.get_new_tweets(search_key, old_tweets)
   --Get tweets again
+  print("getting new tweets")
+  local channel_name = search_key[2]
+  print("channel name" .. channel_name)
+  local program_name = search_key[1]
+  print("pr name" .. program_name)
+  
+  --remove the spaces from the program name
+  program_name = string.gsub(program_name,"%s+", "")
+  print(program_name)
+  
   local json = require("scrum1.json")
   local decoded = {}
 
   --Here there will be code that sends the neccessary information to the twitter api so that tweets containing the search term 'program_name' will be returned
-  
+
   local new_tweets = {}
   local reverse_new_tweets = {}
-  -- This part simulates receiving tweets, it reads a json object from a file and decodes it
-  b, c, h = http.request("http://team.gkj.se/Oauth.php?q="..'YOLO')
+  
+  b, c, h = http.request("http://team.gkj.se/Oauth.php?q="..'%23'..channel_name .. '+%23'.. program_name)
+  print("b:" .. b)
   -- This is where the json object is decoded
-  decoded_tweets = json:decode(b)
+  decoded_tweets = json:decode(b) 
+  print(#decoded_tweets.statuses)
+  if #decoded_tweets.statuses == 0 then
+    b, c, h = http.request("http://team.gkj.se/Oauth.php?q="..'+%23'.. program_name)
+    decoded_tweets = json:decode(b)
+  end
+  if #decoded_tweets.statuses == 0 then
+    b, c, h = http.request("http://team.gkj.se/Oauth.php?q="..'+%23'.. channel_name)
+    decoded_tweets = json:decode(b)
+  end
+  if #decoded_tweets.statuses == 0 then
+    b, c, h = http.request("http://team.gkj.se/Oauth.php?q="..'+%23'.. "paradisehotelse")
+    decoded_tweets = json:decode(b)
+  end
 
   local i = 1
   for k,v in pairs(decoded_tweets.statuses) do
@@ -94,15 +138,15 @@ end
 function set_timestamp(date)
   --Convert abbreviated month to number
   local temp_month = {["Jan"] = 01, ["Feb"] = 02, ["Mar"] = 03, ["Apr"] = 04, ["May"] = 05, ["Jun"] = 06,
-                     ["Jul"] = 07, ["Aug"] = 08, ["Sep"] = 09, ["Oct"] = 10, ["Nov"] = 11, ["Dec"] = 12}
+    ["Jul"] = 07, ["Aug"] = 08, ["Sep"] = 09, ["Oct"] = 10, ["Nov"] = 11, ["Dec"] = 12}
 
   local timestamp = {year = string.sub(date,21,26),
-         month = temp_month[string.sub(date, 5, 7)],
-           day = string.sub(date, 9, 10),
-          hour = string.sub(date, 12, 13),
-           min = string.sub(date, 15, 16), 
-           sec = string.sub(date, 18, 19),
-         isdst = false}
+    month = temp_month[string.sub(date, 5, 7)],
+    day = string.sub(date, 9, 10),
+    hour = string.sub(date, 12, 13),
+    min = string.sub(date, 15, 16), 
+    sec = string.sub(date, 18, 19),
+    isdst = false}
 
   return timestamp
 end

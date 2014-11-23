@@ -10,6 +10,8 @@ function tv_info.get_channel_list()
 	return channel_list;
 end
 
+ 
+
 --Understand json files about tv_schedule
 --Make mockup harcoding the json file in static folder and take info from there
 --Fetch the relevant information from this (program_name, start_time, - -end_time)
@@ -110,6 +112,41 @@ function get_xmltv_info()
   -- kanal5.se_2014-11-21.js.gz 
   -- tv6.se_2014-11-21.js.gz 
 end
- 
 
+
+-- returns a table with internet paths for downloading the current day tv schedule for each channel
+function tv_info.get_download_path_table()
+ path_base = 'http://json.xmltv.se/'
+ curr_date = os.date("_%Y-%m-%d")
+ path_ending = '.js.gz'
+ 
+ local channel_list = tv_info.get_channel_list()
+ path_table = {}
+ path_table[1]= path_base..'svt1.svt.se'..curr_date..path_ending
+ path_table[2]= path_base..'svt2.svt.se'..curr_date..path_ending
+ path_table[3]= path_base..'tv3.se'..curr_date..path_ending
+ path_table[4]= path_base..'tv4.se'..curr_date..path_ending
+ path_table[5]= path_base..'kanal5.se'..curr_date..path_ending
+ path_table[6]= path_base..'tv6.se'..curr_date..path_ending
+ path_table[7]= path_base..'sjuan.se'..curr_date..path_ending
+ path_table[8]= path_base..'tv8.se'..curr_date..path_ending
+ path_table[9]= path_base..'kanal9.se'..curr_date..path_ending
+ path_table[10]= path_base..'tv10.se'..curr_date..path_ending
+ path_table[11]= path_base..'tv11.sbstv.se'..curr_date..path_ending
+ 
+ return path_table
+end
+ 
+ -- svt1.svt.se_2014-11-21.js.gz 
+  -- svt2.svt.se_2014-11-21.js.gz 
+  -- tv3.se_2014-11-21.js.gz 
+  -- tv4.se_2014-11-21.js.gz
+  -- kanal5.se_2014-11-21.js.gz 
+  -- tv6.se_2014-11-21.js.gz 
+  -- sjuan.se_2014-11-21.js.gz
+  -- tv8.se_2014-11-21.js.gz 
+  -- kanal9.se_2014-11-21.js.gz
+  --tv10.se_2014-11-21.js.gz
+ -- tv11.sbstv.se_2014-11-21.js.gz 
+ 
 return tv_info

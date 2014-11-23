@@ -56,3 +56,7 @@ relevant_tv_info = tv_info.get_prog_relinfo(tv_info.get_prog_allinfo(current_tim
 --print("prog name: ", prog_name)
 --get_xmltv_info()
 print("relevant tv info: ", relevant_tv_info["name"])
+list = tv_info.get_channel_list()
+print(list[1])
+pathtable = tv_info.get_download_path_table()
+for key,value in pairs(pathtable) do print(key,value) end

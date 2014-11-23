@@ -80,6 +80,12 @@ function draw_tweet(tweets)
     -- timer currently set to 6 seconds.
     help_timer = sys.new_timer(6000, "clear_info_box")
   end
+  
+  --This starts a timer that cycles through the tweets automatically, every 20 seconds it will go to next tweet, pressing next or previous tweet on the remote will reset the timer.
+  if tweet_timer_starter == 1 then
+    next_tweet_timer = sys.new_timer(20000, "next_tweet")
+    tweet_timer_starter = 0
+  end
 end
 
 --- Function that timer calls, changes the timer_state to 1 so that the info box is only showed once at each view-start from menu.
@@ -101,6 +107,8 @@ end
 function render_tweet_view()
   view_mode = 1
   tweet_count = 1
+  timer_state = 0
+  tweet_timer_starter = 1
   draw_tv_screen()
   tweets = twitter.get_tweets('paradisehotelse')
   draw_tweet(tweets) 
@@ -161,8 +169,16 @@ end
 -- @author Claes
 function twitter_state(key,state)
   if key == 'down' and state == 'down' then
+    if next_tweet_timer ~= nil then
+      next_tweet_timer:stop()
+      tweet_timer_starter = 1
+    end
     next_tweet()
   elseif key =='up' and state == 'down' then
+    if next_tweet_timer ~= nil then
+      next_tweet_timer:stop()
+      tweet_timer_starter = 1
+    end
     previous_tweet()
   elseif key == 'menu' and state == 'down' then
     change_state(0)

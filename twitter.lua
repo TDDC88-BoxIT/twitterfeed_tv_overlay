@@ -7,13 +7,14 @@ function twitter.authenticate()
   return true
 end
 
---- Fetches 15 tweets based on a search key.
+--- Fetches 15 tweets based on a search key, which is a table containing 1: program name, 2: channel.
 -- Fetches 15 tweets based on a search key and returns them in reverse order. 
 -- @param search_key the string to search for
 -- @return a table with tweets
 -- @author Claes, Gustav A, Gustav B-N
 function twitter.get_tweets(search_key)
-  
+  local channel_name = search_key[2]
+  local program_name = search_key[1]
   local json = require("scrum1.json")
   local decoded = {}
 
@@ -25,8 +26,7 @@ function twitter.get_tweets(search_key)
 -- This part simulates receiving tweets, it reads a json object from a file and decodes it
 local tv_info = require("scrum1.tv_info")
 local cha_name= tv_info.current_prog_info[1]
-print('TWITTER CHA NAME:', cha_name)
-  b, c, h = http.request("http://team.gkj.se/Oauth.php?q="..'%23kanal+%23program')
+  b, c, h = http.request("http://team.gkj.se/Oauth.php?q="..'%23'..channel_name'+%23'..program_name)
   -- This is where the json object is decoded
   decoded_tweets = json:decode(b) 
 

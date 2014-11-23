@@ -103,7 +103,9 @@ function render_tweet_view()
   view_mode = 1
   tweet_count = 1
   draw_tv_screen()
-  tweets = twitter.get_tweets("")
+  --get currrent channel and program
+  local channel_info = retrieve_prog_info()
+  tweets = twitter.get_tweets(channel_info)
   draw_tweet(tweets) 
 end
 

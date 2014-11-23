@@ -102,6 +102,11 @@ end
 return current_prog_info
 end
 
+--function that will be used before get tweets to get prog info
+function retrieve_prog_info()
+  return current_prog_info
+end
+
 -- function that downloads schedules from xmltv. will be done on gustavs server instead...
 function get_xmltv_info() 
    

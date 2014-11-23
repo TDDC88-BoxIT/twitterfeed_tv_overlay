@@ -47,7 +47,6 @@ end
 
 -- Function that updates the menu
 function update_menu()
-  --ALEX MAKE CLEAR SCREEN HERE!!
   draw_menu()
 end
 
@@ -100,10 +99,14 @@ end
 -- Function that deals with the key input when the user is in the menu state
 function menu_state(key,state)
   if key == 'down' and state == 'down' then
+      --clear() and draw_tv_screen() added so that the menu is cleared and the tv screen is redrawn
+      --after each navigation move
       screen:clear()
       draw_tv_screen()
       increase_index()
     elseif key =='up' and state == 'down' then
+      --clear() and draw_tv_screen() added so that the menu is cleared and the tv screen is redrawn
+      --after each navigation move
       screen:clear()
       draw_tv_screen()
       decrease_index()

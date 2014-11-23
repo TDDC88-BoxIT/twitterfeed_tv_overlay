@@ -155,7 +155,7 @@ local function make_bakground(self)
    --  img_surface:destroy()
 
    if corners == nil then
-     corners = gfx.loadpng('scrum1/static/img/corner_16x16.png')
+     corners = gfx.loadpng('scrum1/static/img/corner_16x16_red.png')
    end
    
    local start_x = 0

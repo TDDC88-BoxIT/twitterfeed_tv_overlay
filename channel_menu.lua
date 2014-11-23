@@ -19,8 +19,8 @@ function prompt_channel_menu()
     
   -- Creates a menu object and draws it
   menu = menu_object(box_width,box_height)
-  menu:set_background(dir.."menu_background.png")
   add_menu_items(channel_list_index)
+  --menu:set_background(dir.."menu_background.png") <<<DONT THINK THIS IS USEFUL ANYMORE>>>
   draw_menu()
   set_menu_title("What channel are you watching?")
 end
@@ -96,17 +96,24 @@ end
 -- @author Sofie, Claes
 function menu_state(key,state)
   if key == 'down' and state == 'down' then
-    increase_index()
-  elseif key =='up' and state == 'down' then
-    decrease_index()
-  elseif key == 'ok' and state == 'down' then
-    set_chosen_channel(menu:get_indexed_item().id)
-    change_state(1)
-    screen:clear()
-    render_tweet_view()
-  elseif key == 'exit' and state == 'down' then
-    sys.stop()
-  else
-    return
-  end
+      --clear() and draw_tv_screen() added so that the menu is cleared and the tv screen is redrawn
+      --after each navigation move
+      screen:clear()
+      draw_tv_screen()
+      increase_index()
+    elseif key =='up' and state == 'down' then
+      --clear() and draw_tv_screen() added so that the menu is cleared and the tv screen is redrawn
+      --after each navigation move
+      screen:clear()
+      draw_tv_screen()
+      decrease_index()
+    elseif key == 'ok' and state == 'down' then
+      set_chosen_channel(menu:get_indexed_item().id)
+      change_state(1)
+      render_tweet_view() 
+    elseif key == 'exit' and state == 'down' then
+      sys.stop()
+    else
+      return
+    end
 end

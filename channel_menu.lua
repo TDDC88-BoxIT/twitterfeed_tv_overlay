@@ -17,7 +17,7 @@ function prompt_channel_menu()
   
   -- Chooses what index in the channel_list that should be displayed first in the menu
   channel_list_index = 1
-    
+
   draw_tv_screen()
   
   -- Creates a menu object and draws it
@@ -31,23 +31,60 @@ end
 -- Sets the text displayed over the menu
 -- @author Sofie
 function set_menu_title()
-    sf = gfx.new_surface(box_width,height-box_height-y_offset*2)
-    sf:clear(menu_color)
-    render_text(menu_title,10,10,box_width,1.2,sf)
-    screen:copyfrom(sf,nil,{x=x_offset, y=y_offset, w=box_width, h=height-box_height-y_offset*2},true)
-    sf:destroy()
-end
+    local title_width = box_width - 16 -- In order to make place for corners
+    local title_height = height-box_height-y_offset*2 - 16 -- In order to make place for corners
+    local upper_left_corner_pos_x = x_offset
+    local upper_right_corner_pos_x = upper_left_corner_pos_x + box_width - 8
+    local upper_left_corner_pos_y = y_offset
+    local upper_right_corner_pos_y = upper_left_corner_pos_y
+    local lower_left_corner_pos_x = x_offset
+    local lower_right_corner_pos_x = upper_left_corner_pos_x + box_width - 8
+    local lower_left_corner_pos_y = y_offset + title_height + 8
+    local lower_right_corner_pos_y = lower_left_corner_pos_y
+    local start_x = x_offset
+    local start_y = y_offset
+     
+    if corners == nil then
+     corners = gfx.loadpng('scrum1/static/img/corner_16x16_red.png')
+   end
+
+
+   sf = gfx.new_surface(title_width, title_height)
+   sf:clear(menu_color)
+   render_text(menu_title,10,10,title_width,1.0,sf)
+
+    --Creates the upper left corner
+   screen:copyfrom(corners, {x=0, y=0, width=8, height=8}, {x=upper_left_corner_pos_x,y=upper_left_corner_pos_y,width=8,height=8},true)
+   --Creates the upper right corner
+   screen:copyfrom(corners, {x=8, y=0 , width=8, height=8}, {x=upper_right_corner_pos_x , y=upper_right_corner_pos_y , width=8 , height=8}, true)
+    --creates the middle-top fill
+   screen:fill(menu_color, {x=start_x+8, y=start_y , width=title_width, height=8})
+   --Creates the lower left corner
+   screen:copyfrom(corners, {x=0, y=8 , width=8, height=8}, {x=lower_left_corner_pos_x , y=lower_left_corner_pos_y , width=8 , height=8}, true)
+   --Create the lower right corner
+   screen:copyfrom(corners, {x=8,y=8,width=8,height=8}, {x=lower_right_corner_pos_x , y=lower_right_corner_pos_y , width=8 , height=8}, true)
+    --creates the lower filler
+   screen:fill(menu_color, {x=start_x+8 ,y=start_y+title_height+8 ,width=title_width,height=8})
+   --Creates RIGHT-side filler
+   screen:fill(menu_color, {x=start_x, y=start_y+8, width=8, height=title_height})
+    --Creates LEFT-side filler
+   screen:fill(menu_color, {x=start_x+title_width+8, y=start_y+8, width=8, height=title_height})
+   --Copies surface to get the rendered text
+   screen:copyfrom(sf,nil,{x=x_offset+8, y=y_offset+8, w=title_width, h=title_height},true)
+
+   sf:destroy()
+ end
 
 -- Add items to the channel menu based on the channel list containing all available channels. The start_index
 -- indicates what index in the channel list that should be the first button.
 -- @author Sofie
-  function add_menu_items(start_index)
+function add_menu_items(start_index)
   --This should be changed once we got the new design in place  <--------------------------------------------------
   number_of_channels_shown = 6
   for i=start_index,math.min(#channel_list,start_index+number_of_channels_shown-1),1 do
     menu:add_button(channel_list[i],channel_list[i])
   end
- end
+end
 
 --- Function that draws the channel menu.
 -- @author Sofie, Jesper
@@ -106,18 +143,18 @@ function menu_state(key,state)
     --after each navigation move
     update_menu()
     increase_index()
-  elseif key =='up' and state == 'down' then
+    elseif key =='up' and state == 'down' then
     --clear() and draw_tv_screen() added so that the menu is cleared and the tv screen is redrawn
     --after each navigation move
     update_menu()
     decrease_index()
-  elseif key == 'ok' and state == 'down' then
-    set_chosen_channel(menu:get_indexed_item().id)
-    change_state(1)
-    render_tweet_view() 
-  elseif key == 'exit' and state == 'down' then
-    sys.stop()
-  else
-    return
-  end
-end
+    elseif key == 'ok' and state == 'down' then
+      set_chosen_channel(menu:get_indexed_item().id)
+      change_state(1)
+      render_tweet_view() 
+      elseif key == 'exit' and state == 'down' then
+        sys.stop()
+      else
+        return
+      end
+    end

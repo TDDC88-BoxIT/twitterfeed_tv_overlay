@@ -125,8 +125,10 @@ function draw_tweet(tweets)
     info_box:copyfrom(info_box_image, nil,nil,true)
     screen:copyfrom(info_box,nil,{x = screen:get_width()/2-200, y = screen:get_height()-215},{x=100,y=100, w=400, h =200},true)
     info_box:destroy()
-    -- timer currently set to 6 seconds.
-    help_timer = sys.new_timer(6000, "clear_info_box")
+    -- timer currently set to 12 seconds.
+    if help_timer == nil then
+      help_timer = sys.new_timer(12000, "clear_info_box")
+    end
   end
   
   --This starts a timer that cycles through the tweets automatically, every 20 seconds it will go to next tweet, pressing next or previous tweet on the remote will reset the timer.
@@ -238,6 +240,11 @@ function twitter_state(key,state)
     if next_tweet_timer ~= nil then
       next_tweet_timer:stop()
       tweet_timer_starter = 1
+    end
+    --This is to stop the help timer
+    if help_timer ~= nil then
+      help_timer:stop()
+      help_timer = nil
     end
     prompt_channel_menu()
   elseif key == 'exit' and state == 'down' then

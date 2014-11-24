@@ -58,10 +58,30 @@ end
 function tv_info.get_prog_allinfo(current_time, ch_index)
   local channel_index = ch_index
   local decoded_info = tv_info.set_decoded_tv_info(channel_index)
+  local got_current = 0
   for k,v in pairs(decoded_info.jsontv.programme) do
-       
+
     if tonumber(v.start) <= current_time and tonumber(v.stop) > current_time then
       allinfo = v
+      got_current = 1
+    end
+  end
+  --If there is a break in the tv shows this will get the program that finished last
+  if got_current == 0 then
+    for k,v in pairs(decoded_info.jsontv.programme) do
+      if tonumber(v.start) <= current_time then
+        allinfo = v
+        got_current = 1
+      end
+    end
+  end
+  --This is just an emergency, this will get the last program showed that day
+  if got_current == 0 then
+    for k,v in pairs(decoded_info.jsontv.programme) do
+      if tonumber(v.stop) > current_time then
+        allinfo = v
+        got_current = 1
+      end
     end
   end
   return allinfo

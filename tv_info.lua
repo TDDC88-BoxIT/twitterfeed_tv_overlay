@@ -117,7 +117,7 @@ end
 -- ANVÄND DENNA GUSTAV
 -- returns a table with internet paths for downloading the current day tv schedule for each channel
 function tv_info.get_download_path_table()
-  path_base = 'http://json.xmltv.se/'
+  path_base = 'http://team.gkj.se/xmltv.php?data='
   curr_date = os.date("_%Y-%m-%d")
   path_ending = '.js.gz'
   file_paths = tv_info.get_channel_file_path_list()

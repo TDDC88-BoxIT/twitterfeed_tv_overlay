@@ -14,13 +14,10 @@ end
 -- @author Claes, Gustav A, Gustav B-N
 function twitter.get_tweets(search_key)
   local channel_name = search_key[2]
-  print("channel name" .. channel_name)
   local program_name = search_key[1]
-  print("pr name" .. program_name)
-  
   --remove the spaces from the program name
   program_name = string.gsub(program_name,"%s+", "")
-  print(program_name)
+  channel_name = string.gsub(channel_name, "%s+", "")
   local json = require("scrum1.json")
   local decoded = {}
 
@@ -78,6 +75,7 @@ function twitter.get_new_tweets(search_key, old_tweets)
   
   --remove the spaces from the program name
   program_name = string.gsub(program_name,"%s+", "")
+  channel_name = string.gsub(channel_name, "%s+", "")
   
   local json = require("scrum1.json")
   local decoded = {}

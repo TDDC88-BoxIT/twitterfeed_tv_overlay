@@ -6,83 +6,146 @@
                "US"
             ],
             "credits" : {
+               "writer" : [
+                  {
+                     "name" : "Chuck Lorre"
+                  },
+                  {
+                     "name" : "Matt Ross"
+                  },
+                  {
+                     "name" : "Mark Seale"
+                  }
+               ],
                "actor" : [
                   {
-                     "name" : "Brian Klugman",
-                     "role" : "Reece"
+                     "name" : "Melanie Lynskey",
+                     "role" : "Rose"
                   },
                   {
-                     "name" : "Agnes Bruckner",
-                     "role" : "Jessica"
+                     "name" : "Ryan Stiles",
+                     "role" : "Herb Melnick"
                   },
                   {
-                     "name" : "Trevor Wright",
-                     "role" : "Caleb"
+                     "name" : "Jennifer Taylor",
+                     "role" : "Chelsea/Nina/Suzanne/Tina"
                   },
                   {
-                     "name" : "David Moscow",
-                     "role" : "Gordon"
+                     "name" : "April Bowlby",
+                     "role" : "Kandi"
                   },
                   {
-                     "name" : "Arjay Smith",
-                     "role" : "Tanner"
+                     "name" : "Holland Taylor",
+                     "role" : "Evelyn Harper"
                   },
                   {
-                     "name" : "Beau Billingslea",
-                     "role" : "Otis"
+                     "name" : "Brooke Shields",
+                     "role" : "Danielle Stewert"
                   },
                   {
-                     "name" : "Juanita Jennings",
-                     "role" : "Doris"
+                     "name" : "Emmanuelle Vaugier",
+                     "role" : "Mia"
                   },
                   {
-                     "name" : "Nelson Lee",
-                     "role" : "Groom"
+                     "name" : "Conchata Ferrell",
+                     "role" : "Berta"
                   },
                   {
-                     "name" : "Gwendoline Yeo",
-                     "role" : "Bride"
+                     "name" : "Graham Patrick Martin",
+                     "role" : "Eldridge McElroy"
                   },
                   {
-                     "name" : "Judy Durning",
-                     "role" : "Wife"
+                     "name" : "Marin Hinkle",
+                     "role" : "Judith"
+                  },
+                  {
+                     "name" : "Carl Reiner",
+                     "role" : "Marty"
+                  },
+                  {
+                     "name" : "Jane Lynch",
+                     "role" : "Dr. Linda Freeman"
+                  },
+                  {
+                     "name" : "April Bowlby",
+                     "role" : "Kandi"
+                  },
+                  {
+                     "name" : "Kelly Stables",
+                     "role" : "Melissa"
+                  },
+                  {
+                     "name" : "Ashton Kutcher",
+                     "role" : "Walden Schmidt"
+                  },
+                  {
+                     "name" : "Judy Greer",
+                     "role" : "Bridget"
+                  },
+                  {
+                     "name" : "Angus T. Jones",
+                     "role" : "Jacob David \"Jake\" Harper"
+                  },
+                  {
+                     "name" : "Jenny McCarthy",
+                     "role" : "Courtney"
+                  },
+                  {
+                     "name" : "Amber Tamblyn",
+                     "role" : "Jenny"
+                  },
+                  {
+                     "name" : "Jon Cryer",
+                     "role" : "Alan Harper"
+                  },
+                  {
+                     "name" : "Courtney Thorne-Smith",
+                     "role" : "Lyndsey McElroy"
+                  },
+                  {
+                     "name" : "Charlie Sheen",
+                     "role" : "Charles \"Charlie\" Harper"
                   }
                ],
                "director" : [
                   {
-                     "name" : "Eric Bross"
+                     "name" : "James Widdoes"
                   }
                ]
             },
             "video" : {
-               "aspect" : "16:9"
+               "aspect" : "4:3"
             },
-            "stop" : "1416707700",
-            "date" : "2008",
+            "stop" : "1416789000",
+            "date" : "2003",
+            "subTitle" : {
+               "sv" : "Give Santa a Tail-Hole"
+            },
             "channel" : "tv6.se",
             "rating" : {
-               "stars" : "5.4 / 10"
+               "stars" : "6.8 / 9"
             },
             "episodeNum" : {
-               "themoviedb.org" : "movie/15641"
+               "thetvdb.com" : "series/72227",
+               "xmltv_ns" : "9 . 10 .",
+               "onscreen" : "Del 11 s\u00e4song 10"
             },
             "desc" : {
-               "sv" : "\u00c4garna till Meadow View Inn filmar i hemlighet rum 6. Sedan s\u00e4ljer de inspelningarna som porrfilmer. N\u00e4r den mystiska Mr Smith checkar in i rum 6 med en ung kvinna vid sin sida har de ingen aning vad de kan v\u00e4nta sig. \u00c4garna bevittnar hur denna sadistiska psykopat hugger ihj\u00e4l sin \u00e4lskarinna. Denna videoinspelning visar sig s\u00e4lja b\u00e4ttre \u00e4n vad de kunnat ana, s\u00e5 de best\u00e4mmer sig f\u00f6r att spela in fler filmer med Mr Smith. N\u00e4r Caleb tillsammans med sin tjej och sin b\u00e4sta v\u00e4n checkar in p\u00e5 motellet och tilldelas rum 6 har de ingen aning om vad som v\u00e4ntar dem."
+               "sv" : "Walden k\u00e4mpar f\u00f6r att h\u00e5lla koll p\u00e5 sina tv\u00e5 identiteter - den ene rik och den andre fattig. Samtidigt tvingas Alan att tillbringa julen ensam."
             },
             "url" : [
-               "http://www.themoviedb.org/movie/15641"
+               "http://thetvdb.com/?tab=episode&seriesid=72227&seasonid=494381&id=4450781&lid=8"
             ],
             "title" : {
-               "sv" : "Vacancy 2: The First Cut"
+               "sv" : "2 1/2 m\u00e4n"
             },
             "category" : {
                "en" : [
-                  "movie",
-                  "Horror",
-                  "Thriller"
+                  "series",
+                  "Comedy"
                ]
             },
-            "start" : "1416701700"
+            "start" : "1416787200"
          },
          {
             "country" : [
@@ -91,50 +154,332 @@
             "credits" : {
                "actor" : [
                   {
-                     "name" : "Chris N\u00fa\u00f1ez",
-                     "role" : "Judge"
+                     "name" : "Wayne Knight",
+                     "role" : "Haskell Lutz"
                   },
                   {
-                     "name" : "Dave Navarro",
-                     "role" : "Host"
+                     "name" : "David Alan Basche",
+                     "role" : "Stuart Gardner"
                   },
                   {
-                     "name" : "Oliver Peck",
-                     "role" : "Judge"
+                     "name" : "Kelly Stables",
+                     "role" : "Eden"
+                  },
+                  {
+                     "name" : "Edi Patterson",
+                     "role" : "Crazy Sandy"
+                  },
+                  {
+                     "name" : "Kristen Johnston",
+                     "role" : "Holly Franklin"
+                  },
+                  {
+                     "name" : "Rebecca Rhae Larsen",
+                     "role" : "Alicia"
+                  },
+                  {
+                     "name" : "Donald Faison",
+                     "role" : "Phil Chase"
                   }
                ]
             },
             "video" : {
                "aspect" : "4:3"
             },
-            "stop" : "1416710400",
-            "date" : "2012",
+            "stop" : "1416790800",
+            "date" : "2011",
             "subTitle" : {
-               "sv" : "Baby Got Back"
+               "sv" : "The Old Man and The Holly"
             },
             "channel" : "tv6.se",
+            "rating" : {
+               "stars" : "5.6 / 9"
+            },
             "episodeNum" : {
-               "thetvdb.com" : "series/254986",
-               "xmltv_ns" : "2 . 0 .",
-               "onscreen" : "Del 1 s\u00e4song 3"
+               "thetvdb.com" : "series/253279",
+               "xmltv_ns" : "2 . 19 .",
+               "onscreen" : "Del 20 s\u00e4song 3"
             },
             "desc" : {
-               "sv" : "16 nya deltagare ska tatuera i f\u00e4ngelse. Tatu Baby \u00e5terv\u00e4nder och The Human Canvases r\u00f6star bort en tatuerare n\u00e4r kampen om titeln Ink Master drar ig\u00e5ng."
+               "sv" : "I s\u00e4songsavslutningen g\u00e5r Holly p\u00e5 dejt med en \u00e4ldre man, medan Nicki erbjuder Phil n\u00e5got mycket intressant."
             },
             "url" : [
-               "http://thetvdb.com/?tab=episode&seriesid=254986&seasonid=524033&id=4605669&lid=8"
+               "http://thetvdb.com/?tab=episode&seriesid=253279&seasonid=509704&id=4799387&lid=8"
             ],
             "title" : {
-               "sv" : "Ink Master USA"
+               "sv" : "The Exes"
             },
             "category" : {
                "en" : [
                   "series",
-                  "Reality",
-                  "Special Interest"
+                  "Comedy"
                ]
             },
-            "start" : "1416707700"
+            "start" : "1416789000"
+         },
+         {
+            "country" : [
+               "US"
+            ],
+            "credits" : {
+               "actor" : [
+                  {
+                     "name" : "Stan Smith"
+                  },
+                  {
+                     "name" : "Francine Smith"
+                  },
+                  {
+                     "name" : "Hayley Smith"
+                  },
+                  {
+                     "name" : "Klaus"
+                  }
+               ]
+            },
+            "video" : {
+               "aspect" : "4:3"
+            },
+            "stop" : "1416792300",
+            "date" : "2007",
+            "channel" : "tv6.se",
+            "episodeNum" : {
+               "xmltv_ns" : "6 . 0/19 .",
+               "onscreen" : "Del 1 av 19 s\u00e4song 7"
+            },
+            "desc" : {
+               "sv" : "Hayley och Jeff \u00e5ker iv\u00e4g f\u00f6r att gifta sig och Stan erbjuder 50 000 dollar till den som kan stoppa dem - vilket f\u00e5r hela staden att engagera sig."
+            },
+            "title" : {
+               "sv" : "American Dad"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Series"
+               ]
+            },
+            "start" : "1416790800"
+         },
+         {
+            "country" : [
+               "US"
+            ],
+            "credits" : {
+               "actor" : [
+                  {
+                     "name" : "Stan Smith"
+                  },
+                  {
+                     "name" : "Francine Smith"
+                  },
+                  {
+                     "name" : "Hayley Smith"
+                  },
+                  {
+                     "name" : "Klaus"
+                  }
+               ]
+            },
+            "video" : {
+               "aspect" : "4:3"
+            },
+            "stop" : "1416793800",
+            "date" : "2007",
+            "channel" : "tv6.se",
+            "episodeNum" : {
+               "xmltv_ns" : "6 . 1/21 .",
+               "onscreen" : "Del 2 av 21 s\u00e4song 7"
+            },
+            "desc" : {
+               "sv" : "Stan klonar Steve, medan Francine och Stan t\u00e4vlar om vem som \u00e4r den b\u00e4sta f\u00f6r\u00e4ldern. Samtidigt hittar Roger den bortsprungna bruden och brudgummen - i Thailand."
+            },
+            "title" : {
+               "sv" : "American Dad"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Series"
+               ]
+            },
+            "start" : "1416792300"
+         },
+         {
+            "country" : [
+               "US"
+            ],
+            "credits" : {
+               "writer" : [
+                  {
+                     "name" : "Victoria Morrow"
+                  }
+               ],
+               "actor" : [
+                  {
+                     "name" : "Hunter Parrish",
+                     "role" : "Silas Botwin"
+                  },
+                  {
+                     "name" : "Elizabeth Perkins",
+                     "role" : "Celia Hodes"
+                  },
+                  {
+                     "name" : "Alexander Gould",
+                     "role" : "Shane Botwin"
+                  },
+                  {
+                     "name" : "Tonye Patano",
+                     "role" : "Heylia James"
+                  },
+                  {
+                     "name" : "Justin Kirk",
+                     "role" : "Andy Botwin"
+                  },
+                  {
+                     "name" : "Michelle Trachtenberg",
+                     "role" : "Emma Karlin"
+                  },
+                  {
+                     "name" : "Pablo Schreiber",
+                     "role" : "Demetri Ravitch"
+                  },
+                  {
+                     "name" : "Mary-Louise Parker",
+                     "role" : "Nancy Botwin"
+                  },
+                  {
+                     "name" : "Romany Malco",
+                     "role" : "Conrad Shepard"
+                  },
+                  {
+                     "name" : "Kevin Nealon",
+                     "role" : "Doug Wilson"
+                  }
+               ],
+               "director" : [
+                  {
+                     "name" : "Michael Trim"
+                  }
+               ]
+            },
+            "video" : {
+               "aspect" : "4:3"
+            },
+            "stop" : "1416795300",
+            "date" : "2005",
+            "subTitle" : {
+               "sv" : "Synthetics"
+            },
+            "channel" : "tv6.se",
+            "rating" : {
+               "stars" : "7 / 9"
+            },
+            "episodeNum" : {
+               "thetvdb.com" : "series/74845",
+               "xmltv_ns" : "6 . 7 .",
+               "onscreen" : "Del 8 s\u00e4song 7"
+            },
+            "desc" : {
+               "sv" : "Nancys tidigare cellkamrat dyker upp och kr\u00e5nglar till saker mellan Nancy och hennes leverant\u00f6r. Silas och Andysl\u00e5r sina kloka huvuden ihop \u00f6ver hur man b\u00e4st driver en cykelaff\u00e4r."
+            },
+            "url" : [
+               "http://thetvdb.com/?tab=episode&seriesid=74845&seasonid=390701&id=4114470&lid=8"
+            ],
+            "title" : {
+               "sv" : "Weeds"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Comedy",
+                  "Drama"
+               ]
+            },
+            "start" : "1416793800"
+         },
+         {
+            "country" : [
+               "US"
+            ],
+            "credits" : {
+               "writer" : [
+                  {
+                     "name" : "David Quandt"
+                  }
+               ],
+               "actor" : [
+                  {
+                     "name" : "Andre Braugher",
+                     "role" : "Captain Ray Holt"
+                  },
+                  {
+                     "name" : "Andy Samberg",
+                     "role" : "Jake Peralta"
+                  },
+                  {
+                     "name" : "Melissa Fumero",
+                     "role" : "Amy Santiago"
+                  },
+                  {
+                     "name" : "Joe LoTruglio",
+                     "role" : "Charles"
+                  },
+                  {
+                     "name" : "Chelsea Peretti",
+                     "role" : "Gina"
+                  },
+                  {
+                     "name" : "Terry Crews",
+                     "role" : "Terry Jeffords"
+                  },
+                  {
+                     "name" : "Stephanie Beatriz",
+                     "role" : "Detective Rosa Diaz"
+                  },
+                  {
+                     "name" : "Matt Walsh"
+                  }
+               ],
+               "director" : [
+                  {
+                     "name" : "Tucker Gates"
+                  }
+               ]
+            },
+            "video" : {
+               "aspect" : "4:3"
+            },
+            "stop" : "1416796800",
+            "date" : "2013",
+            "subTitle" : {
+               "sv" : "The Apartment"
+            },
+            "channel" : "tv6.se",
+            "rating" : {
+               "stars" : "6.7 / 9"
+            },
+            "episodeNum" : {
+               "thetvdb.com" : "series/269586",
+               "xmltv_ns" : "0 . 17 .",
+               "onscreen" : "Del 18 s\u00e4song 1"
+            },
+            "desc" : {
+               "sv" : "Jake riskerar att f\u00f6rlora sin l\u00e4genhet p\u00e5 grund av en skuld, och beh\u00f6ver nu Ginas hj\u00e4lp. Kapten Holt och Terry arrangerar utvecklingssamtal med de anst\u00e4llda."
+            },
+            "url" : [
+               "http://thetvdb.com/?tab=episode&seriesid=269586&seasonid=519889&id=4749759&lid=8"
+            ],
+            "title" : {
+               "sv" : "Brooklyn Nine-Nine"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Comedy"
+               ]
+            },
+            "start" : "1416795300"
          },
          {
             "country" : [
@@ -167,10 +512,10 @@
             "video" : {
                "aspect" : "4:3"
             },
-            "stop" : "1416713400",
+            "stop" : "1416799800",
             "date" : "2011",
             "subTitle" : {
-               "sv" : "Cosmic Circus"
+               "sv" : "Cosmic Conspiracy"
             },
             "channel" : "tv6.se",
             "rating" : {
@@ -178,14 +523,14 @@
             },
             "episodeNum" : {
                "thetvdb.com" : "series/214831",
-               "xmltv_ns" : "4 . 7 .",
-               "onscreen" : "Del 8 s\u00e4song 5"
+               "xmltv_ns" : "5 . 1 .",
+               "onscreen" : "Del 2 s\u00e4song 6"
             },
             "desc" : {
-               "sv" : "Tate g\u00f6r illa fingret under en utmaning, medan deltagarna skapar unika karakt\u00e4rer. De f\u00e5r inspiration fr\u00e5n olika historiska konstr\u00f6relser, bland annat surrealismen."
+               "sv" : "De 14 konstn\u00e4rerna k\u00e4mpar f\u00f6r att imponera p\u00e5 domarna. Idag f\u00e5r de i uppgift att skapa utomjordiska varelser, som lider av en rad intergalaktiska kr\u00e4mpor."
             },
             "url" : [
-               "http://thetvdb.com/?tab=episode&seriesid=214831&seasonid=524117&id=4656560&lid=8"
+               "http://thetvdb.com/?tab=episode&seriesid=214831&seasonid=569121&id=4766402&lid=8"
             ],
             "title" : {
                "sv" : "Face Off"
@@ -196,97 +541,39 @@
                   "Reality"
                ]
             },
-            "start" : "1416710400"
+            "start" : "1416796800"
          },
          {
-            "country" : [
-               "US"
-            ],
-            "credits" : {
-               "actor" : [
-                  {
-                     "name" : "Phil Keoghan",
-                     "role" : "Himself (Host)"
-                  }
-               ]
-            },
             "video" : {
                "aspect" : "4:3"
             },
-            "stop" : "1416716100",
-            "date" : "2001",
+            "stop" : "1416802800",
+            "date" : "2011",
             "subTitle" : {
-               "sv" : "Be Safe and Don't Hit a Cow"
+               "sv" : "Avsnitt 4"
             },
             "channel" : "tv6.se",
-            "rating" : {
-               "stars" : "7.3 / 9"
-            },
             "episodeNum" : {
-               "thetvdb.com" : "series/77666",
-               "xmltv_ns" : "21 . 6 .",
-               "onscreen" : "Del 7 s\u00e4song 22"
+               "thetvdb.com" : "series/233941",
+               "xmltv_ns" : "0 . 3 .",
+               "onscreen" : "Del 4 s\u00e4song 1"
             },
             "desc" : {
-               "sv" : "De \u00e5terst\u00e5ende sju lagen stannar kvar i Botswana och m\u00e5ste bland annat transportera tv\u00e5 sm\u00e5 getter upp f\u00f6r en flod i en kanot."
+               "sv" : "Tr\u00e4dkramare g\u00f6re sig icke besv\u00e4r. I kv\u00e4llens avsnitt mejas tr\u00e4d ner med kanonkula. Den h\u00e4r g\u00e5ngen har Erik och Mackan kommit till paradiset f\u00f6r skjutgalna Dirty Harrys. Eller Dynamit-Harrys om man s\u00e5 vill. P\u00e5 Glacier Springs Farm finns ett lekland f\u00f6r vuxna m\u00e4n och krutr\u00f6ken ligger t\u00e4t. - You can run fast, can't you? fr\u00e5gar farmens \u00e4gare n\u00e4r stubintr\u00e5den b\u00f6rjar brinna. Det blir inte bara dundrande kanoner i Oregon, det blir djuphavsfiske i Barbados vatten och jakt efter sagov\u00e4sen och oknytt p\u00e5 Island. Det blir en lektion i att dricka alkohol p\u00e5 ett vuxet s\u00e4tt p\u00e5 en ving\u00e5rd i Sydafrika samt ett f\u00f6rs\u00f6k att ta sig in p\u00e5 Dreamhack hemma i Sverige f\u00f6re alla n\u00f6rdar. Erik och Mackan provar ocks\u00e5 p\u00e5 att sv\u00e4va fritt i luften med hj\u00e4lp av en flygplansmotor i Lettland, med olika goda resultat. Men varf\u00f6r i hela v\u00e4rlden kryper Erik in under t\u00e4cket p\u00e5 hotellet tillsammans med en stor... fisk? Avsnitt 4:10"
             },
             "url" : [
-               "http://thetvdb.com/?tab=episode&seriesid=77666&seasonid=510614&id=4527222&lid=8"
+               "http://thetvdb.com/?tab=episode&seriesid=233941&seasonid=427281&id=3750011&lid=8"
             ],
             "title" : {
-               "sv" : "Amazing Race"
+               "sv" : "99 saker man m\u00e5ste g\u00f6ra innan man d\u00f6r"
             },
             "category" : {
                "en" : [
                   "series",
-                  "Gameshow",
-                  "Reality"
+                  "Comedy"
                ]
             },
-            "start" : "1416713400"
-         },
-         {
-            "country" : [
-               "US"
-            ],
-            "credits" : {
-               "actor" : [
-                  {
-                     "name" : "Joe Rogan",
-                     "role" : "The Host"
-                  }
-               ]
-            },
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1416718740",
-            "date" : "2001",
-            "subTitle" : {
-               "sv" : "Hee Haw! Hee Haw!"
-            },
-            "channel" : "tv6.se",
-            "episodeNum" : {
-               "thetvdb.com" : "series/76707",
-               "xmltv_ns" : "6 . 8 .",
-               "onscreen" : "Del 9 s\u00e4song 7"
-            },
-            "desc" : {
-               "sv" : "Deltagarna k\u00e4mpar f\u00f6r att vinna priset p\u00e5 100 000 dollar. De dinglar fr\u00e5n en helikopter, s\u00e4nks ned i en bass\u00e4ng full av blodiglar och kl\u00e4ttrar upp f\u00f6r en femv\u00e5ningsbyggnad."
-            },
-            "url" : [
-               "http://thetvdb.com/?tab=episode&seriesid=76707&seasonid=478529&id=4246001&lid=8"
-            ],
-            "title" : {
-               "sv" : "Fear Factor USA"
-            },
-            "category" : {
-               "en" : [
-                  "series",
-                  "Reality"
-               ]
-            },
-            "start" : "1416716100"
+            "start" : "1416799800"
          },
          {
             "country" : [
@@ -408,7 +695,7 @@
             "video" : {
                "aspect" : "4:3"
             },
-            "stop" : "1416722400",
+            "stop" : "1416804300",
             "date" : "2001",
             "subTitle" : {
                "sv" : "My Old Friend's New Friend"
@@ -437,7 +724,7 @@
                   "Comedy"
                ]
             },
-            "start" : "1416720600"
+            "start" : "1416802800"
          },
          {
             "country" : [
@@ -446,138 +733,95 @@
             "credits" : {
                "writer" : [
                   {
-                     "name" : "Matt Tarses"
+                     "name" : "Maria A. Brown"
+                  },
+                  {
+                     "name" : "Gabe Sachs"
+                  },
+                  {
+                     "name" : "Jeff Judah"
                   }
                ],
                "actor" : [
                   {
-                     "name" : "Robert Maschio",
-                     "role" : "Todd Quinlan"
+                     "name" : "David Spade",
+                     "role" : "Dennis Finch"
                   },
                   {
-                     "name" : "Kerry Bish\u00e9",
-                     "role" : "Lucy Bennett"
+                     "name" : "George Segal",
+                     "role" : "Jack Gallo"
                   },
                   {
-                     "name" : "Donald Faison",
-                     "role" : "Dr. Christopher \"Chris\" Duncan Turk"
+                     "name" : "Laura San Giacomo",
+                     "role" : "Maya Gallo"
                   },
                   {
-                     "name" : "John C. McGinley",
-                     "role" : "Dr. Percival \"Perry\" Ulysses Cox"
+                     "name" : "Rena Sofer",
+                     "role" : "Vicki Costa"
                   },
                   {
-                     "name" : "Dave Franco",
-                     "role" : "Cole McCallister"
+                     "name" : "Wendie Malick",
+                     "role" : "Nina Van Horn"
                   },
                   {
-                     "name" : "Michael Mosley",
-                     "role" : "Drew Suffin"
+                     "name" : "Enrico Colantoni",
+                     "role" : "Elliot DiMauro"
                   },
                   {
-                     "name" : "Sarah Chalke",
-                     "role" : "Dr. Elliot Reid"
+                     "name" : "Chris Hogan",
+                     "role" : "Wally"
                   },
                   {
-                     "name" : "Christa Miller",
-                     "role" : "Jordan Sullivan"
+                     "name" : "Pamela Anderson"
                   },
                   {
-                     "name" : "Zach Braff",
-                     "role" : "Dr. John Michael \"J.D.\" Dorian"
+                     "name" : "Steve Valentine"
                   },
                   {
-                     "name" : "Sam Lloyd",
-                     "role" : "Ted Buckland"
+                     "name" : "Ashton Kutcher"
                   },
                   {
-                     "name" : "Judy Reyes",
-                     "role" : "Nurse Carla Espinosa"
+                     "name" : "Adam Mayfield"
                   },
                   {
-                     "name" : "Aloma Wright",
-                     "role" : "Nurse Laverne Roberts"
-                  },
-                  {
-                     "name" : "Ken Jenkins",
-                     "role" : "Dr. Robert \"Bob\" Kelso"
-                  },
-                  {
-                     "name" : "Eliza Coupe",
-                     "role" : "Denise Mahoney"
-                  },
-                  {
-                     "name" : "Travis Schuldt",
-                     "role" : "Keith"
-                  },
-                  {
-                     "name" : "Johnny Kastl",
-                     "role" : "Dr. Doug Murphy"
-                  },
-                  {
-                     "name" : "Heather Graham",
-                     "role" : "Dr. Molly Clock"
-                  },
-                  {
-                     "name" : "Neil Flynn",
-                     "role" : "The Janitor"
-                  },
-                  {
-                     "name" : "John Brady"
-                  },
-                  {
-                     "name" : "Robert Clendinin"
-                  },
-                  {
-                     "name" : "Larkin Campbell"
-                  },
-                  {
-                     "name" : "Andrew Herman"
-                  },
-                  {
-                     "name" : "Herman Poppe"
-                  },
-                  {
-                     "name" : "Jennie Ventriss"
-                  },
-                  {
-                     "name" : "Oleg Zatsepin"
-                  },
-                  {
-                     "name" : "Chuck Lacey"
+                     "name" : "Lauren Petty"
                   }
                ],
                "director" : [
                   {
-                     "name" : "Gail Mancuso"
+                     "name" : "Pamela Fryman"
+                  },
+                  {
+                     "name" : "Aaron Peters"
+                  },
+                  {
+                     "name" : "Ross McCall",
+                     "role" : "II"
                   }
                ]
             },
             "video" : {
                "aspect" : "4:3"
             },
-            "stop" : "1416724200",
-            "date" : "2001",
+            "stop" : "1416807000",
+            "date" : "1997",
             "subTitle" : {
-               "sv" : "My Office"
+               "sv" : "Maya's and Tigers and Deans, Oh My"
             },
             "channel" : "tv6.se",
-            "rating" : {
-               "stars" : "6.3 / 9"
-            },
             "episodeNum" : {
-               "thetvdb.com" : "series/76156",
-               "xmltv_ns" : "3 . 1 .",
-               "onscreen" : "Del 2 s\u00e4song 4"
+               "thetvdb.com" : "series/71936",
+               "xmltv_ns" : "4 . 14 .",
+               "onscreen" : "Del 15 s\u00e4song 5"
             },
             "desc" : {
-               "sv" : "Doktor Clock f\u00f6rs\u00f6ker att f\u00e5 JD och Elliott att sluta fred. Samtidigt tvingas doktor Cox och Turk samarbeta f\u00f6r att hj\u00e4lpa en patient. Sk\u00e5despelerskan Heather Graham g\u00e4stspelar. ."
+               "sv" : "Maya blir uppr\u00f6rd \u00f6ver en artikel i tidningen och best\u00e4mmer sig f\u00f6r att h\u00e4mnas..."
             },
             "url" : [
-               "http://thetvdb.com/?tab=episode&seriesid=76156&seasonid=9775&id=184672&lid=8"
+               "http://thetvdb.com/?tab=episode&seriesid=71936&seasonid=3259&id=68280&lid=8"
             ],
             "title" : {
-               "sv" : "Scrubs"
+               "sv" : "Just shoot me"
             },
             "category" : {
                "en" : [
@@ -585,7 +829,7 @@
                   "Comedy"
                ]
             },
-            "start" : "1416722400"
+            "start" : "1416805200"
          },
          {
             "country" : [
@@ -594,146 +838,115 @@
             "credits" : {
                "writer" : [
                   {
-                     "name" : "Gabrielle Allan"
+                     "name" : "Carleton Eastlake"
                   }
                ],
                "actor" : [
                   {
-                     "name" : "Robert Maschio",
-                     "role" : "Todd Quinlan"
+                     "name" : "Jane Badler",
+                     "role" : "Diana"
                   },
                   {
-                     "name" : "Kerry Bish\u00e9",
-                     "role" : "Lucy Bennett"
+                     "name" : "Lane Smith"
                   },
                   {
-                     "name" : "Donald Faison",
-                     "role" : "Dr. Christopher \"Chris\" Duncan Turk"
+                     "name" : "Duncan Regehr"
                   },
                   {
-                     "name" : "John C. McGinley",
-                     "role" : "Dr. Percival \"Perry\" Ulysses Cox"
+                     "name" : "Jennifer Cooke"
                   },
                   {
-                     "name" : "Dave Franco",
-                     "role" : "Cole McCallister"
+                     "name" : "Sandy Simpson"
                   },
                   {
-                     "name" : "Michael Mosley",
-                     "role" : "Drew Suffin"
+                     "name" : "David Packer"
                   },
                   {
-                     "name" : "Sarah Chalke",
-                     "role" : "Dr. Elliot Reid"
+                     "name" : "Christopher Shobe"
                   },
                   {
-                     "name" : "Christa Miller",
-                     "role" : "Jordan Sullivan"
+                     "name" : "Richard Herd",
+                     "role" : "John"
                   },
                   {
-                     "name" : "Zach Braff",
-                     "role" : "Dr. John Michael \"J.D.\" Dorian"
+                     "name" : "Andrew Prine",
+                     "role" : "Steven"
                   },
                   {
-                     "name" : "Sam Lloyd",
-                     "role" : "Ted Buckland"
+                     "name" : "Blair Tefkin"
                   },
                   {
-                     "name" : "Judy Reyes",
-                     "role" : "Nurse Carla Espinosa"
+                     "name" : "Peter Nelson"
                   },
                   {
-                     "name" : "Aloma Wright",
-                     "role" : "Nurse Laverne Roberts"
+                     "name" : "Michael Wright"
                   },
                   {
-                     "name" : "Ken Jenkins",
-                     "role" : "Dr. Robert \"Bob\" Kelso"
+                     "name" : "Jeff Yagher"
                   },
                   {
-                     "name" : "Eliza Coupe",
-                     "role" : "Denise Mahoney"
+                     "name" : "June Chadwick"
                   },
                   {
-                     "name" : "Travis Schuldt",
-                     "role" : "Keith"
+                     "name" : "Marc Singer",
+                     "role" : "Mike Donovan"
                   },
                   {
-                     "name" : "Johnny Kastl",
-                     "role" : "Dr. Doug Murphy"
+                     "name" : "Tommy Peterson"
                   },
                   {
-                     "name" : "Heather Graham",
-                     "role" : "Dr. Molly Clock"
+                     "name" : "Faye Grant",
+                     "role" : "Juliet Parrish"
                   },
                   {
-                     "name" : "Neil Flynn",
-                     "role" : "The Janitor"
+                     "name" : "Robert Englund",
+                     "role" : "Willy"
                   },
                   {
-                     "name" : "Heather Graham"
-                  },
-                  {
-                     "name" : "Jody Carver"
-                  },
-                  {
-                     "name" : "Brogan Roche"
-                  },
-                  {
-                     "name" : "Irene White"
-                  },
-                  {
-                     "name" : "Steven Montfort"
-                  },
-                  {
-                     "name" : "Garrett Donovan"
-                  },
-                  {
-                     "name" : "Bronwen Booth"
-                  },
-                  {
-                     "name" : "Michael Cotter"
+                     "name" : "Michael Ironside",
+                     "role" : "Ham Tyler"
                   }
                ],
                "director" : [
                   {
-                     "name" : "Ken Whittingham"
+                     "name" : "Kevin Hooks"
                   }
                ]
             },
             "video" : {
                "aspect" : "4:3"
             },
-            "stop" : "1416726000",
-            "date" : "2001",
+            "stop" : "1416810300",
+            "date" : "1983",
             "subTitle" : {
-               "sv" : "My New Game"
+               "sv" : "The Hero"
             },
             "channel" : "tv6.se",
             "rating" : {
-               "stars" : "6.5 / 9"
+               "stars" : "6.9 / 9"
             },
             "episodeNum" : {
-               "thetvdb.com" : "series/76156",
-               "xmltv_ns" : "3 . 2 .",
-               "onscreen" : "Del 3 s\u00e4song 4"
+               "thetvdb.com" : "series/76354",
+               "xmltv_ns" : "0 . 10 .",
+               "onscreen" : "Del 11 s\u00e4song 1"
             },
             "desc" : {
-               "sv" : "Doktor Cox kan inte v\u00e4nja sig vid att doktor Clock behandlar hans patienter, medan Turk tvivlar p\u00e5 sina l\u00e4karkunskaper. Sk\u00e5despelerskan Heather Graham g\u00e4stspelar. ."
+               "sv" : "Anna s\u00e4ger att bes\u00f6karna \u00e4r p\u00e5 v\u00e4g att resa sin v\u00e4g, men hon hoppas f\u00e5 Chad att granska hennes lista med m\u00f6jliga medlemmar ur den hemliga gruppen \"Fifth Column\". En forskare kan ha utvecklat ett vapen mot bes\u00f6karna."
             },
             "url" : [
-               "http://thetvdb.com/?tab=episode&seriesid=76156&seasonid=9775&id=184673&lid=8"
+               "http://thetvdb.com/?tab=episode&seriesid=76354&seasonid=10199&id=190770&lid=8"
             ],
             "title" : {
-               "sv" : "Scrubs"
+               "sv" : "V"
             },
             "category" : {
                "en" : [
                   "series",
-                  "Comedy"
+                  "Drama",
+                  "Sci-Fi"
                ]
             },
-            "start" : "1416724200"
+            "start" : "1416807000"
          },
          {
             "country" : [
@@ -747,121 +960,101 @@
                ],
                "actor" : [
                   {
-                     "name" : "Robert Maschio",
-                     "role" : "Todd Quinlan"
+                     "name" : "Charlie Sheen",
+                     "role" : "Charlie Crawford"
                   },
                   {
-                     "name" : "Kerry Bish\u00e9",
-                     "role" : "Lucy Bennett"
+                     "name" : "Victoria Dillard",
+                     "role" : "Janelle Cooper"
                   },
                   {
-                     "name" : "Donald Faison",
-                     "role" : "Dr. Christopher \"Chris\" Duncan Turk"
+                     "name" : "Michael J. Fox",
+                     "role" : "Mike Flaherty"
                   },
                   {
-                     "name" : "John C. McGinley",
-                     "role" : "Dr. Percival \"Perry\" Ulysses Cox"
+                     "name" : "Barry Bostwick",
+                     "role" : "Mayor Randall M. Winston Jr."
                   },
                   {
-                     "name" : "Dave Franco",
-                     "role" : "Cole McCallister"
+                     "name" : "Connie Britton",
+                     "role" : "Nicole 'Nikky' Catherine Faber"
                   },
                   {
-                     "name" : "Michael Mosley",
-                     "role" : "Drew Suffin"
+                     "name" : "Alan Ruck",
+                     "role" : "Stuart Bondek"
                   },
                   {
-                     "name" : "Sarah Chalke",
-                     "role" : "Dr. Elliot Reid"
+                     "name" : "Heather Locklear",
+                     "role" : "Caitlin Moore"
                   },
                   {
-                     "name" : "Christa Miller",
-                     "role" : "Jordan Sullivan"
+                     "name" : "Carla Gugino",
+                     "role" : "Ashley Schaeffer"
                   },
                   {
-                     "name" : "Zach Braff",
-                     "role" : "Dr. John Michael \"J.D.\" Dorian"
+                     "name" : "Richard Kind",
+                     "role" : "Paul Lassiter"
                   },
                   {
-                     "name" : "Sam Lloyd",
-                     "role" : "Ted Buckland"
+                     "name" : "Michael Boatman",
+                     "role" : "Carter Heywood"
                   },
                   {
-                     "name" : "Judy Reyes",
-                     "role" : "Nurse Carla Espinosa"
+                     "name" : "Alexander Chaplin",
+                     "role" : "James Hobert"
                   },
                   {
-                     "name" : "Aloma Wright",
-                     "role" : "Nurse Laverne Roberts"
+                     "name" : "Jennifer Esposito",
+                     "role" : "Stacey Paterno"
                   },
                   {
-                     "name" : "Ken Jenkins",
-                     "role" : "Dr. Robert \"Bob\" Kelso"
+                     "name" : "Lana Parrilla",
+                     "role" : "Angie Ordonez"
                   },
                   {
-                     "name" : "Eliza Coupe",
-                     "role" : "Denise Mahoney"
+                     "name" : "Ann Kittredge"
                   },
                   {
-                     "name" : "Travis Schuldt",
-                     "role" : "Keith"
+                     "name" : "Cassandra Kobinski"
                   },
                   {
-                     "name" : "Johnny Kastl",
-                     "role" : "Dr. Doug Murphy"
+                     "name" : "Malea McGuiness"
                   },
                   {
-                     "name" : "Heather Graham",
-                     "role" : "Dr. Molly Clock"
-                  },
-                  {
-                     "name" : "Neil Flynn",
-                     "role" : "The Janitor"
-                  },
-                  {
-                     "name" : "Jill Tracy"
-                  },
-                  {
-                     "name" : "Kathryn Joosten"
-                  },
-                  {
-                     "name" : "Tim Conlon"
-                  },
-                  {
-                     "name" : "Kevin Lowe"
+                     "name" : "Jeffrey Donovan"
                   }
                ],
                "director" : [
                   {
-                     "name" : "Ken Whittingham"
+                     "name" : "Andy Cadiff"
                   }
                ]
             },
             "video" : {
                "aspect" : "4:3"
             },
-            "stop" : "1416727800",
-            "date" : "2001",
+            "stop" : "1416811800",
+            "date" : "1996",
             "subTitle" : {
-               "sv" : "My First Kill"
+               "sv" : "These Shoes Were Made for Cheatin'"
             },
             "channel" : "tv6.se",
             "rating" : {
-               "stars" : "6.7 / 9"
+               "stars" : "6.5 / 9"
             },
             "episodeNum" : {
-               "thetvdb.com" : "series/76156",
+               "thetvdb.com" : "series/73153",
                "xmltv_ns" : "3 . 3 .",
                "onscreen" : "Del 4 s\u00e4song 4"
             },
             "desc" : {
-               "sv" : "JD blir chockad n\u00e4r Doktor Cox s\u00e4ger till de nya l\u00e4karkandidaterna att de n\u00e5gon g\u00e5ng kommer att klanta sig och d\u00f6da en patient. Elliot br\u00e5kar med Molly om en patients drogavv\u00e4njning. ."
+               "sv" : "Mike lyckas f\u00e5 med Nikki till en parterapeut. Stuart planerar att bli medlem i Carters gym f\u00f6r att tr\u00e4ffa tjejer."
             },
             "url" : [
-               "http://thetvdb.com/?tab=episode&seriesid=76156&seasonid=9775&id=184674&lid=8"
+               "http://thetvdb.com/?tab=episode&seriesid=73153&seasonid=5374&id=108605&lid=8"
             ],
             "title" : {
-               "sv" : "Scrubs"
+               "sv" : "Spin City"
             },
             "category" : {
                "en" : [
@@ -869,7 +1062,7 @@
                   "Comedy"
                ]
             },
-            "start" : "1416726000"
+            "start" : "1416810300"
          },
          {
             "country" : [
@@ -878,132 +1071,159 @@
             "credits" : {
                "writer" : [
                   {
-                     "name" : "Angela Nissel"
+                     "name" : "Laura Gutin"
                   }
                ],
                "actor" : [
                   {
-                     "name" : "Robert Maschio",
-                     "role" : "Todd Quinlan"
+                     "name" : "Benjamin Stockham",
+                     "role" : "Xander"
                   },
                   {
-                     "name" : "Kerry Bish\u00e9",
-                     "role" : "Lucy Bennett"
+                     "name" : "Jenna Elfman",
+                     "role" : "Emily Nash Gilchrist"
                   },
                   {
-                     "name" : "Donald Faison",
-                     "role" : "Dr. Christopher \"Chris\" Duncan Turk"
+                     "name" : "Amara Miller",
+                     "role" : "Marigold"
                   },
                   {
-                     "name" : "John C. McGinley",
-                     "role" : "Dr. Percival \"Perry\" Ulysses Cox"
+                     "name" : "Andre Holland",
+                     "role" : "Marshall Malloy"
                   },
                   {
-                     "name" : "Dave Franco",
-                     "role" : "Cole McCallister"
+                     "name" : "Josh Gad",
+                     "role" : "Skip"
                   },
                   {
-                     "name" : "Michael Mosley",
-                     "role" : "Drew Suffin"
+                     "name" : "Bill Pullman",
+                     "role" : "President Dale Gilchrist"
                   },
                   {
-                     "name" : "Sarah Chalke",
-                     "role" : "Dr. Elliot Reid"
-                  },
-                  {
-                     "name" : "Christa Miller",
-                     "role" : "Jordan Sullivan"
-                  },
-                  {
-                     "name" : "Zach Braff",
-                     "role" : "Dr. John Michael \"J.D.\" Dorian"
-                  },
-                  {
-                     "name" : "Sam Lloyd",
-                     "role" : "Ted Buckland"
-                  },
-                  {
-                     "name" : "Judy Reyes",
-                     "role" : "Nurse Carla Espinosa"
-                  },
-                  {
-                     "name" : "Aloma Wright",
-                     "role" : "Nurse Laverne Roberts"
-                  },
-                  {
-                     "name" : "Ken Jenkins",
-                     "role" : "Dr. Robert \"Bob\" Kelso"
-                  },
-                  {
-                     "name" : "Eliza Coupe",
-                     "role" : "Denise Mahoney"
-                  },
-                  {
-                     "name" : "Travis Schuldt",
-                     "role" : "Keith"
-                  },
-                  {
-                     "name" : "Johnny Kastl",
-                     "role" : "Dr. Doug Murphy"
-                  },
-                  {
-                     "name" : "Heather Graham",
-                     "role" : "Dr. Molly Clock"
-                  },
-                  {
-                     "name" : "Neil Flynn",
-                     "role" : "The Janitor"
-                  },
-                  {
-                     "name" : "Jason Shayne Scott"
-                  },
-                  {
-                     "name" : "Common"
-                  },
-                  {
-                     "name" : "Sylvia MacCalla"
-                  },
-                  {
-                     "name" : "Marshall Manesh"
-                  },
-                  {
-                     "name" : "Wendy Schenker"
-                  },
-                  {
-                     "name" : "Jason Shane Scott"
+                     "name" : "Martha MacIsaac",
+                     "role" : "Becca"
                   }
                ],
                "director" : [
                   {
-                     "name" : "John Inwood"
+                     "name" : "Jason Winer"
                   }
                ]
             },
             "video" : {
                "aspect" : "4:3"
             },
-            "stop" : "1416729600",
+            "stop" : "1416813600",
+            "date" : "2012",
+            "subTitle" : {
+               "sv" : "Skip the Tour"
+            },
+            "channel" : "tv6.se",
+            "episodeNum" : {
+               "thetvdb.com" : "series/259016",
+               "xmltv_ns" : "0 . 5 .",
+               "onscreen" : "Del 6 s\u00e4song 1"
+            },
+            "desc" : {
+               "sv" : "President Gilchrists bror Doug kommer p\u00e5 bes\u00f6k och Emily tar p\u00e5 sig rollen som fredsm\u00e4klare. Skip \u00e4r med p\u00e5 en rundtur i Vita huset och best\u00e4mmer sig f\u00f6r att arrangera en egen guidad tur."
+            },
+            "url" : [
+               "http://thetvdb.com/?tab=episode&seriesid=259016&seasonid=493270&id=4448832&lid=8"
+            ],
+            "title" : {
+               "sv" : "1600 Penn"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Comedy"
+               ]
+            },
+            "start" : "1416811800"
+         },
+         {
+            "country" : [
+               "US"
+            ],
+            "credits" : {
+               "writer" : [
+                  {
+                     "name" : "Howard J. Morris"
+                  }
+               ],
+               "actor" : [
+                  {
+                     "name" : "Billi Bruno",
+                     "role" : "Gracie"
+                  },
+                  {
+                     "name" : "Kimberly Williams-Paisley",
+                     "role" : "Dana"
+                  },
+                  {
+                     "name" : "Taylor Atelian",
+                     "role" : "Ruby"
+                  },
+                  {
+                     "name" : "James Belushi",
+                     "role" : "Jim"
+                  },
+                  {
+                     "name" : "Conner Rayburn",
+                     "role" : "Kyle"
+                  },
+                  {
+                     "name" : "Larry Joe Campbell",
+                     "role" : "Andy"
+                  },
+                  {
+                     "name" : "Courtney Thorne-Smith",
+                     "role" : "Cheryl"
+                  },
+                  {
+                     "name" : "Carol Pawlak"
+                  },
+                  {
+                     "name" : "Jamieson Price"
+                  },
+                  {
+                     "name" : "Thomas Crnkovich"
+                  },
+                  {
+                     "name" : "Tina Gasbarr"
+                  }
+               ],
+               "director" : [
+                  {
+                     "name" : "Dennis Capps"
+                  }
+               ]
+            },
+            "video" : {
+               "aspect" : "4:3"
+            },
+            "stop" : "1416815400",
             "date" : "2001",
             "subTitle" : {
-               "sv" : "Her Story"
+               "sv" : "The Bachelorette Party"
             },
             "channel" : "tv6.se",
             "rating" : {
-               "stars" : "6.4 / 9"
+               "stars" : "6.6 / 9"
             },
             "episodeNum" : {
-               "thetvdb.com" : "series/76156",
-               "xmltv_ns" : "3 . 4 .",
-               "onscreen" : "Del 5 s\u00e4song 4"
+               "thetvdb.com" : "series/75926",
+               "xmltv_ns" : "3 . 23 .",
+               "onscreen" : "Del 24 s\u00e4song 4"
             },
             "desc" : {
-               "sv" : "Elliot \u00e4r os\u00e4ker p\u00e5 om Molly verkligen \u00e4r en bra mentor. JDs ledaregenskaper testas n\u00e4r Doktor Cox skriker \u00e5t honom inf\u00f6r l\u00e4karkandidaterna. Carla och Turk f\u00f6rs\u00f6ker hitta en l\u00f6sning p\u00e5 sina nattliga problem. ."
+               "sv" : "D\u00e5 Dana blir besviken \u00f6ver sin tr\u00e5kiga m\u00f6hippa best\u00e4mmer sig Jim och Andy f\u00f6r att bjuda henne p\u00e5 en of\u00f6rgl\u00f6mlig kv\u00e4ll."
             },
             "url" : [
-               "http://thetvdb.com/?tab=episode&seriesid=76156&seasonid=9775&id=184675&lid=8"
+               "http://thetvdb.com/?tab=episode&seriesid=75926&seasonid=9454&id=180083&lid=8"
             ],
             "title" : {
-               "sv" : "Scrubs"
+               "sv" : "Jims v\u00e4rld"
             },
             "category" : {
                "en" : [
@@ -1011,7 +1231,7 @@
                   "Comedy"
                ]
             },
-            "start" : "1416727800"
+            "start" : "1416813600"
          },
          {
             "country" : [
@@ -1020,181 +1240,76 @@
             "credits" : {
                "writer" : [
                   {
-                     "name" : "Constance M. Burge"
+                     "name" : "John D. Beck"
                   },
                   {
-                     "name" : "Jack Bernstein"
+                     "name" : "Ron Hart"
                   }
                ],
                "actor" : [
                   {
-                     "name" : "Henry Winkler",
-                     "role" : "Eddie R. Lawson"
+                     "name" : "Billi Bruno",
+                     "role" : "Gracie"
                   },
                   {
-                     "name" : "Brooke D'Orsay",
-                     "role" : "Paige Collins"
+                     "name" : "Kimberly Williams-Paisley",
+                     "role" : "Dana"
                   },
                   {
-                     "name" : "Kyle Howard",
-                     "role" : "Paul Van Dyke"
+                     "name" : "Taylor Atelian",
+                     "role" : "Ruby"
                   },
                   {
-                     "name" : "Mark Feuerstein",
-                     "role" : "Hank Lawson"
+                     "name" : "James Belushi",
+                     "role" : "Jim"
                   },
                   {
-                     "name" : "Tom Cavanagh",
-                     "role" : "Jack O'Malley"
+                     "name" : "Conner Rayburn",
+                     "role" : "Kyle"
                   },
                   {
-                     "name" : "Reshma Shetty",
-                     "role" : "Divya"
+                     "name" : "Larry Joe Campbell",
+                     "role" : "Andy"
                   },
                   {
-                     "name" : "Campbell Scott",
-                     "role" : "Boris Kuester von Jurgens-Ratenicz"
+                     "name" : "Courtney Thorne-Smith",
+                     "role" : "Cheryl"
                   },
                   {
-                     "name" : "Mark Ivanir",
-                     "role" : "Dmitry Vasilyev"
-                  },
-                  {
-                     "name" : "Paulo Costanzo",
-                     "role" : "Evan Lawson"
-                  },
-                  {
-                     "name" : "Jill Flint",
-                     "role" : "Jill Casey"
-                  },
-                  {
-                     "name" : "Ben Shenkman",
-                     "role" : "Jeremiah Sacani"
+                     "name" : "Robert Belushi"
                   }
                ],
                "director" : [
                   {
-                     "name" : "Tawnia McKiernan"
+                     "name" : "James Belushi"
                   }
                ]
             },
             "video" : {
                "aspect" : "4:3"
             },
-            "stop" : "1416733200",
-            "date" : "2009",
+            "stop" : "1416816900",
+            "date" : "2001",
             "subTitle" : {
-               "sv" : "A Trismus Story"
+               "sv" : "Geronimo Jim"
             },
             "channel" : "tv6.se",
             "rating" : {
                "stars" : "6.8 / 9"
             },
             "episodeNum" : {
-               "thetvdb.com" : "series/92411",
-               "xmltv_ns" : "4 . 11 .",
-               "onscreen" : "Del 12 s\u00e4song 5"
+               "thetvdb.com" : "series/75926",
+               "xmltv_ns" : "3 . 24 .",
+               "onscreen" : "Del 25 s\u00e4song 4"
             },
             "desc" : {
-               "sv" : "Medan HankMed ger v\u00e5rd till en reporter, \u00e4r Hank orolig \u00f6ver Mollys beteendeproblem. Evans och Paiges f\u00f6rh\u00e5llande angrips i ett f\u00f6rs\u00f6k att svartm\u00e5la Evan som kandidat."
+               "sv" : "Cheryl och Dana blir oroliga n\u00e4r de f\u00e5r veta att Danas f\u00e4stman \u00e4r f\u00f6rtjust i sportbilar, och Jim testa fallsk\u00e4rmshoppning."
             },
             "url" : [
-               "http://thetvdb.com/?tab=episode&seriesid=92411&seasonid=513261&id=4611436&lid=8"
+               "http://thetvdb.com/?tab=episode&seriesid=75926&seasonid=9454&id=180082&lid=8"
             ],
             "title" : {
-               "sv" : "Royal Pains"
-            },
-            "category" : {
-               "en" : [
-                  "series",
-                  "Comedy",
-                  "Drama"
-               ]
-            },
-            "start" : "1416729600"
-         },
-         {
-            "country" : [
-               "US"
-            ],
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1416736800",
-            "date" : "2011",
-            "channel" : "tv6.se",
-            "episodeNum" : {
-               "xmltv_ns" : "6 . 9/10 .",
-               "onscreen" : "Del 10 av 10 s\u00e4song 7"
-            },
-            "desc" : {
-               "sv" : "Deltagarna forts\u00e4tter sin kamp f\u00f6r att vinna priset p\u00e5 100 000 dollar. De dinglar fr\u00e5n en helikopter, s\u00e4nks ned i en bass\u00e4ng full av blodiglar och kl\u00e4ttrar upp f\u00f6r en femv\u00e5ningsbyggnad."
-            },
-            "title" : {
-               "sv" : "Fear Factor USA"
-            },
-            "category" : {
-               "en" : [
-                  "series",
-                  "Reality"
-               ]
-            },
-            "start" : "1416733200"
-         },
-         {
-            "country" : [
-               "US"
-            ],
-            "credits" : {
-               "actor" : [
-                  {
-                     "name" : "Sean Giambrone",
-                     "role" : "Adam"
-                  },
-                  {
-                     "name" : "Hayley Orrantia",
-                     "role" : "Erica"
-                  },
-                  {
-                     "name" : "Jeff Garlin",
-                     "role" : "Murray"
-                  },
-                  {
-                     "name" : "Wendi McLendon-Covey",
-                     "role" : "Beverly"
-                  },
-                  {
-                     "name" : "George Segal",
-                     "role" : "Pops"
-                  },
-                  {
-                     "name" : "Troy Gentile",
-                     "role" : "Barry"
-                  }
-               ]
-            },
-            "video" : {
-               "aspect" : "4:3"
-            },
-            "stop" : "1416738600",
-            "date" : "2013",
-            "subTitle" : {
-               "sv" : "The President's Fitness Test"
-            },
-            "channel" : "tv6.se",
-            "episodeNum" : {
-               "thetvdb.com" : "series/269653",
-               "xmltv_ns" : "0 . 18 .",
-               "onscreen" : "Del 19 s\u00e4song 1"
-            },
-            "desc" : {
-               "sv" : "Skolan har inf\u00f6rt ett nytt och extremt konditionstest och Adam letar desperat efter ett s\u00e4tt att undvika total f\u00f6rnedring..."
-            },
-            "url" : [
-               "http://thetvdb.com/?tab=episode&seriesid=269653&seasonid=519977&id=4790397&lid=8"
-            ],
-            "title" : {
-               "sv" : "The Goldbergs"
+               "sv" : "Jims v\u00e4rld"
             },
             "category" : {
                "en" : [
@@ -1202,7 +1317,7 @@
                   "Comedy"
                ]
             },
-            "start" : "1416736800"
+            "start" : "1416815400"
          },
          {
             "country" : [
@@ -1211,64 +1326,531 @@
             "credits" : {
                "actor" : [
                   {
-                     "name" : "Sean Giambrone",
-                     "role" : "Adam"
+                     "name" : "Ed O\u00b4Neill",
+                     "role" : "Al Bundy"
                   },
                   {
-                     "name" : "Hayley Orrantia",
-                     "role" : "Erica"
+                     "name" : "Katy Sagal",
+                     "role" : "Peggy Bundy"
                   },
                   {
-                     "name" : "Jeff Garlin",
-                     "role" : "Murray"
+                     "name" : "Christina Applegate",
+                     "role" : "Kelly Bundy"
                   },
                   {
-                     "name" : "Wendi McLendon-Covey",
-                     "role" : "Beverly"
+                     "name" : "David Faustino",
+                     "role" : "Bud Bundy"
                   },
                   {
-                     "name" : "George Segal",
-                     "role" : "Pops"
-                  },
-                  {
-                     "name" : "Troy Gentile",
-                     "role" : "Barry"
+                     "name" : "Amanda Bearse",
+                     "role" : "Marcy Rhoads D\u00b4Arcy"
                   }
                ]
             },
             "video" : {
                "aspect" : "4:3"
             },
-            "stop" : "1416740400",
-            "date" : "2013",
+            "stop" : "1416818700",
+            "date" : "1993",
+            "channel" : "tv6.se",
+            "episodeNum" : {
+               "xmltv_ns" : "7 . 66/211 .",
+               "onscreen" : "Del 67 av 211 s\u00e4song 8"
+            },
+            "desc" : {
+               "sv" : "Peggy och Marcy \u00f6vertalar m\u00e4nnen att f\u00f6lja med p\u00e5 en konsert ist\u00e4llet f\u00f6r att g\u00e5 till en ny sportbar. ."
+            },
+            "title" : {
+               "sv" : "V\u00e5ra v\u00e4rsta \u00e5r"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Comedy"
+               ]
+            },
+            "start" : "1416816900"
+         },
+         {
+            "country" : [
+               "US"
+            ],
+            "credits" : {
+               "actor" : [
+                  {
+                     "name" : "Ed O\u00b4Neill",
+                     "role" : "Al Bundy"
+                  },
+                  {
+                     "name" : "Katy Sagal",
+                     "role" : "Peggy Bundy"
+                  },
+                  {
+                     "name" : "Christina Applegate",
+                     "role" : "Kelly Bundy"
+                  },
+                  {
+                     "name" : "David Faustino",
+                     "role" : "Bud Bundy"
+                  },
+                  {
+                     "name" : "Amanda Bearse",
+                     "role" : "Marcy Rhoads D\u00b4Arcy"
+                  }
+               ]
+            },
+            "video" : {
+               "aspect" : "4:3"
+            },
+            "stop" : "1416820500",
+            "date" : "1993",
+            "channel" : "tv6.se",
+            "episodeNum" : {
+               "xmltv_ns" : "7 . 67/211 .",
+               "onscreen" : "Del 68 av 211 s\u00e4song 8"
+            },
+            "desc" : {
+               "sv" : "Buck rymmer hemifr\u00e5n. ."
+            },
+            "title" : {
+               "sv" : "V\u00e5ra v\u00e4rsta \u00e5r"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Comedy"
+               ]
+            },
+            "start" : "1416818700"
+         },
+         {
+            "country" : [
+               "US"
+            ],
+            "credits" : {
+               "writer" : [
+                  {
+                     "name" : "Andy Bobrow"
+                  }
+               ],
+               "actor" : [
+                  {
+                     "name" : "Joel McHale",
+                     "role" : "Jeff Winger"
+                  },
+                  {
+                     "name" : "Danny Pudi",
+                     "role" : "Abed Nadir"
+                  },
+                  {
+                     "name" : "Alison Brie",
+                     "role" : "Annie Edison"
+                  },
+                  {
+                     "name" : "Chevy Chase",
+                     "role" : "Pierce Hawthorne"
+                  },
+                  {
+                     "name" : "Jim Rash",
+                     "role" : "Dean Pelton"
+                  },
+                  {
+                     "name" : "Yvette Nicole Brown",
+                     "role" : "Shirley Bennett"
+                  },
+                  {
+                     "name" : "Donald Glover",
+                     "role" : "Troy Barnes"
+                  },
+                  {
+                     "name" : "Gillian Jacobs",
+                     "role" : "Britta Perry"
+                  },
+                  {
+                     "name" : "Ken Jeong",
+                     "role" : "Se\u00f1or Chang"
+                  },
+                  {
+                     "name" : "Malcolm McDowell"
+                  },
+                  {
+                     "name" : "Elena Campbell-Martinez"
+                  }
+               ],
+               "director" : [
+                  {
+                     "name" : "Tristram Shapeero"
+                  }
+               ]
+            },
+            "video" : {
+               "aspect" : "4:3"
+            },
+            "stop" : "1416822300",
+            "date" : "2009",
             "subTitle" : {
-               "sv" : "You're Not Invited"
+               "sv" : "Intro to Knots"
+            },
+            "channel" : "tv6.se",
+            "rating" : {
+               "stars" : "6.7 / 9"
+            },
+            "episodeNum" : {
+               "thetvdb.com" : "series/94571",
+               "xmltv_ns" : "3 . 9 .",
+               "onscreen" : "Del 10 s\u00e4song 4"
+            },
+            "desc" : {
+               "sv" : "G\u00e4nget firar jul ihop f\u00f6r f\u00f6rsta g\u00e5ngen. Annie bjuder Cornwallis p\u00e5 middag hemma hos Jeff i ett f\u00f6rs\u00f6k att f\u00f6rb\u00e4ttra deras betyg."
+            },
+            "url" : [
+               "http://thetvdb.com/?tab=episode&seriesid=94571&seasonid=494400&id=4448840&lid=8"
+            ],
+            "title" : {
+               "sv" : "Community"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Comedy"
+               ]
+            },
+            "start" : "1416820500"
+         },
+         {
+            "country" : [
+               "US"
+            ],
+            "credits" : {
+               "writer" : [
+                  {
+                     "name" : "Bill Odenkirk"
+                  }
+               ],
+               "actor" : [
+                  {
+                     "name" : "Hank Azaria",
+                     "role" : "Moe Szyslak|Apu Nahasapeemapetilon|Chief Clancy Wiggum|Professor Frink|Dr. Nick Riviera|Comic Book Guy|Lou|Carl Carlson|Snake|Kirk Van Houten|Superintendent Chalmers"
+                  },
+                  {
+                     "name" : "Yeardley Smith",
+                     "role" : "Lisa Simpson"
+                  },
+                  {
+                     "name" : "Dan Castellaneta",
+                     "role" : "Homer Simpson|Krusty the Clown|Grampa Simpson|Barney Gumble|Mayor Quimby|Groundskeeper Willie"
+                  },
+                  {
+                     "name" : "Nancy Cartwright",
+                     "role" : "Bart Simpson|Nelson Muntz|Todd Flanders|Ralph Wiggum|Kearney"
+                  },
+                  {
+                     "name" : "Marcia Wallace",
+                     "role" : "Edna Krabappel|Mrs. Krabappel|Cat Lady"
+                  },
+                  {
+                     "name" : "Anne Hathaway",
+                     "role" : "Jenny|Princess Penelope"
+                  },
+                  {
+                     "name" : "Harry Shearer",
+                     "role" : "Charles Montgomery Burns|Nedward \"Ned\" Flanders|Principal Seymour Skinner|Reverend Timothy Lovejoy|Otto Mann|Waylon Smithers|Dr. Marvin Monroe"
+                  },
+                  {
+                     "name" : "Julie Kavner",
+                     "role" : "Marge Simpson|Patty Bouvier|Selma Bouvier Terwilliger Hutz McClure|Grandma Jacqueline Bouvier|Aunt Gladys Bouvier"
+                  }
+               ],
+               "director" : [
+                  {
+                     "name" : "Lance Kramer"
+                  }
+               ]
+            },
+            "video" : {
+               "aspect" : "4:3"
+            },
+            "stop" : "1416824100",
+            "date" : "1989",
+            "subTitle" : {
+               "sv" : "Crook and Ladder"
+            },
+            "channel" : "tv6.se",
+            "rating" : {
+               "stars" : "6.2 / 9"
+            },
+            "episodeNum" : {
+               "thetvdb.com" : "series/71663",
+               "xmltv_ns" : "17 . 18 .",
+               "onscreen" : "Del 19 s\u00e4song 18"
+            },
+            "desc" : {
+               "sv" : "Homer f\u00e5r ta till s\u00f6mntabletter efter att ha f\u00e5tt s\u00f6mnproblem. De fungerar lite f\u00f6r bra och Homer f\u00f6rvandlas till en s\u00f6mng\u00e5ngare. Tillsammans med n\u00e5gra andra m\u00e4n fr\u00e5n Springfields b\u00f6rjar han sedan jobba som frivillig brandman."
+            },
+            "url" : [
+               "http://thetvdb.com/?tab=episode&seriesid=71663&seasonid=16438&id=319717&lid=8"
+            ],
+            "title" : {
+               "sv" : "Simpsons"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Animation",
+                  "Comedy"
+               ]
+            },
+            "start" : "1416822300"
+         },
+         {
+            "country" : [
+               "US"
+            ],
+            "credits" : {
+               "writer" : [
+                  {
+                     "name" : "John Frink"
+                  }
+               ],
+               "actor" : [
+                  {
+                     "name" : "Hank Azaria",
+                     "role" : "Moe Szyslak|Apu Nahasapeemapetilon|Chief Clancy Wiggum|Professor Frink|Dr. Nick Riviera|Comic Book Guy|Lou|Carl Carlson|Snake|Kirk Van Houten|Superintendent Chalmers"
+                  },
+                  {
+                     "name" : "Yeardley Smith",
+                     "role" : "Lisa Simpson"
+                  },
+                  {
+                     "name" : "Dan Castellaneta",
+                     "role" : "Homer Simpson|Krusty the Clown|Grampa Simpson|Barney Gumble|Mayor Quimby|Groundskeeper Willie"
+                  },
+                  {
+                     "name" : "Nancy Cartwright",
+                     "role" : "Bart Simpson|Nelson Muntz|Todd Flanders|Ralph Wiggum|Kearney"
+                  },
+                  {
+                     "name" : "Marcia Wallace",
+                     "role" : "Edna Krabappel|Mrs. Krabappel|Cat Lady"
+                  },
+                  {
+                     "name" : "Anne Hathaway",
+                     "role" : "Jenny|Princess Penelope"
+                  },
+                  {
+                     "name" : "Harry Shearer",
+                     "role" : "Charles Montgomery Burns|Nedward \"Ned\" Flanders|Principal Seymour Skinner|Reverend Timothy Lovejoy|Otto Mann|Waylon Smithers|Dr. Marvin Monroe"
+                  },
+                  {
+                     "name" : "Julie Kavner",
+                     "role" : "Marge Simpson|Patty Bouvier|Selma Bouvier Terwilliger Hutz McClure|Grandma Jacqueline Bouvier|Aunt Gladys Bouvier"
+                  },
+                  {
+                     "name" : "Stephen Hawking"
+                  },
+                  {
+                     "name" : "Rudy Giuliani"
+                  },
+                  {
+                     "name" : "Maurice LaMarche"
+                  }
+               ],
+               "director" : [
+                  {
+                     "name" : "Matthew Faughnan"
+                  }
+               ]
+            },
+            "video" : {
+               "aspect" : "4:3"
+            },
+            "stop" : "1416825900",
+            "date" : "1989",
+            "subTitle" : {
+               "sv" : "Stop or My Dog Will Shoot"
+            },
+            "channel" : "tv6.se",
+            "rating" : {
+               "stars" : "5.9 / 9"
+            },
+            "episodeNum" : {
+               "thetvdb.com" : "series/71663",
+               "xmltv_ns" : "17 . 19 .",
+               "onscreen" : "Del 20 s\u00e4song 18"
+            },
+            "desc" : {
+               "sv" : "Familjen Simpsons hund blir antagen till Polisskolan, men klarar inte av pressen han uts\u00e4tts f\u00f6r och biter Bart. Familjen blir tvugen att g\u00f6ra sig av med honom och ist\u00e4llet f\u00e5r Bart en orm som nytt s\u00e4llskapsdjur. Sm\u00e5ningom m\u00e5ste Bart v\u00e4lja mellan sin orm och sin hund..."
+            },
+            "url" : [
+               "http://thetvdb.com/?tab=episode&seriesid=71663&seasonid=16438&id=319718&lid=8"
+            ],
+            "title" : {
+               "sv" : "Simpsons"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Animation",
+                  "Comedy"
+               ]
+            },
+            "start" : "1416824100"
+         },
+         {
+            "country" : [
+               "US"
+            ],
+            "credits" : {
+               "writer" : [
+                  {
+                     "name" : "Martin Gero"
+                  }
+               ],
+               "actor" : [
+                  {
+                     "name" : "Carmen Argenziano",
+                     "role" : "Jacob Carter|Selmac"
+                  },
+                  {
+                     "name" : "Robert Picardo",
+                     "role" : "Richard Woolsey"
+                  },
+                  {
+                     "name" : "Teryl Rothery",
+                     "role" : "Dr./Maj. Janet Fraiser"
+                  },
+                  {
+                     "name" : "Corin Nemec",
+                     "role" : "Jonas Quinn"
+                  },
+                  {
+                     "name" : "David Hewlett",
+                     "role" : "Dr. Rodney McKay"
+                  },
+                  {
+                     "name" : "Michael Shanks",
+                     "role" : "Dr. Daniel Jackson"
+                  },
+                  {
+                     "name" : "Tony Amendola",
+                     "role" : "Master Bra'tac"
+                  },
+                  {
+                     "name" : "Don S. Davis",
+                     "role" : "Gen. George S. Hammond"
+                  },
+                  {
+                     "name" : "Amanda Tapping",
+                     "role" : "Capt./Maj. Samantha Carter"
+                  },
+                  {
+                     "name" : "Cliff Simon",
+                     "role" : "Goa'uld Ba'al"
+                  },
+                  {
+                     "name" : "Julian Sands",
+                     "role" : "Doci (Leader of the Priors)"
+                  },
+                  {
+                     "name" : "Richard Dean Anderson",
+                     "role" : "Col./Gen. Jack O'Neill"
+                  },
+                  {
+                     "name" : "Tim Guinee",
+                     "role" : "Tomin (Commander Ori Army)"
+                  },
+                  {
+                     "name" : "Gary Jones",
+                     "role" : "Walter Harriman"
+                  },
+                  {
+                     "name" : "Anna-Louise Plowman",
+                     "role" : "Sarah Gardner (Goa'uld Osiris)"
+                  },
+                  {
+                     "name" : "Colin Cunningham",
+                     "role" : "Major Paul Davis"
+                  },
+                  {
+                     "name" : "Christopher Judge",
+                     "role" : "Teal'c"
+                  },
+                  {
+                     "name" : "Ben Browder",
+                     "role" : "Lt. Col. Cameron Mitchell"
+                  },
+                  {
+                     "name" : "Morena Baccarin",
+                     "role" : "Adria"
+                  },
+                  {
+                     "name" : "Claudia Black",
+                     "role" : "Vala Mal Doran"
+                  },
+                  {
+                     "name" : "Beau Bridges",
+                     "role" : "Maj. Gen. Henry \"Hank\" Landry"
+                  },
+                  {
+                     "name" : "Vince Crestejo",
+                     "role" : "Goa'uld Yu-huang Shang Ti"
+                  },
+                  {
+                     "name" : "Claudia Black"
+                  },
+                  {
+                     "name" : "Cam Chai"
+                  },
+                  {
+                     "name" : "Gary Jones"
+                  },
+                  {
+                     "name" : "Lexa Doig"
+                  },
+                  {
+                     "name" : "Greg Anderson"
+                  }
+               ],
+               "director" : [
+                  {
+                     "name" : "William Waring"
+                  }
+               ]
+            },
+            "video" : {
+               "aspect" : "4:3"
+            },
+            "stop" : "1416829200",
+            "date" : "1997",
+            "subTitle" : {
+               "sv" : "The Powers That Be"
             },
             "channel" : "tv6.se",
             "rating" : {
                "stars" : "6.4 / 9"
             },
             "episodeNum" : {
-               "thetvdb.com" : "series/269653",
-               "xmltv_ns" : "0 . 19 .",
-               "onscreen" : "Del 20 s\u00e4song 1"
+               "thetvdb.com" : "series/72449",
+               "xmltv_ns" : "8 . 4 .",
+               "onscreen" : "Del 5 s\u00e4song 9"
             },
             "desc" : {
-               "sv" : "Barry vill hj\u00e4lpa sin bror att f\u00e5 sin f\u00f6rsta kyss och arrangerar en fest i k\u00e4llaren d\u00e4r inga f\u00f6r\u00e4ldrar \u00e4r v\u00e4lkomna. Han k\u00e4nner sig sedan ov\u00e4ntat \u00f6verbeskyddande mot Erica."
+               "sv" : "Starka krafter. SG-1 och Vala \u00e5ker till en planet d\u00e4r Vala fortfarande ses som \"Qetesh\", och f\u00f6r att \u00f6vertyga folket d\u00e4r om att Ori inte \u00e4r riktiga gudar m\u00e5ste hon avsl\u00f6ja vem hon egentligen \u00e4r."
             },
             "url" : [
-               "http://thetvdb.com/?tab=episode&seriesid=269653&seasonid=519977&id=4790399&lid=8"
+               "http://thetvdb.com/?tab=episode&seriesid=72449&seasonid=4156&id=85929&lid=8"
             ],
             "title" : {
-               "sv" : "The Goldbergs"
+               "sv" : "Stargate SG-1"
             },
             "category" : {
                "en" : [
                   "series",
-                  "Comedy"
+                  "Fantasy",
+                  "Sci-Fi"
                ]
             },
-            "start" : "1416738600"
+            "start" : "1416825900"
          },
          {
             "country" : [
@@ -1277,147 +1859,974 @@
             "credits" : {
                "writer" : [
                   {
-                     "name" : "Kristin Newman"
+                     "name" : "Mark Rosner"
                   }
                ],
                "actor" : [
                   {
-                     "name" : "Mark Christopher Lawrence",
-                     "role" : "Big Mike"
+                     "name" : "Jane Badler",
+                     "role" : "Diana"
                   },
                   {
-                     "name" : "Joshua Gomez",
-                     "role" : "Morgan Grimes"
+                     "name" : "Lane Smith"
                   },
                   {
-                     "name" : "Zachary Levi",
-                     "role" : "Charles \"Chuck\" Bartowski"
+                     "name" : "Duncan Regehr"
                   },
                   {
-                     "name" : "Bonita Friedericy",
-                     "role" : "General Diane Beckman"
+                     "name" : "Jennifer Cooke"
                   },
                   {
-                     "name" : "Julia Ling",
-                     "role" : "Anna Wu"
+                     "name" : "Sandy Simpson"
                   },
                   {
-                     "name" : "Mekenna Melvin",
-                     "role" : "Alex McHugh"
+                     "name" : "David Packer"
                   },
                   {
-                     "name" : "Matthew Bomer",
-                     "role" : "Bryce Larkin"
+                     "name" : "Christopher Shobe"
                   },
                   {
-                     "name" : "Vik Sahay",
-                     "role" : "Lester Patel"
+                     "name" : "Richard Herd",
+                     "role" : "John"
                   },
                   {
-                     "name" : "Brandon Routh",
-                     "role" : "Daniel Shaw"
+                     "name" : "Andrew Prine",
+                     "role" : "Steven"
                   },
                   {
-                     "name" : "Sarah Lancaster",
-                     "role" : "Ellie Bartowski"
+                     "name" : "Blair Tefkin"
                   },
                   {
-                     "name" : "Scott Krinsky",
-                     "role" : "Jeff Barnes"
+                     "name" : "Peter Nelson"
                   },
                   {
-                     "name" : "Ryan McPartlin",
-                     "role" : "Devon \"Captain Awesome\" Woodcomb"
+                     "name" : "Michael Wright"
                   },
                   {
-                     "name" : "Adam Baldwin",
-                     "role" : "Major John Casey"
+                     "name" : "Jeff Yagher"
                   },
                   {
-                     "name" : "Linda Hamilton",
-                     "role" : "Mary Bartowski"
+                     "name" : "June Chadwick"
                   },
                   {
-                     "name" : "Yvonne Strahovski",
-                     "role" : "Sarah Walker"
+                     "name" : "Marc Singer",
+                     "role" : "Mike Donovan"
                   },
                   {
-                     "name" : "Catherine Dent"
+                     "name" : "Tommy Peterson"
                   },
                   {
-                     "name" : "Richard Burgi"
+                     "name" : "Faye Grant",
+                     "role" : "Juliet Parrish"
                   },
                   {
-                     "name" : "Mekenna Melvin"
+                     "name" : "Robert Englund",
+                     "role" : "Willy"
                   },
                   {
-                     "name" : "David Koechner"
+                     "name" : "Michael Ironside",
+                     "role" : "Ham Tyler"
                   }
                ],
                "director" : [
                   {
-                     "name" : "Allan Kroeker"
+                     "name" : "Gilbert M. Shilton"
                   }
                ]
             },
             "video" : {
                "aspect" : "4:3"
             },
-            "stop" : "1416744000",
-            "date" : "2007",
+            "stop" : "1416832500",
+            "date" : "1983",
             "subTitle" : {
-               "sv" : "Chuck Versus the Business Trip"
+               "sv" : "The Betrayal"
+            },
+            "channel" : "tv6.se",
+            "rating" : {
+               "stars" : "6.9 / 9"
+            },
+            "episodeNum" : {
+               "thetvdb.com" : "series/76354",
+               "xmltv_ns" : "0 . 11 .",
+               "onscreen" : "Del 12 s\u00e4song 1"
+            },
+            "desc" : {
+               "sv" : "Chad f\u00e5r reda p\u00e5 n\u00e5gonting katastrofalt, medan Anna bjuder in Erica och Tyler till moderskeppet. Vals bebis \u00e4r nu p\u00e5 v\u00e4g att f\u00f6das..."
+            },
+            "url" : [
+               "http://thetvdb.com/?tab=episode&seriesid=76354&seasonid=10199&id=190771&lid=8"
+            ],
+            "title" : {
+               "sv" : "V"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Drama",
+                  "Sci-Fi"
+               ]
+            },
+            "start" : "1416829200"
+         },
+         {
+            "country" : [
+               "US"
+            ],
+            "credits" : {
+               "writer" : [
+                  {
+                     "name" : "Jennifer Crittenden"
+                  }
+               ],
+               "actor" : [
+                  {
+                     "name" : "Heidi Swedberg",
+                     "role" : "Susan Ross"
+                  },
+                  {
+                     "name" : "Liz Sheridan",
+                     "role" : "Helen Seinfeld"
+                  },
+                  {
+                     "name" : "Barney Martin",
+                     "role" : "Morty Seinfeld"
+                  },
+                  {
+                     "name" : "Estelle Harris",
+                     "role" : "Estelle Costanza"
+                  },
+                  {
+                     "name" : "Julia Louis-Dreyfus",
+                     "role" : "Elaine Benes"
+                  },
+                  {
+                     "name" : "Larry David",
+                     "role" : "George Steinbrenner"
+                  },
+                  {
+                     "name" : "Michael Richards",
+                     "role" : "Cosmo Kramer"
+                  },
+                  {
+                     "name" : "Jerry Seinfeld",
+                     "role" : "Jerry Seinfeld"
+                  },
+                  {
+                     "name" : "Wayne Knight",
+                     "role" : "Newman"
+                  },
+                  {
+                     "name" : "Jason Alexander",
+                     "role" : "George Costanza"
+                  },
+                  {
+                     "name" : "Jerry Stiller",
+                     "role" : "Frank Costanza"
+                  },
+                  {
+                     "name" : "Barney Martin"
+                  },
+                  {
+                     "name" : "Liz Sheridan"
+                  },
+                  {
+                     "name" : "John Michael Higgins"
+                  },
+                  {
+                     "name" : "Miguel Sandoval"
+                  },
+                  {
+                     "name" : "Andrea Bendewald"
+                  },
+                  {
+                     "name" : "Kathryn Joosten"
+                  },
+                  {
+                     "name" : "Paul Perri"
+                  },
+                  {
+                     "name" : "Al White"
+                  },
+                  {
+                     "name" : "Ray Proscia"
+                  }
+               ],
+               "director" : [
+                  {
+                     "name" : "Andy Ackerman"
+                  }
+               ]
+            },
+            "video" : {
+               "aspect" : "4:3"
+            },
+            "stop" : "1416834300",
+            "date" : "1989",
+            "subTitle" : {
+               "sv" : "The Little Jerry"
+            },
+            "channel" : "tv6.se",
+            "rating" : {
+               "stars" : "6.9 / 9"
+            },
+            "episodeNum" : {
+               "thetvdb.com" : "series/79169",
+               "xmltv_ns" : "7 . 10 .",
+               "onscreen" : "Del 11 s\u00e4song 8"
+            },
+            "desc" : {
+               "sv" : "Kramer skaffar en h\u00f6na f\u00f6r att f\u00e5 \u00e4gg till frukost varje morgon, men det visar sig snart att \"h\u00f6nan\" inte \u00e4r en h\u00f6na, utan en tupp. George blir f\u00f6r\u00e4lskad i en kvinna som sitter i f\u00e4ngelse."
+            },
+            "url" : [
+               "http://thetvdb.com/?tab=episode&seriesid=79169&seasonid=16119&id=304204&lid=8"
+            ],
+            "title" : {
+               "sv" : "Seinfeld"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Comedy"
+               ]
+            },
+            "start" : "1416832500"
+         },
+         {
+            "country" : [
+               "US"
+            ],
+            "credits" : {
+               "writer" : [
+                  {
+                     "name" : "Peter Mehlman"
+                  }
+               ],
+               "actor" : [
+                  {
+                     "name" : "Heidi Swedberg",
+                     "role" : "Susan Ross"
+                  },
+                  {
+                     "name" : "Liz Sheridan",
+                     "role" : "Helen Seinfeld"
+                  },
+                  {
+                     "name" : "Barney Martin",
+                     "role" : "Morty Seinfeld"
+                  },
+                  {
+                     "name" : "Estelle Harris",
+                     "role" : "Estelle Costanza"
+                  },
+                  {
+                     "name" : "Julia Louis-Dreyfus",
+                     "role" : "Elaine Benes"
+                  },
+                  {
+                     "name" : "Larry David",
+                     "role" : "George Steinbrenner"
+                  },
+                  {
+                     "name" : "Michael Richards",
+                     "role" : "Cosmo Kramer"
+                  },
+                  {
+                     "name" : "Jerry Seinfeld",
+                     "role" : "Jerry Seinfeld"
+                  },
+                  {
+                     "name" : "Wayne Knight",
+                     "role" : "Newman"
+                  },
+                  {
+                     "name" : "Jason Alexander",
+                     "role" : "George Costanza"
+                  },
+                  {
+                     "name" : "Jerry Stiller",
+                     "role" : "Frank Costanza"
+                  },
+                  {
+                     "name" : "Liz Sheridan"
+                  },
+                  {
+                     "name" : "Barney Martin"
+                  },
+                  {
+                     "name" : "Jerry Stiller"
+                  },
+                  {
+                     "name" : "Estelle Harris"
+                  },
+                  {
+                     "name" : "John O'Hurley"
+                  },
+                  {
+                     "name" : "Sandy Baron"
+                  },
+                  {
+                     "name" : "Sarah Silverman"
+                  },
+                  {
+                     "name" : "Leon W. Grant"
+                  }
+               ],
+               "director" : [
+                  {
+                     "name" : "Andy Ackerman"
+                  }
+               ]
+            },
+            "video" : {
+               "aspect" : "4:3"
+            },
+            "stop" : "1416836100",
+            "date" : "1989",
+            "subTitle" : {
+               "sv" : "The Money"
+            },
+            "channel" : "tv6.se",
+            "rating" : {
+               "stars" : "6.8 / 9"
+            },
+            "episodeNum" : {
+               "thetvdb.com" : "series/79169",
+               "xmltv_ns" : "7 . 11 .",
+               "onscreen" : "Del 12 s\u00e4song 8"
+            },
+            "desc" : {
+               "sv" : "Jerry k\u00f6per en ny tennisracket f\u00f6r 200 dollar av ett tennisproffs, men uppt\u00e4cker att mannen som s\u00e5lde honom racketen inte alls kan spela tennis. George h\u00e4mnar p\u00e5 en kollega som f\u00f6ror\u00e4ttat honom, men h\u00e4mnden blir inte s\u00e5 ljuv som han hade trott."
+            },
+            "url" : [
+               "http://thetvdb.com/?tab=episode&seriesid=79169&seasonid=16119&id=304205&lid=8"
+            ],
+            "title" : {
+               "sv" : "Seinfeld"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Comedy"
+               ]
+            },
+            "start" : "1416834300"
+         },
+         {
+            "country" : [
+               "US"
+            ],
+            "credits" : {
+               "writer" : [
+                  {
+                     "name" : "John Swartzwelder"
+                  }
+               ],
+               "actor" : [
+                  {
+                     "name" : "Hank Azaria",
+                     "role" : "Moe Szyslak|Apu Nahasapeemapetilon|Chief Clancy Wiggum|Professor Frink|Dr. Nick Riviera|Comic Book Guy|Lou|Carl Carlson|Snake|Kirk Van Houten|Superintendent Chalmers"
+                  },
+                  {
+                     "name" : "Yeardley Smith",
+                     "role" : "Lisa Simpson"
+                  },
+                  {
+                     "name" : "Dan Castellaneta",
+                     "role" : "Homer Simpson|Krusty the Clown|Grampa Simpson|Barney Gumble|Mayor Quimby|Groundskeeper Willie"
+                  },
+                  {
+                     "name" : "Nancy Cartwright",
+                     "role" : "Bart Simpson|Nelson Muntz|Todd Flanders|Ralph Wiggum|Kearney"
+                  },
+                  {
+                     "name" : "Marcia Wallace",
+                     "role" : "Edna Krabappel|Mrs. Krabappel|Cat Lady"
+                  },
+                  {
+                     "name" : "Anne Hathaway",
+                     "role" : "Jenny|Princess Penelope"
+                  },
+                  {
+                     "name" : "Harry Shearer",
+                     "role" : "Charles Montgomery Burns|Nedward \"Ned\" Flanders|Principal Seymour Skinner|Reverend Timothy Lovejoy|Otto Mann|Waylon Smithers|Dr. Marvin Monroe"
+                  },
+                  {
+                     "name" : "Julie Kavner",
+                     "role" : "Marge Simpson|Patty Bouvier|Selma Bouvier Terwilliger Hutz McClure|Grandma Jacqueline Bouvier|Aunt Gladys Bouvier"
+                  },
+                  {
+                     "name" : "Patrick McGoohan"
+                  }
+               ],
+               "director" : [
+                  {
+                     "name" : "Mark Kirkland"
+                  }
+               ]
+            },
+            "video" : {
+               "aspect" : "4:3"
+            },
+            "stop" : "1416837900",
+            "date" : "1989",
+            "subTitle" : {
+               "sv" : "The Computer Wore Menace Shoes"
+            },
+            "channel" : "tv6.se",
+            "rating" : {
+               "stars" : "6.5 / 9"
+            },
+            "episodeNum" : {
+               "thetvdb.com" : "series/71663",
+               "xmltv_ns" : "11 . 5 .",
+               "onscreen" : "Del 6 s\u00e4song 12"
+            },
+            "desc" : {
+               "sv" : "Homer startar en Internetsajt med rykande f\u00e4rskt Springfieldskvaller. Sajten \u00e4r s\u00e5 lyckad att den f\u00e5r pulitzerpriset och d\u00e5 klarar inte Homer att h\u00e5lla det hemligt l\u00e4ngre att han ligger bakom..."
+            },
+            "url" : [
+               "http://thetvdb.com/?tab=episode&seriesid=71663&seasonid=2730&id=55706&lid=8"
+            ],
+            "title" : {
+               "sv" : "Simpsons"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Animation",
+                  "Comedy"
+               ]
+            },
+            "start" : "1416836100"
+         },
+         {
+            "country" : [
+               "US"
+            ],
+            "credits" : {
+               "writer" : [
+                  {
+                     "name" : "Carolyn Omine"
+                  }
+               ],
+               "actor" : [
+                  {
+                     "name" : "Hank Azaria",
+                     "role" : "Moe Szyslak|Apu Nahasapeemapetilon|Chief Clancy Wiggum|Professor Frink|Dr. Nick Riviera|Comic Book Guy|Lou|Carl Carlson|Snake|Kirk Van Houten|Superintendent Chalmers"
+                  },
+                  {
+                     "name" : "Yeardley Smith",
+                     "role" : "Lisa Simpson"
+                  },
+                  {
+                     "name" : "Dan Castellaneta",
+                     "role" : "Homer Simpson|Krusty the Clown|Grampa Simpson|Barney Gumble|Mayor Quimby|Groundskeeper Willie"
+                  },
+                  {
+                     "name" : "Nancy Cartwright",
+                     "role" : "Bart Simpson|Nelson Muntz|Todd Flanders|Ralph Wiggum|Kearney"
+                  },
+                  {
+                     "name" : "Marcia Wallace",
+                     "role" : "Edna Krabappel|Mrs. Krabappel|Cat Lady"
+                  },
+                  {
+                     "name" : "Anne Hathaway",
+                     "role" : "Jenny|Princess Penelope"
+                  },
+                  {
+                     "name" : "Harry Shearer",
+                     "role" : "Charles Montgomery Burns|Nedward \"Ned\" Flanders|Principal Seymour Skinner|Reverend Timothy Lovejoy|Otto Mann|Waylon Smithers|Dr. Marvin Monroe"
+                  },
+                  {
+                     "name" : "Julie Kavner",
+                     "role" : "Marge Simpson|Patty Bouvier|Selma Bouvier Terwilliger Hutz McClure|Grandma Jacqueline Bouvier|Aunt Gladys Bouvier"
+                  },
+                  {
+                     "name" : "Edward Norton"
+                  },
+                  {
+                     "name" : "Robby Krieger"
+                  }
+               ],
+               "director" : [
+                  {
+                     "name" : "Michael Polcino"
+                  }
+               ]
+            },
+            "video" : {
+               "aspect" : "4:3"
+            },
+            "stop" : "1416839700",
+            "date" : "1989",
+            "subTitle" : {
+               "sv" : "The Great Money Caper"
+            },
+            "channel" : "tv6.se",
+            "rating" : {
+               "stars" : "6.2 / 9"
+            },
+            "episodeNum" : {
+               "thetvdb.com" : "series/71663",
+               "xmltv_ns" : "11 . 6 .",
+               "onscreen" : "Del 7 s\u00e4song 12"
+            },
+            "desc" : {
+               "sv" : "B\u00e5de Homer och Bart \u00e4r panka s\u00e5 de provar p\u00e5 att upptr\u00e4da p\u00e5 gator och torg f\u00f6r att tj\u00e4na pengar."
+            },
+            "url" : [
+               "http://thetvdb.com/?tab=episode&seriesid=71663&seasonid=2730&id=55707&lid=8"
+            ],
+            "title" : {
+               "sv" : "Simpsons"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Animation",
+                  "Comedy"
+               ]
+            },
+            "start" : "1416837900"
+         },
+         {
+            "country" : [
+               "US"
+            ],
+            "credits" : {
+               "writer" : [
+                  {
+                     "name" : "Kristin Long"
+                  }
+               ],
+               "actor" : [
+                  {
+                     "name" : "Anne Hathaway"
+                  },
+                  {
+                     "name" : "Seth Green",
+                     "role" : "Chris Griffin"
+                  },
+                  {
+                     "name" : "Adam West",
+                     "role" : "Adam West"
+                  },
+                  {
+                     "name" : "Ashley Tisdale"
+                  },
+                  {
+                     "name" : "Mila Kunis",
+                     "role" : "Meg Griffin #2"
+                  },
+                  {
+                     "name" : "Seth MacFarlane",
+                     "role" : "Peter Griffin|Stewie Griffin|Brian Griffin|Glenn Quagmire|Tom Tucker|Jake Tucker|Carter Pewterschmidt|Mickey McFinnigan|O'Brian|Dr. Elmer Hartman|Seamus|Jasper|Kevin Swanson|Jesus|God"
+                  },
+                  {
+                     "name" : "Amanda Bynes",
+                     "role" : "Anna"
+                  },
+                  {
+                     "name" : "Lacey Chabert",
+                     "role" : "Meg Griffin"
+                  },
+                  {
+                     "name" : "Mike Henry",
+                     "role" : "Cleveland Brown"
+                  },
+                  {
+                     "name" : "Alex Borstein",
+                     "role" : "Lois Griffin|Loretta Brown|Tricia Takanawa"
+                  },
+                  {
+                     "name" : "Carly Simon"
+                  }
+               ],
+               "director" : [
+                  {
+                     "name" : "Joseph Lee"
+                  }
+               ]
+            },
+            "video" : {
+               "aspect" : "4:3"
+            },
+            "stop" : "1416841200",
+            "date" : "1999",
+            "subTitle" : {
+               "sv" : "Total Recall"
+            },
+            "channel" : "tv6.se",
+            "rating" : {
+               "stars" : "6.5 / 9"
+            },
+            "episodeNum" : {
+               "thetvdb.com" : "series/75978",
+               "xmltv_ns" : "10 . 17 .",
+               "onscreen" : "Del 18 s\u00e4song 11"
+            },
+            "desc" : {
+               "sv" : "N\u00e4r Peters favoritbarnprogram slutar g\u00e5 tar han saken i egna h\u00e4nder och g\u00f6r sitt eget barnprogram. Meg p\u00e5b\u00f6rjar en praktik p\u00e5 Dr Hartmans sjukhus."
+            },
+            "url" : [
+               "http://thetvdb.com/?tab=episode&seriesid=75978&seasonid=488432&id=4457892&lid=8"
+            ],
+            "title" : {
+               "sv" : "Family Guy"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Animation",
+                  "Comedy"
+               ]
+            },
+            "start" : "1416839700"
+         },
+         {
+            "country" : [
+               "US"
+            ],
+            "credits" : {
+               "writer" : [
+                  {
+                     "name" : "Chris Sheridan"
+                  }
+               ],
+               "actor" : [
+                  {
+                     "name" : "Anne Hathaway"
+                  },
+                  {
+                     "name" : "Seth Green",
+                     "role" : "Chris Griffin"
+                  },
+                  {
+                     "name" : "Adam West",
+                     "role" : "Adam West"
+                  },
+                  {
+                     "name" : "Ashley Tisdale"
+                  },
+                  {
+                     "name" : "Mila Kunis",
+                     "role" : "Meg Griffin #2"
+                  },
+                  {
+                     "name" : "Seth MacFarlane",
+                     "role" : "Peter Griffin|Stewie Griffin|Brian Griffin|Glenn Quagmire|Tom Tucker|Jake Tucker|Carter Pewterschmidt|Mickey McFinnigan|O'Brian|Dr. Elmer Hartman|Seamus|Jasper|Kevin Swanson|Jesus|God"
+                  },
+                  {
+                     "name" : "Amanda Bynes",
+                     "role" : "Anna"
+                  },
+                  {
+                     "name" : "Lacey Chabert",
+                     "role" : "Meg Griffin"
+                  },
+                  {
+                     "name" : "Mike Henry",
+                     "role" : "Cleveland Brown"
+                  },
+                  {
+                     "name" : "Alex Borstein",
+                     "role" : "Lois Griffin|Loretta Brown|Tricia Takanawa"
+                  },
+                  {
+                     "name" : "Tim Gunn, Christine Lakin, Emily Osment, Kevin Michael Richardson, Fred Tatasciore"
+                  }
+               ],
+               "director" : [
+                  {
+                     "name" : "Brian Iles"
+                  }
+               ]
+            },
+            "video" : {
+               "aspect" : "4:3"
+            },
+            "stop" : "1416843000",
+            "date" : "1999",
+            "subTitle" : {
+               "sv" : "Save the Clam"
+            },
+            "channel" : "tv6.se",
+            "rating" : {
+               "stars" : "6.5 / 9"
+            },
+            "episodeNum" : {
+               "thetvdb.com" : "series/75978",
+               "xmltv_ns" : "10 . 18 .",
+               "onscreen" : "Del 19 s\u00e4song 11"
+            },
+            "desc" : {
+               "sv" : "Stewie blir genast f\u00f6r\u00e4lskad n\u00e4r han m\u00f6ter en flicka som \u00e4r precis som han. Samtidigt best\u00e4mmer sig Peter och Quagmire f\u00f6r att ta sitt f\u00f6rh\u00e5llande till nya h\u00f6jder."
+            },
+            "url" : [
+               "http://thetvdb.com/?tab=episode&seriesid=75978&seasonid=488432&id=4457893&lid=8"
+            ],
+            "title" : {
+               "sv" : "Family Guy"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Animation",
+                  "Comedy"
+               ]
+            },
+            "start" : "1416841200"
+         },
+         {
+            "country" : [
+               "US"
+            ],
+            "credits" : {
+               "writer" : [
+                  {
+                     "name" : "Alessia Costantini"
+                  },
+                  {
+                     "name" : "Prentice Penny"
+                  }
+               ],
+               "actor" : [
+                  {
+                     "name" : "Robert Maschio",
+                     "role" : "Todd Quinlan"
+                  },
+                  {
+                     "name" : "Kerry Bish\u00e9",
+                     "role" : "Lucy Bennett"
+                  },
+                  {
+                     "name" : "Donald Faison",
+                     "role" : "Dr. Christopher \"Chris\" Duncan Turk"
+                  },
+                  {
+                     "name" : "John C. McGinley",
+                     "role" : "Dr. Percival \"Perry\" Ulysses Cox"
+                  },
+                  {
+                     "name" : "Dave Franco",
+                     "role" : "Cole McCallister"
+                  },
+                  {
+                     "name" : "Michael Mosley",
+                     "role" : "Drew Suffin"
+                  },
+                  {
+                     "name" : "Sarah Chalke",
+                     "role" : "Dr. Elliot Reid"
+                  },
+                  {
+                     "name" : "Christa Miller",
+                     "role" : "Jordan Sullivan"
+                  },
+                  {
+                     "name" : "Zach Braff",
+                     "role" : "Dr. John Michael \"J.D.\" Dorian"
+                  },
+                  {
+                     "name" : "Sam Lloyd",
+                     "role" : "Ted Buckland"
+                  },
+                  {
+                     "name" : "Judy Reyes",
+                     "role" : "Nurse Carla Espinosa"
+                  },
+                  {
+                     "name" : "Aloma Wright",
+                     "role" : "Nurse Laverne Roberts"
+                  },
+                  {
+                     "name" : "Ken Jenkins",
+                     "role" : "Dr. Robert \"Bob\" Kelso"
+                  },
+                  {
+                     "name" : "Eliza Coupe",
+                     "role" : "Denise Mahoney"
+                  },
+                  {
+                     "name" : "Travis Schuldt",
+                     "role" : "Keith"
+                  },
+                  {
+                     "name" : "Johnny Kastl",
+                     "role" : "Dr. Doug Murphy"
+                  },
+                  {
+                     "name" : "Heather Graham",
+                     "role" : "Dr. Molly Clock"
+                  },
+                  {
+                     "name" : "Neil Flynn",
+                     "role" : "The Janitor"
+                  },
+                  {
+                     "name" : "Matthew Moy"
+                  },
+                  {
+                     "name" : "Ken Jenkins"
+                  }
+               ],
+               "director" : [
+                  {
+                     "name" : "Eren Celeboglu"
+                  }
+               ]
+            },
+            "video" : {
+               "aspect" : "4:3"
+            },
+            "stop" : "1416844800",
+            "date" : "2001",
+            "subTitle" : {
+               "sv" : "Our Driving Issue"
+            },
+            "channel" : "tv6.se",
+            "rating" : {
+               "stars" : "6.2 / 9"
+            },
+            "episodeNum" : {
+               "thetvdb.com" : "series/76156",
+               "xmltv_ns" : "8 . 11 .",
+               "onscreen" : "Del 12 s\u00e4song 9"
+            },
+            "desc" : {
+               "sv" : "Cole och Dr. Kelso l\u00e4r sig vikten av att st\u00f6tta kompisarna."
+            },
+            "url" : [
+               "http://thetvdb.com/?tab=episode&seriesid=76156&seasonid=70641&id=1379731&lid=8"
+            ],
+            "title" : {
+               "sv" : "Scrubs"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Comedy"
+               ]
+            },
+            "start" : "1416843000"
+         },
+         {
+            "country" : [
+               "US"
+            ],
+            "credits" : {
+               "writer" : [
+                  {
+                     "name" : "Sean Russell"
+                  }
+               ],
+               "actor" : [
+                  {
+                     "name" : "Robert Maschio",
+                     "role" : "Todd Quinlan"
+                  },
+                  {
+                     "name" : "Kerry Bish\u00e9",
+                     "role" : "Lucy Bennett"
+                  },
+                  {
+                     "name" : "Donald Faison",
+                     "role" : "Dr. Christopher \"Chris\" Duncan Turk"
+                  },
+                  {
+                     "name" : "John C. McGinley",
+                     "role" : "Dr. Percival \"Perry\" Ulysses Cox"
+                  },
+                  {
+                     "name" : "Dave Franco",
+                     "role" : "Cole McCallister"
+                  },
+                  {
+                     "name" : "Michael Mosley",
+                     "role" : "Drew Suffin"
+                  },
+                  {
+                     "name" : "Sarah Chalke",
+                     "role" : "Dr. Elliot Reid"
+                  },
+                  {
+                     "name" : "Christa Miller",
+                     "role" : "Jordan Sullivan"
+                  },
+                  {
+                     "name" : "Zach Braff",
+                     "role" : "Dr. John Michael \"J.D.\" Dorian"
+                  },
+                  {
+                     "name" : "Sam Lloyd",
+                     "role" : "Ted Buckland"
+                  },
+                  {
+                     "name" : "Judy Reyes",
+                     "role" : "Nurse Carla Espinosa"
+                  },
+                  {
+                     "name" : "Aloma Wright",
+                     "role" : "Nurse Laverne Roberts"
+                  },
+                  {
+                     "name" : "Ken Jenkins",
+                     "role" : "Dr. Robert \"Bob\" Kelso"
+                  },
+                  {
+                     "name" : "Eliza Coupe",
+                     "role" : "Denise Mahoney"
+                  },
+                  {
+                     "name" : "Travis Schuldt",
+                     "role" : "Keith"
+                  },
+                  {
+                     "name" : "Johnny Kastl",
+                     "role" : "Dr. Doug Murphy"
+                  },
+                  {
+                     "name" : "Heather Graham",
+                     "role" : "Dr. Molly Clock"
+                  },
+                  {
+                     "name" : "Neil Flynn",
+                     "role" : "The Janitor"
+                  }
+               ],
+               "director" : [
+                  {
+                     "name" : "Rick Blue"
+                  }
+               ]
+            },
+            "video" : {
+               "aspect" : "4:3"
+            },
+            "stop" : "1416846600",
+            "date" : "2001",
+            "subTitle" : {
+               "sv" : "Our Thanks"
             },
             "channel" : "tv6.se",
             "rating" : {
                "stars" : "6.6 / 9"
             },
             "episodeNum" : {
-               "thetvdb.com" : "series/80348",
-               "xmltv_ns" : "4 . 3 .",
-               "onscreen" : "Del 4 s\u00e4song 5"
+               "thetvdb.com" : "series/76156",
+               "xmltv_ns" : "8 . 12 .",
+               "onscreen" : "Del 13 s\u00e4song 9"
             },
             "desc" : {
-               "sv" : "Chuck och Sarah reser till en konferens f\u00f6r Buy More, och m\u00e5ste f\u00f6rs\u00f6ka hitta en m\u00f6rdare bland de anst\u00e4llda. Morgan k\u00e4mpar f\u00f6r att hantera tillvaron som intersect, och Jeff visar en ny sida av sig sj\u00e4lv."
+               "sv" : "L\u00e4karstudenterna har snart pluggat en hel termin. De b\u00f6rjar s\u00e5 sm\u00e5tt best\u00e4mma sig f\u00f6r vilka omr\u00e5den de vill specialisera sig i. Studenterna ska ocks\u00e5 h\u00e5lla ett tal p\u00e5 avslutningsceremonin, till de familjer som donerat de lik som studenterna har studerat."
             },
             "url" : [
-               "http://thetvdb.com/?tab=episode&seriesid=80348&seasonid=468440&id=4153719&lid=8"
+               "http://thetvdb.com/?tab=episode&seriesid=76156&seasonid=70641&id=1406911&lid=8"
             ],
             "title" : {
-               "sv" : "Chuck"
-            },
-            "category" : {
-               "en" : [
-                  "series",
-                  "Comedy",
-                  "Drama"
-               ]
-            },
-            "start" : "1416740400"
-         },
-         {
-            "video" : {
-               "aspect" : "4:3"
-            },
-            "stop" : "1416747600",
-            "date" : "2011",
-            "subTitle" : {
-               "sv" : "Avsnitt 4"
-            },
-            "channel" : "tv6.se",
-            "episodeNum" : {
-               "thetvdb.com" : "series/233941",
-               "xmltv_ns" : "0 . 3 .",
-               "onscreen" : "Del 4 s\u00e4song 1"
-            },
-            "desc" : {
-               "sv" : "Tr\u00e4dkramare g\u00f6re sig icke besv\u00e4r. I kv\u00e4llens avsnitt mejas tr\u00e4d ner med kanonkula. Den h\u00e4r g\u00e5ngen har Erik och Mackan kommit till paradiset f\u00f6r skjutgalna Dirty Harrys. Eller Dynamit-Harrys om man s\u00e5 vill. P\u00e5 Glacier Springs Farm finns ett lekland f\u00f6r vuxna m\u00e4n och krutr\u00f6ken ligger t\u00e4t. - You can run fast, can't you? fr\u00e5gar farmens \u00e4gare n\u00e4r stubintr\u00e5den b\u00f6rjar brinna. Det blir inte bara dundrande kanoner i Oregon, det blir djuphavsfiske i Barbados vatten och jakt efter sagov\u00e4sen och oknytt p\u00e5 Island. Det blir en lektion i att dricka alkohol p\u00e5 ett vuxet s\u00e4tt p\u00e5 en ving\u00e5rd i Sydafrika samt ett f\u00f6rs\u00f6k att ta sig in p\u00e5 Dreamhack hemma i Sverige f\u00f6re alla n\u00f6rdar. Erik och Mackan provar ocks\u00e5 p\u00e5 att sv\u00e4va fritt i luften med hj\u00e4lp av en flygplansmotor i Lettland, med olika goda resultat. Men varf\u00f6r i hela v\u00e4rlden kryper Erik in under t\u00e4cket p\u00e5 hotellet tillsammans med en stor... fisk? Avsnitt 4:10"
-            },
-            "url" : [
-               "http://thetvdb.com/?tab=episode&seriesid=233941&seasonid=427281&id=3750011&lid=8"
-            ],
-            "title" : {
-               "sv" : "99 saker man m\u00e5ste g\u00f6ra innan man d\u00f6r"
+               "sv" : "Scrubs"
             },
             "category" : {
                "en" : [
@@ -1425,106 +2834,51 @@
                   "Comedy"
                ]
             },
-            "start" : "1416744000"
+            "start" : "1416844800"
          },
          {
             "country" : [
                "US"
             ],
             "credits" : {
-               "writer" : [
-                  {
-                     "name" : "Gary David Goldberg"
-                  },
-                  {
-                     "name" : "Bill Lawrence"
-                  }
-               ],
                "actor" : [
                   {
                      "name" : "Charlie Sheen",
-                     "role" : "Charlie Crawford"
+                     "role" : "Charlie Goodson"
                   },
                   {
-                     "name" : "Victoria Dillard",
-                     "role" : "Janelle Cooper"
+                     "name" : "Selma Blair",
+                     "role" : "Kate Wales"
                   },
                   {
-                     "name" : "Michael J. Fox",
-                     "role" : "Mike Flaherty"
+                     "name" : "Shawnee Smith",
+                     "role" : "Jennifer Goodson"
                   },
                   {
-                     "name" : "Barry Bostwick",
-                     "role" : "Mayor Randall M. Winston Jr."
+                     "name" : "Stephen Taylor",
+                     "role" : "Wayne"
                   },
                   {
-                     "name" : "Connie Britton",
-                     "role" : "Nicole 'Nikky' Catherine Faber"
-                  },
-                  {
-                     "name" : "Alan Ruck",
-                     "role" : "Stuart Bondek"
-                  },
-                  {
-                     "name" : "Heather Locklear",
-                     "role" : "Caitlin Moore"
-                  },
-                  {
-                     "name" : "Carla Gugino",
-                     "role" : "Ashley Schaeffer"
-                  },
-                  {
-                     "name" : "Richard Kind",
-                     "role" : "Paul Lassiter"
-                  },
-                  {
-                     "name" : "Michael Boatman",
-                     "role" : "Carter Heywood"
-                  },
-                  {
-                     "name" : "Alexander Chaplin",
-                     "role" : "James Hobert"
-                  },
-                  {
-                     "name" : "Jennifer Esposito",
-                     "role" : "Stacey Paterno"
-                  },
-                  {
-                     "name" : "Lana Parrilla",
-                     "role" : "Angie Ordonez"
-                  }
-               ],
-               "director" : [
-                  {
-                     "name" : "Thomas Schlamme"
+                     "name" : "Aldo Gonzalez",
+                     "role" : "Ernesto"
                   }
                ]
             },
             "video" : {
                "aspect" : "4:3"
             },
-            "stop" : "1416749400",
-            "date" : "1996",
-            "subTitle" : {
-               "sv" : "Pilot"
-            },
+            "stop" : "1416848400",
+            "date" : "2013",
             "channel" : "tv6.se",
-            "rating" : {
-               "stars" : "6.6 / 9"
-            },
             "episodeNum" : {
-               "thetvdb.com" : "series/73153",
-               "xmltv_ns" : "0 . 0 .",
-               "onscreen" : "Del 1 s\u00e4song 1"
+               "xmltv_ns" : "2 . 21/24 .",
+               "onscreen" : "Del 22 av 24 s\u00e4song 3"
             },
             "desc" : {
-               "sv" : "Michael Flaherty och hans teams m\u00e5ste handskas med att sopgubbarna strejkar och att borgm\u00e4staren av misstag f\u00f6rol\u00e4mpad homosexuella. Ashley ifr\u00e5gas\u00e4tter ocks\u00e5 Mikes avsikter med deras f\u00f6rh\u00e5llande eftersom han \u00e4r nerv\u00f6s f\u00f6r att flytta in ihop. ."
+               "sv" : "Charlie blir f\u00f6rf\u00f6rd av en vacker journalist som vill oppleva hans sex-studie i verkligheten."
             },
-            "url" : [
-               "http://thetvdb.com/?tab=episode&seriesid=73153&seasonid=5371&id=108528&lid=8"
-            ],
             "title" : {
-               "sv" : "Spin city"
+               "sv" : "Anger Management"
             },
             "category" : {
                "en" : [
@@ -1532,7 +2886,7 @@
                   "Comedy"
                ]
             },
-            "start" : "1416747600"
+            "start" : "1416846600"
          },
          {
             "country" : [
@@ -1541,106 +2895,81 @@
             "credits" : {
                "writer" : [
                   {
-                     "name" : "Sarah Dunn"
+                     "name" : "Carter Bays"
+                  },
+                  {
+                     "name" : "Craig Thomas"
                   }
                ],
                "actor" : [
                   {
-                     "name" : "Charlie Sheen",
-                     "role" : "Charlie Crawford"
+                     "name" : "Josh Radnor",
+                     "role" : "Ted Mosby"
                   },
                   {
-                     "name" : "Victoria Dillard",
-                     "role" : "Janelle Cooper"
+                     "name" : "Lyndsy Fonseca",
+                     "role" : "Daughter"
                   },
                   {
-                     "name" : "Michael J. Fox",
-                     "role" : "Mike Flaherty"
+                     "name" : "Cristin Milioti",
+                     "role" : "Tracy McConnell (The Mother)"
                   },
                   {
-                     "name" : "Barry Bostwick",
-                     "role" : "Mayor Randall M. Winston Jr."
+                     "name" : "Bob Saget",
+                     "role" : "Narrator"
                   },
                   {
-                     "name" : "Connie Britton",
-                     "role" : "Nicole 'Nikky' Catherine Faber"
+                     "name" : "Cobie Smulders",
+                     "role" : "Robin Scherbatsky"
                   },
                   {
-                     "name" : "Alan Ruck",
-                     "role" : "Stuart Bondek"
+                     "name" : "David Henrie",
+                     "role" : "Son"
                   },
                   {
-                     "name" : "Heather Locklear",
-                     "role" : "Caitlin Moore"
+                     "name" : "Neil Patrick Harris",
+                     "role" : "Barney Stinson"
                   },
                   {
-                     "name" : "Carla Gugino",
-                     "role" : "Ashley Schaeffer"
+                     "name" : "Alyson Hannigan",
+                     "role" : "Lily Aldrin"
                   },
                   {
-                     "name" : "Richard Kind",
-                     "role" : "Paul Lassiter"
-                  },
-                  {
-                     "name" : "Michael Boatman",
-                     "role" : "Carter Heywood"
-                  },
-                  {
-                     "name" : "Alexander Chaplin",
-                     "role" : "James Hobert"
-                  },
-                  {
-                     "name" : "Jennifer Esposito",
-                     "role" : "Stacey Paterno"
-                  },
-                  {
-                     "name" : "Lana Parrilla",
-                     "role" : "Angie Ordonez"
-                  },
-                  {
-                     "name" : "Deborah Rush"
-                  },
-                  {
-                     "name" : "Robert Trumbull"
-                  },
-                  {
-                     "name" : "Jimmy Palumbo"
-                  },
-                  {
-                     "name" : "Kim Serafin"
+                     "name" : "Jason Segel",
+                     "role" : "Marshall Eriksen"
                   }
                ],
                "director" : [
                   {
-                     "name" : "Lee Shallat-Chemel"
+                     "name" : "Pamela Fryman"
                   }
                ]
             },
             "video" : {
                "aspect" : "4:3"
             },
-            "stop" : "1416751200",
-            "date" : "1996",
+            "stop" : "1416850200",
+            "date" : "2005",
             "subTitle" : {
-               "sv" : "The Great Pretender"
+               "sv" : "Architect of Destruction"
             },
             "channel" : "tv6.se",
             "rating" : {
-               "stars" : "6.7 / 9"
+               "stars" : "6.5 / 9"
             },
             "episodeNum" : {
-               "thetvdb.com" : "series/73153",
-               "xmltv_ns" : "0 . 1 .",
-               "onscreen" : "Del 2 s\u00e4song 1"
+               "thetvdb.com" : "series/75760",
+               "xmltv_ns" : "5 . 4 .",
+               "onscreen" : "Del 5 s\u00e4song 6"
             },
             "desc" : {
-               "sv" : "N\u00e4r Mike blir utn\u00e4mnd till sexigast man i New York av Manhattan Magazine k\u00e4nner han pressen p\u00e5 sig hemma. Annars \u00e4r det Borgm\u00e4stare Winstons fru som orsakar mest problem f\u00f6r teamet. ."
+               "sv" : "Ted designar ett nytt h\u00f6gkvarter \u00e5t GNB. Han tr\u00e4ffar en vacker flicka som \u00e4r uppr\u00f6rd \u00f6ver att ett hotell ska rivas f\u00f6r att g\u00f6ra plats f\u00f6r hans byggnad."
             },
             "url" : [
-               "http://thetvdb.com/?tab=episode&seriesid=73153&seasonid=5371&id=108529&lid=8"
+               "http://thetvdb.com/?tab=episode&seriesid=75760&seasonid=287351&id=2764241&lid=8"
             ],
             "title" : {
-               "sv" : "Spin city"
+               "sv" : "How I met Your Mother"
             },
             "category" : {
                "en" : [
@@ -1648,7 +2977,7 @@
                   "Comedy"
                ]
             },
-            "start" : "1416749400"
+            "start" : "1416848400"
          },
          {
             "country" : [
@@ -1657,62 +2986,108 @@
             "credits" : {
                "writer" : [
                   {
-                     "name" : "Mike Royce"
+                     "name" : "Joe Kelly"
                   }
                ],
                "actor" : [
                   {
-                     "name" : "Chris Lowell",
-                     "role" : "CPL Derrick Hill"
+                     "name" : "Josh Radnor",
+                     "role" : "Ted Mosby"
                   },
                   {
-                     "name" : "Geoff Stults",
-                     "role" : "SSG Pete Hill"
+                     "name" : "Lyndsy Fonseca",
+                     "role" : "Daughter"
                   },
                   {
-                     "name" : "Keith David",
-                     "role" : "CSM Donald Cody"
+                     "name" : "Cristin Milioti",
+                     "role" : "Tracy McConnell (The Mother)"
                   },
                   {
-                     "name" : "Parker Young",
-                     "role" : "PV2 Randy Hill"
+                     "name" : "Bob Saget",
+                     "role" : "Narrator"
                   },
                   {
-                     "name" : "Angelique Cabral",
-                     "role" : "SSG Jill Perez"
+                     "name" : "Cobie Smulders",
+                     "role" : "Robin Scherbatsky"
+                  },
+                  {
+                     "name" : "David Henrie",
+                     "role" : "Son"
+                  },
+                  {
+                     "name" : "Neil Patrick Harris",
+                     "role" : "Barney Stinson"
+                  },
+                  {
+                     "name" : "Alyson Hannigan",
+                     "role" : "Lily Aldrin"
+                  },
+                  {
+                     "name" : "Jason Segel",
+                     "role" : "Marshall Eriksen"
+                  },
+                  {
+                     "name" : "Laura Bell Bundy"
+                  },
+                  {
+                     "name" : "Matt Boren"
+                  },
+                  {
+                     "name" : "Bill Fagerbakke"
+                  },
+                  {
+                     "name" : "Suzie Plakson"
+                  },
+                  {
+                     "name" : "Virginia Williams"
+                  },
+                  {
+                     "name" : "Ashwyn Bagga"
+                  },
+                  {
+                     "name" : "Mikaela Hoover"
+                  },
+                  {
+                     "name" : "Payson Lewis"
+                  },
+                  {
+                     "name" : "Bruce Merkle"
+                  },
+                  {
+                     "name" : "Ron Nicolosi"
                   }
                ],
                "director" : [
                   {
-                     "name" : "Phil Traill"
+                     "name" : "Pamela Fryman"
                   }
                ]
             },
             "video" : {
                "aspect" : "4:3"
             },
-            "stop" : "1416753000",
-            "date" : "2014",
+            "stop" : "1416852000",
+            "date" : "2005",
             "subTitle" : {
-               "sv" : "Parade Duty"
+               "sv" : "Baby Talk"
             },
             "channel" : "tv6.se",
             "rating" : {
-               "stars" : "6.7 / 9"
+               "stars" : "6.5 / 9"
             },
             "episodeNum" : {
-               "thetvdb.com" : "series/269591",
-               "xmltv_ns" : "0 . 6 .",
-               "onscreen" : "Del 7 s\u00e4song 1"
+               "thetvdb.com" : "series/75760",
+               "xmltv_ns" : "5 . 5 .",
+               "onscreen" : "Del 6 s\u00e4song 6"
             },
             "desc" : {
-               "sv" : "Pete blir chockad n\u00e4r han f\u00e5r reda p\u00e5 att hans pluton har f\u00e5tt i uppdrag att st\u00e4da upp efter den kommande paraden. Han vill d\u00e4rf\u00f6r inspirera dem att str\u00e4va efter st\u00f6rre saker."
+               "sv" : "Marshall och Lily l\u00e4r sig metoder f\u00f6r att best\u00e4mma k\u00f6net p\u00e5 det barn de f\u00f6rs\u00f6ker producera. Robin irriteras \u00f6ver att hennes kollega beter sig som ett barn - och att killarna verkar gilla det."
             },
             "url" : [
-               "http://thetvdb.com/?tab=episode&seriesid=269591&seasonid=519910&id=4643582&lid=8"
+               "http://thetvdb.com/?tab=episode&seriesid=75760&seasonid=287351&id=2964591&lid=8"
             ],
             "title" : {
-               "sv" : "Enlisted"
+               "sv" : "How I met Your Mother"
             },
             "category" : {
                "en" : [
@@ -1720,7 +3095,7 @@
                   "Comedy"
                ]
             },
-            "start" : "1416751200"
+            "start" : "1416850200"
          },
          {
             "country" : [
@@ -1729,79 +3104,183 @@
             "credits" : {
                "writer" : [
                   {
-                     "name" : "Kate Purdy"
+                     "name" : "Patrick Meighan"
                   }
                ],
                "actor" : [
                   {
-                     "name" : "Chris Lowell",
-                     "role" : "CPL Derrick Hill"
+                     "name" : "Anne Hathaway"
                   },
                   {
-                     "name" : "Geoff Stults",
-                     "role" : "SSG Pete Hill"
+                     "name" : "Seth Green",
+                     "role" : "Chris Griffin"
                   },
                   {
-                     "name" : "Keith David",
-                     "role" : "CSM Donald Cody"
+                     "name" : "Adam West",
+                     "role" : "Adam West"
                   },
                   {
-                     "name" : "Parker Young",
-                     "role" : "PV2 Randy Hill"
+                     "name" : "Ashley Tisdale"
                   },
                   {
-                     "name" : "Angelique Cabral",
-                     "role" : "SSG Jill Perez"
+                     "name" : "Mila Kunis",
+                     "role" : "Meg Griffin #2"
                   },
                   {
-                     "name" : "Stacy Keach"
+                     "name" : "Seth MacFarlane",
+                     "role" : "Peter Griffin|Stewie Griffin|Brian Griffin|Glenn Quagmire|Tom Tucker|Jake Tucker|Carter Pewterschmidt|Mickey McFinnigan|O'Brian|Dr. Elmer Hartman|Seamus|Jasper|Kevin Swanson|Jesus|God"
                   },
                   {
-                     "name" : "Dean Stockwell"
+                     "name" : "Amanda Bynes",
+                     "role" : "Anna"
                   },
                   {
-                     "name" : "Barry Bostwick"
+                     "name" : "Lacey Chabert",
+                     "role" : "Meg Griffin"
+                  },
+                  {
+                     "name" : "Mike Henry",
+                     "role" : "Cleveland Brown"
+                  },
+                  {
+                     "name" : "Alex Borstein",
+                     "role" : "Lois Griffin|Loretta Brown|Tricia Takanawa"
                   }
                ],
                "director" : [
                   {
-                     "name" : "Fred Goss"
+                     "name" : "Mike Kim"
                   }
                ]
             },
             "video" : {
                "aspect" : "4:3"
             },
-            "stop" : "1416754800",
-            "date" : "2014",
+            "stop" : "1416853800",
+            "date" : "1999",
             "subTitle" : {
-               "sv" : "Vets"
+               "sv" : "Farmer Guy"
             },
             "channel" : "tv6.se",
             "rating" : {
-               "stars" : "6.7 / 9"
+               "stars" : "6.4 / 9"
             },
             "episodeNum" : {
-               "thetvdb.com" : "series/269591",
-               "xmltv_ns" : "0 . 7 .",
-               "onscreen" : "Del 8 s\u00e4song 1"
+               "thetvdb.com" : "series/75978",
+               "xmltv_ns" : "10 . 19 .",
+               "onscreen" : "Del 20 s\u00e4song 11"
             },
             "desc" : {
-               "sv" : "Plutonen ska ta hand om en grupp bes\u00f6kande veteraner fr\u00e5n Koreakriget. Br\u00f6derna f\u00e5r nu en uppenbarelse: \u00e4r det denna framtid de g\u00e5r till m\u00f6tes?"
+               "sv" : "Meg reser runt i Europa, men hennes \u00e4ventyr f\u00e5r en abrupt v\u00e4ndning n\u00e4r hon blir kidnappad. Brian och Stewie ger sig ut p\u00e5 ett actionsp\u00e4ckat r\u00e4ddningsuppdrag f\u00f6r att hitta henne innan det \u00e4r f\u00f6r sent."
             },
             "url" : [
-               "http://thetvdb.com/?tab=episode&seriesid=269591&seasonid=519910&id=4643578&lid=8"
+               "http://thetvdb.com/?tab=episode&seriesid=75978&seasonid=488432&id=4457894&lid=8"
             ],
             "title" : {
-               "sv" : "Enlisted"
+               "sv" : "Family Guy"
             },
             "category" : {
                "en" : [
                   "series",
+                  "Animation",
                   "Comedy"
                ]
             },
-            "start" : "1416753000"
+            "start" : "1416852000"
+         },
+         {
+            "country" : [
+               "US"
+            ],
+            "credits" : {
+               "writer" : [
+                  {
+                     "name" : "Steve Callaghan"
+                  }
+               ],
+               "actor" : [
+                  {
+                     "name" : "Anne Hathaway"
+                  },
+                  {
+                     "name" : "Seth Green",
+                     "role" : "Chris Griffin"
+                  },
+                  {
+                     "name" : "Adam West",
+                     "role" : "Adam West"
+                  },
+                  {
+                     "name" : "Ashley Tisdale"
+                  },
+                  {
+                     "name" : "Mila Kunis",
+                     "role" : "Meg Griffin #2"
+                  },
+                  {
+                     "name" : "Seth MacFarlane",
+                     "role" : "Peter Griffin|Stewie Griffin|Brian Griffin|Glenn Quagmire|Tom Tucker|Jake Tucker|Carter Pewterschmidt|Mickey McFinnigan|O'Brian|Dr. Elmer Hartman|Seamus|Jasper|Kevin Swanson|Jesus|God"
+                  },
+                  {
+                     "name" : "Amanda Bynes",
+                     "role" : "Anna"
+                  },
+                  {
+                     "name" : "Lacey Chabert",
+                     "role" : "Meg Griffin"
+                  },
+                  {
+                     "name" : "Mike Henry",
+                     "role" : "Cleveland Brown"
+                  },
+                  {
+                     "name" : "Alex Borstein",
+                     "role" : "Lois Griffin|Loretta Brown|Tricia Takanawa"
+                  },
+                  {
+                     "name" : "Emily Osment"
+                  }
+               ],
+               "director" : [
+                  {
+                     "name" : "Greg Colton"
+                  }
+               ]
+            },
+            "video" : {
+               "aspect" : "4:3"
+            },
+            "stop" : "1416855600",
+            "date" : "1999",
+            "subTitle" : {
+               "sv" : "Roads to Vegas"
+            },
+            "channel" : "tv6.se",
+            "rating" : {
+               "stars" : "6.3 / 9"
+            },
+            "episodeNum" : {
+               "thetvdb.com" : "series/75978",
+               "xmltv_ns" : "10 . 20 .",
+               "onscreen" : "Del 21 s\u00e4song 11"
+            },
+            "desc" : {
+               "sv" : "Quahogs statshus hotar att st\u00e4nga ned Peters olagliga f\u00f6retag. Peter best\u00e4mmer sig f\u00f6r att g\u00e5 med i den amerikanska Tea Party-r\u00f6relsen och f\u00f6ra kampanj f\u00f6r att avs\u00e4tta regeringen. Samtidigt gagnas Peters sv\u00e4rfar Carter av kaoset i Quahog."
+            },
+            "url" : [
+               "http://thetvdb.com/?tab=episode&seriesid=75978&seasonid=488432&id=4457895&lid=8"
+            ],
+            "title" : {
+               "sv" : "Family Guy"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Animation",
+                  "Comedy"
+               ]
+            },
+            "start" : "1416853800"
          },
          {
             "country" : [
@@ -1811,6 +3290,9 @@
                "writer" : [
                   {
                      "name" : "Ian Maxtone-Graham"
+                  },
+                  {
+                     "name" : "Billy Kimball"
                   }
                ],
                "actor" : [
@@ -1847,37 +3329,40 @@
                      "role" : "Marge Simpson|Patty Bouvier|Selma Bouvier Terwilliger Hutz McClure|Grandma Jacqueline Bouvier|Aunt Gladys Bouvier"
                   },
                   {
-                     "name" : "The B-52's"
+                     "name" : "Kiefer Sutherland"
+                  },
+                  {
+                     "name" : "Mary Lynn Rajskub"
                   }
                ],
                "director" : [
                   {
-                     "name" : "Bob Anderson"
+                     "name" : "Raymond S. Persi"
                   }
                ]
             },
             "video" : {
                "aspect" : "4:3"
             },
-            "stop" : "1416756600",
+            "stop" : "1416857400",
             "date" : "1989",
             "subTitle" : {
-               "sv" : "E-I-E-I-(Annoyed Grunt)"
+               "sv" : "24 Minutes"
             },
             "channel" : "tv6.se",
             "rating" : {
-               "stars" : "6.4 / 9"
+               "stars" : "6.6 / 9"
             },
             "episodeNum" : {
                "thetvdb.com" : "series/71663",
-               "xmltv_ns" : "10 . 4 .",
-               "onscreen" : "Del 5 s\u00e4song 11"
+               "xmltv_ns" : "17 . 20 .",
+               "onscreen" : "Del 21 s\u00e4song 18"
             },
             "desc" : {
-               "sv" : "Familjen Simpson g\u00e5r p\u00e5 bio. Snake beter sig of\u00f6rsk\u00e4mt efter filmen s\u00e5 f\u00f6r att f\u00f6rsvara Marges \u00e4ra utmanar Homer Snake p\u00e5 duell."
+               "sv" : "Homer skickas iv\u00e4g f\u00f6r att g\u00f6ra av med ett lager gammal yugort som \u00e4r s\u00e5 gammal att det bildats faliga gifter i den, och Lisa hj\u00e4lper skolans rektor med ett nytt skolprojekt."
             },
             "url" : [
-               "http://thetvdb.com/?tab=episode&seriesid=71663&seasonid=2729&id=55683&lid=8"
+               "http://thetvdb.com/?tab=episode&seriesid=71663&seasonid=16438&id=324348&lid=8"
             ],
             "title" : {
                "sv" : "Simpsons"
@@ -1889,7 +3374,7 @@
                   "Comedy"
                ]
             },
-            "start" : "1416754800"
+            "start" : "1416855600"
          },
          {
             "country" : [
@@ -1898,7 +3383,7 @@
             "credits" : {
                "writer" : [
                   {
-                     "name" : "Al Jean"
+                     "name" : "Tim Long"
                   }
                ],
                "actor" : [
@@ -1935,49 +3420,37 @@
                      "role" : "Marge Simpson|Patty Bouvier|Selma Bouvier Terwilliger Hutz McClure|Grandma Jacqueline Bouvier|Aunt Gladys Bouvier"
                   },
                   {
-                     "name" : "Ron Howard"
-                  },
-                  {
-                     "name" : "Penn Jillette"
-                  },
-                  {
-                     "name" : "Teller"
-                  },
-                  {
-                     "name" : "Pat O'Brien"
-                  },
-                  {
-                     "name" : "Nancy O'Dell"
+                     "name" : "Ludacris"
                   }
                ],
                "director" : [
                   {
-                     "name" : "Mike B. Anderson"
+                     "name" : "Matthew Nastuk"
                   }
                ]
             },
             "video" : {
                "aspect" : "4:3"
             },
-            "stop" : "1416758400",
+            "stop" : "1416859200",
             "date" : "1989",
             "subTitle" : {
-               "sv" : "Hello Gutter, Hello Fadder"
+               "sv" : "You Kent Always Say What You Want"
             },
             "channel" : "tv6.se",
             "rating" : {
-               "stars" : "6.3 / 9"
+               "stars" : "6.1 / 9"
             },
             "episodeNum" : {
                "thetvdb.com" : "series/71663",
-               "xmltv_ns" : "10 . 5 .",
-               "onscreen" : "Del 6 s\u00e4song 11"
+               "xmltv_ns" : "17 . 21 .",
+               "onscreen" : "Del 22 s\u00e4song 18"
             },
             "desc" : {
-               "sv" : "Ov\u00e4ntad framg\u00e5ng p\u00e5 bowlingbanan ger Homer tillf\u00e4llig ber\u00f6mmelse."
+               "sv" : "Homer blir intervjuad i ett nyhetsprogram efter att ha k\u00f6pt den miljonte glassen i en av stans aff\u00e4rer. Mr. Brockman spiller kaffe i sin famn under direkts\u00e4ndningen och sv\u00e4r \u00f6ver direkt TV..."
             },
             "url" : [
-               "http://thetvdb.com/?tab=episode&seriesid=71663&seasonid=2729&id=55684&lid=8"
+               "http://thetvdb.com/?tab=episode&seriesid=71663&seasonid=16438&id=329107&lid=8"
             ],
             "title" : {
                "sv" : "Simpsons"
@@ -1989,99 +3462,7 @@
                   "Comedy"
                ]
             },
-            "start" : "1416756600"
-         },
-         {
-            "country" : [
-               "US"
-            ],
-            "video" : {
-               "aspect" : "4:3"
-            },
-            "stop" : "1416760200",
-            "date" : "1999",
-            "channel" : "tv6.se",
-            "episodeNum" : {
-               "xmltv_ns" : "0 . 9/13 .",
-               "onscreen" : "Del 10 av 13 s\u00e4song 1"
-            },
-            "desc" : {
-               "sv" : "Peter \u00e4r paranoid \u00f6ver att domedagen \u00e4r n\u00e4ra och lurar sin familj att st\u00e4lla in alla sina planer f\u00f6r millenniumskiftet. F\u00f6r en g\u00e5ng skull har han dessutom r\u00e4tt. Den 1 januari 2000, faller bomber som f\u00f6rst\u00f6r alla byggnader i hela v\u00e4rlden, f\u00f6rutom en liten kakfabrik. Familjen Griffins ger sig ut p\u00e5 v\u00e4gen f\u00f6r att f\u00f6rs\u00f6ka hitta fabriken, men hittar ist\u00e4llet ett hus, som till synes verkar vara perfekt, om det inte bara hade varit f\u00f6r Randy Newman. ."
-            },
-            "title" : {
-               "sv" : "Family Guy"
-            },
-            "category" : {
-               "en" : [
-                  "series",
-                  "Series"
-               ]
-            },
-            "start" : "1416758400"
-         },
-         {
-            "country" : [
-               "US"
-            ],
-            "video" : {
-               "aspect" : "4:3"
-            },
-            "stop" : "1416762000",
-            "date" : "1999",
-            "channel" : "tv6.se",
-            "episodeNum" : {
-               "xmltv_ns" : "0 . 10/13 .",
-               "onscreen" : "Del 11 av 13 s\u00e4song 1"
-            },
-            "desc" : {
-               "sv" : "Lois \u00e4r tr\u00f6tt \u00e5 att beh\u00f6va torka upp kissfl\u00e4ckar i huset. Det \u00e4r p\u00e5 tiden att Stewie pottr\u00e4nas. Men Stewie blir f\u00f6rbannad \u00f6ver att han beskylls f\u00f6r kissfl\u00e4karna och v\u00e4grar att l\u00e5ta sig \"tr\u00e4nas\". Brian sitter p\u00e5 sanningen. Han vet att det \u00e4r han som \u00e4r den skyldiga. ."
-            },
-            "title" : {
-               "sv" : "Family Guy"
-            },
-            "category" : {
-               "en" : [
-                  "series",
-                  "Series"
-               ]
-            },
-            "start" : "1416760200"
-         },
-         {
-            "country" : [
-               "US"
-            ],
-            "video" : {
-               "aspect" : "4:3"
-            },
-            "stop" : "1416765600",
-            "date" : "2013",
-            "subTitle" : {
-               "sv" : "Ottawa Pop Expo"
-            },
-            "channel" : "tv6.se",
-            "episodeNum" : {
-               "thetvdb.com" : "series/271818",
-               "xmltv_ns" : "0 . 7 .",
-               "onscreen" : "Del 8 s\u00e4song 1"
-            },
-            "desc" : {
-               "sv" : "Det excentriska g\u00e4nget deltar i en cosplayt\u00e4vling i Kanadas huvudstad Ottawa. Men vem har skapat den b\u00e4sta karakt\u00e4ren och den mest imponerande utstyrseln?"
-            },
-            "url" : [
-               "http://thetvdb.com/?tab=episode&seriesid=271818&seasonid=525615&id=4884433&lid=8"
-            ],
-            "title" : {
-               "sv" : "Heroes of Cosplay"
-            },
-            "category" : {
-               "en" : [
-                  "series",
-                  "Documentary",
-                  "Reality"
-               ]
-            },
-            "start" : "1416762000"
+            "start" : "1416857400"
          },
          {
             "country" : [
@@ -2090,161 +3471,117 @@
             "credits" : {
                "actor" : [
                   {
-                     "name" : "Ve Neill",
-                     "role" : "Judge"
+                     "name" : "Melanie Lynskey",
+                     "role" : "Rose"
                   },
                   {
-                     "name" : "Patrick Tatopoulos",
-                     "role" : "Judge"
+                     "name" : "Ryan Stiles",
+                     "role" : "Herb Melnick"
                   },
                   {
-                     "name" : "Neville Page",
-                     "role" : "Judge"
+                     "name" : "Jennifer Taylor",
+                     "role" : "Chelsea/Nina/Suzanne/Tina"
                   },
                   {
-                     "name" : "Glenn Hetrick",
-                     "role" : "Judge"
+                     "name" : "April Bowlby",
+                     "role" : "Kandi"
                   },
                   {
-                     "name" : "McKenzie Westmore",
-                     "role" : "Host"
+                     "name" : "Holland Taylor",
+                     "role" : "Evelyn Harper"
+                  },
+                  {
+                     "name" : "Brooke Shields",
+                     "role" : "Danielle Stewert"
+                  },
+                  {
+                     "name" : "Emmanuelle Vaugier",
+                     "role" : "Mia"
+                  },
+                  {
+                     "name" : "Conchata Ferrell",
+                     "role" : "Berta"
+                  },
+                  {
+                     "name" : "Graham Patrick Martin",
+                     "role" : "Eldridge McElroy"
+                  },
+                  {
+                     "name" : "Marin Hinkle",
+                     "role" : "Judith"
+                  },
+                  {
+                     "name" : "Carl Reiner",
+                     "role" : "Marty"
+                  },
+                  {
+                     "name" : "Jane Lynch",
+                     "role" : "Dr. Linda Freeman"
+                  },
+                  {
+                     "name" : "April Bowlby",
+                     "role" : "Kandi"
+                  },
+                  {
+                     "name" : "Kelly Stables",
+                     "role" : "Melissa"
+                  },
+                  {
+                     "name" : "Ashton Kutcher",
+                     "role" : "Walden Schmidt"
+                  },
+                  {
+                     "name" : "Judy Greer",
+                     "role" : "Bridget"
+                  },
+                  {
+                     "name" : "Angus T. Jones",
+                     "role" : "Jacob David \"Jake\" Harper"
+                  },
+                  {
+                     "name" : "Jenny McCarthy",
+                     "role" : "Courtney"
+                  },
+                  {
+                     "name" : "Amber Tamblyn",
+                     "role" : "Jenny"
+                  },
+                  {
+                     "name" : "Jon Cryer",
+                     "role" : "Alan Harper"
+                  },
+                  {
+                     "name" : "Courtney Thorne-Smith",
+                     "role" : "Lyndsey McElroy"
+                  },
+                  {
+                     "name" : "Charlie Sheen",
+                     "role" : "Charles \"Charlie\" Harper"
                   }
                ]
             },
             "video" : {
                "aspect" : "4:3"
             },
-            "stop" : "1416769200",
-            "date" : "2011",
+            "stop" : "1416861000",
+            "date" : "2003",
             "subTitle" : {
-               "sv" : "Cosmic Conspiracy"
+               "sv" : "A Chic Bar In Ibiza"
             },
             "channel" : "tv6.se",
-            "rating" : {
-               "stars" : "6.2 / 9"
-            },
             "episodeNum" : {
-               "thetvdb.com" : "series/214831",
-               "xmltv_ns" : "5 . 1 .",
-               "onscreen" : "Del 2 s\u00e4song 6"
+               "thetvdb.com" : "series/72227",
+               "xmltv_ns" : "11 . 1 .",
+               "onscreen" : "Del 2 s\u00e4song 12"
             },
             "desc" : {
-               "sv" : "De 14 konstn\u00e4rerna k\u00e4mpar f\u00f6r att imponera p\u00e5 domarna. Idag f\u00e5r de i uppgift att skapa utomjordiska varelser, som lider av en rad intergalaktiska kr\u00e4mpor."
+               "sv" : "Alan blir f\u00f6rol\u00e4mpad n\u00e4r Walden ber honom att skriva under ett \u00e4ktenskapsf\u00f6rord. Det hela g\u00f6r honom os\u00e4ker p\u00e5 om han vill gifta sig."
             },
             "url" : [
-               "http://thetvdb.com/?tab=episode&seriesid=214831&seasonid=569121&id=4766402&lid=8"
+               "http://thetvdb.com/?tab=episode&seriesid=72227&seasonid=589601&id=5026368&lid=8"
             ],
             "title" : {
-               "sv" : "Face Off"
-            },
-            "category" : {
-               "en" : [
-                  "series",
-                  "Reality"
-               ]
-            },
-            "start" : "1416765600"
-         },
-         {
-            "country" : [
-               "US"
-            ],
-            "credits" : {
-               "writer" : [
-                  {
-                     "name" : "Dan Gregor"
-                  },
-                  {
-                     "name" : "Doug Mand"
-                  }
-               ],
-               "actor" : [
-                  {
-                     "name" : "Josh Radnor",
-                     "role" : "Ted Mosby"
-                  },
-                  {
-                     "name" : "Lyndsy Fonseca",
-                     "role" : "Daughter"
-                  },
-                  {
-                     "name" : "Cristin Milioti",
-                     "role" : "Tracy McConnell (The Mother)"
-                  },
-                  {
-                     "name" : "Bob Saget",
-                     "role" : "Narrator"
-                  },
-                  {
-                     "name" : "Cobie Smulders",
-                     "role" : "Robin Scherbatsky"
-                  },
-                  {
-                     "name" : "David Henrie",
-                     "role" : "Son"
-                  },
-                  {
-                     "name" : "Neil Patrick Harris",
-                     "role" : "Barney Stinson"
-                  },
-                  {
-                     "name" : "Alyson Hannigan",
-                     "role" : "Lily Aldrin"
-                  },
-                  {
-                     "name" : "Jason Segel",
-                     "role" : "Marshall Eriksen"
-                  },
-                  {
-                     "name" : "Sherri Shepherd"
-                  },
-                  {
-                     "name" : "Wayne Brady"
-                  },
-                  {
-                     "name" : "Frances Conroy"
-                  },
-                  {
-                     "name" : "Matt Boren"
-                  },
-                  {
-                     "name" : "Virginia Williams"
-                  },
-                  {
-                     "name" : "Jeff Grace"
-                  }
-               ],
-               "director" : [
-                  {
-                     "name" : "Pamela Fryman"
-                  }
-               ]
-            },
-            "video" : {
-               "aspect" : "4:3"
-            },
-            "stop" : "1416771000",
-            "date" : "2005",
-            "subTitle" : {
-               "sv" : "The Poker Game"
-            },
-            "channel" : "tv6.se",
-            "rating" : {
-               "stars" : "6.7 / 9"
-            },
-            "episodeNum" : {
-               "thetvdb.com" : "series/75760",
-               "xmltv_ns" : "8 . 4 .",
-               "onscreen" : "Del 5 s\u00e4song 9"
-            },
-            "desc" : {
-               "sv" : "Barney m\u00e5ste v\u00e4lja sida i ett br\u00e5k mellan Robin och hans mor. Samtidigt diskuterar Ted och Marshall br\u00f6llopsg\u00e5vor och tackbrev."
-            },
-            "url" : [
-               "http://thetvdb.com/?tab=episode&seriesid=75760&seasonid=522807&id=4621494&lid=8"
-            ],
-            "title" : {
-               "sv" : "How I Met Your Mother"
+               "sv" : "2 1/2 m\u00e4n"
             },
             "category" : {
                "en" : [
@@ -2252,114 +3589,51 @@
                   "Comedy"
                ]
             },
-            "start" : "1416769200"
+            "start" : "1416859200"
          },
          {
             "country" : [
                "US"
             ],
             "credits" : {
-               "writer" : [
-                  {
-                     "name" : "Chris Harris"
-                  }
-               ],
                "actor" : [
                   {
-                     "name" : "Josh Radnor",
-                     "role" : "Ted Mosby"
+                     "name" : "Charlie Sheen",
+                     "role" : "Charlie Goodson"
                   },
                   {
-                     "name" : "Lyndsy Fonseca",
-                     "role" : "Daughter"
+                     "name" : "Noureen DeWulf",
+                     "role" : "Lacey"
                   },
                   {
-                     "name" : "Cristin Milioti",
-                     "role" : "Tracy McConnell (The Mother)"
+                     "name" : "Shawnee Smith",
+                     "role" : "Jennifer Goodson"
                   },
                   {
-                     "name" : "Bob Saget",
-                     "role" : "Narrator"
+                     "name" : "Stephen Taylor",
+                     "role" : "Wayne"
                   },
                   {
-                     "name" : "Cobie Smulders",
-                     "role" : "Robin Scherbatsky"
-                  },
-                  {
-                     "name" : "David Henrie",
-                     "role" : "Son"
-                  },
-                  {
-                     "name" : "Neil Patrick Harris",
-                     "role" : "Barney Stinson"
-                  },
-                  {
-                     "name" : "Alyson Hannigan",
-                     "role" : "Lily Aldrin"
-                  },
-                  {
-                     "name" : "Jason Segel",
-                     "role" : "Marshall Eriksen"
-                  },
-                  {
-                     "name" : "Sherri Shepherd"
-                  },
-                  {
-                     "name" : "Anna Camp"
-                  },
-                  {
-                     "name" : "Edward Herrmann"
-                  },
-                  {
-                     "name" : "India de Beaufort"
-                  },
-                  {
-                     "name" : "Michael Rider"
-                  },
-                  {
-                     "name" : "Joe O'Connor"
-                  },
-                  {
-                     "name" : "Joshua Hoover"
-                  },
-                  {
-                     "name" : "Rob Gleeson"
-                  },
-                  {
-                     "name" : "Skyler Vallo"
-                  }
-               ],
-               "director" : [
-                  {
-                     "name" : "Pamela Fryman"
+                     "name" : "Aldo Gonzalez",
+                     "role" : "Ernesto"
                   }
                ]
             },
             "video" : {
                "aspect" : "4:3"
             },
-            "stop" : "1416772800",
-            "date" : "2005",
-            "subTitle" : {
-               "sv" : "Knight Vision"
-            },
+            "stop" : "1416862800",
+            "date" : "2014",
             "channel" : "tv6.se",
-            "rating" : {
-               "stars" : "6.4 / 9"
-            },
             "episodeNum" : {
-               "thetvdb.com" : "series/75760",
-               "xmltv_ns" : "8 . 5 .",
-               "onscreen" : "Del 6 s\u00e4song 9"
+               "xmltv_ns" : "4 . 6/21 .",
+               "onscreen" : "Del 7 av 21 s\u00e4song 5"
             },
             "desc" : {
-               "sv" : "Ted v\u00e4ljer mellan tre tjejer han potentiellt ska ta med sig under br\u00f6llopshelgen. Dessv\u00e4rre fattar han ett d\u00e5ligt beslut. Samtidigt hamnar Barney och Robin i konflikt med pr\u00e4sten."
+               "sv" : "Charlie dejtar en het kvinna som han tr\u00e4ffar genom hennes jobb med internetsupport. Men hennes n\u00f6rdiga ex allt han kan f\u00f6r att f\u00f6rpesta tillvaron f\u00f6r Charlie."
             },
-            "url" : [
-               "http://thetvdb.com/?tab=episode&seriesid=75760&seasonid=522807&id=4630011&lid=8"
-            ],
             "title" : {
-               "sv" : "How I Met Your Mother"
+               "sv" : "Anger Management"
             },
             "category" : {
                "en" : [
@@ -2367,7 +3641,7 @@
                   "Comedy"
                ]
             },
-            "start" : "1416771000"
+            "start" : "1416861000"
          },
          {
             "country" : [
@@ -2379,10 +3653,7 @@
                      "name" : "Chuck Lorre"
                   },
                   {
-                     "name" : "Matt Ross"
-                  },
-                  {
-                     "name" : "Mark Seale"
+                     "name" : "Andrew J.B. Aronsohn"
                   }
                ],
                "actor" : [
@@ -2473,6 +3744,21 @@
                   {
                      "name" : "Charlie Sheen",
                      "role" : "Charles \"Charlie\" Harper"
+                  },
+                  {
+                     "name" : "Judy Greer"
+                  },
+                  {
+                     "name" : "Ryan Stiles"
+                  },
+                  {
+                     "name" : "Nicole J. Butler"
+                  },
+                  {
+                     "name" : "Amira Elliby"
+                  },
+                  {
+                     "name" : "Emile Ballard"
                   }
                ],
                "director" : [
@@ -2484,25 +3770,25 @@
             "video" : {
                "aspect" : "4:3"
             },
-            "stop" : "1416774600",
+            "stop" : "1416864600",
             "date" : "2003",
             "subTitle" : {
-               "sv" : "Give Santa a Tail-Hole"
+               "sv" : "Big Girls Don't Throw Food"
             },
             "channel" : "tv6.se",
             "rating" : {
-               "stars" : "6.8 / 9"
+               "stars" : "6.5 / 9"
             },
             "episodeNum" : {
                "thetvdb.com" : "series/72227",
-               "xmltv_ns" : "9 . 10 .",
-               "onscreen" : "Del 11 s\u00e4song 10"
+               "xmltv_ns" : "8 . 2 .",
+               "onscreen" : "Del 3 s\u00e4song 9"
             },
             "desc" : {
-               "sv" : "Walden k\u00e4mpar f\u00f6r att h\u00e5lla koll p\u00e5 sina tv\u00e5 identiteter - den ene rik och den andre fattig. Samtidigt tvingas Alan att tillbringa julen ensam."
+               "sv" : "Alan hj\u00e4lper Walden att f\u00f6rbereda sig inf\u00f6r sin tr\u00e4ff med Bridget. Samtidigt hoppas Jake kunna n\u00e5 samma stora framg\u00e5ng som Walden, genom att hoppa av skolan."
             },
             "url" : [
-               "http://thetvdb.com/?tab=episode&seriesid=72227&seasonid=494381&id=4450781&lid=8"
+               "http://thetvdb.com/?tab=episode&seriesid=72227&seasonid=468778&id=4170660&lid=8"
             ],
             "title" : {
                "sv" : "2 1/2 m\u00e4n"
@@ -2513,59 +3799,7 @@
                   "Comedy"
                ]
             },
-            "start" : "1416772800"
-         },
-         {
-            "country" : [
-               "US"
-            ],
-            "credits" : {
-               "actor" : [
-                  {
-                     "name" : "Charlie Sheen",
-                     "role" : "Charlie Goodson"
-                  },
-                  {
-                     "name" : "Noureen DeWulf",
-                     "role" : "Lacey"
-                  },
-                  {
-                     "name" : "Shawnee Smith",
-                     "role" : "Jennifer Goodson"
-                  },
-                  {
-                     "name" : "Stephen Taylor",
-                     "role" : "Wayne"
-                  },
-                  {
-                     "name" : "Aldo Gonzalez",
-                     "role" : "Ernesto"
-                  }
-               ]
-            },
-            "video" : {
-               "aspect" : "4:3"
-            },
-            "stop" : "1416776400",
-            "date" : "2014",
-            "channel" : "tv6.se",
-            "episodeNum" : {
-               "xmltv_ns" : "4 . 5/21 .",
-               "onscreen" : "Del 6 av 21 s\u00e4song 5"
-            },
-            "desc" : {
-               "sv" : "Charlie dras in i en t\u00e4vling med en kvinnlig privatdetektiv. Han f\u00f6rs\u00f6ker bevisa att han skulle kunna vara otrogen mot henne, helt utan hennes vetskap..."
-            },
-            "title" : {
-               "sv" : "Anger Management"
-            },
-            "category" : {
-               "en" : [
-                  "series",
-                  "Comedy"
-               ]
-            },
-            "start" : "1416774600"
+            "start" : "1416862800"
          },
          {
             "country" : [
@@ -2574,73 +3808,148 @@
             "credits" : {
                "writer" : [
                   {
-                     "name" : "David Quandt"
+                     "name" : "Eddie Gorodetsky"
+                  },
+                  {
+                     "name" : "Jim Patterson"
+                  },
+                  {
+                     "name" : "Chuck Lorre"
+                  },
+                  {
+                     "name" : "Lee Aronsohn"
                   }
                ],
                "actor" : [
                   {
-                     "name" : "Andre Braugher",
-                     "role" : "Captain Ray Holt"
+                     "name" : "Melanie Lynskey",
+                     "role" : "Rose"
                   },
                   {
-                     "name" : "Andy Samberg",
-                     "role" : "Jake Peralta"
+                     "name" : "Ryan Stiles",
+                     "role" : "Herb Melnick"
                   },
                   {
-                     "name" : "Melissa Fumero",
-                     "role" : "Amy Santiago"
+                     "name" : "Jennifer Taylor",
+                     "role" : "Chelsea/Nina/Suzanne/Tina"
                   },
                   {
-                     "name" : "Joe LoTruglio",
-                     "role" : "Charles"
+                     "name" : "April Bowlby",
+                     "role" : "Kandi"
                   },
                   {
-                     "name" : "Chelsea Peretti",
-                     "role" : "Gina"
+                     "name" : "Holland Taylor",
+                     "role" : "Evelyn Harper"
                   },
                   {
-                     "name" : "Terry Crews",
-                     "role" : "Terry Jeffords"
+                     "name" : "Brooke Shields",
+                     "role" : "Danielle Stewert"
                   },
                   {
-                     "name" : "Stephanie Beatriz",
-                     "role" : "Detective Rosa Diaz"
+                     "name" : "Emmanuelle Vaugier",
+                     "role" : "Mia"
                   },
                   {
-                     "name" : "Matt Walsh"
+                     "name" : "Conchata Ferrell",
+                     "role" : "Berta"
+                  },
+                  {
+                     "name" : "Graham Patrick Martin",
+                     "role" : "Eldridge McElroy"
+                  },
+                  {
+                     "name" : "Marin Hinkle",
+                     "role" : "Judith"
+                  },
+                  {
+                     "name" : "Carl Reiner",
+                     "role" : "Marty"
+                  },
+                  {
+                     "name" : "Jane Lynch",
+                     "role" : "Dr. Linda Freeman"
+                  },
+                  {
+                     "name" : "April Bowlby",
+                     "role" : "Kandi"
+                  },
+                  {
+                     "name" : "Kelly Stables",
+                     "role" : "Melissa"
+                  },
+                  {
+                     "name" : "Ashton Kutcher",
+                     "role" : "Walden Schmidt"
+                  },
+                  {
+                     "name" : "Judy Greer",
+                     "role" : "Bridget"
+                  },
+                  {
+                     "name" : "Angus T. Jones",
+                     "role" : "Jacob David \"Jake\" Harper"
+                  },
+                  {
+                     "name" : "Jenny McCarthy",
+                     "role" : "Courtney"
+                  },
+                  {
+                     "name" : "Amber Tamblyn",
+                     "role" : "Jenny"
+                  },
+                  {
+                     "name" : "Jon Cryer",
+                     "role" : "Alan Harper"
+                  },
+                  {
+                     "name" : "Courtney Thorne-Smith",
+                     "role" : "Lyndsey McElroy"
+                  },
+                  {
+                     "name" : "Charlie Sheen",
+                     "role" : "Charles \"Charlie\" Harper"
+                  },
+                  {
+                     "name" : "Courtney Thorne-Smith"
+                  },
+                  {
+                     "name" : "Nicholas Gonzalez"
+                  },
+                  {
+                     "name" : "Nikki Novak"
                   }
                ],
                "director" : [
                   {
-                     "name" : "Tucker Gates"
+                     "name" : "James Widdoes"
                   }
                ]
             },
             "video" : {
                "aspect" : "4:3"
             },
-            "stop" : "1416778200",
-            "date" : "2013",
+            "stop" : "1416866400",
+            "date" : "2003",
             "subTitle" : {
-               "sv" : "The Apartment"
+               "sv" : "Nine Magic Fingers"
             },
             "channel" : "tv6.se",
             "rating" : {
-               "stars" : "6.7 / 9"
+               "stars" : "6.6 / 9"
             },
             "episodeNum" : {
-               "thetvdb.com" : "series/269586",
-               "xmltv_ns" : "0 . 17 .",
-               "onscreen" : "Del 18 s\u00e4song 1"
+               "thetvdb.com" : "series/72227",
+               "xmltv_ns" : "8 . 3 .",
+               "onscreen" : "Del 4 s\u00e4song 9"
             },
             "desc" : {
-               "sv" : "Jake riskerar att f\u00f6rlora sin l\u00e4genhet p\u00e5 grund av en skuld, och beh\u00f6ver nu Ginas hj\u00e4lp. Kapten Holt och Terry arrangerar utvecklingssamtal med de anst\u00e4llda."
+               "sv" : "I ett f\u00f6rs\u00f6k att komma \u00f6ver uppbrottet med sin fru g\u00e5r Walden ut p\u00e5 jakt efter den r\u00e4tta. Samtidigt f\u00e5r Alan m\u00f6jlighet att f\u00f6rsona sig med Lyndsey."
             },
             "url" : [
-               "http://thetvdb.com/?tab=episode&seriesid=269586&seasonid=519889&id=4749759&lid=8"
+               "http://thetvdb.com/?tab=episode&seriesid=72227&seasonid=468778&id=4170661&lid=8"
             ],
             "title" : {
-               "sv" : "Brooklyn Nine-Nine"
+               "sv" : "2 1/2 m\u00e4n"
             },
             "category" : {
                "en" : [
@@ -2648,165 +3957,7 @@
                   "Comedy"
                ]
             },
-            "start" : "1416776400"
-         },
-         {
-            "country" : [
-               "US"
-            ],
-            "credits" : {
-               "actor" : [
-                  {
-                     "name" : "Wayne Knight",
-                     "role" : "Haskell Lutz"
-                  },
-                  {
-                     "name" : "David Alan Basche",
-                     "role" : "Stuart Gardner"
-                  },
-                  {
-                     "name" : "Kelly Stables",
-                     "role" : "Eden"
-                  },
-                  {
-                     "name" : "Edi Patterson",
-                     "role" : "Crazy Sandy"
-                  },
-                  {
-                     "name" : "Kristen Johnston",
-                     "role" : "Holly Franklin"
-                  },
-                  {
-                     "name" : "Rebecca Rhae Larsen",
-                     "role" : "Alicia"
-                  },
-                  {
-                     "name" : "Donald Faison",
-                     "role" : "Phil Chase"
-                  }
-               ]
-            },
-            "video" : {
-               "aspect" : "4:3"
-            },
-            "stop" : "1416780000",
-            "date" : "2011",
-            "subTitle" : {
-               "sv" : "The Old Man and The Holly"
-            },
-            "channel" : "tv6.se",
-            "rating" : {
-               "stars" : "5.6 / 9"
-            },
-            "episodeNum" : {
-               "thetvdb.com" : "series/253279",
-               "xmltv_ns" : "2 . 19 .",
-               "onscreen" : "Del 20 s\u00e4song 3"
-            },
-            "desc" : {
-               "sv" : "I s\u00e4songsavslutningen g\u00e5r Holly p\u00e5 dejt med en \u00e4ldre man, medan Nicki erbjuder Phil n\u00e5got mycket intressant."
-            },
-            "url" : [
-               "http://thetvdb.com/?tab=episode&seriesid=253279&seasonid=509704&id=4799387&lid=8"
-            ],
-            "title" : {
-               "sv" : "The Exes"
-            },
-            "category" : {
-               "en" : [
-                  "series",
-                  "Comedy"
-               ]
-            },
-            "start" : "1416778200"
-         },
-         {
-            "country" : [
-               "US"
-            ],
-            "credits" : {
-               "actor" : [
-                  {
-                     "name" : "Stan Smith"
-                  },
-                  {
-                     "name" : "Francine Smith"
-                  },
-                  {
-                     "name" : "Hayley Smith"
-                  },
-                  {
-                     "name" : "Klaus"
-                  }
-               ]
-            },
-            "video" : {
-               "aspect" : "4:3"
-            },
-            "stop" : "1416781800",
-            "date" : "2007",
-            "channel" : "tv6.se",
-            "episodeNum" : {
-               "xmltv_ns" : "6 . 0/19 .",
-               "onscreen" : "Del 1 av 19 s\u00e4song 7"
-            },
-            "desc" : {
-               "sv" : "Hayley och Jeff \u00e5ker iv\u00e4g f\u00f6r att gifta sig och Stan erbjuder 50 000 dollar till den som kan stoppa dem - vilket f\u00e5r hela staden att engagera sig."
-            },
-            "title" : {
-               "sv" : "American Dad"
-            },
-            "category" : {
-               "en" : [
-                  "series",
-                  "Series"
-               ]
-            },
-            "start" : "1416780000"
-         },
-         {
-            "country" : [
-               "US"
-            ],
-            "credits" : {
-               "actor" : [
-                  {
-                     "name" : "Stan Smith"
-                  },
-                  {
-                     "name" : "Francine Smith"
-                  },
-                  {
-                     "name" : "Hayley Smith"
-                  },
-                  {
-                     "name" : "Klaus"
-                  }
-               ]
-            },
-            "video" : {
-               "aspect" : "4:3"
-            },
-            "stop" : "1416783600",
-            "date" : "2007",
-            "channel" : "tv6.se",
-            "episodeNum" : {
-               "xmltv_ns" : "6 . 1/21 .",
-               "onscreen" : "Del 2 av 21 s\u00e4song 7"
-            },
-            "desc" : {
-               "sv" : "Stan klonar Steve, medan Francine och Stan t\u00e4vlar om vem som \u00e4r den b\u00e4sta f\u00f6r\u00e4ldern. Samtidigt hittar Roger den bortsprungna bruden och brudgummen - i Thailand."
-            },
-            "title" : {
-               "sv" : "American Dad"
-            },
-            "category" : {
-               "en" : [
-                  "series",
-                  "Series"
-               ]
-            },
-            "start" : "1416781800"
+            "start" : "1416864600"
          },
          {
             "country" : [
@@ -2815,10 +3966,379 @@
             "credits" : {
                "writer" : [
                   {
-                     "name" : "Dan Gregor"
+                     "name" : "Bill Lawrence"
+                  }
+               ],
+               "actor" : [
+                  {
+                     "name" : "Robert Maschio",
+                     "role" : "Todd Quinlan"
                   },
                   {
-                     "name" : "Doug Mand"
+                     "name" : "Kerry Bish\u00e9",
+                     "role" : "Lucy Bennett"
+                  },
+                  {
+                     "name" : "Donald Faison",
+                     "role" : "Dr. Christopher \"Chris\" Duncan Turk"
+                  },
+                  {
+                     "name" : "John C. McGinley",
+                     "role" : "Dr. Percival \"Perry\" Ulysses Cox"
+                  },
+                  {
+                     "name" : "Dave Franco",
+                     "role" : "Cole McCallister"
+                  },
+                  {
+                     "name" : "Michael Mosley",
+                     "role" : "Drew Suffin"
+                  },
+                  {
+                     "name" : "Sarah Chalke",
+                     "role" : "Dr. Elliot Reid"
+                  },
+                  {
+                     "name" : "Christa Miller",
+                     "role" : "Jordan Sullivan"
+                  },
+                  {
+                     "name" : "Zach Braff",
+                     "role" : "Dr. John Michael \"J.D.\" Dorian"
+                  },
+                  {
+                     "name" : "Sam Lloyd",
+                     "role" : "Ted Buckland"
+                  },
+                  {
+                     "name" : "Judy Reyes",
+                     "role" : "Nurse Carla Espinosa"
+                  },
+                  {
+                     "name" : "Aloma Wright",
+                     "role" : "Nurse Laverne Roberts"
+                  },
+                  {
+                     "name" : "Ken Jenkins",
+                     "role" : "Dr. Robert \"Bob\" Kelso"
+                  },
+                  {
+                     "name" : "Eliza Coupe",
+                     "role" : "Denise Mahoney"
+                  },
+                  {
+                     "name" : "Travis Schuldt",
+                     "role" : "Keith"
+                  },
+                  {
+                     "name" : "Johnny Kastl",
+                     "role" : "Dr. Doug Murphy"
+                  },
+                  {
+                     "name" : "Heather Graham",
+                     "role" : "Dr. Molly Clock"
+                  },
+                  {
+                     "name" : "Neil Flynn",
+                     "role" : "The Janitor"
+                  },
+                  {
+                     "name" : "Ted Rogers"
+                  },
+                  {
+                     "name" : "Timmy Deters"
+                  },
+                  {
+                     "name" : "Lynne Maclean"
+                  },
+                  {
+                     "name" : "Michael Hobert"
+                  },
+                  {
+                     "name" : "Matt Winston"
+                  },
+                  {
+                     "name" : "Shannon Welles"
+                  },
+                  {
+                     "name" : "Mary Gillis"
+                  },
+                  {
+                     "name" : "Jake Fritz"
+                  }
+               ],
+               "director" : [
+                  {
+                     "name" : "Adam Bernstein"
+                  }
+               ]
+            },
+            "video" : {
+               "aspect" : "4:3"
+            },
+            "stop" : "1416868200",
+            "date" : "2001",
+            "subTitle" : {
+               "sv" : "My First Day"
+            },
+            "channel" : "tv6.se",
+            "rating" : {
+               "stars" : "6.6 / 9"
+            },
+            "episodeNum" : {
+               "thetvdb.com" : "series/76156",
+               "xmltv_ns" : "0 . 0 .",
+               "onscreen" : "Del 1 s\u00e4song 1"
+            },
+            "desc" : {
+               "sv" : "John Dorian eller \"J.D\" som hans v\u00e4nner kallar honom, \u00e4r en trevlig, charmig och \u00f6dmjuk kille som kunde ha varit lite mer sj\u00e4lvs\u00e4ker om han bara f\u00f6rst\u00e5tt att han hade m\u00e5nga bra kvalit\u00e9er. Han har just studerat klart tre \u00e5r av medicin och b\u00f6rjar sin f\u00f6rsta dag p\u00e5 \"Sacred Heart Hospital\". Han kastas ut i en ovan kaotisk sjukhusmilj\u00f6. ."
+            },
+            "url" : [
+               "http://thetvdb.com/?tab=episode&seriesid=76156&seasonid=9772&id=184602&lid=8"
+            ],
+            "title" : {
+               "sv" : "Scrubs"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Comedy"
+               ]
+            },
+            "start" : "1416866400"
+         },
+         {
+            "country" : [
+               "US"
+            ],
+            "credits" : {
+               "writer" : [
+                  {
+                     "name" : "Bill Lawrence"
+                  }
+               ],
+               "actor" : [
+                  {
+                     "name" : "Robert Maschio",
+                     "role" : "Todd Quinlan"
+                  },
+                  {
+                     "name" : "Kerry Bish\u00e9",
+                     "role" : "Lucy Bennett"
+                  },
+                  {
+                     "name" : "Donald Faison",
+                     "role" : "Dr. Christopher \"Chris\" Duncan Turk"
+                  },
+                  {
+                     "name" : "John C. McGinley",
+                     "role" : "Dr. Percival \"Perry\" Ulysses Cox"
+                  },
+                  {
+                     "name" : "Dave Franco",
+                     "role" : "Cole McCallister"
+                  },
+                  {
+                     "name" : "Michael Mosley",
+                     "role" : "Drew Suffin"
+                  },
+                  {
+                     "name" : "Sarah Chalke",
+                     "role" : "Dr. Elliot Reid"
+                  },
+                  {
+                     "name" : "Christa Miller",
+                     "role" : "Jordan Sullivan"
+                  },
+                  {
+                     "name" : "Zach Braff",
+                     "role" : "Dr. John Michael \"J.D.\" Dorian"
+                  },
+                  {
+                     "name" : "Sam Lloyd",
+                     "role" : "Ted Buckland"
+                  },
+                  {
+                     "name" : "Judy Reyes",
+                     "role" : "Nurse Carla Espinosa"
+                  },
+                  {
+                     "name" : "Aloma Wright",
+                     "role" : "Nurse Laverne Roberts"
+                  },
+                  {
+                     "name" : "Ken Jenkins",
+                     "role" : "Dr. Robert \"Bob\" Kelso"
+                  },
+                  {
+                     "name" : "Eliza Coupe",
+                     "role" : "Denise Mahoney"
+                  },
+                  {
+                     "name" : "Travis Schuldt",
+                     "role" : "Keith"
+                  },
+                  {
+                     "name" : "Johnny Kastl",
+                     "role" : "Dr. Doug Murphy"
+                  },
+                  {
+                     "name" : "Heather Graham",
+                     "role" : "Dr. Molly Clock"
+                  },
+                  {
+                     "name" : "Neil Flynn",
+                     "role" : "The Janitor"
+                  },
+                  {
+                     "name" : "John Ducey"
+                  },
+                  {
+                     "name" : "Jack Walsh"
+                  },
+                  {
+                     "name" : "Randy Kaplan"
+                  }
+               ],
+               "director" : [
+                  {
+                     "name" : "Adam Bernstein"
+                  }
+               ]
+            },
+            "video" : {
+               "aspect" : "4:3"
+            },
+            "stop" : "1416870000",
+            "date" : "2001",
+            "subTitle" : {
+               "sv" : "My Mentor"
+            },
+            "channel" : "tv6.se",
+            "rating" : {
+               "stars" : "6.2 / 9"
+            },
+            "episodeNum" : {
+               "thetvdb.com" : "series/76156",
+               "xmltv_ns" : "0 . 1 .",
+               "onscreen" : "Del 2 s\u00e4song 1"
+            },
+            "desc" : {
+               "sv" : "J.D och Turk b\u00f6rjar v\u00e4nja sig vid sjukhusets vardagssysslor. De anv\u00e4nder sig av sin l\u00e4genhet som tillflyktsplats efter en h\u00e5rd dags slit och sl\u00e4p p\u00e5 sjukhuset. D\u00e5 och d\u00e5 tittar Elliot ocks\u00e5 f\u00f6rbi. ."
+            },
+            "url" : [
+               "http://thetvdb.com/?tab=episode&seriesid=76156&seasonid=9772&id=184603&lid=8"
+            ],
+            "title" : {
+               "sv" : "Scrubs"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Comedy"
+               ]
+            },
+            "start" : "1416868200"
+         },
+         {
+            "country" : [
+               "US"
+            ],
+            "credits" : {
+               "writer" : [
+                  {
+                     "name" : "Carter Bays"
+                  },
+                  {
+                     "name" : "Craig Thomas"
+                  }
+               ],
+               "actor" : [
+                  {
+                     "name" : "Josh Radnor",
+                     "role" : "Ted Mosby"
+                  },
+                  {
+                     "name" : "Lyndsy Fonseca",
+                     "role" : "Daughter"
+                  },
+                  {
+                     "name" : "Cristin Milioti",
+                     "role" : "Tracy McConnell (The Mother)"
+                  },
+                  {
+                     "name" : "Bob Saget",
+                     "role" : "Narrator"
+                  },
+                  {
+                     "name" : "Cobie Smulders",
+                     "role" : "Robin Scherbatsky"
+                  },
+                  {
+                     "name" : "David Henrie",
+                     "role" : "Son"
+                  },
+                  {
+                     "name" : "Neil Patrick Harris",
+                     "role" : "Barney Stinson"
+                  },
+                  {
+                     "name" : "Alyson Hannigan",
+                     "role" : "Lily Aldrin"
+                  },
+                  {
+                     "name" : "Jason Segel",
+                     "role" : "Marshall Eriksen"
+                  }
+               ],
+               "director" : [
+                  {
+                     "name" : "Pamela Fryman"
+                  }
+               ]
+            },
+            "video" : {
+               "aspect" : "4:3"
+            },
+            "stop" : "1416871800",
+            "date" : "2005",
+            "subTitle" : {
+               "sv" : "Architect of Destruction"
+            },
+            "channel" : "tv6.se",
+            "rating" : {
+               "stars" : "6.5 / 9"
+            },
+            "episodeNum" : {
+               "thetvdb.com" : "series/75760",
+               "xmltv_ns" : "5 . 4 .",
+               "onscreen" : "Del 5 s\u00e4song 6"
+            },
+            "desc" : {
+               "sv" : "Ted designar ett nytt h\u00f6gkvarter \u00e5t GNB. Han tr\u00e4ffar en vacker flicka som \u00e4r uppr\u00f6rd \u00f6ver att ett hotell ska rivas f\u00f6r att g\u00f6ra plats f\u00f6r hans byggnad."
+            },
+            "url" : [
+               "http://thetvdb.com/?tab=episode&seriesid=75760&seasonid=287351&id=2764241&lid=8"
+            ],
+            "title" : {
+               "sv" : "How I met Your Mother"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Comedy"
+               ]
+            },
+            "start" : "1416870000"
+         },
+         {
+            "country" : [
+               "US"
+            ],
+            "credits" : {
+               "writer" : [
+                  {
+                     "name" : "Joe Kelly"
                   }
                ],
                "actor" : [
@@ -2859,22 +4379,34 @@
                      "role" : "Marshall Eriksen"
                   },
                   {
-                     "name" : "Sherri Shepherd"
-                  },
-                  {
-                     "name" : "Wayne Brady"
-                  },
-                  {
-                     "name" : "Frances Conroy"
+                     "name" : "Laura Bell Bundy"
                   },
                   {
                      "name" : "Matt Boren"
                   },
                   {
+                     "name" : "Bill Fagerbakke"
+                  },
+                  {
+                     "name" : "Suzie Plakson"
+                  },
+                  {
                      "name" : "Virginia Williams"
                   },
                   {
-                     "name" : "Jeff Grace"
+                     "name" : "Ashwyn Bagga"
+                  },
+                  {
+                     "name" : "Mikaela Hoover"
+                  },
+                  {
+                     "name" : "Payson Lewis"
+                  },
+                  {
+                     "name" : "Bruce Merkle"
+                  },
+                  {
+                     "name" : "Ron Nicolosi"
                   }
                ],
                "director" : [
@@ -2886,28 +4418,28 @@
             "video" : {
                "aspect" : "4:3"
             },
-            "stop" : "1416785400",
+            "stop" : "1416873600",
             "date" : "2005",
             "subTitle" : {
-               "sv" : "The Poker Game"
+               "sv" : "Baby Talk"
             },
             "channel" : "tv6.se",
             "rating" : {
-               "stars" : "6.7 / 9"
+               "stars" : "6.5 / 9"
             },
             "episodeNum" : {
                "thetvdb.com" : "series/75760",
-               "xmltv_ns" : "8 . 4 .",
-               "onscreen" : "Del 5 s\u00e4song 9"
+               "xmltv_ns" : "5 . 5 .",
+               "onscreen" : "Del 6 s\u00e4song 6"
             },
             "desc" : {
-               "sv" : "Barney m\u00e5ste v\u00e4lja sida i ett br\u00e5k mellan Robin och hans mor. Samtidigt diskuterar Ted och Marshall br\u00f6llopsg\u00e5vor och tackbrev."
+               "sv" : "Marshall och Lily l\u00e4r sig metoder f\u00f6r att best\u00e4mma k\u00f6net p\u00e5 det barn de f\u00f6rs\u00f6ker producera. Robin irriteras \u00f6ver att hennes kollega beter sig som ett barn - och att killarna verkar gilla det."
             },
             "url" : [
-               "http://thetvdb.com/?tab=episode&seriesid=75760&seasonid=522807&id=4621494&lid=8"
+               "http://thetvdb.com/?tab=episode&seriesid=75760&seasonid=287351&id=2964591&lid=8"
             ],
             "title" : {
-               "sv" : "How I Met Your Mother"
+               "sv" : "How I met Your Mother"
             },
             "category" : {
                "en" : [
@@ -2915,122 +4447,7 @@
                   "Comedy"
                ]
             },
-            "start" : "1416783600"
-         },
-         {
-            "country" : [
-               "US"
-            ],
-            "credits" : {
-               "writer" : [
-                  {
-                     "name" : "Chris Harris"
-                  }
-               ],
-               "actor" : [
-                  {
-                     "name" : "Josh Radnor",
-                     "role" : "Ted Mosby"
-                  },
-                  {
-                     "name" : "Lyndsy Fonseca",
-                     "role" : "Daughter"
-                  },
-                  {
-                     "name" : "Cristin Milioti",
-                     "role" : "Tracy McConnell (The Mother)"
-                  },
-                  {
-                     "name" : "Bob Saget",
-                     "role" : "Narrator"
-                  },
-                  {
-                     "name" : "Cobie Smulders",
-                     "role" : "Robin Scherbatsky"
-                  },
-                  {
-                     "name" : "David Henrie",
-                     "role" : "Son"
-                  },
-                  {
-                     "name" : "Neil Patrick Harris",
-                     "role" : "Barney Stinson"
-                  },
-                  {
-                     "name" : "Alyson Hannigan",
-                     "role" : "Lily Aldrin"
-                  },
-                  {
-                     "name" : "Jason Segel",
-                     "role" : "Marshall Eriksen"
-                  },
-                  {
-                     "name" : "Sherri Shepherd"
-                  },
-                  {
-                     "name" : "Anna Camp"
-                  },
-                  {
-                     "name" : "Edward Herrmann"
-                  },
-                  {
-                     "name" : "India de Beaufort"
-                  },
-                  {
-                     "name" : "Michael Rider"
-                  },
-                  {
-                     "name" : "Joe O'Connor"
-                  },
-                  {
-                     "name" : "Joshua Hoover"
-                  },
-                  {
-                     "name" : "Rob Gleeson"
-                  },
-                  {
-                     "name" : "Skyler Vallo"
-                  }
-               ],
-               "director" : [
-                  {
-                     "name" : "Pamela Fryman"
-                  }
-               ]
-            },
-            "video" : {
-               "aspect" : "4:3"
-            },
-            "stop" : "1416787200",
-            "date" : "2005",
-            "subTitle" : {
-               "sv" : "Knight Vision"
-            },
-            "channel" : "tv6.se",
-            "rating" : {
-               "stars" : "6.4 / 9"
-            },
-            "episodeNum" : {
-               "thetvdb.com" : "series/75760",
-               "xmltv_ns" : "8 . 5 .",
-               "onscreen" : "Del 6 s\u00e4song 9"
-            },
-            "desc" : {
-               "sv" : "Ted v\u00e4ljer mellan tre tjejer han potentiellt ska ta med sig under br\u00f6llopshelgen. Dessv\u00e4rre fattar han ett d\u00e5ligt beslut. Samtidigt hamnar Barney och Robin i konflikt med pr\u00e4sten."
-            },
-            "url" : [
-               "http://thetvdb.com/?tab=episode&seriesid=75760&seasonid=522807&id=4630011&lid=8"
-            ],
-            "title" : {
-               "sv" : "How I Met Your Mother"
-            },
-            "category" : {
-               "en" : [
-                  "series",
-                  "Comedy"
-               ]
-            },
-            "start" : "1416785400"
+            "start" : "1416871800"
          }
       ]
    }

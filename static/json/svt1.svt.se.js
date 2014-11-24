@@ -2,64 +2,34 @@
    "jsontv" : {
       "programme" : [
          {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1415577900",
-            "date" : "2014",
-            "category" : {
-               "en" : [
-                  "tvshow",
-                  "News"
-               ]
-            },
-            "title" : {
-               "sv" : "Rapport"
-            },
-            "channel" : "svt2.svt.se",
-            "start" : "1415577600"
-         },
-         {
             "credits" : {
                "actor" : [
                   {
-                     "name" : "Atle Antonsen"
+                     "name" : "Gabriel Macht"
                   },
                   {
-                     "name" : "Tuva Novotny"
-                  },
-                  {
-                     "name" : "Rolf Lassg\u00e5rd"
-                  },
-                  {
-                     "name" : "Silje Torp F\u00e4ravaag"
-                  },
-                  {
-                     "name" : "Agnes Kittelsen"
-                  },
-                  {
-                     "name" : "Anders Baasmo Christiansen"
-                  },
-                  {
-                     "name" : "Rebecka Hemse"
+                     "name" : "Patrick J"
                   }
                ]
             },
             "video" : {
                "aspect" : "16:9"
             },
-            "stop" : "1415579400",
-            "date" : "2011",
-            "channel" : "svt2.svt.se",
+            "stop" : "1416790800",
+            "date" : "2013",
+            "subTitle" : {
+               "sv" : "Yesterday's gone"
+            },
+            "channel" : "svt1.svt.se",
             "episodeNum" : {
-               "xmltv_ns" : "1 . 5/10 .",
-               "onscreen" : "Del 6 av 10 s\u00e4song 2"
+               "xmltv_ns" : "2012 . 11/16 .",
+               "onscreen" : "Del 12 av 16 s\u00e4song 2013"
             },
             "desc" : {
-               "sv" : "Dag f\u00f6rs\u00f6ker f\u00e5 pejl p\u00e5 situationen efter en romantisk natt med Eva. Benedikt f\u00e5r ett bryskt uppvaknande och \u00e4r en h\u00e5rsm\u00e5n fr\u00e5n att bli ihj\u00e4lslagen av Mia. Dag g\u00f6r vissa framsteg hos Ernst, medan Eva upplever bes\u00f6ket hos sin far som minst sagt sv\u00e5rjobbat."
+               "sv" : "B\u00e5de Mike och Jessica s\u00f6ker st\u00f6d hos Harvey n\u00e4r deras respektive f\u00f6rflutna st\u00e4ller livet p\u00e5 \u00e4nda. Adams, Gina Torres, Meghan Markle, Rick Hoffman m.fl."
             },
             "title" : {
-               "sv" : "Dag"
+               "sv" : "Suits"
             },
             "category" : {
                "en" : [
@@ -67,795 +37,109 @@
                   "Series"
                ]
             },
-            "start" : "1415577900"
+            "start" : "1416788100"
          },
          {
             "video" : {
                "aspect" : "16:9"
             },
-            "stop" : "1415579700",
+            "stop" : "1416792600",
             "date" : "2014",
-            "category" : {
-               "en" : [
-                  "tvshow",
-                  "News"
-               ]
-            },
-            "title" : {
-               "sv" : "Rapport"
-            },
-            "channel" : "svt2.svt.se",
-            "start" : "1415579400"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1415581200",
-            "date" : "2014",
-            "category" : {
-               "en" : [
-                  "tvshow"
-               ]
-            },
-            "title" : {
-               "sv" : "24 Vision"
-            },
-            "channel" : "svt2.svt.se",
-            "start" : "1415579700"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1415581500",
-            "date" : "2014",
-            "category" : {
-               "en" : [
-                  "tvshow",
-                  "News"
-               ]
-            },
-            "title" : {
-               "sv" : "Rapport"
-            },
-            "channel" : "svt2.svt.se",
-            "start" : "1415581200"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1415583000",
-            "date" : "2014",
-            "category" : {
-               "en" : [
-                  "tvshow"
-               ]
-            },
-            "title" : {
-               "sv" : "24 Vision"
-            },
-            "channel" : "svt2.svt.se",
-            "start" : "1415581500"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1415583300",
-            "date" : "2014",
-            "category" : {
-               "en" : [
-                  "tvshow",
-                  "News"
-               ]
-            },
-            "title" : {
-               "sv" : "Rapport"
-            },
-            "channel" : "svt2.svt.se",
-            "start" : "1415583000"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1415584800",
-            "date" : "2014",
-            "category" : {
-               "en" : [
-                  "tvshow"
-               ]
-            },
-            "title" : {
-               "sv" : "24 Vision"
-            },
-            "channel" : "svt2.svt.se",
-            "start" : "1415583300"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1415585100",
-            "date" : "2014",
-            "category" : {
-               "en" : [
-                  "tvshow",
-                  "News"
-               ]
-            },
-            "title" : {
-               "sv" : "Rapport"
-            },
-            "channel" : "svt2.svt.se",
-            "start" : "1415584800"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1415586600",
-            "date" : "2014",
-            "category" : {
-               "en" : [
-                  "tvshow"
-               ]
-            },
-            "title" : {
-               "sv" : "24 Vision"
-            },
-            "channel" : "svt2.svt.se",
-            "start" : "1415585100"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1415586900",
-            "date" : "2014",
-            "category" : {
-               "en" : [
-                  "tvshow",
-                  "News"
-               ]
-            },
-            "title" : {
-               "sv" : "Rapport"
-            },
-            "channel" : "svt2.svt.se",
-            "start" : "1415586600"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1415588400",
-            "date" : "2014",
-            "category" : {
-               "en" : [
-                  "tvshow"
-               ]
-            },
-            "title" : {
-               "sv" : "24 Vision"
-            },
-            "channel" : "svt2.svt.se",
-            "start" : "1415586900"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1415588700",
-            "date" : "2014",
-            "category" : {
-               "en" : [
-                  "tvshow",
-                  "News"
-               ]
-            },
-            "title" : {
-               "sv" : "Rapport"
-            },
-            "channel" : "svt2.svt.se",
-            "start" : "1415588400"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1415590200",
-            "date" : "2014",
-            "category" : {
-               "en" : [
-                  "tvshow"
-               ]
-            },
-            "title" : {
-               "sv" : "24 Vision"
-            },
-            "channel" : "svt2.svt.se",
-            "start" : "1415588700"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1415590500",
-            "date" : "2014",
-            "category" : {
-               "en" : [
-                  "tvshow",
-                  "News"
-               ]
-            },
-            "title" : {
-               "sv" : "Rapport"
-            },
-            "channel" : "svt2.svt.se",
-            "start" : "1415590200"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1415592000",
-            "date" : "2014",
-            "category" : {
-               "en" : [
-                  "tvshow"
-               ]
-            },
-            "title" : {
-               "sv" : "24 Vision"
-            },
-            "channel" : "svt2.svt.se",
-            "start" : "1415590500"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1415592300",
-            "date" : "2014",
-            "category" : {
-               "en" : [
-                  "tvshow",
-                  "News"
-               ]
-            },
-            "title" : {
-               "sv" : "Rapport"
-            },
-            "channel" : "svt2.svt.se",
-            "start" : "1415592000"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1415593800",
-            "date" : "2014",
-            "category" : {
-               "en" : [
-                  "tvshow"
-               ]
-            },
-            "title" : {
-               "sv" : "24 Vision"
-            },
-            "channel" : "svt2.svt.se",
-            "start" : "1415592300"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1415594100",
-            "date" : "2014",
-            "category" : {
-               "en" : [
-                  "tvshow",
-                  "News"
-               ]
-            },
-            "title" : {
-               "sv" : "Rapport"
-            },
-            "channel" : "svt2.svt.se",
-            "start" : "1415593800"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1415606100",
-            "date" : "2014",
-            "channel" : "svt2.svt.se",
+            "channel" : "svt1.svt.se",
             "episodeNum" : {
-               "xmltv_ns" : "1 . 1/4 .",
-               "onscreen" : "Del 2 av 4 s\u00e4song 2"
+               "xmltv_ns" : "0 . 46/53 .",
+               "onscreen" : "Del 47 av 53 s\u00e4song 1"
+            },
+            "title" : {
+               "sv" : "Sportspegeln"
+            },
+            "category" : {
+               "en" : [
+                  "sports",
+                  "Sports"
+               ]
+            },
+            "start" : "1416790800"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1416796200",
+            "date" : "2014",
+            "channel" : "svt1.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "11 . 9/12 .",
+               "onscreen" : "Del 10 av 12 s\u00e4song 12"
             },
             "desc" : {
-               "sv" : "Fyra ber\u00e4ttelser, fyra m\u00e4nniskor, fyra resor. Dusan Marinkovic \u00e4r 16 \u00e5r, bor i Malm\u00f6 och brinner f\u00f6r m\u00e4nniskors lika v\u00e4rde. Varje \u00e5r ordnar hans morfar en fotbollsturnering i Serbien f\u00f6r att motverka rasism. Men i \u00e5r \u00e4r morfar \u00e4r sjuk och arrangemanget \u00e4r i fara. Dusan fattar ett snabbt beslut. Han ska \u00e5ka ner. Turneringen m\u00e5ste r\u00e4ddas."
+               "sv" : "Veckans g\u00e4ster hos Fredrik Skavlan \u00e4r Eurythmics-s\u00e5ngerskan Annie Lennox, b\u00e4sts\u00e4ljande f\u00f6rfattaren Ken Follett, amerikanska singer-songwritern Jackson Browne och svensk/norska racerf\u00f6raren Ayla \u00c5gren."
             },
             "title" : {
-               "sv" : "En rom p\u00e5 resa"
+               "sv" : "Skavlan"
             },
             "category" : {
                "en" : [
                   "series",
-                  "Politics",
-                  "Society"
+                  "Talkshow"
                ]
             },
-            "start" : "1415604300"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1415606400",
-            "date" : "2014",
-            "channel" : "svt2.svt.se",
-            "episodeNum" : {
-               "xmltv_ns" : "2013 . 3/10 .",
-               "onscreen" : "Del 4 av 10 s\u00e4song 2014"
-            },
-            "desc" : {
-               "sv" : "Nyheter fr\u00e5n hela Sverige - p\u00e5 me\u00e4nkieli."
-            },
-            "title" : {
-               "sv" : "Sverige idag - me\u00e4nkieli"
-            },
-            "category" : {
-               "en" : [
-                  "tvshow",
-                  "News"
-               ]
-            },
-            "start" : "1415606100"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1415610000",
-            "date" : "2014",
-            "channel" : "svt2.svt.se",
-            "desc" : {
-               "sv" : "09:00-10:30: Konkurrens och kvalitet i v\u00e4lf\u00e4rden. Hur ska man f\u00e5 en effektiv kontroll p\u00e5 v\u00e4lf\u00e4rden - i privat och offentlig regi? Seminarium arrangerat av ESO - Expertgruppen f\u00f6r studier i offentlig ekonomi. Fr\u00e5n 24/10. 10:30-11:00: Alliansens skuggbudget - DIREKT. Den borgerliga alliansen l\u00e4gger fram sin budget. Margit Silberstein kommenterar. 11:00-12:00: Konkurrens och kvalitet i v\u00e4lf\u00e4rden. Forts\u00e4ttning. Hur ska man f\u00e5 en effektiv kontroll p\u00e5 v\u00e4lf\u00e4rden - b\u00e5de den privata och offentliga? 12:00-13:00: Framtidens l\u00f6nebildning. Medlingsinstitutets konferens om olika perspektiv p\u00e5 framtidens l\u00f6nebildning och v\u00e4gen dit. Vilken roll har Medlingsinstitutet spelat? Med Mona Sahlin (S), Allan Larsson (S), Carola Lemne, Svenska n\u00e4ringsliv med fler. Fr\u00e5n 3/11. 13:00-13:30: Sverigedemokraternas skuggbudget - DIREKT. Sverigedemokraterna l\u00e4gger fram sin budget. Margit Silberstein kommenterar. 13:30-15:10: Globala trender 2025 - DIREKT. Risken f\u00f6r social oro och konflikter \u00f6kar. Sveriges beroende av andra l\u00e4nder v\u00e4xer. Regeringskansliets tankesmedja presenterar en ny rapport. Arrang\u00f6r: Folk och f\u00f6rsvar.15:10-16:00: Framtidens l\u00f6nebildning. Forts\u00e4ttning. Medlingsinstitutets konferens om olika perspektiv p\u00e5 framtidens l\u00f6nebildning och v\u00e4gen dit. Vilken roll har Medlingsinstitutet spelat?"
-            },
-            "title" : {
-               "sv" : "SVT Forum"
-            },
-            "category" : {
-               "en" : [
-                  "tvshow",
-                  "Politics",
-                  "Society"
-               ]
-            },
-            "start" : "1415606400"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1415631900",
-            "date" : "2014",
-            "category" : {
-               "en" : [
-                  "tvshow",
-                  "News"
-               ]
-            },
-            "title" : {
-               "sv" : "Rapport"
-            },
-            "channel" : "svt2.svt.se",
-            "start" : "1415631600"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1415632800",
-            "date" : "2014",
-            "channel" : "svt2.svt.se",
-            "desc" : {
-               "sv" : "Skuggbudgetar - Mats Knutson kommenterar - DIREKT."
-            },
-            "title" : {
-               "sv" : "SVT Forum"
-            },
-            "category" : {
-               "en" : [
-                  "tvshow",
-                  "Politics",
-                  "Society"
-               ]
-            },
-            "start" : "1415631900"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1415635500",
-            "date" : "2014",
-            "channel" : "svt2.svt.se",
-            "episodeNum" : {
-               "xmltv_ns" : "2 . 47/61 .",
-               "onscreen" : "Del 48 av 61 s\u00e4song 3"
-            },
-            "desc" : {
-               "sv" : "S\u00f6ndagens gudstj\u00e4nst kommer fr\u00e5n Hillsong Church Stockholm, en kyrka d\u00e4r musiken har en framtr\u00e4dande roll. Pastor Andreas Nielsen predikar och f\u00f6rsamlingens s\u00e5ngare och musiker medverkar."
-            },
-            "title" : {
-               "sv" : "Gudstj\u00e4nst"
-            },
-            "category" : {
-               "en" : [
-                  "tvshow",
-                  "Religion"
-               ]
-            },
-            "start" : "1415632800"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1415636100",
-            "date" : "2013",
-            "channel" : "svt2.svt.se",
-            "episodeNum" : {
-               "xmltv_ns" : "2012 . 5/8 .",
-               "onscreen" : "Del 6 av 8 s\u00e4song 2013"
-            },
-            "desc" : {
-               "sv" : "I Rapperstad uppt\u00e4cks svenskarnas f\u00f6rsta miljonprogram. Redan f\u00f6r 200 \u00e5r sedan var det ljust, fr\u00e4scht och praktiskt som g\u00e4llde. Likt dolda Da Vinci-koder b\u00e4r v\u00e5ra kyrkor p\u00e5 hemligheter och Christopher O'Regan guidar genom f\u00f6rbannelser, stormaktstida krig, reliker och mordmysterier. De svenska kyrkorna har bevarat sp\u00e5ren av den svenska historien, med kungar och drottningar, katastrofer och pl\u00f6tslig rikedom, liv och d\u00f6d, k\u00e4rlek och hopp."
-            },
-            "title" : {
-               "sv" : "Kyrkornas hemligheter"
-            },
-            "category" : {
-               "en" : [
-                  "series",
-                  "Humanities"
-               ]
-            },
-            "start" : "1415635500"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1415636400",
-            "date" : "2008",
-            "channel" : "svt2.svt.se",
-            "episodeNum" : {
-               "xmltv_ns" : "2007 . 5/9 .",
-               "onscreen" : "Del 6 av 9 s\u00e4song 2008"
-            },
-            "desc" : {
-               "sv" : "\u00c4ven om en bil sedan decennier har f\u00f6rvandlats till ett rostigt gammalt vrak betyder det inte att k\u00e4nslorna och minnena \u00e4r borta. Eino Liiman delar med sig av sina."
-            },
-            "title" : {
-               "sv" : "En man och hans bil"
-            },
-            "category" : {
-               "en" : [
-                  "series"
-               ]
-            },
-            "start" : "1415636100"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1415637000",
-            "date" : "2014",
-            "channel" : "svt2.svt.se",
-            "desc" : {
-               "sv" : "Nyheter p\u00e5 teckenspr\u00e5k."
-            },
-            "title" : {
-               "sv" : "Nyhetstecken"
-            },
-            "category" : {
-               "en" : [
-                  "tvshow",
-                  "News"
-               ]
-            },
-            "start" : "1415636400"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1415637900",
-            "date" : "2014",
-            "channel" : "svt2.svt.se",
-            "desc" : {
-               "sv" : "Samiskspr\u00e5kiga nyheter."
-            },
-            "title" : {
-               "sv" : "Oddasat"
-            },
-            "category" : {
-               "en" : [
-                  "tvshow",
-                  "News"
-               ]
-            },
-            "start" : "1415637000"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1415638740",
-            "date" : "2014",
-            "channel" : "svt2.svt.se",
-            "desc" : {
-               "sv" : "Finskspr\u00e5kiga nyheter."
-            },
-            "title" : {
-               "sv" : "Uutiset"
-            },
-            "category" : {
-               "en" : [
-                  "tvshow",
-                  "News"
-               ]
-            },
-            "start" : "1415637900"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1415641500",
-            "date" : "2013",
-            "channel" : "svt2.svt.se",
-            "episodeNum" : {
-               "xmltv_ns" : "2012 . 0/13 .",
-               "onscreen" : "Del 1 av 13 s\u00e4song 2013"
-            },
-            "desc" : {
-               "sv" : "Vintergatan. Hur f\u00f6ddes universum? Vart \u00e4r det p\u00e5 v\u00e4g? Finns det liv p\u00e5 andra planeter? De stora fr\u00e5gorna st\u00e5r i centrum n\u00e4r den legendariska serien Cosmos fr\u00e5n 1980 f\u00e5tt sin uppf\u00f6ljare. Ciceron p\u00e5 resan i tid och rum \u00e4r astrofysikern Neil DeGrasse Tyson."
-            },
-            "title" : {
-               "sv" : "V\u00e4rldens fakta: Cosmos"
-            },
-            "category" : {
-               "en" : [
-                  "series",
-                  "Science"
-               ]
-            },
-            "start" : "1415638800"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1415641800",
-            "date" : "2010",
-            "channel" : "svt2.svt.se",
-            "episodeNum" : {
-               "xmltv_ns" : "2009 . 1/10 .",
-               "onscreen" : "Del 2 av 10 s\u00e4song 2010"
-            },
-            "desc" : {
-               "sv" : "K-spanarna Staffan Bengtsson och G\u00f6ran Willis k\u00e5serar kring en f\u00f6reteelse i den svenska formhistorien."
-            },
-            "title" : {
-               "sv" : "K-m\u00e4rkt form"
-            },
-            "category" : {
-               "en" : [
-                  "series",
-                  "Entertainment",
-                  "Documentary"
-               ]
-            },
-            "start" : "1415641500"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1415642400",
-            "date" : "2010",
-            "channel" : "svt2.svt.se",
-            "episodeNum" : {
-               "xmltv_ns" : "0 . 0/10 .",
-               "onscreen" : "Del 1 av 10 s\u00e4song 1"
-            },
-            "desc" : {
-               "sv" : "Ljuvliga desserter och l\u00e4ckra kakor med konditorn Mette Blomsterberg. Denna g\u00e5ng: Apelsinsvanar - sm\u00e5 eleganta petit choux-svanar."
-            },
-            "title" : {
-               "sv" : "Det s\u00f6ta livet"
-            },
-            "category" : {
-               "en" : [
-                  "series",
-                  "Magazine"
-               ]
-            },
-            "start" : "1415641800"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1415644200",
-            "date" : "2014",
-            "channel" : "svt2.svt.se",
-            "episodeNum" : {
-               "xmltv_ns" : "12 . 50/85 .",
-               "onscreen" : "Del 51 av 85 s\u00e4song 13"
-            },
-            "desc" : {
-               "sv" : "Rickard Olsson leder de t\u00e4vlande genom SVT:s fr\u00e5gesport som kan handla om allt fr\u00e5n Abba till atomer. F\u00f6rutom bred allm\u00e4nbildning kr\u00e4vs ocks\u00e5 ett strategiskt t\u00e4nkande."
-            },
-            "title" : {
-               "sv" : "Vem vet mest?"
-            },
-            "category" : {
-               "en" : [
-                  "series",
-                  "Entertainment",
-                  "Documentary"
-               ]
-            },
-            "start" : "1415642400"
-         },
-         {
-            "credits" : {
-               "actor" : [
-                  {
-                     "name" : "Fernanda Vasconcellos"
-                  },
-                  {
-                     "name" : "Marjorie Estiano"
-                  },
-                  {
-                     "name" : "Rafael Cardoso med flera"
-                  }
-               ]
-            },
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1415646000",
-            "date" : "2012",
-            "channel" : "svt2.svt.se",
-            "episodeNum" : {
-               "xmltv_ns" : "0 . 25/110 .",
-               "onscreen" : "Del 26 av 110 s\u00e4song 1"
-            },
-            "desc" : {
-               "sv" : "Ana, Rodrigo och Julia dna-testas f\u00f6r att fastst\u00e4lla vem som \u00e4r Julias f\u00f6r\u00e4ldrar. Det \u00e4r sv\u00e5ra tider f\u00f6r Rodrigo som saknar bostad och jobb. Mormor Ina, som har ett stort hj\u00e4rta, \u00e4r v\u00e4ldigt besviken p\u00e5 Laudelino f\u00f6r att han inte ville l\u00e5na ut pengar till Marias och Manuelas r\u00f6relse. Och Jonas ger sin bror ett absurt, men mycket gener\u00f6st erbjudande."
-            },
-            "title" : {
-               "sv" : "K\u00e4rlek och svek"
-            },
-            "category" : {
-               "en" : [
-                  "series",
-                  "Series"
-               ]
-            },
-            "start" : "1415644200"
+            "start" : "1416792600"
          },
          {
             "credits" : {
                "presenter" : [
                   {
-                     "name" : "Victoria Dyring"
+                     "name" : "Yvette Hermundstad"
+                  },
+                  {
+                     "name" : "Martin Emten\u00e4s"
                   }
                ]
             },
             "video" : {
                "aspect" : "16:9"
             },
-            "stop" : "1415649600",
+            "stop" : "1416800700",
             "date" : "2014",
-            "channel" : "svt2.svt.se",
+            "subTitle" : {
+               "sv" : "Handeln med vilda djur"
+            },
+            "channel" : "svt1.svt.se",
             "episodeNum" : {
-               "xmltv_ns" : "2013 . 27/36 .",
-               "onscreen" : "Del 28 av 36 s\u00e4song 2014"
+               "xmltv_ns" : "2013 . 3/8 .",
+               "onscreen" : "Del 4 av 8 s\u00e4song 2014"
             },
             "desc" : {
-               "sv" : "Du var en g\u00e5ng en fisk. Hur blev din kropp den fantastiska maskin som den \u00e4r? Hals, lungor, k\u00f6nsk\u00f6rtlar, h\u00e4nder och ben \u00e4r kroppsdelar som utvecklats redan hos urtida fiskar och kr\u00e4ldjur. Vi f\u00e5r f\u00f6lja forskare som jagar fossil i om\u00e4nsklig terr\u00e4ng - och som genom sina uppt\u00e4ckter lyckas f\u00f6rklara detaljer i v\u00e5ra m\u00e4rkv\u00e4rdiga kroppars utveckling. Det h\u00e4r \u00e4r f\u00f6rsta delen i en serie program om evolutionen som skapade m\u00e4nniskan."
+               "sv" : "Den vithandade gibbonapan \u00e4r bara en av alla djurarter som hotas p\u00e5 grund av att m\u00e4nniskor vill tj\u00e4na pengar p\u00e5 den. Martin Emten\u00e4s \u00e4r i Thailand f\u00f6r att ta reda p\u00e5 varf\u00f6r s\u00e5 m\u00e5nga apor faller offer f\u00f6r turistindustrin och bes\u00f6ker ett rehabiliteringscenter d\u00e4r r\u00e4ddade apor f\u00e5r en chans att komma tillbaka ut i djungeln igen. Yvette Hermundstad g\u00e5r i sp\u00e5ren efter n\u00e5gra av de st\u00f6rsta f\u00e5gelboplundrarna i svensk historia. Hon \u00e4r i Stekenjokk i den svenska fj\u00e4llv\u00e4rlden och upplever f\u00e5gellivet n\u00e4r det \u00e4r som allra rikast."
             },
             "title" : {
-               "sv" : "Vetenskapens v\u00e4rld"
+               "sv" : "Mitt i naturen"
             },
             "category" : {
                "en" : [
                   "series",
-                  "Science"
+                  "Nature"
                ]
             },
-            "start" : "1415646000"
+            "start" : "1416797100"
          },
          {
             "video" : {
                "aspect" : "16:9"
             },
-            "stop" : "1415652000",
+            "stop" : "1416802500",
             "date" : "2014",
-            "category" : {
-               "en" : [
-                  "tvshow",
-                  "News"
-               ]
-            },
-            "title" : {
-               "sv" : "Aktuellt"
-            },
-            "channel" : "svt2.svt.se",
-            "start" : "1415649600"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1415652300",
-            "date" : "2014",
-            "category" : {
-               "en" : [
-                  "tvshow",
-                  "News"
-               ]
-            },
-            "title" : {
-               "sv" : "Kulturnyheterna"
-            },
-            "channel" : "svt2.svt.se",
-            "start" : "1415652000"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1415652900",
-            "date" : "2014",
-            "category" : {
-               "en" : [
-                  "tvshow",
-                  "News"
-               ]
-            },
-            "title" : {
-               "sv" : "Regionala nyheter"
-            },
-            "channel" : "svt2.svt.se",
-            "start" : "1415652300"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1415653200",
-            "date" : "2014",
-            "channel" : "svt2.svt.se",
+            "channel" : "svt1.svt.se",
             "episodeNum" : {
-               "xmltv_ns" : "2013 . 48/80 .",
-               "onscreen" : "Del 49 av 80 s\u00e4song 2014"
+               "xmltv_ns" : "10 . 13/18 .",
+               "onscreen" : "Del 14 av 18 s\u00e4song 11"
+            },
+            "desc" : {
+               "sv" : "Veckans g\u00e4st \u00e4r Roy Andersson som bland annat ber\u00e4ttar om sin senaste film. I Sverige! \u00e5ker vi till M\u00f6lndal och tittar tillbaka p\u00e5 80-talet - och vi fr\u00e5gar oss hur l\u00e5ng tid det tar innan nu blir d\u00e5. Stefan Larsson, regiss\u00f6ren som n\u00e4stan \u00e4r mest k\u00e4nd f\u00f6r att han inte blev Dramatenchef, ber\u00e4ttar om sitt arbete och varf\u00f6r han \u00e4r mer sugen p\u00e5 att jobba i Danmark \u00e4n i Sverige."
             },
             "title" : {
-               "sv" : "Nyhetssammanfattning"
+               "sv" : "Sverige!"
             },
             "category" : {
                "en" : [
@@ -863,13 +147,388 @@
                   "News"
                ]
             },
-            "start" : "1415652900"
+            "start" : "1416800700"
+         },
+         {
+            "credits" : {
+               "presenter" : [
+                  {
+                     "name" : "Henrik Kruusval"
+                  }
+               ]
+            },
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1416805200",
+            "date" : "2014",
+            "channel" : "svt1.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "2013 . 10/20 .",
+               "onscreen" : "Del 11 av 20 s\u00e4song 2014"
+            },
+            "desc" : {
+               "sv" : "Sp\u00e4nnande och intressanta reportage fr\u00e5n hela Sverige."
+            },
+            "title" : {
+               "sv" : "Landet runt"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Politics",
+                  "Society"
+               ]
+            },
+            "start" : "1416802500"
          },
          {
             "video" : {
                "aspect" : "16:9"
             },
-            "stop" : "1415654100",
+            "stop" : "1416805500",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "title" : {
+               "sv" : "Rapport"
+            },
+            "channel" : "svt1.svt.se",
+            "start" : "1416805200"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1416806700",
+            "date" : "2014",
+            "channel" : "svt1.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "0 . 46/53 .",
+               "onscreen" : "Del 47 av 53 s\u00e4song 1"
+            },
+            "title" : {
+               "sv" : "Sportspegeln"
+            },
+            "category" : {
+               "en" : [
+                  "sports",
+                  "Sports"
+               ]
+            },
+            "start" : "1416805500"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1416819600",
+            "date" : "2014",
+            "channel" : "svt1.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "2013 . 70/100 .",
+               "onscreen" : "Del 71 av 100 s\u00e4song 2014"
+            },
+            "desc" : {
+               "sv" : "Dagsaktuella g\u00e4ster i intervjuer, debatter och diskussioner i soffan varje kvart. Tips om mat och resor och recensioner av film och b\u00f6cker m.m. Rapport s\u00e4nder nyheter varje halvtimme med start 06.30. V\u00e4dret varje halvtimme med start 06.40. Sportnytt s\u00e4nds kl 07.05, 08.05 och 09.05. Regionala nyheter s\u00e4nds varje halvtimme med start 07.10. L\u00e4s text-tv sid 679."
+            },
+            "title" : {
+               "sv" : "Gomorron Sverige"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Politics",
+                  "Society"
+               ]
+            },
+            "start" : "1416806700"
+         },
+         {
+            "stop" : "1416828000",
+            "date" : "1985",
+            "channel" : "svt1.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "5 . 4/6 .",
+               "onscreen" : "Del 5 av 6 s\u00e4song 6"
+            },
+            "desc" : {
+               "sv" : "Lasse Holmqvist kidnappar en intressant person som i en tv-studio konfronteras med m\u00e4nniskor och h\u00e4ndelser i sitt liv. I dag f\u00e5r vi tr\u00e4ffa f\u00f6rfattaren Sven Stolpe."
+            },
+            "title" : {
+               "sv" : "H\u00e4r \u00e4r ditt liv"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Talkshow"
+               ]
+            },
+            "start" : "1416819600"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1416829800",
+            "date" : "2014",
+            "channel" : "svt1.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "2013 . 2/6 .",
+               "onscreen" : "Del 3 av 6 s\u00e4song 2014"
+            },
+            "desc" : {
+               "sv" : "I serien f\u00e5r vi m\u00f6ta olika \u00e4ldre personligheter som antingen varit pension\u00e4rer ett bra tag eller just slutat arbeta. Deras dr\u00f6mmar och liv \u00e4r ofta l\u00e5ngt fr\u00e5n f\u00f6rdomen om hur gamla har det. Reportern Maria Norberg tr\u00e4ffar Sylvia Bergqvist som snart ska f\u00e5 sitt f\u00f6rsta barnbarn."
+            },
+            "title" : {
+               "sv" : "Mer \u00e4n rullator"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Politics",
+                  "Society"
+               ]
+            },
+            "start" : "1416828000"
+         },
+         {
+            "credits" : {
+               "presenter" : [
+                  {
+                     "name" : "Henrik Kruusval"
+                  }
+               ]
+            },
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1416832500",
+            "date" : "2014",
+            "channel" : "svt1.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "2013 . 10/20 .",
+               "onscreen" : "Del 11 av 20 s\u00e4song 2014"
+            },
+            "desc" : {
+               "sv" : "Sp\u00e4nnande och intressanta reportage fr\u00e5n hela Sverige."
+            },
+            "title" : {
+               "sv" : "Landet runt"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Politics",
+                  "Society"
+               ]
+            },
+            "start" : "1416829800"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1416836100",
+            "date" : "2014",
+            "channel" : "svt1.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "11 . 9/12 .",
+               "onscreen" : "Del 10 av 12 s\u00e4song 12"
+            },
+            "desc" : {
+               "sv" : "Veckans g\u00e4ster hos Fredrik Skavlan \u00e4r Eurythmics-s\u00e5ngerskan Annie Lennox, b\u00e4sts\u00e4ljande f\u00f6rfattaren Ken Follett, amerikanska singer-songwritern Jackson Browne och svensk/norska racerf\u00f6raren Ayla \u00c5gren."
+            },
+            "title" : {
+               "sv" : "Skavlan"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Talkshow"
+               ]
+            },
+            "start" : "1416832500"
+         },
+         {
+            "country" : [
+               "SE"
+            ],
+            "credits" : {
+               "producer" : [
+                  {
+                     "name" : "Lorens Marmstedt"
+                  }
+               ],
+               "actor" : [
+                  {
+                     "name" : "Edvin Adolphson",
+                     "role" : "Claude Dubois"
+                  },
+                  {
+                     "name" : "Karin Ekelund",
+                     "role" : "Louise Mareuil"
+                  },
+                  {
+                     "name" : "Gaby Stenberg",
+                     "role" : "Jacqueline Mareuil"
+                  },
+                  {
+                     "name" : "Ragnar Arvedson",
+                     "role" : "Gaston Verdier"
+                  },
+                  {
+                     "name" : "Douglas H\u00e5ge",
+                     "role" : "St\u00e9phane Mouche"
+                  },
+                  {
+                     "name" : "Mimi Pollak",
+                     "role" : "Sophie"
+                  },
+                  {
+                     "name" : "Josua Bengtson",
+                     "role" : "Janitor"
+                  },
+                  {
+                     "name" : "Albert St\u00e5hl",
+                     "role" : "Bank clerk"
+                  },
+                  {
+                     "name" : "Eric Fr\u00f6ling",
+                     "role" : "Michel"
+                  },
+                  {
+                     "name" : "B\u00f6rje Nyberg",
+                     "role" : "Mechanic"
+                  },
+                  {
+                     "name" : "Ann-Marie Wiman",
+                     "role" : "Salesgirl"
+                  },
+                  {
+                     "name" : "Bert Sorbon",
+                     "role" : "Waiter"
+                  }
+               ],
+               "director" : [
+                  {
+                     "name" : "Ragnar Arvedson"
+                  }
+               ]
+            },
+            "stop" : "1416841200",
+            "date" : "1947",
+            "channel" : "svt1.svt.se",
+            "episodeNum" : {
+               "themoviedb.org" : "movie/143835"
+            },
+            "desc" : {
+               "sv" : "Franska rivieran: Han \u00e4r konstn\u00e4r, hon \u00e4gare till en parfymfabrik. Deras m\u00f6te blir dramatiskt; de r\u00e5kar krocka. Hon vill s\u00e5 snabbt som m\u00f6jligt g\u00f6ra r\u00e4tt f\u00f6r sig och ers\u00e4tta skadorna, medan han vill f\u00e5 henne att posera som modell f\u00f6r en m\u00e5lning.Regi: Ragnar Arvedson.I rollerna: Edvin Adolphson, Karin Ekelund, Gaby Stenberg, Ragnar Arvedson, Douglas H\u00e5ge m.fl."
+            },
+            "url" : [
+               "http://www.themoviedb.org/movie/143835"
+            ],
+            "title" : {
+               "sv" : "Sup\u00e9 f\u00f6r tv\u00e5"
+            },
+            "category" : {
+               "en" : [
+                  "movie",
+                  "Comedy"
+               ]
+            },
+            "start" : "1416836100"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1416843000",
+            "date" : "2014",
+            "channel" : "svt1.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "2013 . 70/96 .",
+               "onscreen" : "Del 71 av 96 s\u00e4song 2014"
+            },
+            "title" : {
+               "sv" : "Gomorron Sverige sammandrag"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Politics",
+                  "Society"
+               ]
+            },
+            "start" : "1416841200"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1416846600",
+            "date" : "1979",
+            "subTitle" : {
+               "sv" : "Aberystwyth"
+            },
+            "channel" : "svt1.svt.se",
+            "episodeNum" : {
+               "thetvdb.com" : "series/83774",
+               "xmltv_ns" : "33 . 7 .",
+               "onscreen" : "Del 8 s\u00e4song 34"
+            },
+            "desc" : {
+               "sv" : "Programledaren Fiona Bruce och antikexperterna \u00e5ker runt Storbritannien p\u00e5 jakt efter g\u00f6mda skatter i det popul\u00e4ra faktaprogrammet som har f\u00e4ngslat den engelska publiken i mer \u00e4n 30 \u00e5r."
+            },
+            "url" : [
+               "http://thetvdb.com/?tab=episode&seriesid=83774&seasonid=474827&id=4179953&lid=8"
+            ],
+            "title" : {
+               "sv" : "Engelska Antikrundan"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Documentary",
+                  "Special Interest"
+               ]
+            },
+            "start" : "1416843000"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1416848100",
+            "date" : "2014",
+            "channel" : "svt1.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "7 . 49/76 .",
+               "onscreen" : "Del 50 av 76 s\u00e4song 8"
+            },
+            "desc" : {
+               "sv" : "Nyheter fr\u00e5n hela Sverige - direkt fr\u00e5n Ume\u00e5."
+            },
+            "title" : {
+               "sv" : "Sverige idag"
+            },
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "start" : "1416846600"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1416848400",
             "date" : "2014",
             "category" : {
                "en" : [
@@ -880,72 +539,356 @@
             "title" : {
                "sv" : "Sportnytt"
             },
-            "channel" : "svt2.svt.se",
-            "start" : "1415653200"
+            "channel" : "svt1.svt.se",
+            "start" : "1416848100"
          },
          {
             "video" : {
                "aspect" : "16:9"
             },
-            "stop" : "1415655900",
-            "date" : "2013",
-            "channel" : "svt2.svt.se",
-            "episodeNum" : {
-               "xmltv_ns" : "3 . 1/6 .",
-               "onscreen" : "Del 2 av 6 s\u00e4song 4"
-            },
-            "desc" : {
-               "sv" : "Franz Ferdinands Take Me Out \u00e4r l\u00e5ten som aldrig borde blivit en hit. F\u00f6r sm\u00e5, skramliga indieband fr\u00e5n Skottland ska ju inte h\u00f6ra hemma p\u00e5 topplistorna. Men 2004 var det just vad som h\u00e4nde Franz Ferdinand. H\u00e4r ber\u00e4ttas hela historien om hur det skotska bandet tog sig till v\u00e4rldens topplistor - via Malm\u00f6. Fr\u00e5n brusig demokassett till f\u00e4rdig v\u00e4rldshit."
+            "stop" : "1416849000",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
             },
             "title" : {
-               "sv" : "Hitl\u00e5tens historia"
+               "sv" : "Rapport"
+            },
+            "channel" : "svt1.svt.se",
+            "start" : "1416848400"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1416849300",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "title" : {
+               "sv" : "Regionala nyheter"
+            },
+            "channel" : "svt1.svt.se",
+            "start" : "1416849000"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1416852000",
+            "date" : "2014",
+            "channel" : "svt1.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "2013 . 11/15 .",
+               "onscreen" : "Del 12 av 15 s\u00e4song 2014"
+            },
+            "desc" : {
+               "sv" : "Hur l\u00e4nge kan klimakteriet p\u00e5g\u00e5 och vad finns det f\u00f6r hj\u00e4lp att f\u00e5? Och varf\u00f6r upplever m\u00e5nga att \u00f6verg\u00e5ngs\u00e5ldern \u00e4r skamlig. Kv\u00e4llens direkts\u00e4nda Fr\u00e5ga doktorn handlar om klimakteriet och i studion finns experter f\u00f6r att svara p\u00e5 tittarnas egna fr\u00e5gor. Husdoktor \u00e4r Gunilla Hasselgren och programledare heter Suzanne Axell."
+            },
+            "title" : {
+               "sv" : "Fr\u00e5ga doktorn"
             },
             "category" : {
                "en" : [
                   "series",
-                  "News"
+                  "Magazine"
                ]
             },
-            "start" : "1415654100"
+            "start" : "1416849300"
          },
          {
             "video" : {
                "aspect" : "16:9"
             },
-            "stop" : "1415659200",
-            "date" : "2013",
-            "desc" : {
-               "sv" : "Afrikas st\u00f6rsta cykellopp, som l\u00f6per genom dammiga \u00f6knar och sandiga v\u00e4gar i stekande hetta, \u00e4r legendariskt bland cyklister och fans runt om i v\u00e4rlden. Passionen f\u00f6r arrangemanget m\u00e4rks b\u00e5de p\u00e5 och bredvid banan. Fr\u00e5n UR."
+            "stop" : "1416852900",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
             },
             "title" : {
-               "sv" : "Tour du Faso"
+               "sv" : "Kulturnyheterna"
             },
-            "channel" : "svt2.svt.se",
-            "start" : "1415655900"
+            "channel" : "svt1.svt.se",
+            "start" : "1416852000"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1416853800",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "title" : {
+               "sv" : "Regionala nyheter"
+            },
+            "channel" : "svt1.svt.se",
+            "start" : "1416852900"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1416855600",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "title" : {
+               "sv" : "Rapport"
+            },
+            "channel" : "svt1.svt.se",
+            "start" : "1416853800"
          },
          {
             "credits" : {
-               "presenter" : [
+               "actor" : [
                   {
-                     "name" : "Karin H\u00fcbinette"
+                     "name" : "Erik Haag",
+                     "role" : "Himself"
+                  },
+                  {
+                     "name" : "Lotta Lundgren",
+                     "role" : "Herself"
                   }
                ]
             },
             "video" : {
                "aspect" : "16:9"
             },
-            "stop" : "1415661900",
-            "date" : "2014",
-            "channel" : "svt2.svt.se",
+            "stop" : "1416859200",
+            "date" : "2012",
+            "subTitle" : {
+               "sv" : "Avsnitt 2"
+            },
+            "channel" : "svt1.svt.se",
             "episodeNum" : {
-               "xmltv_ns" : "2013 . 11/18 .",
-               "onscreen" : "Del 12 av 18 s\u00e4song 2014"
+               "thetvdb.com" : "series/264137",
+               "xmltv_ns" : "1 . 1 .",
+               "onscreen" : "Del 2 s\u00e4song 2"
             },
             "desc" : {
-               "sv" : "Rekordh\u00f6gt flyktingmottagande - hur ska de nyanl\u00e4nda f\u00e5 jobb? I studion bl a arbetsmarknadsminister Ylva Johansson (S). S\u00e5 kan Syrienkriget stoppas. Svenske FN-s\u00e4ndebudet Staffan de Mistura om sin plan f\u00f6r fred. Vilken v\u00e4g m\u00e5ste den nya moderatledaren ta? Studiosamtal med f\u00f6rra partisekreteraren Per Schlingmann och tankesmedjan Timbros chef Karin Svanborg-Sj\u00f6vall."
+               "sv" : "Erik Haag och Lotta Lundgren lever en vecka i 1960-talet. Pulvermat i magen, syntet mot huden och revolution i luften. 60-talskock: Ingela Persson. \u00d6vriga medverkande: Gudrun Schyman, G\u00f6ran H\u00e4gg, Yvonne Hirdman, Bengt af Klintberg m.fl."
+            },
+            "url" : [
+               "http://thetvdb.com/?tab=episode&seriesid=264137&seasonid=523286&id=4598824&lid=8"
+            ],
+            "title" : {
+               "sv" : "Historie\u00e4tarna"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Special Interest"
+               ]
+            },
+            "start" : "1416855600"
+         },
+         {
+            "credits" : {
+               "actor" : [
+                  {
+                     "name" : "Anneke von der Lippe"
+                  },
+                  {
+                     "name" : "Per Kjerstad"
+                  },
+                  {
+                     "name" : "Yngvild St\u00f8en Grotmol"
+                  },
+                  {
+                     "name" : "Tobias Santelmann"
+                  }
+               ]
+            },
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1416862800",
+            "date" : "2013",
+            "channel" : "svt1.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "0 . 0/6 .",
+               "onscreen" : "Del 1 av 6 s\u00e4song 1"
+            },
+            "desc" : {
+               "sv" : "Vad h\u00e4nder i ett litet samh\u00e4lle n\u00e4r internationella brottslingar best\u00e4mmer sig f\u00f6r att ta \u00f6ver? Tv\u00e5 15-\u00e5ringar blir \u00f6gonvittnen till ett blodbad n\u00e4r fyra m\u00e4n skjuts till d\u00f6ds i skogen. Hemligheten mellan dem samt r\u00e4dslan f\u00f6r g\u00e4rningsm\u00e4nnen g\u00f6r att de b\u00e5da ton\u00e5ringarna best\u00e4mmer sig f\u00f6r att inte prata om vad de sett."
             },
             "title" : {
-               "sv" : "Agenda"
+               "sv" : "\u00d6gonvittnet"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Drama"
+               ]
+            },
+            "start" : "1416859200"
+         },
+         {
+            "credits" : {
+               "actor" : [
+                  {
+                     "name" : "Claire Danes"
+                  },
+                  {
+                     "name" : "Mandy Patinkin"
+                  },
+                  {
+                     "name" : "Rupert Friend"
+                  }
+               ]
+            },
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1416865500",
+            "date" : "2014",
+            "subTitle" : {
+               "sv" : "There's something else going on"
+            },
+            "channel" : "svt1.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "2013 . 7/11 .",
+               "onscreen" : "Del 8 av 11 s\u00e4song 2014"
+            },
+            "title" : {
+               "sv" : "Homeland"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Series"
+               ]
+            },
+            "start" : "1416862800"
+         },
+         {
+            "credits" : {
+               "actor" : [
+                  {
+                     "name" : "Anne-Grethe Bjarup Riis",
+                     "role" : "Maria Faber"
+                  },
+                  {
+                     "name" : "S\u00f8ren Byder",
+                     "role" : "Jimmy Larsen"
+                  },
+                  {
+                     "name" : "Paw Henriksen",
+                     "role" : "Nikolaj Faber"
+                  },
+                  {
+                     "name" : "Trine Appel",
+                     "role" : "Julie Faber"
+                  },
+                  {
+                     "name" : "Baard Owe",
+                     "role" : "John"
+                  },
+                  {
+                     "name" : "Kirsten Olesen",
+                     "role" : "Alice Faber"
+                  },
+                  {
+                     "name" : "Martin Hestb\u00e6k",
+                     "role" : "Adam Faber"
+                  }
+               ]
+            },
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1416868800",
+            "date" : "2000",
+            "channel" : "svt1.svt.se",
+            "episodeNum" : {
+               "thetvdb.com" : "series/133191",
+               "xmltv_ns" : "0 . 7 .",
+               "onscreen" : "Del 8 s\u00e4song 1"
+            },
+            "desc" : {
+               "sv" : "Verklighetens Pang i bygget, en titt bakom fasaden p\u00e5 Torquays Grosvenor's Hotel. Hotell\u00e4garen Mark Jenkins har gjort karri\u00e4r p\u00e5 att k\u00f6pa kusthotell och \u00f6ka deras popularitet. Sj\u00e4lv bor han i ett av hotellets g\u00e4strum och vi m\u00f6ter hans team av medarbetare som hanterar hans recept f\u00f6r succ\u00e9: s\u00e4nk rumshyran, beh\u00e5ll all personal och h\u00e5ll underh\u00e5llningsniv\u00e5n h\u00f6g."
+            },
+            "url" : [
+               "http://thetvdb.com/?tab=episode&seriesid=133191&seasonid=168061&id=1501231&lid=8"
+            ],
+            "title" : {
+               "sv" : "Hotellet"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Drama"
+               ]
+            },
+            "start" : "1416865800"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1416869100",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "title" : {
+               "sv" : "Rapport"
+            },
+            "channel" : "svt1.svt.se",
+            "start" : "1416868800"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1416870000",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "title" : {
+               "sv" : "Kulturnyheterna"
+            },
+            "channel" : "svt1.svt.se",
+            "start" : "1416869100"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1416874800",
+            "date" : "2014",
+            "channel" : "svt1.svt.se",
+            "desc" : {
+               "sv" : "Den makal\u00f6sa historien om Matt Van Dyke, en 28-\u00e5ring med tv\u00e5ngstankar, som reser ut i v\u00e4rlden p\u00e5 med motorcykel och videokamera f\u00f6r att s\u00f6ka \u00e4ventyr och bli en riktig man. Under resan hamnar han mitt i den arabiska v\u00e5ren, strider med rebeller i Libyen och f\u00e4ngslas i isoleringscell. Oscarsnominerade Marshall Curry ber\u00e4ttar en h\u00e5rresande och stundtals humoristisk historia om en ung mans s\u00f6kande efter sig sj\u00e4lv."
+            },
+            "title" : {
+               "sv" : "Point and shoot"
             },
             "category" : {
                "en" : [
@@ -954,50 +897,7 @@
                   "Society"
                ]
             },
-            "start" : "1415659200"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1415663700",
-            "date" : "2014",
-            "channel" : "svt2.svt.se",
-            "episodeNum" : {
-               "xmltv_ns" : "1 . 1/4 .",
-               "onscreen" : "Del 2 av 4 s\u00e4song 2"
-            },
-            "desc" : {
-               "sv" : "Fyra ber\u00e4ttelser, fyra m\u00e4nniskor, fyra resor. Dusan Marinkovic \u00e4r 16 \u00e5r, bor i Malm\u00f6 och brinner f\u00f6r m\u00e4nniskors lika v\u00e4rde. Varje \u00e5r ordnar hans morfar en fotbollsturnering i Serbien f\u00f6r att motverka rasism. Men i \u00e5r \u00e4r morfar \u00e4r sjuk och arrangemanget \u00e4r i fara. Dusan fattar ett snabbt beslut. Han ska \u00e5ka ner. Turneringen m\u00e5ste r\u00e4ddas."
-            },
-            "title" : {
-               "sv" : "En rom p\u00e5 resa"
-            },
-            "category" : {
-               "en" : [
-                  "series",
-                  "Politics",
-                  "Society"
-               ]
-            },
-            "start" : "1415661900"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1415664000",
-            "date" : "2014",
-            "category" : {
-               "en" : [
-                  "tvshow"
-               ]
-            },
-            "title" : {
-               "sv" : "24 Vision"
-            },
-            "channel" : "svt2.svt.se",
-            "start" : "1415663700"
+            "start" : "1416870000"
          }
       ]
    }

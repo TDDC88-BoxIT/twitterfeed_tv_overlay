@@ -5,7 +5,7 @@
             "video" : {
                "aspect" : "16:9"
             },
-            "stop" : "1416701100",
+            "stop" : "1416787500",
             "date" : "2014",
             "category" : {
                "en" : [
@@ -17,13 +17,13 @@
                "sv" : "Rapport"
             },
             "channel" : "svt2.svt.se",
-            "start" : "1416700800"
+            "start" : "1416787200"
          },
          {
             "video" : {
                "aspect" : "16:9"
             },
-            "stop" : "1416702600",
+            "stop" : "1416789000",
             "date" : "2014",
             "category" : {
                "en" : [
@@ -34,13 +34,13 @@
                "sv" : "24 Vision"
             },
             "channel" : "svt2.svt.se",
-            "start" : "1416701100"
+            "start" : "1416787500"
          },
          {
             "video" : {
                "aspect" : "16:9"
             },
-            "stop" : "1416702900",
+            "stop" : "1416789300",
             "date" : "2014",
             "category" : {
                "en" : [
@@ -52,13 +52,13 @@
                "sv" : "Rapport"
             },
             "channel" : "svt2.svt.se",
-            "start" : "1416702600"
+            "start" : "1416789000"
          },
          {
             "video" : {
                "aspect" : "16:9"
             },
-            "stop" : "1416704400",
+            "stop" : "1416790800",
             "date" : "2014",
             "category" : {
                "en" : [
@@ -69,13 +69,13 @@
                "sv" : "24 Vision"
             },
             "channel" : "svt2.svt.se",
-            "start" : "1416702900"
+            "start" : "1416789300"
          },
          {
             "video" : {
                "aspect" : "16:9"
             },
-            "stop" : "1416704700",
+            "stop" : "1416791100",
             "date" : "2014",
             "category" : {
                "en" : [
@@ -87,13 +87,13 @@
                "sv" : "Rapport"
             },
             "channel" : "svt2.svt.se",
-            "start" : "1416704400"
+            "start" : "1416790800"
          },
          {
             "video" : {
                "aspect" : "16:9"
             },
-            "stop" : "1416706200",
+            "stop" : "1416792600",
             "date" : "2014",
             "category" : {
                "en" : [
@@ -104,13 +104,13 @@
                "sv" : "24 Vision"
             },
             "channel" : "svt2.svt.se",
-            "start" : "1416704700"
+            "start" : "1416791100"
          },
          {
             "video" : {
                "aspect" : "16:9"
             },
-            "stop" : "1416706500",
+            "stop" : "1416792900",
             "date" : "2014",
             "category" : {
                "en" : [
@@ -122,13 +122,13 @@
                "sv" : "Rapport"
             },
             "channel" : "svt2.svt.se",
-            "start" : "1416706200"
+            "start" : "1416792600"
          },
          {
             "video" : {
                "aspect" : "16:9"
             },
-            "stop" : "1416708000",
+            "stop" : "1416794400",
             "date" : "2014",
             "category" : {
                "en" : [
@@ -139,13 +139,13 @@
                "sv" : "24 Vision"
             },
             "channel" : "svt2.svt.se",
-            "start" : "1416706500"
+            "start" : "1416792900"
          },
          {
             "video" : {
                "aspect" : "16:9"
             },
-            "stop" : "1416708300",
+            "stop" : "1416794700",
             "date" : "2014",
             "category" : {
                "en" : [
@@ -157,13 +157,13 @@
                "sv" : "Rapport"
             },
             "channel" : "svt2.svt.se",
-            "start" : "1416708000"
+            "start" : "1416794400"
          },
          {
             "video" : {
                "aspect" : "16:9"
             },
-            "stop" : "1416709800",
+            "stop" : "1416796200",
             "date" : "2014",
             "category" : {
                "en" : [
@@ -174,13 +174,13 @@
                "sv" : "24 Vision"
             },
             "channel" : "svt2.svt.se",
-            "start" : "1416708300"
+            "start" : "1416794700"
          },
          {
             "video" : {
                "aspect" : "16:9"
             },
-            "stop" : "1416710100",
+            "stop" : "1416796500",
             "date" : "2014",
             "category" : {
                "en" : [
@@ -192,13 +192,13 @@
                "sv" : "Rapport"
             },
             "channel" : "svt2.svt.se",
-            "start" : "1416709800"
+            "start" : "1416796200"
          },
          {
             "video" : {
                "aspect" : "16:9"
             },
-            "stop" : "1416711600",
+            "stop" : "1416798000",
             "date" : "2014",
             "category" : {
                "en" : [
@@ -209,13 +209,13 @@
                "sv" : "24 Vision"
             },
             "channel" : "svt2.svt.se",
-            "start" : "1416710100"
+            "start" : "1416796500"
          },
          {
             "video" : {
                "aspect" : "16:9"
             },
-            "stop" : "1416711900",
+            "stop" : "1416798300",
             "date" : "2014",
             "category" : {
                "en" : [
@@ -227,13 +227,13 @@
                "sv" : "Rapport"
             },
             "channel" : "svt2.svt.se",
-            "start" : "1416711600"
+            "start" : "1416798000"
          },
          {
             "video" : {
                "aspect" : "16:9"
             },
-            "stop" : "1416713400",
+            "stop" : "1416799800",
             "date" : "2014",
             "category" : {
                "en" : [
@@ -244,13 +244,13 @@
                "sv" : "24 Vision"
             },
             "channel" : "svt2.svt.se",
-            "start" : "1416711900"
+            "start" : "1416798300"
          },
          {
             "video" : {
                "aspect" : "16:9"
             },
-            "stop" : "1416713700",
+            "stop" : "1416800100",
             "date" : "2014",
             "category" : {
                "en" : [
@@ -262,13 +262,13 @@
                "sv" : "Rapport"
             },
             "channel" : "svt2.svt.se",
-            "start" : "1416713400"
+            "start" : "1416799800"
          },
          {
             "video" : {
                "aspect" : "16:9"
             },
-            "stop" : "1416715200",
+            "stop" : "1416801600",
             "date" : "2014",
             "category" : {
                "en" : [
@@ -279,13 +279,13 @@
                "sv" : "24 Vision"
             },
             "channel" : "svt2.svt.se",
-            "start" : "1416713700"
+            "start" : "1416800100"
          },
          {
             "video" : {
                "aspect" : "16:9"
             },
-            "stop" : "1416715500",
+            "stop" : "1416801900",
             "date" : "2014",
             "category" : {
                "en" : [
@@ -297,13 +297,13 @@
                "sv" : "Rapport"
             },
             "channel" : "svt2.svt.se",
-            "start" : "1416715200"
+            "start" : "1416801600"
          },
          {
             "video" : {
                "aspect" : "16:9"
             },
-            "stop" : "1416717000",
+            "stop" : "1416803400",
             "date" : "2014",
             "category" : {
                "en" : [
@@ -314,13 +314,13 @@
                "sv" : "24 Vision"
             },
             "channel" : "svt2.svt.se",
-            "start" : "1416715500"
+            "start" : "1416801900"
          },
          {
             "video" : {
                "aspect" : "16:9"
             },
-            "stop" : "1416717300",
+            "stop" : "1416803700",
             "date" : "2014",
             "category" : {
                "en" : [
@@ -332,750 +332,13 @@
                "sv" : "Rapport"
             },
             "channel" : "svt2.svt.se",
-            "start" : "1416717000"
+            "start" : "1416803400"
          },
          {
             "video" : {
                "aspect" : "16:9"
             },
-            "stop" : "1416727200",
-            "date" : "2014",
-            "subTitle" : {
-               "sv" : "Nashville"
-            },
-            "channel" : "svt2.svt.se",
-            "episodeNum" : {
-               "xmltv_ns" : "0 . 2/8 .",
-               "onscreen" : "Del 3 av 8 s\u00e4song 1"
-            },
-            "desc" : {
-               "sv" : "Tillsammans med v\u00e4lk\u00e4nda artister som Dolly Parton, Chuck D, Slash, LL Cool J, Joan Jett och Willie Nelson s\u00f6ker de st\u00e4dernas musikaliska r\u00f6tter och ber\u00e4ttar samtidigt ett stycke amerikansk musikhistoria. Foo Fighters firar 20 \u00e5r som band med en musikalisk resa genom USA. De spelar in nya l\u00e5tar med lokala musiklegender i bl.a. Chicago, Austin, Nashville, Los Angeles, Seattle och New York."
-            },
-            "title" : {
-               "sv" : "Foo Fighters: Sonic Highways"
-            },
-            "category" : {
-               "en" : [
-                  "series",
-                  "Music"
-               ]
-            },
-            "start" : "1416723600"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1416727500",
-            "date" : "2014",
-            "channel" : "svt2.svt.se",
-            "episodeNum" : {
-               "xmltv_ns" : "1 . 5/10 .",
-               "onscreen" : "Del 6 av 10 s\u00e4song 2"
-            },
-            "desc" : {
-               "sv" : "Nyheter fr\u00e5n hela Sverige - p\u00e5 romani chib arli."
-            },
-            "title" : {
-               "sv" : "Sverige idag - romani chib arli"
-            },
-            "category" : {
-               "en" : [
-                  "tvshow",
-                  "News"
-               ]
-            },
-            "start" : "1416727200"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1416727800",
-            "date" : "2014",
-            "channel" : "svt2.svt.se",
-            "episodeNum" : {
-               "xmltv_ns" : "0 . 5/10 .",
-               "onscreen" : "Del 6 av 10 s\u00e4song 1"
-            },
-            "desc" : {
-               "sv" : "Nyheter fr\u00e5n hela Sverige - p\u00e5 romani chib lovari."
-            },
-            "title" : {
-               "sv" : "Sverige idag - romani chib lovari"
-            },
-            "category" : {
-               "en" : [
-                  "tvshow",
-                  "News"
-               ]
-            },
-            "start" : "1416727500"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1416729600",
-            "date" : "2014",
-            "channel" : "svt2.svt.se",
-            "episodeNum" : {
-               "xmltv_ns" : "2013 . 3/8 .",
-               "onscreen" : "Del 4 av 8 s\u00e4song 2014"
-            },
-            "desc" : {
-               "sv" : "Dag 4. Halva tiden i diktaturen har g\u00e5tt. Deltagarna som f\u00f6rst var starka enskilda individer b\u00f6rjar bli mer identitetsl\u00f6sa. Accepterar de den p\u00e5g\u00e5ende processen eller kommer de att g\u00f6ra motst\u00e5nd? Fr\u00e5n UR."
-            },
-            "title" : {
-               "sv" : "Diktatorn"
-            },
-            "category" : {
-               "en" : [
-                  "series"
-               ]
-            },
-            "start" : "1416727800"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1416729900",
-            "date" : "2014",
-            "category" : {
-               "en" : [
-                  "tvshow",
-                  "News"
-               ]
-            },
-            "title" : {
-               "sv" : "Rapport"
-            },
-            "channel" : "svt2.svt.se",
-            "start" : "1416729600"
-         },
-         {
-            "credits" : {
-               "actor" : [
-                  {
-                     "name" : "\u00c0lex Monner"
-                  },
-                  {
-                     "name" : "Igor Szpakowski"
-                  },
-                  {
-                     "name" : "Joana Vilapuig"
-                  },
-                  {
-                     "name" : "Nil Cardoner"
-                  }
-               ]
-            },
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1416732600",
-            "date" : "2013",
-            "channel" : "svt2.svt.se",
-            "episodeNum" : {
-               "xmltv_ns" : "1 . 7/15 .",
-               "onscreen" : "Del 8 av 15 s\u00e4song 2"
-            },
-            "desc" : {
-               "sv" : "Tv\u00e5 \u00e5r har g\u00e5tt sedan vi m\u00f6tte v\u00e4nnerna, \"De r\u00f6da banden\" senast. De flesta av dem har nu f\u00e5tt l\u00e4mna sjukhuset men n\u00e5gra \u00e4r fortfarande d\u00e4r periodvis. Gruppen delar m\u00e5nga dramatiska upplevelser i det f\u00f6rflutna och n\u00e5gra minnen \u00e4r sm\u00e4rtsamma. Alla vill heller inte minnas. I den nya s\u00e4songen s\u00e4tts v\u00e4nskapen s\u00e4tts p\u00e5 prov och nya karakt\u00e4rer tillkommer. Livet g\u00e5r vidare."
-            },
-            "title" : {
-               "sv" : "Det r\u00f6da bandets s\u00e4llskap"
-            },
-            "category" : {
-               "en" : [
-                  "series",
-                  "Series"
-               ]
-            },
-            "start" : "1416729900"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1416733200",
-            "date" : "2013",
-            "channel" : "svt2.svt.se",
-            "episodeNum" : {
-               "xmltv_ns" : "7 . 1/3 .",
-               "onscreen" : "Del 2 av 3 s\u00e4song 8"
-            },
-            "desc" : {
-               "sv" : "Gaustatoppen i Telemark \u00e4r en av Norges mest popul\u00e4ra turistattraktioner. Det m\u00e5nga inte vet \u00e4r att detta spektakul\u00e4ra fj\u00e4ll ocks\u00e5 har en insida som under l\u00e5nga tider var str\u00e4ngt hemlig. Inne i berget finns ett stort system av tunnlar och en bergbana och h\u00e4r l\u00e5g under det kalla kriget en f\u00f6rsvarsanl\u00e4ggning."
-            },
-            "title" : {
-               "sv" : "Det hemliga fj\u00e4llet"
-            },
-            "category" : {
-               "en" : [
-                  "series"
-               ]
-            },
-            "start" : "1416732600"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1416733500",
-            "date" : "2014",
-            "category" : {
-               "en" : [
-                  "tvshow",
-                  "News"
-               ]
-            },
-            "title" : {
-               "sv" : "Rapport"
-            },
-            "channel" : "svt2.svt.se",
-            "start" : "1416733200"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1416736200",
-            "date" : "2014",
-            "channel" : "svt2.svt.se",
-            "episodeNum" : {
-               "xmltv_ns" : "2 . 49/61 .",
-               "onscreen" : "Del 50 av 61 s\u00e4song 3"
-            },
-            "desc" : {
-               "sv" : "Gudstj\u00e4nsten pr\u00e4glas av en musik som spridits \u00f6ver stora delar v\u00e4rlden och \u00e4r l\u00e4tt f\u00f6r en yngre generation att ta till sig. Andreas Nielsen predikar och Hillsongs s\u00e5ngare och musiker medverkar."
-            },
-            "title" : {
-               "sv" : "Gudstj\u00e4nst"
-            },
-            "category" : {
-               "en" : [
-                  "tvshow",
-                  "Religion"
-               ]
-            },
-            "start" : "1416733500"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1416736800",
-            "date" : "2013",
-            "channel" : "svt2.svt.se",
-            "episodeNum" : {
-               "xmltv_ns" : "2012 . 7/8 .",
-               "onscreen" : "Del 8 av 8 s\u00e4song 2013"
-            },
-            "desc" : {
-               "sv" : "Karlskronas h\u00f6gsta punkt bebyggdes med en kyrka som h\u00e4mtad fr\u00e5n Rom. Och kr\u00f6ntes av just Karls krona. Likt dolda Da Vinci-koder b\u00e4r v\u00e5ra kyrkor p\u00e5 hemligheter och Christopher O'Regan guidar genom f\u00f6rbannelser, stormaktstida krig, reliker och mordmysterier. De svenska kyrkorna har bevarat sp\u00e5ren av den svenska historien, med kungar och drottningar, katastrofer och pl\u00f6tslig rikedom, liv och d\u00f6d, k\u00e4rlek och hopp."
-            },
-            "title" : {
-               "sv" : "Kyrkornas hemligheter"
-            },
-            "category" : {
-               "en" : [
-                  "series",
-                  "Humanities"
-               ]
-            },
-            "start" : "1416736200"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1416737100",
-            "date" : "2014",
-            "category" : {
-               "en" : [
-                  "tvshow",
-                  "News"
-               ]
-            },
-            "title" : {
-               "sv" : "Rapport"
-            },
-            "channel" : "svt2.svt.se",
-            "start" : "1416736800"
-         },
-         {
-            "credits" : {
-               "presenter" : [
-                  {
-                     "name" : "Lena Scherman"
-                  }
-               ]
-            },
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1416738900",
-            "date" : "2014",
-            "subTitle" : {
-               "sv" : "Suget efter ciggen"
-            },
-            "channel" : "svt2.svt.se",
-            "episodeNum" : {
-               "xmltv_ns" : "9 . 5/10 .",
-               "onscreen" : "Del 6 av 10 s\u00e4song 10"
-            },
-            "desc" : {
-               "sv" : "Korrespondenterna sk\u00e4rsk\u00e5dar v\u00e5r st\u00f6rsta last. Varf\u00f6r odlar man tobak i EU-landet Bulgarien? Hur kan barn till\u00e5tas att r\u00f6ka i Indonesien? \u00c4r det kinesiska e-cigaretter som kommer att r\u00e4dda folkh\u00e4lsan?"
-            },
-            "title" : {
-               "sv" : "Korrespondenterna"
-            },
-            "category" : {
-               "en" : [
-                  "series",
-                  "Politics",
-                  "Society"
-               ]
-            },
-            "start" : "1416737100"
-         },
-         {
-            "credits" : {
-               "presenter" : [
-                  {
-                     "name" : "Christian Bertell"
-                  }
-               ]
-            },
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1416740700",
-            "date" : "2014",
-            "channel" : "svt2.svt.se",
-            "episodeNum" : {
-               "xmltv_ns" : "2013 . 2/7 .",
-               "onscreen" : "Del 3 av 7 s\u00e4song 2014"
-            },
-            "desc" : {
-               "sv" : "Finska \u00e4r ett av v\u00e4rldens sv\u00e5raste spr\u00e5k... Nej! Finskan \u00e4r inte sv\u00e5rt! Ei saa peitt\u00e4\u00e4 visar och f\u00f6rklarar varf\u00f6r finska \u00e4r egentligen l\u00e4ttare \u00e4n du tror."
-            },
-            "title" : {
-               "sv" : "Ei saa peitt\u00e4\u00e4"
-            },
-            "category" : {
-               "en" : [
-                  "series",
-                  "Politics",
-                  "Society"
-               ]
-            },
-            "start" : "1416738900"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1416741000",
-            "date" : "2014",
-            "category" : {
-               "en" : [
-                  "tvshow",
-                  "News"
-               ]
-            },
-            "title" : {
-               "sv" : "Rapport"
-            },
-            "channel" : "svt2.svt.se",
-            "start" : "1416740700"
-         },
-         {
-            "credits" : {
-               "presenter" : [
-                  {
-                     "name" : "Anna Lindman"
-                  }
-               ]
-            },
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1416742800",
-            "date" : "2011",
-            "subTitle" : {
-               "sv" : "Avsnitt 6"
-            },
-            "channel" : "svt2.svt.se",
-            "episodeNum" : {
-               "thetvdb.com" : "series/253977",
-               "xmltv_ns" : "2 . 5 .",
-               "onscreen" : "Del 6 s\u00e4song 3"
-            },
-            "desc" : {
-               "sv" : "Jannika \u00e4r visserligen uppvuxen med en pappa som \u00e4r pr\u00e4st i Svenska kyrkan, men hon tyckte aldrig riktigt att det d\u00e4r med kristendomen fungerade f\u00f6r henne. N\u00e4r hon \u00f6ppnade Koranen d\u00e4remot, tyckte hon att den talade direkt till henne. Men livet som konvertit \u00e4r inte alltid l\u00e4tt, det \u00e4r mycket att l\u00e4ra sig och vad h\u00e4nder om man k\u00e4nner att tron inte \u00e4r stark nog? I kv\u00e4llens program m\u00f6ter Anna Jannika som best\u00e4mt sig f\u00f6r att bli muslim."
-            },
-            "url" : [
-               "http://thetvdb.com/?tab=episode&seriesid=253977&seasonid=487087&id=4282337&lid=8"
-            ],
-            "title" : {
-               "sv" : "Fr\u00e5n Sverige till himlen"
-            },
-            "category" : {
-               "en" : [
-                  "series",
-                  "Documentary"
-               ]
-            },
-            "start" : "1416741000"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1416743700",
-            "date" : "2006",
-            "channel" : "svt2.svt.se",
-            "episodeNum" : {
-               "xmltv_ns" : "2005 . 0/7 .",
-               "onscreen" : "Del 1 av 7 s\u00e4song 2006"
-            },
-            "desc" : {
-               "sv" : "Med sin kamera ger sig naturfilmaren Jan Tandrup Petersen ut p\u00e5 jakt efter de vilda djuren i Danmarks fauna. Denna g\u00e5ng: den majest\u00e4tiska havs\u00f6rnen."
-            },
-            "title" : {
-               "sv" : "Jan och havs\u00f6rnen"
-            },
-            "category" : {
-               "en" : [
-                  "series",
-                  "Nature"
-               ]
-            },
-            "start" : "1416742800"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1416745500",
-            "date" : "2013",
-            "channel" : "svt2.svt.se",
-            "episodeNum" : {
-               "xmltv_ns" : "3 . 2/6 .",
-               "onscreen" : "Del 3 av 6 s\u00e4song 4"
-            },
-            "desc" : {
-               "sv" : "Det \u00e4r ganska m\u00e5nga l\u00e5tar som f\u00e5r epitetet megahits, men f\u00e5 l\u00e5tar f\u00f6rtj\u00e4nar det b\u00e4ttre \u00e4n One Republics \"Apologize\". Popballaden som n\u00e4stan skrev sig sj\u00e4lv men sedan tog s\u00e5 m\u00e5nga och l\u00e5nga omv\u00e4gar att det \u00e4r imponerande att den ens spelades in. Det h\u00e4r \u00e4r en historia om bandmyteri, rivna kontrakt och en viral explosion utan dess like."
-            },
-            "title" : {
-               "sv" : "Hitl\u00e5tens historia"
-            },
-            "category" : {
-               "en" : [
-                  "series",
-                  "News"
-               ]
-            },
-            "start" : "1416743700"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1416747300",
-            "date" : "2014",
-            "channel" : "svt2.svt.se",
-            "episodeNum" : {
-               "xmltv_ns" : "12 . 55/85 .",
-               "onscreen" : "Del 56 av 85 s\u00e4song 13"
-            },
-            "desc" : {
-               "sv" : "Rickard Olsson leder de t\u00e4vlande genom SVT:s fr\u00e5gesport som kan handla om allt fr\u00e5n Abba till atomer. F\u00f6rutom bred allm\u00e4nbildning kr\u00e4vs ocks\u00e5 ett strategiskt t\u00e4nkande."
-            },
-            "title" : {
-               "sv" : "Vem vet mest?"
-            },
-            "category" : {
-               "en" : [
-                  "series",
-                  "Entertainment",
-                  "Documentary"
-               ]
-            },
-            "start" : "1416745500"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1416749100",
-            "date" : "2014",
-            "channel" : "svt2.svt.se",
-            "episodeNum" : {
-               "xmltv_ns" : "12 . 56/85 .",
-               "onscreen" : "Del 57 av 85 s\u00e4song 13"
-            },
-            "desc" : {
-               "sv" : "Rickard Olsson leder de t\u00e4vlande genom SVT:s fr\u00e5gesport som kan handla om allt fr\u00e5n Abba till atomer. F\u00f6rutom bred allm\u00e4nbildning kr\u00e4vs ocks\u00e5 ett strategiskt t\u00e4nkande."
-            },
-            "title" : {
-               "sv" : "Vem vet mest?"
-            },
-            "category" : {
-               "en" : [
-                  "series",
-                  "Entertainment",
-                  "Documentary"
-               ]
-            },
-            "start" : "1416747300"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1416750900",
-            "date" : "2014",
-            "channel" : "svt2.svt.se",
-            "episodeNum" : {
-               "xmltv_ns" : "12 . 57/85 .",
-               "onscreen" : "Del 58 av 85 s\u00e4song 13"
-            },
-            "desc" : {
-               "sv" : "Rickard Olsson leder de t\u00e4vlande genom SVT:s fr\u00e5gesport som kan handla om allt fr\u00e5n Abba till atomer. F\u00f6rutom bred allm\u00e4nbildning kr\u00e4vs ocks\u00e5 ett strategiskt t\u00e4nkande."
-            },
-            "title" : {
-               "sv" : "Vem vet mest?"
-            },
-            "category" : {
-               "en" : [
-                  "series",
-                  "Entertainment",
-                  "Documentary"
-               ]
-            },
-            "start" : "1416749100"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1416752700",
-            "date" : "2014",
-            "channel" : "svt2.svt.se",
-            "episodeNum" : {
-               "xmltv_ns" : "12 . 58/85 .",
-               "onscreen" : "Del 59 av 85 s\u00e4song 13"
-            },
-            "desc" : {
-               "sv" : "Rickard Olsson leder de t\u00e4vlande genom SVT:s fr\u00e5gesport som kan handla om allt fr\u00e5n Abba till atomer. F\u00f6rutom bred allm\u00e4nbildning kr\u00e4vs ocks\u00e5 ett strategiskt t\u00e4nkande."
-            },
-            "title" : {
-               "sv" : "Vem vet mest?"
-            },
-            "category" : {
-               "en" : [
-                  "series",
-                  "Entertainment",
-                  "Documentary"
-               ]
-            },
-            "start" : "1416750900"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1416754500",
-            "date" : "2014",
-            "channel" : "svt2.svt.se",
-            "episodeNum" : {
-               "xmltv_ns" : "12 . 59/85 .",
-               "onscreen" : "Del 60 av 85 s\u00e4song 13"
-            },
-            "desc" : {
-               "sv" : "Rickard Olsson leder de t\u00e4vlande genom SVT:s fr\u00e5gesport som kan handla om allt fr\u00e5n Abba till atomer. F\u00f6rutom bred allm\u00e4nbildning kr\u00e4vs ocks\u00e5 ett strategiskt t\u00e4nkande."
-            },
-            "title" : {
-               "sv" : "Vem vet mest?"
-            },
-            "category" : {
-               "en" : [
-                  "series",
-                  "Entertainment",
-                  "Documentary"
-               ]
-            },
-            "start" : "1416752700"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1416754800",
-            "date" : "2014",
-            "channel" : "svt2.svt.se",
-            "episodeNum" : {
-               "xmltv_ns" : "2013 . 5/10 .",
-               "onscreen" : "Del 6 av 10 s\u00e4song 2014"
-            },
-            "desc" : {
-               "sv" : "Nyheter fr\u00e5n hela Sverige - p\u00e5 me\u00e4nkieli."
-            },
-            "title" : {
-               "sv" : "Sverige idag - me\u00e4nkieli"
-            },
-            "category" : {
-               "en" : [
-                  "tvshow",
-                  "News"
-               ]
-            },
-            "start" : "1416754500"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1416755100",
-            "date" : "2014",
-            "category" : {
-               "en" : [
-                  "tvshow",
-                  "News"
-               ]
-            },
-            "title" : {
-               "sv" : "Rapport"
-            },
-            "channel" : "svt2.svt.se",
-            "start" : "1416754800"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1416758400",
-            "date" : "2014",
-            "channel" : "svt2.svt.se",
-            "desc" : {
-               "sv" : "Richard Strauss f\u00f6ddes f\u00f6r j\u00e4mnt 150 \u00e5r sedan och det firar vi i en dokument\u00e4r med kvinnofokus. Trots komposit\u00f6rens silvergr\u00e5 farbroderliga framtoning skrev han n\u00e4mligen m\u00e4sterligt och psykologiskt insiktsfullt f\u00f6r den kvinnliga r\u00f6sten. B\u00e5de i sina s\u00e5nger och i \u00e4lskade operor som t.ex. Rosenkavaljeren."
-            },
-            "title" : {
-               "sv" : "Strauss - kvinnorollernas m\u00e4stare"
-            },
-            "category" : {
-               "en" : [
-                  "tvshow",
-                  "Music"
-               ]
-            },
-            "start" : "1416755100"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1416759000",
-            "date" : "2014",
-            "channel" : "svt2.svt.se",
-            "episodeNum" : {
-               "xmltv_ns" : "2013 . 7/12 .",
-               "onscreen" : "Del 8 av 12 s\u00e4song 2014"
-            },
-            "desc" : {
-               "sv" : "Le sport. Vad gillar franska ungdomar f\u00f6r sporter och finns det n\u00e5gon typiskt fransk sport? Hur spelar man boule? Svenska och tyska elever st\u00e4ller fr\u00e5gor till franska ungdomar och programledare Jonas Modin g\u00f6r allt f\u00f6r att ta reda p\u00e5 svaren. Fr\u00e5n UR."
-            },
-            "title" : {
-               "sv" : "Alors demande !"
-            },
-            "category" : {
-               "en" : [
-                  "series"
-               ]
-            },
-            "start" : "1416758400"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1416759900",
-            "date" : "2014",
-            "channel" : "svt2.svt.se",
-            "episodeNum" : {
-               "xmltv_ns" : "2013 . 3/6 .",
-               "onscreen" : "Del 4 av 6 s\u00e4song 2014"
-            },
-            "desc" : {
-               "sv" : "Pin-up poetry, graphic novels and CosPlay. Dags f\u00f6r CosPlay p\u00e5 Comic Con, d\u00e4r deltagare portr\u00e4tterar figurer genom att kl\u00e4 ut sig. David Lloyd, mannen bakom \"V for Vendetta\" ger nyb\u00f6rjartecknare tips, och vi f\u00e5r uppleva Pin-up poesi. Fr\u00e5n UR."
-            },
-            "title" : {
-               "sv" : "Popreel"
-            },
-            "category" : {
-               "en" : [
-                  "series"
-               ]
-            },
-            "start" : "1416759000"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1416760500",
-            "date" : "2009",
-            "channel" : "svt2.svt.se",
-            "episodeNum" : {
-               "xmltv_ns" : "2008 . 56/69 .",
-               "onscreen" : "Del 57 av 69 s\u00e4song 2009"
-            },
-            "desc" : {
-               "sv" : "La dette. Yasmine blir rosenrasande n\u00e4r hennes romantiska weekendresa med den skuldsatte Hassen st\u00e4lls in. Kan hon g\u00f6ra n\u00e5got \u00e5t saken? Fr\u00e5n UR."
-            },
-            "title" : {
-               "sv" : "Kortfilmsklubben - franska"
-            },
-            "category" : {
-               "en" : [
-                  "series"
-               ]
-            },
-            "start" : "1416759900"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1416762000",
-            "date" : "2008",
-            "channel" : "svt2.svt.se",
-            "episodeNum" : {
-               "xmltv_ns" : "2007 . 5/10 .",
-               "onscreen" : "Del 6 av 10 s\u00e4song 2008"
-            },
-            "desc" : {
-               "sv" : "Skurkar. Vad vore St\u00e5lmannen om inte Lex Luthor fanns? Superskurken \u00e4r viktig f\u00f6r superhj\u00e4ltens existens. Se hur seriernas brottslingar har bytt skepnad genom \u00e5ren. Programv\u00e4rd: Hugh Dillon. Fr\u00e5n UR."
-            },
-            "title" : {
-               "sv" : "Bl\u00e4ckets hj\u00e4ltar"
-            },
-            "category" : {
-               "en" : [
-                  "series"
-               ]
-            },
-            "start" : "1416760500"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1416765300",
+            "stop" : "1416815700",
             "date" : "2013",
             "channel" : "svt2.svt.se",
             "episodeNum" : {
@@ -1094,116 +357,404 @@
                   "Humanities"
                ]
             },
-            "start" : "1416762000"
+            "start" : "1416812400"
          },
          {
             "video" : {
                "aspect" : "16:9"
             },
-            "stop" : "1416765540",
-            "date" : "2011",
+            "stop" : "1416816000",
+            "date" : "2014",
             "channel" : "svt2.svt.se",
             "episodeNum" : {
-               "xmltv_ns" : "3 . 4/14 .",
-               "onscreen" : "Del 5 av 14 s\u00e4song 4"
+               "xmltv_ns" : "2013 . 5/10 .",
+               "onscreen" : "Del 6 av 10 s\u00e4song 2014"
             },
             "desc" : {
-               "sv" : "Den 60 meter h\u00f6ga klippformationen Finnkirka \u00e4r ett v\u00e4lk\u00e4nt landm\u00e4rke och en urgammal sj\u00f6samisk offerplats, d\u00e4r den ligger utanf\u00f6r Kj\u00f8llefjord i Finnmark i nordligaste Norge. Efter ett lokalt initiativ som har samlat hela bygden har klippan f\u00f6rsetts med ett ljusspel, som t\u00e4nds varje g\u00e5ng b\u00e5ten fr\u00e5n Hurtigruten passerar. Samtidigt kan man ocks\u00e5 h\u00f6ra specialskriven musik."
+               "sv" : "Nyheter fr\u00e5n hela Sverige - p\u00e5 me\u00e4nkieli."
             },
             "title" : {
-               "sv" : "Finnkirka"
+               "sv" : "Sverige idag - me\u00e4nkieli"
+            },
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "start" : "1416815700"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1416819600",
+            "date" : "2014",
+            "channel" : "svt2.svt.se",
+            "desc" : {
+               "sv" : "09:00: Konkurrens p\u00e5 schyssta villkor. Varje \u00e5r sker offentliga upphandlingar i stat, kommun och landsting till ett v\u00e4rde av 500 miljarder kronor. Hur ska seri\u00f6sa akt\u00f6rer agera s\u00e5 att skattemedel inte ska hamna i fickorna p\u00e5 mindre seri\u00f6sa akt\u00f6rer? Arrang\u00f6r: Skatteverket. Inspelat 19/11. 12:00: V\u00e4gen fram\u00e5t f\u00f6r Sveriges f\u00f6rsvarspolitiska samarbeten.Hur kan Sveriges internationella f\u00f6rsvarspolitiska samarbete utvecklas? Utredning presenteras hos Folk och F\u00f6rsvar av utredaren Tomas Bertelman. Fr\u00e5n 29/10. 13:00: V\u00e4ljarna och folkomr\u00f6stningen 1994.20 \u00e5r har g\u00e5tt sedan folkomr\u00f6stningen om EU. Hur var det d\u00e5, och hur ser det ut idag? Seminarium med bland andra Ines Uusmann (S), tidigare kommunikationsminister och ordf\u00f6rande f\u00f6r Socialdemokrater f\u00f6r Europa och Cecilia Malmstr\u00f6m, EU-kommission\u00e4r. Arrang\u00f6r: EU-kommissionen i Sverige. Fr\u00e5n 14/11."
+            },
+            "title" : {
+               "sv" : "SVT Forum"
+            },
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "Politics",
+                  "Society"
+               ]
+            },
+            "start" : "1416816000"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1416841500",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "title" : {
+               "sv" : "Rapport"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1416841200"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1416842400",
+            "date" : "2014",
+            "channel" : "svt2.svt.se",
+            "desc" : {
+               "sv" : "S och MP = Sant? Eller hur g\u00e5r det att regera ihop? Socialdemokraterna och Milj\u00f6partiet sitter f\u00f6r f\u00f6rsta g\u00e5ngen i en gemensam regering. Hur fungerar det? Ellinor Eriksson, tillf\u00f6rordnad f\u00f6rbundsordf\u00f6rande i SSU och Magdalena Rasmusson, spr\u00e5kr\u00f6r f\u00f6r Gr\u00f6n Ungdom, m\u00f6ts i en duell. Inspelat 20/11."
+            },
+            "title" : {
+               "sv" : "SVT Forum"
+            },
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "Politics",
+                  "Society"
+               ]
+            },
+            "start" : "1416841500"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1416845100",
+            "date" : "2014",
+            "channel" : "svt2.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "2 . 49/61 .",
+               "onscreen" : "Del 50 av 61 s\u00e4song 3"
+            },
+            "desc" : {
+               "sv" : "Gudstj\u00e4nsten pr\u00e4glas av en musik som spridits \u00f6ver stora delar v\u00e4rlden och \u00e4r l\u00e4tt f\u00f6r en yngre generation att ta till sig. Andreas Nielsen predikar och Hillsongs s\u00e5ngare och musiker medverkar."
+            },
+            "title" : {
+               "sv" : "Gudstj\u00e4nst"
+            },
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "Religion"
+               ]
+            },
+            "start" : "1416842400"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1416845700",
+            "date" : "2013",
+            "channel" : "svt2.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "2012 . 7/8 .",
+               "onscreen" : "Del 8 av 8 s\u00e4song 2013"
+            },
+            "desc" : {
+               "sv" : "Karlskronas h\u00f6gsta punkt bebyggdes med en kyrka som h\u00e4mtad fr\u00e5n Rom. Och kr\u00f6ntes av just Karls krona. Likt dolda Da Vinci-koder b\u00e4r v\u00e5ra kyrkor p\u00e5 hemligheter och Christopher O'Regan guidar genom f\u00f6rbannelser, stormaktstida krig, reliker och mordmysterier. De svenska kyrkorna har bevarat sp\u00e5ren av den svenska historien, med kungar och drottningar, katastrofer och pl\u00f6tslig rikedom, liv och d\u00f6d, k\u00e4rlek och hopp."
+            },
+            "title" : {
+               "sv" : "Kyrkornas hemligheter"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Humanities"
+               ]
+            },
+            "start" : "1416845100"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1416846000",
+            "date" : "2008",
+            "channel" : "svt2.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "2007 . 7/9 .",
+               "onscreen" : "Del 8 av 9 s\u00e4song 2008"
+            },
+            "desc" : {
+               "sv" : "\u00c4ven om en bil sedan decennier har f\u00f6rvandlats till ett rostigt gammalt vrak betyder det inte att k\u00e4nslorna och minnena \u00e4r borta. Markku Rantala delar med sig av sina."
+            },
+            "title" : {
+               "sv" : "En man och hans bil"
             },
             "category" : {
                "en" : [
                   "series"
                ]
             },
-            "start" : "1416765300"
+            "start" : "1416845700"
          },
          {
             "video" : {
                "aspect" : "16:9"
             },
-            "stop" : "1416768900",
+            "stop" : "1416846600",
             "date" : "2014",
+            "channel" : "svt2.svt.se",
+            "desc" : {
+               "sv" : "Nyheter p\u00e5 teckenspr\u00e5k."
+            },
+            "title" : {
+               "sv" : "Nyhetstecken"
+            },
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "start" : "1416846000"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1416847500",
+            "date" : "2014",
+            "channel" : "svt2.svt.se",
+            "desc" : {
+               "sv" : "Samiskspr\u00e5kiga nyheter."
+            },
+            "title" : {
+               "sv" : "Oddasat"
+            },
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "start" : "1416846600"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1416848340",
+            "date" : "2014",
+            "channel" : "svt2.svt.se",
+            "desc" : {
+               "sv" : "Finskspr\u00e5kiga nyheter."
+            },
+            "title" : {
+               "sv" : "Uutiset"
+            },
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "start" : "1416847500"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1416851100",
+            "date" : "2013",
             "subTitle" : {
-               "sv" : "Vargar till havs"
+               "sv" : "Att besegra tiden"
             },
             "channel" : "svt2.svt.se",
             "episodeNum" : {
-               "xmltv_ns" : "2013 . 2/3 .",
-               "onscreen" : "Del 3 av 3 s\u00e4song 2014"
+               "xmltv_ns" : "2012 . 10/13 .",
+               "onscreen" : "Del 11 av 13 s\u00e4song 2013"
             },
             "desc" : {
-               "sv" : "Evolutionen har skapat dagens v\u00e4xter och djur - och \u00e4ven oss sj\u00e4lva. Men evolutionen \u00e4r inte slut f\u00f6r det. Arter forts\u00e4tter att anpassas till omv\u00e4rldens krav."
+               "sv" : "Hur kom det sig att planeten jorden blev full av liv? Och finns det m\u00f6jlighet till levande organismer p\u00e5 andra planeter? Neil deGrasse Tyson resonerar om hur DNA uppkom p\u00e5 jorden och m\u00f6jligheten att mikrober kan \u00f6verleva rymdens bistra f\u00f6ruts\u00e4ttningar f\u00f6r liv."
             },
             "title" : {
-               "sv" : "V\u00e4rldens natur: Den p\u00e5g\u00e5ende evolutionen"
+               "sv" : "V\u00e4rldens fakta: Cosmos"
             },
             "category" : {
                "en" : [
                   "series",
-                  "Nature"
+                  "Science"
                ]
             },
-            "start" : "1416765600"
+            "start" : "1416848400"
          },
          {
             "video" : {
                "aspect" : "16:9"
             },
-            "stop" : "1416769200",
+            "stop" : "1416851400",
+            "date" : "2011",
+            "channel" : "svt2.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "0 . 0/10 .",
+               "onscreen" : "Del 1 av 10 s\u00e4song 1"
+            },
+            "desc" : {
+               "sv" : "M\u00f6t v\u00e4rldens mest spektakul\u00e4ra platser och st\u00e4der."
+            },
+            "title" : {
+               "sv" : "V\u00e4rldens underverk"
+            },
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "Documentary"
+               ]
+            },
+            "start" : "1416851100"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1416852000",
+            "date" : "2010",
+            "channel" : "svt2.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "0 . 0/5 .",
+               "onscreen" : "Del 1 av 5 s\u00e4song 1"
+            },
+            "desc" : {
+               "sv" : "Julgodis och julbak med den danska konditorn Mette Blomsterberg. Denna g\u00e5ng: marsipangrisar."
+            },
+            "title" : {
+               "sv" : "Det s\u00f6ta livet - jul"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Magazine"
+               ]
+            },
+            "start" : "1416851400"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1416853800",
+            "date" : "2014",
+            "channel" : "svt2.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "12 . 65/85 .",
+               "onscreen" : "Del 66 av 85 s\u00e4song 13"
+            },
+            "desc" : {
+               "sv" : "Rickard Olsson leder de t\u00e4vlande genom SVT:s fr\u00e5gesport som kan handla om allt fr\u00e5n Abba till atomer. F\u00f6rutom bred allm\u00e4nbildning kr\u00e4vs ocks\u00e5 ett strategiskt t\u00e4nkande."
+            },
+            "title" : {
+               "sv" : "Vem vet mest?"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "Entertainment",
+                  "Documentary"
+               ]
+            },
+            "start" : "1416852000"
+         },
+         {
+            "credits" : {
+               "actor" : [
+                  {
+                     "name" : "Fernanda Vasconcellos"
+                  },
+                  {
+                     "name" : "Marjorie Estiano"
+                  },
+                  {
+                     "name" : "Rafael Cardoso med flera"
+                  }
+               ]
+            },
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1416855600",
             "date" : "2012",
             "channel" : "svt2.svt.se",
             "episodeNum" : {
-               "xmltv_ns" : "0 . 8/15 .",
-               "onscreen" : "Del 9 av 15 s\u00e4song 1"
+               "xmltv_ns" : "0 . 35/110 .",
+               "onscreen" : "Del 36 av 110 s\u00e4song 1"
             },
             "desc" : {
-               "sv" : "V\u00e5rens f\u00f6rsta blommor \u00e4r rustade f\u00f6r att klara av v\u00e4derbakslag. Blommor som bl\u00e5sippor och vitsippor ska klara av ett och annat sn\u00f6fall. Ett litet stycke svensk vardagsnatur i en film av H\u00e5kan Qvarnstr\u00f6m."
+               "sv" : "Manuela och Rodrigo \u00e4r mycket lyckliga, Rodrigo har precis avslutat sin examen och de planerar en resa till Paris. Samtidigt b\u00f6rjar Ana visa tecken p\u00e5 medvetande. Kommer hon \u00e4ntligen att vakna upp ur sin m\u00e5ng\u00e5riga koma? Hur kommer det p\u00e5verka personerna i hennes n\u00e4rhet? En sak \u00e4r s\u00e4ker och det \u00e4r att klockan inte kan vridas tillbaka."
             },
             "title" : {
-               "sv" : "V\u00e5rblomning"
+               "sv" : "K\u00e4rlek och svek"
             },
             "category" : {
                "en" : [
                   "series",
-                  "Nature"
+                  "Series"
                ]
             },
-            "start" : "1416768900"
+            "start" : "1416853800"
          },
          {
             "video" : {
                "aspect" : "16:9"
             },
-            "stop" : "1416772800",
+            "stop" : "1416859200",
             "date" : "2014",
             "channel" : "svt2.svt.se",
             "episodeNum" : {
-               "xmltv_ns" : "0 . 0/6 .",
-               "onscreen" : "Del 1 av 6 s\u00e4song 1"
+               "xmltv_ns" : "2013 . 29/36 .",
+               "onscreen" : "Del 30 av 36 s\u00e4song 2014"
             },
             "desc" : {
-               "sv" : "Hur \u00e4r det st\u00e4llt med klimatet - finns det hopp eller rusar vi mot v\u00e5r underg\u00e5ng? Varf\u00f6r h\u00e4nder s\u00e5 lite? Vem borde g\u00f6ra vad? Hur l\u00e5ng tid har vi p\u00e5 oss? G\u00e4ster: Olof Persson, vd och koncernchef Volvo, Karin Bradley, bitr. lektor h\u00e5llbar stadsutveckling KTH, Johan Rockstr\u00f6m, professor i milj\u00f6vetenskap och f\u00f6rest\u00e5ndare Stockholm Resilience Centre, Gustaf Arrhenius, professor i filosofi och vd Institutet f\u00f6r Framtidsstudier samt Annika Jacobson, chef Greenpeace Sverige. Samtalsprogram som vill inspirera till dialog om de stora fr\u00e5gorna som p\u00e5verkar v\u00e5rt samh\u00e4lle och v\u00e5ra liv."
+               "sv" : "Din inre apa. F\u00f6lj med p\u00e5 en resa till din inre apa. V\u00e5ra h\u00e4nder, f\u00f6tter, f\u00e4rgseende, rygg och v\u00e5r uppr\u00e4tta g\u00e5ng kommer fr\u00e5n v\u00e5ra stamf\u00e4der primaterna. D\u00e4rifr\u00e5n kan vi ocks\u00e5 h\u00e4rleda det som kanske \u00e4r v\u00e5rt viktigaste arv: grunden till den m\u00e4nskliga hj\u00e4rnan. Det h\u00e4r \u00e4r den avslutande delen i serien om evolutionen som skapade m\u00e4nniskan: \"Du var en g\u00e5ng en fisk\".Programledare: Victoria Dyring."
             },
             "title" : {
-               "sv" : "Runda bordet"
+               "sv" : "Vetenskapens v\u00e4rld"
             },
             "category" : {
                "en" : [
                   "series",
-                  "Politics",
-                  "Society"
+                  "Science"
                ]
             },
-            "start" : "1416769200"
+            "start" : "1416855600"
          },
          {
             "video" : {
                "aspect" : "16:9"
             },
-            "stop" : "1416773700",
+            "stop" : "1416861600",
             "date" : "2014",
             "category" : {
                "en" : [
@@ -1215,7 +766,123 @@
                "sv" : "Aktuellt"
             },
             "channel" : "svt2.svt.se",
-            "start" : "1416772800"
+            "start" : "1416859200"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1416861900",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "title" : {
+               "sv" : "Kulturnyheterna"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1416861600"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1416862500",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "title" : {
+               "sv" : "Regionala nyheter"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1416861900"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1416862800",
+            "date" : "2014",
+            "channel" : "svt2.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "2013 . 56/80 .",
+               "onscreen" : "Del 57 av 80 s\u00e4song 2014"
+            },
+            "title" : {
+               "sv" : "Nyhetssammanfattning"
+            },
+            "category" : {
+               "en" : [
+                  "tvshow",
+                  "News"
+               ]
+            },
+            "start" : "1416862500"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1416863700",
+            "date" : "2014",
+            "category" : {
+               "en" : [
+                  "sports",
+                  "Sports"
+               ]
+            },
+            "title" : {
+               "sv" : "Sportnytt"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1416862800"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1416865500",
+            "date" : "2013",
+            "channel" : "svt2.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "3 . 3/6 .",
+               "onscreen" : "Del 4 av 6 s\u00e4song 4"
+            },
+            "desc" : {
+               "sv" : "N\u00e4r \"The Power\" med Snap! sl\u00e4pptes 1990 blev Penny Ford och Turbo B stj\u00e4rnor \u00f6ver en natt, och framg\u00e5ngen som f\u00f6ljde blev ocks\u00e5 startskottet f\u00f6r eurodancev\u00e5gen. Men visste du att den f\u00f6rsta versionen av \"The Power\" var helt byggd p\u00e5 samplingar? Och vem \u00e4r det egentligen som sjunger strofen \"I've got the power\"?"
+            },
+            "title" : {
+               "sv" : "Hitl\u00e5tens historia"
+            },
+            "category" : {
+               "en" : [
+                  "series",
+                  "News"
+               ]
+            },
+            "start" : "1416863700"
+         },
+         {
+            "video" : {
+               "aspect" : "16:9"
+            },
+            "stop" : "1416868500",
+            "date" : "2012",
+            "desc" : {
+               "sv" : "Efter 16 \u00e5rs heroinmissbruk s\u00f6ker Aftab hj\u00e4lp hos thail\u00e4ndska munkar f\u00f6r att bli avgiftad. De f\u00f6rsta dagarnas helvetiska abstinens \u00f6verg\u00e5r till en l\u00e4kningsprocess f\u00f6r kropp och sj\u00e4l. Det \u00e4r en insiktsfull Aftab som \u00e5terv\u00e4nder drogfri till London. Fr\u00e5n UR."
+            },
+            "title" : {
+               "sv" : "Knarkarnas klosterliv"
+            },
+            "channel" : "svt2.svt.se",
+            "start" : "1416865500"
          },
          {
             "credits" : {
@@ -1228,7 +895,7 @@
             "video" : {
                "aspect" : "16:9"
             },
-            "stop" : "1416776400",
+            "stop" : "1416871200",
             "date" : "2014",
             "channel" : "svt2.svt.se",
             "episodeNum" : {
@@ -1248,143 +915,74 @@
                   "Society"
                ]
             },
-            "start" : "1416773700"
+            "start" : "1416868500"
          },
          {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1416777000",
-            "date" : "2014",
-            "category" : {
-               "en" : [
-                  "sports",
-                  "Sports"
+            "credits" : {
+               "actor" : [
+                  {
+                     "name" : "Atle Antonsen"
+                  },
+                  {
+                     "name" : "Tuva Novotny"
+                  },
+                  {
+                     "name" : "Rolf Lassg\u00e5rd"
+                  },
+                  {
+                     "name" : "Silje Torp F\u00e4ravaag"
+                  },
+                  {
+                     "name" : "Agnes Kittelsen"
+                  },
+                  {
+                     "name" : "Anders Baasmo Christiansen"
+                  },
+                  {
+                     "name" : "Rebecka Hemse"
+                  }
                ]
             },
-            "title" : {
-               "sv" : "Sportnytt"
-            },
-            "channel" : "svt2.svt.se",
-            "start" : "1416776400"
-         },
-         {
             "video" : {
                "aspect" : "16:9"
             },
-            "stop" : "1416780600",
-            "date" : "2014",
+            "stop" : "1416872700",
+            "date" : "2011",
             "channel" : "svt2.svt.se",
+            "episodeNum" : {
+               "xmltv_ns" : "1 . 7/10 .",
+               "onscreen" : "Del 8 av 10 s\u00e4song 2"
+            },
             "desc" : {
-               "sv" : "V\u00e5ldt\u00e4kt \u00e4r ett vapen som anv\u00e4nds i m\u00e5nga av v\u00e4rldens konflikter. Under Balkankriget v\u00e5ldtogs tiotusentals kvinnor. Fortfarande 20 \u00e5r senare k\u00e4mpar m\u00e5nga av dem f\u00f6r att f\u00e5 r\u00e4ttvisa och f\u00f6r att f\u00f6r\u00f6varna ska st\u00e4llas till svars f\u00f6r krigsbrott."
+               "sv" : "Dag st\u00e4lls \u00f6ga mot \u00f6ga med ett par livsstilsbloggare och m\u00f6tet blir ingen succ\u00e9. Benedikt n\u00e5r n\u00e5got slags f\u00f6rsoning med Mia p\u00e5 sjukhuset n\u00e4r deras son blir allt s\u00e4mre."
             },
             "title" : {
-               "sv" : "Dokument utifr\u00e5n: Krigets gl\u00f6mda offer"
+               "sv" : "Dag"
             },
             "category" : {
                "en" : [
                   "series",
-                  "Politics",
-                  "Society"
+                  "Series"
                ]
             },
-            "start" : "1416777000"
+            "start" : "1416871200"
          },
          {
             "video" : {
                "aspect" : "16:9"
             },
-            "stop" : "1416783300",
+            "stop" : "1416873600",
             "date" : "2014",
-            "channel" : "svt2.svt.se",
-            "episodeNum" : {
-               "xmltv_ns" : "2 . 49/61 .",
-               "onscreen" : "Del 50 av 61 s\u00e4song 3"
-            },
-            "desc" : {
-               "sv" : "Gudstj\u00e4nsten pr\u00e4glas av en musik som spridits \u00f6ver stora delar v\u00e4rlden och \u00e4r l\u00e4tt f\u00f6r en yngre generation att ta till sig. Andreas Nielsen predikar och Hillsongs s\u00e5ngare och musiker medverkar."
-            },
-            "title" : {
-               "sv" : "Gudstj\u00e4nst"
-            },
             "category" : {
                "en" : [
-                  "tvshow",
-                  "Religion"
+                  "tvshow"
                ]
-            },
-            "start" : "1416780600"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1416785100",
-            "date" : "2014",
-            "channel" : "svt2.svt.se",
-            "episodeNum" : {
-               "xmltv_ns" : "0 . 0/1 .",
-               "onscreen" : "Del 1 av 1 s\u00e4song 1"
-            },
-            "desc" : {
-               "sv" : "Den 20 november 1964 intr\u00e4ffade svenskt inrikesflygs hittills st\u00f6rsta katastrof. En Metropolitan, SE-CCK, fr\u00e5n Linjeflyg kraschade under inflygning till \u00c4ngelholms flygplats. 31 m\u00e4nniskor dog och 12 \u00f6verlevde, d\u00e4ribland de tv\u00e5 flygv\u00e4rdinnorna och en 10-\u00e5rig flicka. I filmen ber\u00e4ttar n\u00e5gra av de \u00f6verlevande om vad som h\u00e4nde och hur det kom att p\u00e5verka deras liv under de f\u00f6ljande 50 \u00e5ren. En film av Per Olov Nilsson."
             },
             "title" : {
-               "sv" : "Flygkatastrofen 1964"
+               "sv" : "24 Vision"
             },
-            "category" : {
-               "en" : [
-                  "series",
-                  "Humanities"
-               ]
-            },
-            "start" : "1416783300"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1416786900",
-            "date" : "2014",
             "channel" : "svt2.svt.se",
-            "desc" : {
-               "sv" : "Per Asp bor i Junsele, ett samh\u00e4lle i Sollefte\u00e5 kommun. Den lilla byn har tagit emot flyktingar fr\u00e5n Syrien, och nu har Per f\u00e5tt en id\u00e9. Han ser att flyktingarna har lite att g\u00f6ra och har best\u00e4mt sig f\u00f6r att g\u00f6ra n\u00e5got \u00e5t det. Han ska l\u00e4ra dem att pimpla! En film av Gunnar Hall Jensen."
-            },
-            "title" : {
-               "sv" : "Pimplare fr\u00e5n Syrien"
-            },
-            "category" : {
-               "en" : [
-                  "series",
-                  "Documentary"
-               ]
-            },
-            "start" : "1416785100"
-         },
-         {
-            "video" : {
-               "aspect" : "16:9"
-            },
-            "stop" : "1416787200",
-            "date" : "2014",
-            "channel" : "svt2.svt.se",
-            "episodeNum" : {
-               "xmltv_ns" : "2013 . 5/10 .",
-               "onscreen" : "Del 6 av 10 s\u00e4song 2014"
-            },
-            "desc" : {
-               "sv" : "Nyheter fr\u00e5n hela Sverige - p\u00e5 me\u00e4nkieli."
-            },
-            "title" : {
-               "sv" : "Sverige idag - me\u00e4nkieli"
-            },
-            "category" : {
-               "en" : [
-                  "tvshow",
-                  "News"
-               ]
-            },
-            "start" : "1416786900"
+            "start" : "1416872700"
          }
       ]
    }

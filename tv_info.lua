@@ -26,21 +26,27 @@ function tv_info.set_decoded_tv_info(ch_index)
   local path_ending = '.js'
   local channel_file_path_list = tv_info.get_channel_file_path_list()     
   local decode_path =  folder_path .. channel_file_path_list[ch_index] .. path_ending
-  -- open and read file
-  local f = io.open(decode_path,"rb")
-  if f then 
-    f:close() 
-  end	
-  if f ~= nil then
-    local lines = ""
-    for line in io.lines(decode_path) do 
-      lines = lines .. line
-    end  
-    -- This is where the json object is decoded
-    local decoded_tv_info = json:decode(lines)
-    return decoded_tv_info
-  end
+  local channel_http_path = tv_info.get_download_path_table(curr_index)
+  print('httppath:', channel_http_path)
+  local http = require('socket.http')
+  b, c, h = http.request(channel_http_path)
+  local decoded_tv_info = json:decode(b)
   return decoded_tv_info
+  -- open and read file
+--  local f = io.open(decode_path,"rb")
+--  if f then 
+--    f:close() 
+--  end	
+--  if f ~= nil then
+--    local lines = ""
+--    for line in io.lines(decode_path) do 
+--      lines = lines .. line
+--    end  
+--    -- This is where the json object is decoded
+--    local decoded_tv_info = json:decode(lines)
+--    return decoded_tv_info
+--  end
+--  return decoded_tv_info
 end
 
 --- Gets the time in unix timestamp format.
@@ -136,7 +142,7 @@ end
 
 -- ANVÄND DENNA GUSTAV
 -- returns a table with internet paths for downloading the current day tv schedule for each channel
-function tv_info.get_download_path_table()
+function tv_info.get_download_path_table(ch_index)
   path_base = 'http://team.gkj.se/xmltv.php?data='
   curr_date = os.date("_%Y-%m-%d")
   path_ending = '.js.gz'
@@ -145,7 +151,7 @@ function tv_info.get_download_path_table()
   for channelCount = 1, #file_paths do
     path_table[channelCount] = path_base..file_paths[channelCount]..curr_date..path_ending 
   end 
-  return path_table
+  return path_table[ch_index]
 end
 
 -- returns json file paths for channels 1-11.

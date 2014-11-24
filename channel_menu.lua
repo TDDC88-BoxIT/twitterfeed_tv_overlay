@@ -164,7 +164,7 @@ function menu_state(key,state)
       curr_index = menu:get_current_index()
       print('channelname: ', channel_name)
       print('current index: ', menu:get_current_index())
-      program_name = get_current_prog_info(channel_name, menu:get_current_index())
+      program_name = get_current_prog_info(channel_name, channel_list_index)
       print('final program name: ', program_name)
             
       change_state(1)

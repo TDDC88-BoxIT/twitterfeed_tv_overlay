@@ -234,6 +234,10 @@ function twitter_state(key,state)
     previous_tweet()
   elseif key == 'menu' and state == 'down' then
     change_state(0)
+    if next_tweet_timer ~= nil then
+      next_tweet_timer:stop()
+      tweet_timer_starter = 1
+    end
     prompt_channel_menu()
   elseif key == 'exit' and state == 'down' then
     sys.stop()

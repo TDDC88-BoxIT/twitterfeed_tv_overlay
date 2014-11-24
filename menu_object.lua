@@ -38,8 +38,11 @@ THIS IS DONE BY CALLING:
 
   menu_object:destroy()
 
---]]
-require("scrum1.render_text")
+  --]]
+  require("scrum1.render_text")
+  require("scrum1.channel_menu")
+
+  local corners = nil
 -- THE MENU CONSTRUCTOR SETS START VALUES FOR THE MENU
 menu_object = class(function (self, menu_width, menu_height)
   self.width = menu_width or math.floor(screen:get_width()*0.2)
@@ -48,33 +51,33 @@ menu_object = class(function (self, menu_width, menu_height)
   self.button_width = math.floor(self.width*0.9)
   self.button_x = (self.width-self.button_width)/2
   self.button_y = math.floor(self.height*0.05)
-  self.indicator_color = {r=255,g=0,b=0}
+  self.indicator_color = {255,255,255,150}
   self.indexed_item=1
   self.menu_items={}
   self.menu_surface=nil
-end)
+  end)
 
 -- SETS MENU SIZE
 function menu_object:set_size(menu_width,menu_height)
-  self.widht=menu_width or self.width
+  self.width=menu_width or self.width
   self.height=menu_height or self.height
 end
 
 -- RETURNS MENU SIZE
 function menu_object:get_size()
-  local size={widht=self.width, height=self.height}
+  local size={width=self.width, height=self.height}
   return size
 end
 
 -- SETS MENU button SIZE
 function menu_object:set_button_size(width,height)
-  self.button_widht=widht or self.button_widht
+  self.button_width=width or self.button_width
   self.button_height=height or self.button_height
 end
 
 -- RETURNS MENU button SIZE
 function menu_object:get_button_size()
-  local size={widht=self.button_widht, height=self.button_widht}
+  local size={width=self.button_width, height=self.button_width}
   return size
 end
 
@@ -146,17 +149,52 @@ end
 
 -- CREATES THE MENU BACKGROUND AND ADDS IT TO THE MENU
 local function make_bakground(self)
-   local img_surface=nil
-    img_surface = gfx.loadpng(self.menu_background)
-    self.menu_surface:copyfrom(img_surface,nil,{x=0,y=0,width=self.width,height=self.height},true)
-    img_surface:destroy()
-end
+   -- local img_surface=nil
+   --  img_surface = gfx.loadpng(self.menu_background)
+   --  self.menu_surface:copyfrom(img_surface,nil,{x=0,y=0,width=self.width,height=self.height},true)
+   --  img_surface:destroy()
+
+   if corners == nil then
+     corners = gfx.loadpng('scrum1/static/img/corner_16x16_red.png')
+   end
+   
+   local start_x = 0
+   local start_y = 0
+   local size = {width=self.width, height=self.height}
+   local menu_width = size.width-8 -- (-8) In order to leave room for the picutre to exist
+   local menu_height = size.height-8 -- (-8) In order to leave room for the picture to exist
+   local upper_left_corner_pos_x = start_x
+   local upper_left_corner_pos_y = start_y
+   local upper_right_corner_pos_x = start_x + menu_width
+   local upper_right_corner_pos_y = start_y
+   local lower_left_corner_pos_x = start_x
+   local lower_left_corner_pos_y = start_y + menu_height
+   local lower_right_corner_pos_x = start_x + menu_width
+   local lower_right_corner_pos_y = start_y + menu_height
+
+
+  --CREATING THE CORNERSTONES AND FILLS THE MENU.
+   --Creates the upper left corner
+   self.menu_surface:copyfrom(corners, {x=0, y=0, width=8, height=8}, {x=upper_left_corner_pos_x,y=upper_left_corner_pos_y,width=8,height=8},true)
+   --Creates the upper right corner
+   self.menu_surface:copyfrom(corners, {x=8, y=0 , width=8, height=8}, {x=upper_right_corner_pos_x , y=upper_right_corner_pos_y , width=8 , height=8}, true)
+   --creates the middle-top fill
+   self.menu_surface:fill(menu_color, {x=start_x+8, y=start_y , width=menu_width-8, height=8})
+   --creates the middle-large-fill
+   self.menu_surface:fill(menu_color, {x=start_x, y=start_y + 8, width=menu_width+8, height=menu_height-8})
+   --Creates the lower left corner
+   self.menu_surface:copyfrom(corners, {x=0, y=8 , width=8, height=8}, {x=lower_left_corner_pos_x , y=lower_left_corner_pos_y , width=8 , height=8}, true)
+   --Create the lower right corner
+   self.menu_surface:copyfrom(corners, {x=8,y=8,width=8,height=8}, {x=lower_right_corner_pos_x , y=lower_right_corner_pos_y , width=8 , height=8}, true)
+   --creates the lower filler
+   self.menu_surface:fill(menu_color, {x=start_x+8 ,y=start_y+menu_height,width=menu_width-8,height=8})  
+ end
 
 -- CREATES THE MENU INDICATOR AND ADDS IT TO THE MENU. THE Y-VALUE MARKS WHERE THE INDICATOR IS TO BE PUT
 local function make_item_indicator(self, y_value)
   -- Set indicator size
-  self.indicator_height = self.button_height -- INDICATOR HEIGHT IS SET TO button HEIGHT
-  self.indicator_width = math.floor(20) -- INDICATOR WIDTH IS SET TO 5% OF button WIDTH
+  self.indicator_height = self.button_height/2 -- INDICATOR HEIGHT IS SET TO button HEIGHT
+  self.indicator_width = self.button_width*0.1 -- INDICATOR WIDTH IS SET TO 10% OF button WIDTH
   -- Create indicator surface
   local sf = gfx.new_surface(self.indicator_width, self.indicator_height)
   --Set color for indicator surface
@@ -169,7 +207,6 @@ end
 local function make_buttons(self)
   -- LOOPS THROUGH ALL ITEMS WHICH HAVE BEEN ADDE TO THE MENU AND CREATES A SET OF BUTTONS FOR THESE
   for i = 1, #self.menu_items, 1 do
-    print(self.menu_items[i])
     render_text(self.menu_items[i].text, self.button_x +25,self.button_y+(self.button_height*(i-1)+i*10),self.button_width, 2, self.menu_surface)
     -- SETS THE BUTTON IMAGE
 --     local img_surface=nil
@@ -178,20 +215,22 @@ local function make_buttons(self)
 --     -- PUTS THE CREATED BUTTON IMAGE ON THE MENU SURFACE
 --     self.menu_surface:copyfrom(img_surface,nil,{x=self.button_x,y=(self.button_y+(self.button_height*(i-1)+i*10)
 -- ),width=self.button_width,height=self.button_height},true)
-    
-    if i == self.indexed_item then
+
+if i == self.indexed_item then
       -- CREATES AN INDICATOR WHICH IS SET ON THE INDEXED BUTTON
       make_item_indicator(self, (self.button_y+(self.button_height*(i-1)+i*10)))
     end
 --     -- DESTROYS THE BUTTON IMAGE SURFACE TO SAVE RAM CONSUMPTION
 --     img_surface:destroy()
-  end
+end
 end
 
 -- ASSEMBLES ALL MENU PARTS INTO A MENU
 local function update(self)
   if self.menu_surface == nil then
     self.menu_surface=gfx.new_surface(self.width, self.height)
+  else
+    self.menu_surface:clear()
   end
   if self.height<#self.menu_items*(self.button_height+20) then
     self:set_button_size(nil,(self.height-(#self.menu_items)*20)/#self.menu_items)

@@ -246,7 +246,6 @@ function twitter_state(key,state)
       help_timer:stop()
       help_timer = nil
     end
-    prompt_channel_menu()
   elseif key == 'exit' and state == 'down' then
     sys.stop()
   elseif key == 'right' and state == 'down' then

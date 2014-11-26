@@ -41,6 +41,11 @@ end
 -- @author Claes
 function change_state(state)
   global_tweet_state = state
+  if state == 0 then
+    prompt_channel_menu()
+  else
+    render_tweet_view()
+  end
 end
 
 --- Called on key events.

@@ -65,7 +65,7 @@ function write_word(word ,x_pos, y_pos, char_width, char_height, text_surface, t
         elseif string.byte(string.sub(word,i,i),1,1) == 182 then
         text_surface:copyfrom(o_med_prickar, {x=10, y=8, w = 24, h = 37}, { x= x_pos, y = y_pos, w = char_width, h = char_height}, true)
       else
-      text_surface:copyfrom(text_sprite, {x=((string.byte(string.sub(word,i,i))-32)*25), y=9, w = 25, h = 37}, { x= x_pos, y = y_pos, w = char_width, h = char_height}, true)--(math.floor((string.byte(string.sub(word,i,i))-32)/94)*25), w=40, h=47}, {x = x_pos , y = y_pos, w = char_width , h = char_height} ,true)
+      text_surface:copyfrom(text_sprite, {x=((string.byte(string.sub(word,i,i))-32)*25), y=9, w = 25, h = 40}, { x= x_pos, y = y_pos, w = char_width, h = char_height}, true)--(math.floor((string.byte(string.sub(word,i,i))-32)/94)*25), w=40, h=47}, {x = x_pos , y = y_pos, w = char_width , h = char_height} ,true)
       end
       --x_pos=x_pos+(4*char_width/5)
       x_pos=x_pos+char_width

@@ -1,7 +1,6 @@
 tv_info = require("scrum1.tv_info")
 local channel_list = tv_info.get_channel_list()
 menu_title = "What channel are you watching?"
-
 --- Creates and draws the channel menu.
 -- @author Sofie
 function prompt_channel_menu()
@@ -32,7 +31,7 @@ end
 -- @author Sofie
 function set_menu_title()
     local title_width = box_width - 16 -- In order to make place for corners
-    local title_height = height-box_height-y_offset*2 - 16 -- In order to make place for corners
+    local title_height = height-box_height-y_offset*2 - 14 -- In order to make place for corners
     local upper_left_corner_pos_x = x_offset
     local upper_right_corner_pos_x = upper_left_corner_pos_x + box_width - 8
     local upper_left_corner_pos_y = y_offset

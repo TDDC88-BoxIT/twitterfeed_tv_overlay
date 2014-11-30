@@ -125,9 +125,9 @@ function draw_tweet(tweets)
     info_box:copyfrom(info_box_image, nil,nil,true)
     screen:copyfrom(info_box,nil,{x = screen:get_width()/2-200, y = screen:get_height()-215},{x=100,y=100, w=400, h =200},true)
     info_box:destroy()
-    -- timer currently set to 12 seconds.
+    -- timer currently set to 15 seconds.
     if help_timer == nil then
-      help_timer = sys.new_timer(12000, "clear_info_box")
+      help_timer = sys.new_timer(15000, "clear_info_box")
     end
   end
   

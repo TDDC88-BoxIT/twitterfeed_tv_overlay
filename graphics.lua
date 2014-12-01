@@ -172,11 +172,13 @@ end
 --- This function will show the next tweet when in the tweet view
 -- @author Claes, Gustav B-N
 function next_tweet()
+  --old_tweets = tweets
   if tweet_count < #tweets then
     tweet_count = tweet_count + 1
   else
     --Get new tweets...
     local channel_info = retrieve_prog_info()
+    
     tweets = twitter.get_new_tweets(channel_info,tweets)
 
   end

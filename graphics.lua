@@ -129,7 +129,7 @@ function draw_tweet(tweets)
     info_box_image:destroy()
     -- timer currently set to 12 seconds.
     if help_timer == nil then
-      help_timer = sys.new_timer(12000, "clear_info_box")
+      help_timer = sys.new_timer(15000, "clear_info_box")
     end
   end
   
@@ -248,7 +248,6 @@ function twitter_state(key,state)
       help_timer:stop()
       help_timer = nil
     end
-    prompt_channel_menu()
   elseif key == 'exit' and state == 'down' then
     sys.stop()
   elseif key == 'right' and state == 'down' then

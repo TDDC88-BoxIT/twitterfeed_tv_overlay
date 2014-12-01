@@ -26,12 +26,10 @@ function twitter.get_tweets(search_key)
   local tweets = {}
   local reverse_tweets = {}
 
--- This part simulates receiving tweets, it reads a json object from a file and decodes it
   local tv_info = require("scrum1.tv_info")
   b, c, h = http.request("http://team.gkj.se/Oauth.php?q="..'%23'..channel_name .. '+%23'.. program_name)
   -- This is where the json object is decoded
   decoded_tweets = json:decode(b) 
-  
   --Error handling so some tweets are always fetched
   if #decoded_tweets.statuses == 0 then
     b, c, h = http.request("http://team.gkj.se/Oauth.php?q="..'+%23'.. program_name)
@@ -52,8 +50,10 @@ function twitter.get_tweets(search_key)
   for k,v in pairs(decoded_tweets.statuses) do
     local date = string.sub(v.created_at, 1, 19) .. string.sub(v.created_at, 26)
     -- Format timestamp
+    date_hour = string.sub(date, 12, 13)
+    date_swe = tostring(tonumber(string.sub(date, 12, 13) + 1))
+    date = string.gsub(date, date_hour, date_swe)
     local timestamp = set_timestamp(date);
-
     tweets[i] = {["name"] = v.user.screen_name, ["text"] = v.text, ["date"] = date, ["timestamp"] = timestamp}
     table.insert(reverse_tweets, 1, tweets[i])
     i = i+1
@@ -132,7 +132,6 @@ function set_timestamp(date)
   --Convert abbreviated month to number
   local temp_month = {["Jan"] = 01, ["Feb"] = 02, ["Mar"] = 03, ["Apr"] = 04, ["May"] = 05, ["Jun"] = 06,
     ["Jul"] = 07, ["Aug"] = 08, ["Sep"] = 09, ["Oct"] = 10, ["Nov"] = 11, ["Dec"] = 12}
-
   local timestamp = {year = string.sub(date,21,26),
     month = temp_month[string.sub(date, 5, 7)],
     day = string.sub(date, 9, 10),
@@ -140,7 +139,6 @@ function set_timestamp(date)
     min = string.sub(date, 15, 16), 
     sec = string.sub(date, 18, 19),
     isdst = false}
-
   return timestamp
 end
 

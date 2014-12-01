@@ -120,13 +120,15 @@ function draw_tweet(tweets)
   --Declaring timer_state which is instantiated in draw_menu-function as =0. First time you decide
   --to view tweets from the menu, the infobox will be shown for x seconds, depending on what is declared in sys.new_tmer below
   if timer_state == 0 then
-    local info_box_image = gfx.loadpng(dir .. 'info_box_view.png')
-    info_box = gfx.new_surface(400,105)
+    --local info_box_image = gfx.loadpng(dir .. 'info_box_view.png')
+    --info_box = gfx.new_surface(400,105)
+    info_box = gfx.new_surface(800,130)
     info_box:fill(grey4)
-    info_box:copyfrom(info_box_image, nil,nil,true)
-    screen:copyfrom(info_box,nil,{x = screen:get_width()/2-200, y = screen:get_height()-215},{x=100,y=100, w=400, h =200},true)
+    --info_box:copyfrom(info_box_image, nil,nil,true)
+    render_text("To see next or previous tweet press DOWN or UP. If you wish to view the tweets in a different way use RIGHT and LEFT. When you want to watch another channel press BACK.", 5, 5, 800, 1.5, info_box)
+    screen:copyfrom(info_box,nil,{x = screen:get_width()/2-400, y = screen:get_height()-240},{x=100,y=100, w=400, h =200},true)
     info_box:destroy()
-    info_box_image:destroy()
+    --info_box_image:destroy()
     -- timer currently set to 12 seconds.
     if help_timer == nil then
       help_timer = sys.new_timer(15000, "clear_info_box")

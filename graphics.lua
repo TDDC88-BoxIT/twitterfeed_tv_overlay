@@ -140,6 +140,7 @@ function draw_tweet(tweets)
     next_tweet_timer = sys.new_timer(20000, "next_tweet")
     tweet_timer_starter = 0
   end
+  gfx.update()
 end
 
 --- Function that timer calls, changes the timer_state to 1 so that the info box is only showed once at each view-start from menu.

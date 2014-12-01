@@ -24,6 +24,7 @@ require("scrum1.render_text")
 function draw_tv_screen()
   local tv_img = gfx.loadpng(dir .. 'tv_picture.png')
   screen:copyfrom(tv_img, nil, {x=0,y=0})
+  tv_img:destroy()
 end
 
 --Function that adds rounded corners to tweet-boxes
@@ -81,7 +82,7 @@ function draw_tweet(tweets)
     render_text(tweets[current_tweet].date,10,450,350,1.5,tweet_background)
     add_rounded_corners(850,380,400,300) --Adds roundes corners
     screen:copyfrom(tweet_background,nil,{x = 850, y = 380, w = 400, h = 300},true)
-    --tweet_background:destroy()
+    tweet_background:destroy()
 
     --bottom view mode
   elseif view_mode == 1 then
@@ -92,7 +93,7 @@ function draw_tweet(tweets)
     render_text(tweets[current_tweet].text,5,30,screen:get_width() - 5,1.5,tweet_background)
     render_text(tweets[current_tweet].date,(screen:get_width() - 260), 80,3000,1,tweet_background)
     screen:copyfrom(tweet_background,nil,{x = 0, y = screen:get_height() - 110, w = screen:get_width(), h = 100},true)
-    --tweet_background:destroy()
+    tweet_background:destroy()
     --left view mode
   elseif view_mode == 2 then
     tweet_background = gfx.new_surface(400,500)
@@ -103,7 +104,7 @@ function draw_tweet(tweets)
     render_text(tweets[current_tweet].date,10,450,350,1.5,tweet_background)
     add_rounded_corners(50,380,400,300) --Adds rounded corners
     screen:copyfrom(tweet_background,nil,{x = 50, y = 380, w = 400, h = 300},true)
-    --tweet_background:destroy()
+    tweet_background:destroy()
     --top view mode
   elseif view_mode == 3 then
     tweet_background = gfx.new_surface(screen:get_width(),100)
@@ -113,7 +114,7 @@ function draw_tweet(tweets)
     render_text(tweets[current_tweet].text,5,30,screen:get_width() - 5,1.5,tweet_background)
     render_text(tweets[current_tweet].date,(screen:get_width() - 260), 80,3000,1,tweet_background)
     screen:copyfrom(tweet_background,nil,{x = 0, y = 10, w = screen:get_width(), h = 100},true)
-    --tweet_background:destroy()
+    tweet_background:destroy()
   end
 
   --Declaring timer_state which is instantiated in draw_menu-function as =0. First time you decide
@@ -125,6 +126,7 @@ function draw_tweet(tweets)
     info_box:copyfrom(info_box_image, nil,nil,true)
     screen:copyfrom(info_box,nil,{x = screen:get_width()/2-200, y = screen:get_height()-215},{x=100,y=100, w=400, h =200},true)
     info_box:destroy()
+    info_box_image:destroy()
     -- timer currently set to 12 seconds.
     if help_timer == nil then
       help_timer = sys.new_timer(12000, "clear_info_box")

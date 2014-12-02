@@ -70,9 +70,10 @@ function set_menu_title()
     screen:fill(menu_color, {x=start_x+title_width+8, y=start_y+8, width=8, height=title_height})
    --Copies surface to get the rendered text
    screen:copyfrom(sf,nil,{x=x_offset+8, y=y_offset+8, w=title_width, h=title_height},true)
-
-   sf:destroy()
- end
+  
+  gfx.update()
+  sf:destroy()
+end
 
 -- Add items to the channel menu based on the channel list containing all available channels. The start_index
 -- indicates what index in the channel list that should be the first button.

@@ -161,8 +161,9 @@ function menu_state(key,state)
     elseif key == 'ok' and state == 'down' then
       valid = test_connection()
       screen:clear()
+      if not valid then
       error_msg()
-
+    end
       -- draw_tv_screen()
       elseif key == 'ok' and state == 'up' and valid then
         set_chosen_channel(menu:get_indexed_item().id)

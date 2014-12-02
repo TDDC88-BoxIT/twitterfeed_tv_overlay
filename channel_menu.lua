@@ -42,7 +42,7 @@ function set_menu_title()
     local lower_right_corner_pos_y = lower_left_corner_pos_y
     local start_x = x_offset
     local start_y = y_offset
-     
+
     if corners == nil then
      corners = gfx.loadpng('scrum1/static/img/corner_16x16_red.png')
    end
@@ -53,21 +53,21 @@ function set_menu_title()
    render_text(menu_title,10,10,title_width,1.0,sf)
 
     --Creates the upper left corner
-   screen:copyfrom(corners, {x=0, y=0, width=8, height=8}, {x=upper_left_corner_pos_x,y=upper_left_corner_pos_y,width=8,height=8},true)
+    screen:copyfrom(corners, {x=0, y=0, width=8, height=8}, {x=upper_left_corner_pos_x,y=upper_left_corner_pos_y,width=8,height=8},true)
    --Creates the upper right corner
    screen:copyfrom(corners, {x=8, y=0 , width=8, height=8}, {x=upper_right_corner_pos_x , y=upper_right_corner_pos_y , width=8 , height=8}, true)
     --creates the middle-top fill
-   screen:fill(menu_color, {x=start_x+8, y=start_y , width=title_width, height=8})
+    screen:fill(menu_color, {x=start_x+8, y=start_y , width=title_width, height=8})
    --Creates the lower left corner
    screen:copyfrom(corners, {x=0, y=8 , width=8, height=8}, {x=lower_left_corner_pos_x , y=lower_left_corner_pos_y , width=8 , height=8}, true)
    --Create the lower right corner
    screen:copyfrom(corners, {x=8,y=8,width=8,height=8}, {x=lower_right_corner_pos_x , y=lower_right_corner_pos_y , width=8 , height=8}, true)
     --creates the lower filler
-   screen:fill(menu_color, {x=start_x+8 ,y=start_y+title_height+8 ,width=title_width,height=8})
+    screen:fill(menu_color, {x=start_x+8 ,y=start_y+title_height+8 ,width=title_width,height=8})
    --Creates RIGHT-side filler
    screen:fill(menu_color, {x=start_x, y=start_y+8, width=8, height=title_height})
     --Creates LEFT-side filler
-   screen:fill(menu_color, {x=start_x+title_width+8, y=start_y+8, width=8, height=title_height})
+    screen:fill(menu_color, {x=start_x+title_width+8, y=start_y+8, width=8, height=title_height})
    --Copies surface to get the rendered text
    screen:copyfrom(sf,nil,{x=x_offset+8, y=y_offset+8, w=title_width, h=title_height},true)
 
@@ -128,11 +128,11 @@ end
 
 --return the current menu index
 function return_current_index()
-   curr_index = menu:get_current_index()
-   return curr_index
- end
- 
- 
+ curr_index = menu:get_current_index()
+ return curr_index
+end
+
+
 -- Function that updates the menu by clearing the screen, drawing the background and setting the title of the menu
 -- @author Sofie
 function update_menu()
@@ -146,7 +146,7 @@ end
 --- Function that deals with the key input when the user is in the menu state.
 -- @author Sofie, Claes
 function menu_state(key,state)
- 
+
   if key == 'down' and state == 'down' then
     --clear() and draw_tv_screen() added so that the menu is cleared and the tv screen is redrawn
     --after each navigation move
@@ -158,14 +158,17 @@ function menu_state(key,state)
     update_menu()
     decrease_index()
     elseif key == 'ok' and state == 'down' then
-      set_chosen_channel(menu:get_indexed_item().id)
-      channel_name = get_chosen_channel()
-      curr_index = menu:get_current_index()
-      program_name = get_current_prog_info(channel_name, channel_list_index)
-      change_state(1)
-      elseif key == 'exit' and state == 'down' then
-        sys.stop()
-      else
-        return
+      screen:clear()
+      draw_tv_screen()
+      elseif key == 'ok' and state == 'up' then
+        set_chosen_channel(menu:get_indexed_item().id)
+        channel_name = get_chosen_channel()
+        curr_index = menu:get_current_index()
+        program_name = get_current_prog_info(channel_name, channel_list_index)
+        change_state(1)
+        elseif key == 'exit' and state == 'down' then
+          sys.stop()
+        else
+          return
+        end
       end
-    end

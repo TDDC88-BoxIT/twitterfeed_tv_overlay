@@ -1,7 +1,6 @@
 tv_info = require("scrum1.tv_info")
 local channel_list = tv_info.get_channel_list()
 menu_title = "What channel are you watching?"
-
 --- Creates and draws the channel menu.
 -- @author Sofie
 function prompt_channel_menu()
@@ -32,7 +31,7 @@ end
 -- @author Sofie
 function set_menu_title()
     local title_width = box_width - 16 -- In order to make place for corners
-    local title_height = height-box_height-y_offset*2 - 16 -- In order to make place for corners
+    local title_height = height-box_height-y_offset*2 - 14 -- In order to make place for corners
     local upper_left_corner_pos_x = x_offset
     local upper_right_corner_pos_x = upper_left_corner_pos_x + box_width - 8
     local upper_left_corner_pos_y = y_offset
@@ -71,9 +70,10 @@ function set_menu_title()
    screen:fill(menu_color, {x=start_x+title_width+8, y=start_y+8, width=8, height=title_height})
    --Copies surface to get the rendered text
    screen:copyfrom(sf,nil,{x=x_offset+8, y=y_offset+8, w=title_width, h=title_height},true)
-
-   sf:destroy()
- end
+  
+  gfx.update()
+  sf:destroy()
+end
 
 -- Add items to the channel menu based on the channel list containing all available channels. The start_index
 -- indicates what index in the channel list that should be the first button.
@@ -162,13 +162,8 @@ function menu_state(key,state)
       set_chosen_channel(menu:get_indexed_item().id)
       channel_name = get_chosen_channel()
       curr_index = menu:get_current_index()
-      print('channelname: ', channel_name)
-      print('current index: ', menu:get_current_index())
-      program_name = get_current_prog_info(channel_name, menu:get_current_index())
-      print('final program name: ', program_name)
-            
+      program_name = get_current_prog_info(channel_name, channel_list_index)
       change_state(1)
-      render_tweet_view() 
       elseif key == 'exit' and state == 'down' then
         sys.stop()
       else

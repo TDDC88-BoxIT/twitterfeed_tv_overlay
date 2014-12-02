@@ -24,6 +24,7 @@ require("scrum1.render_text")
 function draw_tv_screen()
   local tv_img = gfx.loadpng(dir .. 'tv_picture.png')
   screen:copyfrom(tv_img, nil, {x=0,y=0})
+  tv_img:destroy()
 end
 
 --Function that adds rounded corners to tweet-boxes
@@ -35,13 +36,13 @@ function add_rounded_corners(start_x,start_y,box_width,box_height)
     local start_x = start_x-8 -- minus 8 to make room for corner
     local start_y = start_y-8 -- minues 8 to make room for corner
     local upper_left_corner_pos_x = start_x
-    local upper_right_corner_pos_x = upper_left_corner_pos_x + box_width
+    local upper_right_corner_pos_x = upper_left_corner_pos_x + box_width+8
     local upper_left_corner_pos_y = start_y
     local upper_right_corner_pos_y = upper_left_corner_pos_y
     local lower_left_corner_pos_x = start_x
-    local lower_right_corner_pos_x = upper_left_corner_pos_x + box_width
+    local lower_right_corner_pos_x = upper_left_corner_pos_x + box_width+8
     local lower_left_corner_pos_y = start_y + box_height
-    local lower_right_corner_pos_y = lower_left_corner_pos_y
+    local lower_right_corner_pos_y = lower_left_corner_pos_y+8
 
 
     if corners == nil then
@@ -52,12 +53,12 @@ function add_rounded_corners(start_x,start_y,box_width,box_height)
    screen:copyfrom(corners, {x=0, y=0, width=8, height=8}, {x=upper_left_corner_pos_x,y=upper_left_corner_pos_y,width=8,height=8},true)
    --Creates the upper right corner
    screen:copyfrom(corners, {x=8, y=0 , width=8, height=8}, {x=upper_right_corner_pos_x , y=upper_right_corner_pos_y , width=8 , height=8}, true)
-    --creates the middle-top fill
-   screen:fill(menu_color, {x=start_x+8, y=start_y , width=box_width, height=8})
-   --Creates the lower left corner
+      --Creates the lower left corner
    screen:copyfrom(corners, {x=0, y=8 , width=8, height=8}, {x=lower_left_corner_pos_x , y=lower_left_corner_pos_y , width=8 , height=8}, true)
    --Create the lower right corner
    screen:copyfrom(corners, {x=8,y=8,width=8,height=8}, {x=lower_right_corner_pos_x , y=lower_right_corner_pos_y , width=8 , height=8}, true)
+    --creates the middle-top fill
+   screen:fill(menu_color, {x=start_x+8, y=start_y , width=box_width, height=8})
     --creates the lower filler
    screen:fill(menu_color, {x=start_x+8 ,y=start_y+box_height+8 ,width=box_width,height=8})
    --Creates RIGHT-side filler
@@ -79,9 +80,10 @@ function draw_tweet(tweets)
     render_text("@" .. tweets[current_tweet].name,10,10,3500,3,tweet_background)
     render_text(tweets[current_tweet].text,10,80,350,2,tweet_background)
     render_text(tweets[current_tweet].date,10,450,350,1.5,tweet_background)
+    add_rounded_corners(850,380,400,300) --Adds roundes corners
     screen:copyfrom(tweet_background,nil,{x = 850, y = 380, w = 400, h = 300},true)
     tweet_background:destroy()
-    --add_rounded_corners(850,380,400,300) --Adds roundes corners
+
     --bottom view mode
   elseif view_mode == 1 then
     tweet_background = gfx.new_surface(screen:get_width(),100)
@@ -100,9 +102,9 @@ function draw_tweet(tweets)
     render_text("@" .. tweets[current_tweet].name .. ":",10,10,3500,3,tweet_background)
     render_text(tweets[current_tweet].text,10,80,350,2,tweet_background)
     render_text(tweets[current_tweet].date,10,450,350,1.5,tweet_background)
+    add_rounded_corners(50,380,400,300) --Adds rounded corners
     screen:copyfrom(tweet_background,nil,{x = 50, y = 380, w = 400, h = 300},true)
     tweet_background:destroy()
-    --add_rounded_corners(50,380,400,300) --Adds rounded corners
     --top view mode
   elseif view_mode == 3 then
     tweet_background = gfx.new_surface(screen:get_width(),100)
@@ -118,14 +120,19 @@ function draw_tweet(tweets)
   --Declaring timer_state which is instantiated in draw_menu-function as =0. First time you decide
   --to view tweets from the menu, the infobox will be shown for x seconds, depending on what is declared in sys.new_tmer below
   if timer_state == 0 then
-    local info_box_image = gfx.loadpng(dir .. 'info_box_view.png')
-    info_box = gfx.new_surface(400,105)
+    --local info_box_image = gfx.loadpng(dir .. 'info_box_view.png')
+    --info_box = gfx.new_surface(400,105)
+    info_box = gfx.new_surface(800,130)
     info_box:fill(grey4)
-    info_box:copyfrom(info_box_image, nil,nil,true)
-    screen:copyfrom(info_box,nil,{x = screen:get_width()/2-200, y = screen:get_height()-215},{x=100,y=100, w=400, h =200},true)
+    --info_box:copyfrom(info_box_image, nil,nil,true)
+    render_text("To see next or previous tweet press DOWN or UP. If you wish to view the tweets in a different way use RIGHT and LEFT. When you want to watch another channel press BACK.", 5, 5, 800, 1.5, info_box)
+    screen:copyfrom(info_box,nil,{x = screen:get_width()/2-400, y = screen:get_height()-240},{x=100,y=100, w=400, h =200},true)
     info_box:destroy()
-    -- timer currently set to 6 seconds.
-    help_timer = sys.new_timer(6000, "clear_info_box")
+    --info_box_image:destroy()
+    -- timer currently set to 12 seconds.
+    if help_timer == nil then
+      help_timer = sys.new_timer(15000, "clear_info_box")
+    end
   end
   
   --This starts a timer that cycles through the tweets automatically, every 20 seconds it will go to next tweet, pressing next or previous tweet on the remote will reset the timer.
@@ -133,6 +140,7 @@ function draw_tweet(tweets)
     next_tweet_timer = sys.new_timer(20000, "next_tweet")
     tweet_timer_starter = 0
   end
+  gfx.update()
 end
 
 --- Function that timer calls, changes the timer_state to 1 so that the info box is only showed once at each view-start from menu.
@@ -167,11 +175,13 @@ end
 --- This function will show the next tweet when in the tweet view
 -- @author Claes, Gustav B-N
 function next_tweet()
+  --old_tweets = tweets
   if tweet_count < #tweets then
     tweet_count = tweet_count + 1
   else
     --Get new tweets...
     local channel_info = retrieve_prog_info()
+    
     tweets = twitter.get_new_tweets(channel_info,tweets)
 
   end
@@ -234,7 +244,15 @@ function twitter_state(key,state)
     previous_tweet()
   elseif key == 'menu' and state == 'down' then
     change_state(0)
-    prompt_channel_menu()
+    if next_tweet_timer ~= nil then
+      next_tweet_timer:stop()
+      tweet_timer_starter = 1
+    end
+    --This is to stop the help timer
+    if help_timer ~= nil then
+      help_timer:stop()
+      help_timer = nil
+    end
   elseif key == 'exit' and state == 'down' then
     sys.stop()
   elseif key == 'right' and state == 'down' then

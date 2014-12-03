@@ -125,7 +125,7 @@ function draw_tweet(tweets)
     info_box = gfx.new_surface(800,130)
     info_box:fill(grey4)
     --info_box:copyfrom(info_box_image, nil,nil,true)
-    render_text("UP/DOWN:Next tweet, RIGHT/LEFT:Viewmode, BACK:Menu, MENU:Exit app", 5, 5, 800, 1.5, info_box)
+    render_text("UP/DOWN:Next tweet, RIGHT/LEFT:Viewmode, BACK:Menu, MENU:Exit App", 5, 5, 800, 1.5, info_box)
     screen:copyfrom(info_box,nil,{x = screen:get_width()/2-400, y = screen:get_height()-240},{x=100,y=100, w=400, h =200},true)
     info_box:destroy()
     --info_box_image:destroy()
@@ -232,12 +232,14 @@ end
 function twitter_state(key,state)
   if key == 'down' and state == 'down' then
     if next_tweet_timer ~= nil then
+      clear_info_box()
       next_tweet_timer:stop()
       tweet_timer_starter = 1
     end
     next_tweet()
   elseif key =='up' and state == 'down' then
     if next_tweet_timer ~= nil then
+      clear_info_box()
       next_tweet_timer:stop()
       tweet_timer_starter = 1
     end
@@ -256,8 +258,10 @@ function twitter_state(key,state)
   elseif key == 'menu' and state == 'down' then
     sys.stop()
   elseif key == 'right' and state == 'down' then
+    clear_info_box()
     next_view()
   elseif key == 'left' and state == 'down' then
+    clear_info_box()
     previous_view()    
   else
     return

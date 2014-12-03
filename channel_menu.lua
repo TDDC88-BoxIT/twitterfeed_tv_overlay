@@ -153,30 +153,30 @@ function menu_state(key,state)
     --after each navigation move
     update_menu()
     increase_index()
-    elseif key =='up' and state == 'down' then
+  elseif key =='up' and state == 'down' then
     --clear() and draw_tv_screen() added so that the menu is cleared and the tv screen is redrawn
     --after each navigation move
     update_menu()
     decrease_index()
-    elseif key == 'ok' and state == 'down' then
-      valid = test_connection()
-      screen:clear()
-      if not valid then
+  elseif key == 'ok' and state == 'down' then
+    valid = test_connection()
+    screen:clear()
+    if not valid then
       error_msg()
     end
       -- draw_tv_screen()
-      elseif key == 'ok' and state == 'up' and valid then
-        set_chosen_channel(menu:get_indexed_item().id)
-        channel_name = get_chosen_channel()
-        curr_index = menu:get_current_index()
-        program_name = get_current_prog_info(channel_name, channel_list_index)
-        change_state(1)
-        elseif key == 'exit' and state == 'down' then
-          sys.stop()
-        else
-          return
-        end
-      end
+  elseif key == 'ok' and state == 'up' and valid then
+    set_chosen_channel(menu:get_indexed_item().id)
+    channel_name = get_chosen_channel()
+    curr_index = menu:get_current_index()
+    program_name = get_current_prog_info(channel_name, channel_list_index)
+    change_state(1)
+  elseif key == 'menu' and state == 'down' then
+    sys.stop()
+  else
+    return
+  end
+end
 
 
       function test_connection()

@@ -242,7 +242,7 @@ function twitter_state(key,state)
       tweet_timer_starter = 1
     end
     previous_tweet()
-  elseif key == 'menu' and state == 'down' then
+  elseif key == 'back' and state == 'down' then
     change_state(0)
     if next_tweet_timer ~= nil then
       next_tweet_timer:stop()
@@ -253,7 +253,7 @@ function twitter_state(key,state)
       help_timer:stop()
       help_timer = nil
     end
-  elseif key == 'exit' and state == 'down' then
+  elseif key == 'menu' and state == 'down' then
     sys.stop()
   elseif key == 'right' and state == 'down' then
     next_view()

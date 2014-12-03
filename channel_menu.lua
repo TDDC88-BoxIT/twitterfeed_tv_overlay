@@ -70,10 +70,10 @@ function set_menu_title()
     screen:fill(menu_color, {x=start_x+title_width+8, y=start_y+8, width=8, height=title_height})
    --Copies surface to get the rendered text
    screen:copyfrom(sf,nil,{x=x_offset+8, y=y_offset+8, w=title_width, h=title_height},true)
-  
-  gfx.update()
-  sf:destroy()
-end
+
+   gfx.update()
+   sf:destroy()
+ end
 
 -- Add items to the channel menu based on the channel list containing all available channels. The start_index
 -- indicates what index in the channel list that should be the first button.
@@ -159,9 +159,13 @@ function menu_state(key,state)
     update_menu()
     decrease_index()
     elseif key == 'ok' and state == 'down' then
+      valid = test_connection()
       screen:clear()
-      draw_tv_screen()
-      elseif key == 'ok' and state == 'up' then
+      if not valid then
+      error_msg()
+    end
+      -- draw_tv_screen()
+      elseif key == 'ok' and state == 'up' and valid then
         set_chosen_channel(menu:get_indexed_item().id)
         channel_name = get_chosen_channel()
         curr_index = menu:get_current_index()
@@ -172,4 +176,19 @@ function menu_state(key,state)
         else
           return
         end
+      end
+
+
+      function test_connection()
+        http = require("socket.http")
+        b,c,h = http.request("http://gkj.se")
+        return (b ~= nil)
+      end
+
+      function error_msg()
+        text_no_intcon = gfx.new_surface(700, 50)
+        text_no_intcon:clear()
+        render_text("No internet connection", 0,0,3500, 3, text_no_intcon)
+        screen:copyfrom(text_no_intcon, nil, {x=300, y=500}, true)
+        gfx.update()
       end

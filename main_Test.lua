@@ -7,4 +7,7 @@ require("tests.test_tv_info")
 require("tests.test_graphics")
 require("tests.test_twitter")
 
-os.exit(LuaUnit.run())
+lu = LuaUnit.new()
+lu:setOutputType("Junit")
+lu:setFname("local_testreport")
+os.exit(lu:runSuite())

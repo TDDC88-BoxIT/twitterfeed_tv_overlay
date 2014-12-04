@@ -1,5 +1,5 @@
 json = require("json")
-require('scrum1.render_text')
+require('render_text')
 local tv_info = {}
 
 --- Returns a table containing available channels.

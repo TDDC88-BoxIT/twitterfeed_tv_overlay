@@ -1,4 +1,4 @@
-json = require("scrum1.json")
+json = require("json")
 require('scrum1.render_text')
 local tv_info = {}
 

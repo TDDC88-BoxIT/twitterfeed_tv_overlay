@@ -1,9 +1,9 @@
 -- Shall prompt the user onStart to choose the channel out of the possible channels
 --local prompt = {}
 --Initial values
-twitter = require("scrum1.twitter")
-require("scrum1.menu_object")
-require("scrum1.render_text")
+twitter = require("twitter")
+require("menu_object")
+require("render_text")
 dir = '/scrum1/static/img/'
 grey1 = {90,90,90,255}
 grey2 = {150,150,150,255}
@@ -15,9 +15,6 @@ horizontal_pos = 0
 tweet_count = 1
 local menu
 local corners
-twitter = require("scrum1.twitter")
-require("scrum1.menu_object")
-require("scrum1.render_text")
 
 --- Loads in a picture and draw that picture on the entire surface "screen"
 -- @author Joel

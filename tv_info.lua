@@ -1,5 +1,4 @@
 json = require("json")
-require('render_text')
 local tv_info = {}
 
 --- Returns a table containing available channels.

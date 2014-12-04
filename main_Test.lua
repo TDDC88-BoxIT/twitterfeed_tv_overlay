@@ -9,7 +9,5 @@ require("tests.test_twitter")
 
 lu = LuaUnit.new()
 lu:setOutputType("Junit")
-os.exit( lu:runSuite() )
-
-
---os.exit(LuaUnit.run())
+lu:setFname("local_testreport")
+os.exit(lu:runSuite())

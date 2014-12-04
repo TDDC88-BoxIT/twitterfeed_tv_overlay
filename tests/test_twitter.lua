@@ -1,11 +1,11 @@
 twitter = require("twitter")
  
- --Function that makes it possible to get the size of the table
- function tablelength(T)
-    local count = 0
-    for _ in pairs(T) do count = count + 1 end
-    return count
-  end
+-- --Function that makes it possible to get the size of the table
+-- function tablelength(T)
+--    local count = 0
+--    for _ in pairs(T) do count = count + 1 end
+--    return count
+--  end
   
 testtwitter = {}
 

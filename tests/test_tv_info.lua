@@ -16,6 +16,11 @@ function test_tv_info:test_get_channel_is_not_nil()
   
 end
 
+function test_tv_info:test_get_channel_file_path_list()
+  local file_path_list = tv_info.get_channel_file_path_list()
+  assertNotNil(file_path_list)
+end
+
 function test_tv_info:test_get_unixtimestamp_return_type()
   assertEquals(type(os.time()), type(tv_info.get_unixtimestamp()))
 end

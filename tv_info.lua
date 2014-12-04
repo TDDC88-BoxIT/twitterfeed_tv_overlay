@@ -1,4 +1,5 @@
-json = require("scrum1.json")
+json = require("json")
+require('render_text')
 local tv_info = {}
 
 --- Returns a table containing available channels.
@@ -19,6 +20,13 @@ end
 
 -- This part simulates receiving tv_info, it reads a json object from a file and decodes it
 -- will be removed when we get ip-connection. input: chosen_channel_index
+
+local clock = os.clock
+function sleep(n)  -- seconds
+  local t0 = clock()
+  while clock() - t0 <= n do end
+end
+
 function tv_info.set_decoded_tv_info(ch_index)  
   -- It's possible the folder path have to be altered to run on windows
   local folder_path = 'static/json/'
@@ -30,6 +38,7 @@ function tv_info.set_decoded_tv_info(ch_index)
   print('httppath:', channel_http_path)
   local http = require('socket.http')
   b, c, h = http.request(channel_http_path)
+
   local decoded_tv_info = json:decode(b)
   return decoded_tv_info
   -- open and read file

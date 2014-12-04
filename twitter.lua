@@ -50,9 +50,9 @@ function twitter.get_tweets(search_key)
   for k,v in pairs(decoded_tweets.statuses) do
     local date = string.sub(v.created_at, 1, 19) .. string.sub(v.created_at, 26)
     -- Format timestamp
-    date_hour = string.sub(date, 12, 13)
-    date_swe = tostring(tonumber(string.sub(date, 12, 13) + 1))
-    date = string.gsub(date, date_hour, date_swe)
+    --date_hour = string.sub(date, 12, 13)
+    --date_swe = tostring(tonumber(string.sub(date, 12, 13) + 1))
+    --date = string.gsub(date, date_hour, date_swe)
     local timestamp = set_timestamp(date);
     tweets[i] = {["name"] = v.user.screen_name, ["text"] = v.text, ["date"] = date, ["timestamp"] = timestamp}
     table.insert(reverse_tweets, 1, tweets[i])
@@ -86,7 +86,6 @@ function twitter.get_new_tweets(search_key, old_tweets)
   local reverse_new_tweets = {}
   
   b, c, h = http.request("http://team.gkj.se/Oauth.php?q="..'%23'..channel_name .. '+%23'.. program_name)
-
   -- This is where the json object is decoded
   decoded_tweets = json:decode(b) 
   if #decoded_tweets.statuses == 0 then
@@ -106,7 +105,7 @@ function twitter.get_new_tweets(search_key, old_tweets)
   for k,v in pairs(decoded_tweets.statuses) do
     local date = string.sub(v.created_at, 1, 19) .. string.sub(v.created_at, 26)
     --Format timestamp
-    local timestamp = set_timestamp(date);
+    local timestamp = set_timestamp(date)
 
     new_tweets[i] = {["name"] = v.user.screen_name, ["text"] = v.text, ["date"] = date, ["timestamp"] = timestamp}
     table.insert(reverse_new_tweets, 1, new_tweets[i])

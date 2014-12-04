@@ -77,7 +77,7 @@ end
 
 -- RETURNS MENU button SIZE
 function menu_object:get_button_size()
-  local size={width=self.button_width, height=self.button_width}
+  local size={width=self.button_width, height=self.button_height}
   return size
 end
 

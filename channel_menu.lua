@@ -159,7 +159,7 @@ function menu_state(key,state)
     update_menu()
     decrease_index()
   elseif key == 'ok' and state == 'down' then
-    valid = test_connection()
+    valid = connection_test()
     screen:clear()
     if not valid then
       error_msg()
@@ -179,7 +179,7 @@ function menu_state(key,state)
 end
 
 
-      function test_connection()
+      function connection_test()
         http = require("socket.http")
         b,c,h = http.request("http://gkj.se")
         return (b ~= nil)

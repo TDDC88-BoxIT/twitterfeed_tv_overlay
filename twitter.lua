@@ -114,7 +114,7 @@ function twitter.get_new_tweets(search_key, old_tweets)
 
 --Check if there are tweets in the queary that are newer than in the initial/previous query.
   for i, v in ipairs(reverse_new_tweets) do
-    if(compare_timestamp(old_tweets[#old_tweets].timestamp, v.timestamp) < 0) then
+    if(twitter.compare_timestamp(old_tweets[#old_tweets].timestamp, v.timestamp) < 0) then
       table.insert(old_tweets, v)
     end
   end
@@ -148,7 +148,7 @@ end
 -- @params t2 A table with timestamps of two tweets
 -- @return an integer with the time difference in seconds
 -- @author Gustav B-N
-function compare_timestamp( t1, t2 )
+function twitter.compare_timestamp( t1, t2 )
   --Returns the difference in seconds beween t1 and t2 (could be negative)
   return os.difftime(os.time(t1), os.time(t2))
 end

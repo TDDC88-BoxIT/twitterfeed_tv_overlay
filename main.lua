@@ -1,7 +1,7 @@
 --tv_info = require('scrum1.tv_info')
-require("scrum1.graphics")
-require("scrum1.channel_menu")
-require("scrum1.tv_info")
+require("graphics")
+require("channel_menu")
+require("tv_info")
 dir = 'scrum1/static/img/'
 grey1 = {90,90,90,255}
 grey2 = {150,150,150,255}

@@ -39,8 +39,8 @@ THIS IS DONE BY CALLING:
   menu_object:destroy()
 
   --]]
-  require("scrum1.render_text")
-  require("scrum1.channel_menu")
+  require("render_text")
+  require("channel_menu")
 
   local corners = nil
 -- THE MENU CONSTRUCTOR SETS START VALUES FOR THE MENU

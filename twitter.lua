@@ -18,7 +18,7 @@ function twitter.get_tweets(search_key)
   --remove the spaces from the program name
   program_name = string.gsub(program_name,"%s+", "")
   channel_name = string.gsub(channel_name, "%s+", "")
-  local json = require("scrum1.json")
+  local json = require("json")
   local decoded = {}
 
   --Here there will be code that sends the neccessary information to the twitter api so that tweets containing the search term 'program_name' will be returned
@@ -26,7 +26,7 @@ function twitter.get_tweets(search_key)
   local tweets = {}
   local reverse_tweets = {}
 
-  local tv_info = require("scrum1.tv_info")
+  local tv_info = require("tv_info")
   b, c, h = http.request("http://team.gkj.se/Oauth.php?q="..'%23'..channel_name .. '+%23'.. program_name)
   -- This is where the json object is decoded
   decoded_tweets = json:decode(b) 
@@ -77,7 +77,7 @@ function twitter.get_new_tweets(search_key, old_tweets)
   program_name = string.gsub(program_name,"%s+", "")
   channel_name = string.gsub(channel_name, "%s+", "")
   
-  local json = require("scrum1.json")
+  local json = require("json")
   local decoded = {}
 
   --Here there will be code that sends the neccessary information to the twitter api so that tweets containing the search term 'program_name' will be returned

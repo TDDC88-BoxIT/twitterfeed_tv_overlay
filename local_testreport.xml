@@ -1,0 +1,36 @@
+<testsuites>
+    <testsuite name="test_tv_info">
+        <testcase classname="test_tv_info"
+            name="test_tv_info.test_get_channel_file_path_list">
+        </testcase>
+        <testcase classname="test_tv_info"
+            name="test_tv_info.test_get_channel_is_not_nil">
+        </testcase>
+        <testcase classname="test_tv_info"
+            name="test_tv_info.test_get_channel_list_return_type">
+        </testcase>
+        <testcase classname="test_tv_info"
+            name="test_tv_info.test_get_prog_relinfo_return_equals_same">
+        </testcase>
+        <testcase classname="test_tv_info"
+            name="test_tv_info.test_get_unixtimestamp_return_type">
+        </testcase>
+    </testsuite>
+    <testsuite name="testtwitter">
+        <testcase classname="testtwitter"
+            name="testtwitter.test_compare_timestamp_returntype">
+        </testcase>
+        <testcase classname="testtwitter"
+            name="testtwitter.test_compare_timestamp_returnvalue">
+        </testcase>
+        <testcase classname="testtwitter"
+            name="testtwitter.test_get_tweets_returntype">
+        </testcase>
+        <testcase classname="testtwitter"
+            name="testtwitter.test_get_tweets_tablecontent">
+        </testcase>
+        <testcase classname="testtwitter"
+            name="testtwitter.test_get_tweets_tablesize">
+        </testcase>
+    </testsuite>
+</testsuites>

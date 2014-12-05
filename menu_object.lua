@@ -41,7 +41,7 @@ THIS IS DONE BY CALLING:
   --]]
   require("render_text")
   require("channel_menu")
-
+  require("class")
   local corners = nil
 -- THE MENU CONSTRUCTOR SETS START VALUES FOR THE MENU
 menu_object = class(function (self, menu_width, menu_height)
@@ -56,7 +56,7 @@ menu_object = class(function (self, menu_width, menu_height)
   self.menu_items={}
   self.menu_surface=nil
   end)
-
+print("Do i actually get here")
 -- SETS MENU SIZE
 function menu_object:set_size(menu_width,menu_height)
   self.width=menu_width or self.width

@@ -1,4 +1,4 @@
-tv_info = require("scrum1.tv_info")
+tv_info = require("tv_info")
 local channel_list = tv_info.get_channel_list()
 menu_title = "What channel are you watching?"
 --- Creates and draws the channel menu.

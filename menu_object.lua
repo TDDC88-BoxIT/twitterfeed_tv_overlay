@@ -41,7 +41,6 @@ THIS IS DONE BY CALLING:
   --]]
   require("render_text")
   require("channel_menu")
-  require("class")
   local corners = nil
 -- THE MENU CONSTRUCTOR SETS START VALUES FOR THE MENU
 menu_object = class(function (self, menu_width, menu_height)

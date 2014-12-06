@@ -2,8 +2,7 @@
 -- menu_object class --
 -----------------------
 --This is here so that the test will find class
-package.path = "/Users/Joel/Documents/boxit/game/gameproject/?.lua;" .. package.path
-
+package.path = package.path .. ";../?.lua"
 --[[
 IN ORDER TO USE THE MENU OBJECT YOU FIRST NEED TO CREATE AND SAVE A NEW INSTANCE OF THE OBJECT.
 THIS IS DONE BY CALLING: 

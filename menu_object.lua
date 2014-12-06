@@ -1,6 +1,8 @@
 -----------------------
 -- menu_object class --
 -----------------------
+--This is here so that the test will find class
+package.path = "/Users/Joel/Documents/boxit/game/gameproject/?.lua;" .. package.path
 
 --[[
 IN ORDER TO USE THE MENU OBJECT YOU FIRST NEED TO CREATE AND SAVE A NEW INSTANCE OF THE OBJECT.
@@ -41,6 +43,7 @@ THIS IS DONE BY CALLING:
   --]]
   require("render_text")
   require("channel_menu")
+  require("class")
   local corners = nil
 -- THE MENU CONSTRUCTOR SETS START VALUES FOR THE MENU
 menu_object = class(function (self, menu_width, menu_height)

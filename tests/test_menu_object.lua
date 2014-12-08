@@ -1,5 +1,5 @@
 require("menu_object")
-require("class")
+--require("class")
 test_menu_object = {}
 
 --- test that checks if set_size() set the correct value on the correct variable

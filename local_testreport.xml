@@ -1,4 +1,27 @@
 <testsuites>
+    <testsuite name="test_menu_object">
+        <testcase classname="test_menu_object"
+            name="test_menu_object.test_get_button_location">
+        </testcase>
+        <testcase classname="test_menu_object"
+            name="test_menu_object.test_get_button_size_value">
+        </testcase>
+        <testcase classname="test_menu_object"
+            name="test_menu_object.test_get_size_value">
+        </testcase>
+        <testcase classname="test_menu_object"
+            name="test_menu_object.test_set_button_location">
+        </testcase>
+        <testcase classname="test_menu_object"
+            name="test_menu_object.test_set_button_size">
+        </testcase>
+        <testcase classname="test_menu_object"
+            name="test_menu_object.test_set_size_height">
+        </testcase>
+        <testcase classname="test_menu_object"
+            name="test_menu_object.test_set_size_width">
+        </testcase>
+    </testsuite>
     <testsuite name="test_tv_info">
         <testcase classname="test_tv_info"
             name="test_tv_info.test_get_channel_file_path_list">

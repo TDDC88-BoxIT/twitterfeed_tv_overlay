@@ -4,7 +4,7 @@
 twitter = require("twitter")
 require("menu_object")
 require("render_text")
-dir = '/scrum1/static/img/'
+dir = '/static/img/'
 grey1 = {90,90,90,255}
 grey2 = {150,150,150,255}
 grey3 = {150,150,150,150}
@@ -19,9 +19,6 @@ local corners
 --- Loads in a picture and draw that picture on the entire surface "screen"
 -- @author Joel
 function draw_tv_screen()
-  local tv_img = gfx.loadpng(dir .. 'tv_picture.png')
-  screen:copyfrom(tv_img, nil, {x=0,y=0})
-  tv_img:destroy()
 end
 
 --Function that adds rounded corners to tweet-boxes
@@ -43,7 +40,7 @@ function add_rounded_corners(start_x,start_y,box_width,box_height)
 
 
     if corners == nil then
-     corners = gfx.loadpng('scrum1/static/img/corner_16x16_red.png')
+     corners = gfx.loadpng('static/img/corner_16x16_red.png')
    end
 
     --Creates the upper left corner
@@ -70,6 +67,8 @@ function add_rounded_corners(start_x,start_y,box_width,box_height)
 -- @author Claes, Jesper, Joel
 function draw_tweet(tweets)
   --right view mode
+  screen:clear()
+  draw_tv_screen()
   if view_mode == 0 then
     tweet_background = gfx.new_surface(400,500)
     tweet_background:clear(menu_color)
@@ -120,7 +119,7 @@ function draw_tweet(tweets)
     --local info_box_image = gfx.loadpng(dir .. 'info_box_view.png')
     --info_box = gfx.new_surface(400,105)
     info_box = gfx.new_surface(800,130)
-    info_box:fill(grey4)
+    info_box:clear(grey4)
     --info_box:copyfrom(info_box_image, nil,nil,true)
     render_text("UP/DOWN:Next tweet, RIGHT/LEFT:Viewmode, BACK:Menu, MENU:Exit App", 5, 5, 800, 1.5, info_box)
     screen:copyfrom(info_box,nil,{x = screen:get_width()/2-400, y = screen:get_height()-240},{x=100,y=100, w=400, h =200},true)
@@ -145,7 +144,7 @@ end
 -- @author Claes, Jesper
 function clear_info_box()
   timer_state =1
-  draw_tv_screen()
+  --draw_tv_screen()
   draw_tweet(tweets)
   help_timer:stop()
   return timer_state
@@ -161,7 +160,7 @@ function render_tweet_view()
   tweet_count = 1
   timer_state = 0
   tweet_timer_starter = 1
-  draw_tv_screen()
+  --draw_tv_screen()
   --get currrent channel and program
   local channel_info = retrieve_prog_info()
   tweets = twitter.get_tweets(channel_info)
@@ -182,7 +181,7 @@ function next_tweet()
     tweets = twitter.get_new_tweets(channel_info,tweets)
 
   end
-  draw_tv_screen()
+  --draw_tv_screen()
   draw_tweet(tweets)
 end
 
@@ -191,7 +190,7 @@ end
 function previous_tweet()
   if tweet_count > 1 then
     tweet_count = tweet_count - 1
-    draw_tv_screen()
+    --draw_tv_screen()
     draw_tweet(tweets)
   end
 end
@@ -205,7 +204,7 @@ function next_view()
     else
       view_mode = view_mode + 1
     end
-    draw_tv_screen()
+    --draw_tv_screen()
     draw_tweet(tweets)
   end
 end
@@ -219,7 +218,7 @@ function previous_view()
     else
       view_mode = view_mode - 1
     end
-    draw_tv_screen()
+    --draw_tv_screen()
     draw_tweet(tweets)
   end
 end
@@ -252,8 +251,8 @@ function twitter_state(key,state)
       help_timer:stop()
       help_timer = nil
     end
-  elseif key == 'menu' and state == 'down' then
-    sys.stop()
+  --elseif key == 'menu' and state == 'down' then
+  --  sys.stop()
   elseif key == 'right' and state == 'down' then
     clear_info_box()
     next_view()

@@ -1,9 +1,9 @@
---tv_info = require('scrum1.tv_info')
+--tv_info = require('tv_info')
 require("graphics")
 require("channel_menu")
 require("tv_info")
 require("render_text")
-dir = 'scrum1/static/img/'
+dir = 'static/img/'
 grey1 = {90,90,90,255}
 grey2 = {150,150,150,255}
 grey3 = {150,150,150,150}
@@ -19,6 +19,7 @@ local chosen_channel
 --- Called when app starts.
 -- @author Victor, Sofie
 function onStart()
+  screen:clear()
   init_sprite()
   global_tweet_state = 0
   prompt_channel_menu()

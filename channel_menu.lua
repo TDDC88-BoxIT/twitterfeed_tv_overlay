@@ -17,14 +17,14 @@ function prompt_channel_menu()
   -- Chooses what index in the channel_list that should be displayed first in the menu
   channel_list_index = 1
 
-  draw_tv_screen()
+  --draw_tv_screen()
   
   -- Creates a menu object and draws it
   menu = menu_object(box_width,box_height)
   add_menu_items(channel_list_index)
   --menu:set_background(dir.."menu_background.png") <<<DONT THINK THIS IS USEFUL ANYMORE>>>
   draw_menu()
-  set_menu_title()
+  --set_menu_title()
 end
 
 -- Sets the text displayed over the menu
@@ -44,7 +44,7 @@ function set_menu_title()
     local start_y = y_offset
 
     if corners == nil then
-     corners = gfx.loadpng('scrum1/static/img/corner_16x16_red.png')
+     corners = gfx.loadpng('static/img/corner_16x16_red.png')
    end
 
 
@@ -89,7 +89,11 @@ end
 --- Function that draws the channel menu.
 -- @author Sofie, Jesper
 function draw_menu()
+  screen:clear()
+  draw_tv_screen()
   timer_state = 0
+  --set_menu_title()
+  --screen:clear({0,0,0,0},{x=x_offset,y=y_offset+(height-box_height-y_offset*2),width=menu:get_size().width,height=menu:get_size().height})
   screen:copyfrom(menu:get_surface(), nil,{x=x_offset,y=y_offset+(height-box_height-y_offset*2),width=menu:get_size().width,height=menu:get_size().height},true)
   menu:destroy()
   gfx.update()
@@ -151,16 +155,18 @@ function menu_state(key,state)
   if key == 'down' and state == 'down' then
     --clear() and draw_tv_screen() added so that the menu is cleared and the tv screen is redrawn
     --after each navigation move
-    update_menu()
+    --update_menu()
     increase_index()
   elseif key =='up' and state == 'down' then
     --clear() and draw_tv_screen() added so that the menu is cleared and the tv screen is redrawn
     --after each navigation move
-    update_menu()
+    --update_menu()
     decrease_index()
   elseif key == 'ok' and state == 'down' then
     valid = connection_test()
     screen:clear()
+    draw_tv_screen()
+    gfx.update()
     if not valid then
       error_msg()
     end
@@ -173,14 +179,12 @@ function menu_state(key,state)
     change_state(1)
   elseif key == 'menu' and state == 'down' then
     sys.stop()
-  else
-    return
   end
 end
 
 
       function connection_test()
-        http = require("socket.http")
+        local http = require("socket.http")
         b,c,h = http.request("http://gkj.se")
         return (b ~= nil)
       end
@@ -191,4 +195,5 @@ end
         render_text("No internet connection", 0,0,3500, 3, text_no_intcon)
         screen:copyfrom(text_no_intcon, nil, {x=300, y=500}, true)
         gfx.update()
+        text_no_intcon:destroy()
       end

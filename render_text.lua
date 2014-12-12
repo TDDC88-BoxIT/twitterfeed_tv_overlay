@@ -1,4 +1,4 @@
-dir = 'scrum1/static/img/'
+dir = 'static/img/'
 function init_sprite()
  text_sprite = gfx.loadpng(dir .. 'text_sprite_courier.png')
  text_sprite_small = gfx.loadpng(dir .. 'text_sprite_courier_small.png')
@@ -8,7 +8,7 @@ function init_sprite()
 end
 -- This method uses a sprite to render text to the GUI
 function render_text(text, x_start, y_start, max_width, text_size, text_surface)
-  --dir = 'scrum1/static/img/'
+  --dir = 'static/img/'
   --local text_sprite = gfx.loadpng(dir .. 'text_sprite_courier.png')
   --local a_med_prickar = gfx.loadpng(dir .. 'a_med_prickar.png')
   --local a_med_cirkel = gfx.loadpng(dir .. 'a_med_cirkel.png')

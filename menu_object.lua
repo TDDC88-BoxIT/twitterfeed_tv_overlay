@@ -156,7 +156,7 @@ local function make_bakground(self)
    --  img_surface:destroy()
 
    if corners == nil then
-     corners = gfx.loadpng('scrum1/static/img/corner_16x16_red.png')
+     corners = gfx.loadpng('static/img/corner_16x16_red.png')
    end
    
    local start_x = 0
@@ -230,9 +230,8 @@ end
 local function update(self)
   if self.menu_surface == nil then
     self.menu_surface=gfx.new_surface(self.width, self.height)
-  else
-    self.menu_surface:clear()
   end
+  self.menu_surface:clear()
   if self.height<#self.menu_items*(self.button_height+20) then
     self:set_button_size(nil,(self.height-(#self.menu_items)*20)/#self.menu_items)
   end
